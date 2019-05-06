@@ -166,7 +166,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
 var CategoryList = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].ul.withConfig({
   displayName: "categories__CategoryList",
   componentId: "ikalhn-0"
-})(["padding:15px;list-style:none;margin:0px;@media screen and (min-width:", "){padding:20px;padding-left:0px;padding-top:20px;border-right:1px solid  ", ";}li{font-size:14px;padding:0px;cursor:pointer;display:inline-block;width:20%;@media screen and (max-width:", "){width:33.33%;}@media screen and (max-width:", "){width:50%;}@media screen and (min-width:", "){width:100%;display:block;}div{border-radius:2px;padding:3px 15px;border:2px solid  transparent;transition:0.1s;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;@media screen and (min-width:", "){min-width:160px;}display:block;color:", ";&:hover{}}&.active{div{color:#b06c4a;}}}"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["DARK_BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["FONT_COLOR"]);
+})(["padding:15px;list-style:none;margin:0px;@media screen and (min-width:", "){padding:20px;padding-left:0px;padding-top:20px;}li{font-size:14px;padding:0px;cursor:pointer;display:inline-block;width:20%;@media screen and (max-width:", "){width:33.33%;}@media screen and (max-width:", "){width:50%;}@media screen and (min-width:", "){width:100%;display:block;}div{border-radius:2px;padding:3px 15px;border:2px solid  transparent;transition:0.1s;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;@media screen and (min-width:", "){min-width:160px;}display:block;color:", ";&:hover{}}&.active{div{color:#b06c4a;}}}"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["FONT_COLOR"]);
 
 var Categories =
 /*#__PURE__*/
@@ -211,13 +211,13 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 98
+            lineNumber: 97
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 98
+            lineNumber: 97
           },
           __self: this
         }, category.name));
@@ -227,13 +227,13 @@ function (_Component) {
         id: "filter",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 103
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(CategoryList, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 104
         },
         __self: this
       }, categoryItems));
@@ -348,7 +348,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
 var IconBox = styled_components__WEBPACK_IMPORTED_MODULE_10__["default"].div.withConfig({
   displayName: "iconsListItem__IconBox",
   componentId: "qp0pm4-0"
-})(["transition:background-color .4s,box-shadow 0.15s;animation-fill-mode:forwards;i{color:", ";font-size:", ";@media screen and (max-width:", "){font-size:", ";}@media screen and (max-width:", "){font-size:", ";}}&.fade{&.active{.icon-base{opacity:1;}}.icon-base{opacity:0.5;}}&.active{i{color:", ";}}cursor:pointer;outline:none !important;flex:0 0 ", ";@media screen and (max-width:1200px){flex:0 0 10%;max-width:", ";}@media screen and (max-width:", "){flex:0 0 ", ";max-width:none;height:90px;}&:hover{z-index:9999999;}&:active{box-shadow:0 0px 0 5px rgba(176,108,74,0.2);}border-radius:2px;overflow:hidden;overflow:hidden;.icon-box-inner{margin:2px;border:2px solid transparent;font-weight:700;position:relative;font-size:16px;border-radius:5px;line-height:35px;text-align:center;pointer-events:none;.icon-base{height:", ";margin:12px 0px;@media screen and (max-width:", "){margin:8px 0px;}i{line-height:", ";}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}}.icon-box-name{font-size:14px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-weight:400;color:", ";@media screen and (max-width:", "){display:none;}margin:0px 10px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:20px;margin-top:5px;margin-bottom:16px;}@media screen and (max-width:", "){width:auto;padding:15px 5px;}@media screen and (max-width:", "){padding:10px 5px;}}&.active:hover{box-shadow:none;}&.active{background:", ";}"], function (props) {
+})(["transition:background-color .4s,box-shadow 0.15s;animation-fill-mode:forwards;i{color:", ";font-size:", ";@media screen and (max-width:", "){font-size:", ";}@media screen and (max-width:", "){font-size:", ";}}&.fade{&.active{.icon-base{opacity:1;}}.icon-base{opacity:0.5;}}&.active{i{color:", ";}}cursor:pointer;outline:none !important;flex:0 0 ", ";@media screen and (max-width:1200px){flex:0 0 10%;max-width:", ";}@media screen and (max-width:", "){flex:0 0 ", ";max-width:none;height:90px;}&:hover{z-index:9999999;}&:active{box-shadow:0 0px 0 5px rgba(176,108,74,0.2);}border-radius:2px;overflow:hidden;overflow:hidden;.icon-box-inner{margin:2px;border:2px solid transparent;font-weight:700;position:relative;font-size:16px;border-radius:5px;line-height:35px;text-align:center;pointer-events:none;.icon-base{height:", ";margin:18px 0px;@media screen and (max-width:", "){margin:8px 0px;}i{line-height:", ";}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}}.icon-box-name{font-size:14px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-weight:400;color:", ";@media screen and (max-width:", "){display:none;}margin:0px 10px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:20px;margin-top:5px;margin-bottom:16px;}@media screen and (max-width:", "){width:auto;padding:15px 5px;}@media screen and (max-width:", "){padding:10px 5px;}}&.active:hover{box-shadow:none;}&.active{background:", ";}"], function (props) {
   return props.dark ? _types__WEBPACK_IMPORTED_MODULE_11__["DARK_FONT_COLOR"] : _types__WEBPACK_IMPORTED_MODULE_11__["FONT_COLOR"];
 }, _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE_MD"], function (props) {
   return props.dark ? '#FFF' : _types__WEBPACK_IMPORTED_MODULE_11__["SELECTED_COLOR"];
@@ -514,12 +514,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../types */ "./components/types.js");
 /* harmony import */ var simplebar_react__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! simplebar-react */ "./node_modules/simplebar-react/dist/simplebar-react.esm.js");
 /* harmony import */ var _common_ToTop__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../common/ToTop */ "./components/common/ToTop.js");
-/* harmony import */ var simplebar_dist_simplebar_min_css__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! simplebar/dist/simplebar.min.css */ "./node_modules/simplebar/dist/simplebar.min.css");
-/* harmony import */ var simplebar_dist_simplebar_min_css__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(simplebar_dist_simplebar_min_css__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_18__);
 
 
 
@@ -527,7 +525,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\icons\\iconsSet.js";
-
 
 
 
@@ -547,49 +544,49 @@ var Icon = next_dynamic__WEBPACK_IMPORTED_MODULE_13___default()(function () {
       className: "mock-icon-box",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 16
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
       className: "mock-box-1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 17
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
       className: "mock-box-2",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 18
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
       className: "mock-box-3",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 19
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
       className: "mock-box-4",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 20
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
       className: "mock-box-5",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 21
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
       className: "mock-box-6",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 22
       },
       __self: this
     }));
@@ -612,7 +609,11 @@ var IconsSection = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].di
 var IconsSectionCont = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   displayName: "iconsSet__IconsSectionCont",
   componentId: "sc-8yb2nv-2"
-})(["padding:", ";.simplebar-track.simplebar-vertical{margin-right:-2px;}.simplebar-track .simplebar-scrollbar.simplebar-visible:before{opacity:.25;background:", ";}.simplebar-scrollbar{border-radius:5px;width:5px;}@media screen and (max-width:", "){padding:0px;}@media screen and (min-width:", "){&.side-active .icon-box{flex:0 0 ", "!important;max-width:", "!important;}}max-width:", ";margin:0 auto;@media screen and (min-width:", "){display:flex;}.icons-left-section{-webkit-animation-duration:0.5s !important;animation-duration:0.5s !important;opacity:0;position:fixed;z-index:99997;-webkit-transform:translateZ(0);animation-fill-mode:forwards;right:30px;transform:translateY(200px);width:auto;pointer-events:none;bottom:0px;transition:0.4s ease;.left-section-inner{background:#fff;max-width:675px;margin:0 auto;display:block;border-radius:2px;-webkit-box-shadow:0px 0px 15px rgba(0,0,0,0.25);box-shadow:0px 0px 15px rgba(0,0,0,0.25);@media screen and (max-width:", "){border-radius:0px;border-left:0px;border-right:0px;max-width:none;left:0;right:0;}}@media screen and (max-width:", "){bottom:0px;pointer-events:all;left:0;right:0;}}.icons-side-section{.side-section-inner{border-bottom:1px solid transparent;position:sticky;box-sizing:border-box;top:130px;margin-right:20px;padding-left:15px;@media screen and (max-width:", "){border-bottom:1px solid ", ";margin:0;}}@media screen and (max-width:", "){display:none;visibility:hidden;}}.icons-right-section{padding-top:20px;width:100%;@media screen and (max-width:", "){padding-top:0px;}.icon-list{padding:0px;padding-bottom:130px;.container{box-sizing:border-box;display:flex;flex-wrap:wrap;@media screen and (max-width:", "){justify-content:space-between;}.no-result{text-align:center;width:100%;font-weight:400;padding:30px;min-height:50px;color:", ";font-size:18px;margin-bottom:0px;p{margin-top:2px;font-size:16px;color:", ";font-style:italic;}}}@media screen and (max-width:", "){padding:10px;}}}"], _types__WEBPACK_IMPORTED_MODULE_14__["PADDING"], '#313133', _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["FLEX_ACTIVE"], _types__WEBPACK_IMPORTED_MODULE_14__["FLEX_ACTIVE"], _types__WEBPACK_IMPORTED_MODULE_14__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["SECONDARY_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_14__["SECONDARY_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"]);
+})(["padding:", ";@media screen and (max-width:", "){padding:0px;}@media screen and (min-width:", "){&.side-active .icon-box{flex:0 0 ", "!important;max-width:", "!important;}}max-width:", ";margin:0 auto;@media screen and (min-width:", "){display:flex;}.icons-left-section{-webkit-animation-duration:0.5s !important;animation-duration:0.5s !important;opacity:0;position:fixed;z-index:99997;-webkit-transform:translateZ(0);animation-fill-mode:forwards;right:30px;transform:translateY(200px);width:auto;pointer-events:none;bottom:0px;transition:0.4s ease;.left-section-inner{background:#fff;max-width:675px;margin:0 auto;display:block;border-radius:2px;-webkit-box-shadow:0px 0px 15px rgba(0,0,0,0.25);box-shadow:0px 0px 15px rgba(0,0,0,0.25);@media screen and (max-width:", "){border-radius:0px;border-left:0px;border-right:0px;max-width:none;left:0;right:0;}}@media screen and (max-width:", "){bottom:0px;pointer-events:all;left:0;right:0;}}.icons-side-section{.side-section-inner{border-bottom:1px solid transparent;padding-left:15px;@media screen and (max-width:", "){border-bottom:1px solid ", ";margin:0;}}@media screen and (max-width:", "){display:none;visibility:hidden;}}.icons-right-section{padding-top:20px;width:100%;@media screen and (min-width:", "){border-left:", " solid ", ";padding-left:", ";}@media screen and (max-width:", "){padding-top:0px;}.icon-list{padding:0px;padding-bottom:130px;.container{box-sizing:border-box;display:flex;flex-wrap:wrap;@media screen and (max-width:", "){justify-content:space-between;}.no-result{text-align:center;width:100%;font-weight:400;padding:30px;min-height:50px;color:", ";font-size:18px;margin-bottom:0px;p{margin-top:2px;font-size:16px;color:", ";font-style:italic;}}}@media screen and (max-width:", "){padding:10px;}}}"], _types__WEBPACK_IMPORTED_MODULE_14__["PADDING"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["FLEX_ACTIVE"], _types__WEBPACK_IMPORTED_MODULE_14__["FLEX_ACTIVE"], _types__WEBPACK_IMPORTED_MODULE_14__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], function (props) {
+  return props.side ? '1px' : '0px';
+}, _types__WEBPACK_IMPORTED_MODULE_14__["BORDER_COLOR"], function (props) {
+  return props.side ? '20px' : '0px';
+}, _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_14__["SECONDARY_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_14__["SECONDARY_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_14__["BREAKPOINT_LG"]);
 var IconsFilter = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   displayName: "iconsSet__IconsFilter",
   componentId: "sc-8yb2nv-3"
@@ -669,14 +670,14 @@ function (_Component) {
         return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 481
+            lineNumber: 470
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Icon, {
           icon: this.state.selectedIcon,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 482
+            lineNumber: 471
           },
           __self: this
         }));
@@ -795,10 +796,10 @@ function (_Component) {
     value: function render() {
       var _this3 = this;
 
-      var sectionClass = classnames__WEBPACK_IMPORTED_MODULE_18___default()({
+      var sectionClass = classnames__WEBPACK_IMPORTED_MODULE_17___default()({
         active: this.state.displaySideIcon
       });
-      var sectionContClass = classnames__WEBPACK_IMPORTED_MODULE_18___default()({
+      var sectionContClass = classnames__WEBPACK_IMPORTED_MODULE_17___default()({
         'side-active': this.state.showSide
       });
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(IconsSection, {
@@ -806,35 +807,35 @@ function (_Component) {
         onKeyDown: this.handleKeyPress,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 608
+          lineNumber: 597
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_common_ToTop__WEBPACK_IMPORTED_MODULE_16__["default"], {
         side: this.state.displaySideIcon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 609
+          lineNumber: 598
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(IconsFilter, {
         side: this.state.showSide,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 610
+          lineNumber: 599
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-filter-max",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 611
+          lineNumber: 600
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-filter-in",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 612
+          lineNumber: 601
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -842,14 +843,14 @@ function (_Component) {
         onClick: this.handleSide,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 614
+          lineNumber: 603
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx  bx-filter",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 615
+          lineNumber: 604
         },
         __self: this
       })), this.state.category != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -859,35 +860,35 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 617
+          lineNumber: 606
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "selected-category-name",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 618
+          lineNumber: 607
         },
         __self: this
       }, this.state.category, " "), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "selected-category-x",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 619
+          lineNumber: 608
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bx-x",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 619
+          lineNumber: 608
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-count",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 622
+          lineNumber: 611
         },
         __self: this
       }, this.state.icons.data !== null ? this.state.icons.data.length : '0', " icons"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -897,7 +898,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 626
+          lineNumber: 615
         },
         __self: this
       }, "All"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -907,7 +908,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 629
+          lineNumber: 618
         },
         __self: this
       }, "Regular"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -917,7 +918,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 632
+          lineNumber: 621
         },
         __self: this
       }, "Solid"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -927,21 +928,22 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 635
+          lineNumber: 624
         },
         __self: this
       }, "Logos")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(IconsSectionCont, {
+        side: this.state.showSide,
         className: sectionContClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 642
+          lineNumber: 631
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-left-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 643
+          lineNumber: 632
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -949,36 +951,27 @@ function (_Component) {
         onBlur: this.handleBlur,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 644
+          lineNumber: 633
         },
         __self: this
       }, this.state.selectedIcon.name != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(StyledIconCont, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 646
+          lineNumber: 635
         },
         __self: this
       }, this.renderIcon()))), this.state.showSide && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-side-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 652
+          lineNumber: 641
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "side-section-inner",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 654
-        },
-        __self: this
-      }, "  ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(simplebar_react__WEBPACK_IMPORTED_MODULE_15__["default"], {
-        style: {
-          height: 'calc(100vh - 130px)'
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 654
+          lineNumber: 643
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_categories__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -986,60 +979,60 @@ function (_Component) {
         style: this.state.style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 655
+          lineNumber: 644
         },
         __self: this
-      })), " ")), this.state.icons.data != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }))), this.state.icons.data != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-right-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 659
+          lineNumber: 648
         },
         __self: this
       }, this.state.noResult && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-list ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 661
+          lineNumber: 650
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 662
+          lineNumber: 651
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
         className: "no-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 663
+          lineNumber: 652
         },
         __self: this
       }, "No result found for", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 665
+          lineNumber: 654
         },
         __self: this
       }, " '", this.state.search, "'"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 666
+          lineNumber: 655
         },
         __self: this
-      }, "Having trouble finding an icon, try the ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_19___default.a, {
+      }, "Having trouble finding an icon, try the ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_18___default.a, {
         href: "cheatsheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 666
+          lineNumber: 655
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 666
+          lineNumber: 655
         },
         __self: this
       }, "Cheatsheet")))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_iconsList__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -1047,7 +1040,7 @@ function (_Component) {
         style: this.state.style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 672
+          lineNumber: 661
         },
         __self: this
       }))));

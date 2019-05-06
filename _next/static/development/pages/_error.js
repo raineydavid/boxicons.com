@@ -2212,7 +2212,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!***************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=C%3A%5CSorted%5CWork%202%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5C_error.js ***!
   \***************************************************************************************************************************************************************************/
@@ -2235,5 +2235,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map

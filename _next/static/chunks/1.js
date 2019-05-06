@@ -649,7 +649,7 @@ function (_Component) {
         folder = 'logos';
       }
 
-      var path = "static/svg/" + folder + "/" + iconClass + ".svg";
+      var path = "static/img/svg/" + folder + "/" + iconClass + ".svg";
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: " ",
         __source: {
@@ -757,7 +757,7 @@ function (_Component) {
         },
         __self: this
       }))))))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_svg__WEBPACK_IMPORTED_MODULE_18__["default"], {
-        src: "static/svg/" + folder + "/" + iconClass + ".svg",
+        src: "static/img/svg/" + folder + "/" + iconClass + ".svg",
         svgStyle: {
           fill: "rgba(".concat(this.state.fill.r, ", ").concat(this.state.fill.g, ", ").concat(this.state.fill.b, ", ").concat(this.state.fill.a, ")"),
           transform: this.state.svgTransform,
@@ -1511,6 +1511,49 @@ function mapDispatchToProps(dispatch) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_7__["connect"])(mapStateToProps, mapDispatchToProps)(Icon));
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/inheritsLoose.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/inheritsLoose.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
+}
+
+module.exports = _inheritsLoose;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+module.exports = _objectWithoutPropertiesLoose;
 
 /***/ }),
 
@@ -19960,9 +20003,9 @@ if (false) {} else {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutPropertiesLoose */ "./node_modules/react-svg/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js");
+/* harmony import */ var _babel_runtime_helpers_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js");
 /* harmony import */ var _babel_runtime_helpers_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/react-svg/node_modules/@babel/runtime/helpers/inheritsLoose.js");
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
 /* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _tanem_svg_injector__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @tanem/svg-injector */ "./node_modules/@tanem/svg-injector/dist/svg-injector.esm.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
@@ -20154,49 +20197,6 @@ ReactSVG.propTypes = {
 /* harmony default export */ __webpack_exports__["default"] = (ReactSVG);
 //# sourceMappingURL=react-svg.esm.js.map
 
-
-/***/ }),
-
-/***/ "./node_modules/react-svg/node_modules/@babel/runtime/helpers/inheritsLoose.js":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/react-svg/node_modules/@babel/runtime/helpers/inheritsLoose.js ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _inheritsLoose(subClass, superClass) {
-  subClass.prototype = Object.create(superClass.prototype);
-  subClass.prototype.constructor = subClass;
-  subClass.__proto__ = superClass;
-}
-
-module.exports = _inheritsLoose;
-
-/***/ }),
-
-/***/ "./node_modules/react-svg/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/react-svg/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js ***!
-  \****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _objectWithoutPropertiesLoose(source, excluded) {
-  if (source == null) return {};
-  var target = {};
-  var sourceKeys = Object.keys(source);
-  var key, i;
-
-  for (i = 0; i < sourceKeys.length; i++) {
-    key = sourceKeys[i];
-    if (excluded.indexOf(key) >= 0) continue;
-    target[key] = source[key];
-  }
-
-  return target;
-}
-
-module.exports = _objectWithoutPropertiesLoose;
 
 /***/ }),
 
