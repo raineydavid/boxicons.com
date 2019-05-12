@@ -238,7 +238,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var NavButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-0"
-})(["margin-left:10px;transition:all .15s ease;color:", "!important;background:", ";text-align:center;border-radius:", "!important;font-weight:700!important;font-size:14px!important;padding:0 15px!important;letter-spacing:0.25px!important;height:36px!important;line-height:36px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{font-size:22px;color:", ";padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}&:hover{}&:active{box-shadow:", ";}"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["FADE_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"]);
+})(["margin-left:10px;transition:all .15s ease;color:", "!important;background:", ";text-align:center;border-radius:", "!important;font-weight:700!important;font-size:14px!important;padding:0 15px!important;letter-spacing:0.25px!important;height:36px!important;line-height:36px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{color:", ";padding-left:0;font-size:21px!important;@media screen and (max-width:", "){padding-right:0px;}}&:hover{}&:active{box-shadow:", ";}"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["FADE_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"]);
 var BlueButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-1"
 })(["transition:all .15s ease;background:", ";color:#fff;padding:0px 16px;height:42px;text-align:center;border-radius:", ";font-weight:700;font-size:15px;display:flex;align-items:center;line-height:42px;transition:0.15s;flex:1;margin-top:15px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{color:#fff!important;background:#3fa0ff;}&:active{background:#1984ed;color:#fff!important;box-shadow:", ";}@media screen and (max-width:", "){padding:5px;width:160px;}.button-name{line-height:24px;flex:1;}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
@@ -1010,7 +1010,14 @@ function (_Component) {
           lineNumber: 410
         },
         __self: this
-      }, "Download  ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
+        className: "bx bxs-download",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 410
+        },
+        __self: this
+      }), " Download  ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 410
@@ -1444,7 +1451,7 @@ var FLEX_MD = "14.2857%";
 var FLEX_MDS = "16.6667%";
 var FLEX_SM = "20%";
 var FLEX_ACTIVE = "11.111%";
-var DARK_BORDER_COLOR = 'rgba(0, 31, 51, 0.1)';
+var DARK_BORDER_COLOR = 'rgba(0, 31, 51, 0.06)';
 var BORDER_COLOR_DARK = 'rgba(255, 255, 255, 0.075)';
 var ICON_SIZE = "32px";
 var ICON_SIZE_MD = "24px";
@@ -1466,7 +1473,7 @@ var NAVBAR_SCROLL_BACKGROUND = "#fff;";
 var FILTER_BACKGROUND = "#fff";
 var DARK_FILTER_BACKGROUND = "#4f5d6a";
 var MAX_WIDTH = 'none';
-var BORDER_COLOR = 'rgba(0, 31, 51, 0.05)';
+var BORDER_COLOR = 'rgba(0, 31, 51, 0.06)';
 var BORDER_HOVER_COLOR = 'rgba(0, 31, 51, 0.25)';
 var BORDER_COLOR_ACTIVE = 'rgba(0,0,0,0.25)';
 var BREAKPOINT_LG = '1048px';
