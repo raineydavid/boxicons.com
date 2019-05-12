@@ -1093,101 +1093,6 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js ***!
-  \**************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _assertThisInitialized; });
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return self;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/esm/extends.js":
-/*!************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js ***!
-  \******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _inheritsLoose; });
-function _inheritsLoose(subClass, superClass) {
-  subClass.prototype = Object.create(superClass.prototype);
-  subClass.prototype.constructor = subClass;
-  subClass.__proto__ = superClass;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!
-  \*********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectWithoutPropertiesLoose; });
-function _objectWithoutPropertiesLoose(source, excluded) {
-  if (source == null) return {};
-  var target = {};
-  var sourceKeys = Object.keys(source);
-  var key, i;
-
-  for (i = 0; i < sourceKeys.length; i++) {
-    key = sourceKeys[i];
-    if (excluded.indexOf(key) >= 0) continue;
-    target[key] = source[key];
-  }
-
-  return target;
-}
-
-/***/ }),
-
 /***/ "./node_modules/core-js/library/fn/array/is-array.js":
 /*!***********************************************************!*\
   !*** ./node_modules/core-js/library/fn/array/is-array.js ***!
@@ -7178,14 +7083,25 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
-/***/ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
-  \**************************************************************************/
+/***/ "./node_modules/object-assign/index.js":
+/*!***************************************************************************************************!*\
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_7aff549c98b978433226 ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/object-assign/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/punycode/punycode.js":
+/*!*******************************************!*\
+  !*** ./node_modules/punycode/punycode.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.3.2 by @mathias */
 ;(function(root) {
 
 	/** Detect free variables */
@@ -7251,7 +7167,7 @@ module.exports = ReactPropTypesSecret;
 	 * @returns {Error} Throws a `RangeError` with the applicable error message.
 	 */
 	function error(type) {
-		throw new RangeError(errors[type]);
+		throw RangeError(errors[type]);
 	}
 
 	/**
@@ -7398,7 +7314,7 @@ module.exports = ReactPropTypesSecret;
 
 	/**
 	 * Bias adaptation function as per section 3.4 of RFC 3492.
-	 * https://tools.ietf.org/html/rfc3492#section-3.4
+	 * http://tools.ietf.org/html/rfc3492#section-3.4
 	 * @private
 	 */
 	function adapt(delta, numPoints, firstTime) {
@@ -7673,7 +7589,7 @@ module.exports = ReactPropTypesSecret;
 		 * @memberOf punycode
 		 * @type String
 		 */
-		'version': '1.4.1',
+		'version': '1.3.2',
 		/**
 		 * An object of methods to convert from JavaScript's internal character
 		 * representation (UCS-2) to Unicode code points, and back.
@@ -7705,36 +7621,1961 @@ module.exports = ReactPropTypesSecret;
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "./node_modules/object-assign/index.js":
-/*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_7aff549c98b978433226 ***!
-  \***************************************************************************************************/
+/***/ "./node_modules/querystring-es3/decode.js":
+/*!************************************************!*\
+  !*** ./node_modules/querystring-es3/decode.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/object-assign/index.js");
+"use strict";
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+// If obj.hasOwnProperty has been overridden, then calling
+// obj.hasOwnProperty(prop) will break.
+// See: https://github.com/joyent/node/issues/1707
+function hasOwnProperty(obj, prop) {
+  return Object.prototype.hasOwnProperty.call(obj, prop);
+}
+
+module.exports = function(qs, sep, eq, options) {
+  sep = sep || '&';
+  eq = eq || '=';
+  var obj = {};
+
+  if (typeof qs !== 'string' || qs.length === 0) {
+    return obj;
+  }
+
+  var regexp = /\+/g;
+  qs = qs.split(sep);
+
+  var maxKeys = 1000;
+  if (options && typeof options.maxKeys === 'number') {
+    maxKeys = options.maxKeys;
+  }
+
+  var len = qs.length;
+  // maxKeys <= 0 means that we should not limit keys count
+  if (maxKeys > 0 && len > maxKeys) {
+    len = maxKeys;
+  }
+
+  for (var i = 0; i < len; ++i) {
+    var x = qs[i].replace(regexp, '%20'),
+        idx = x.indexOf(eq),
+        kstr, vstr, k, v;
+
+    if (idx >= 0) {
+      kstr = x.substr(0, idx);
+      vstr = x.substr(idx + 1);
+    } else {
+      kstr = x;
+      vstr = '';
+    }
+
+    k = decodeURIComponent(kstr);
+    v = decodeURIComponent(vstr);
+
+    if (!hasOwnProperty(obj, k)) {
+      obj[k] = v;
+    } else if (isArray(obj[k])) {
+      obj[k].push(v);
+    } else {
+      obj[k] = [obj[k], v];
+    }
+  }
+
+  return obj;
+};
+
+var isArray = Array.isArray || function (xs) {
+  return Object.prototype.toString.call(xs) === '[object Array]';
+};
+
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/checkPropTypes.js":
-/*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_7aff549c98b978433226 ***!
-  \*********************************************************************************************************/
+/***/ "./node_modules/querystring-es3/encode.js":
+/*!************************************************!*\
+  !*** ./node_modules/querystring-es3/encode.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/prop-types/checkPropTypes.js");
+"use strict";
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+var stringifyPrimitive = function(v) {
+  switch (typeof v) {
+    case 'string':
+      return v;
+
+    case 'boolean':
+      return v ? 'true' : 'false';
+
+    case 'number':
+      return isFinite(v) ? v : '';
+
+    default:
+      return '';
+  }
+};
+
+module.exports = function(obj, sep, eq, name) {
+  sep = sep || '&';
+  eq = eq || '=';
+  if (obj === null) {
+    obj = undefined;
+  }
+
+  if (typeof obj === 'object') {
+    return map(objectKeys(obj), function(k) {
+      var ks = encodeURIComponent(stringifyPrimitive(k)) + eq;
+      if (isArray(obj[k])) {
+        return map(obj[k], function(v) {
+          return ks + encodeURIComponent(stringifyPrimitive(v));
+        }).join(sep);
+      } else {
+        return ks + encodeURIComponent(stringifyPrimitive(obj[k]));
+      }
+    }).join(sep);
+
+  }
+
+  if (!name) return '';
+  return encodeURIComponent(stringifyPrimitive(name)) + eq +
+         encodeURIComponent(stringifyPrimitive(obj));
+};
+
+var isArray = Array.isArray || function (xs) {
+  return Object.prototype.toString.call(xs) === '[object Array]';
+};
+
+function map (xs, f) {
+  if (xs.map) return xs.map(f);
+  var res = [];
+  for (var i = 0; i < xs.length; i++) {
+    res.push(f(xs[i], i));
+  }
+  return res;
+}
+
+var objectKeys = Object.keys || function (obj) {
+  var res = [];
+  for (var key in obj) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) res.push(key);
+  }
+  return res;
+};
+
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/factoryWithTypeCheckers.js":
+/***/ "./node_modules/querystring-es3/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/querystring-es3/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring-es3/decode.js");
+exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring-es3/encode.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/react-dom/index.js":
+/*!***********************************************************************************************!*\
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_7aff549c98b978433226 ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react-dom/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/react-is/cjs/react-is.development.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/** @license React v16.8.6
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+// nor polyfill, then a plain number is used for performance.
+var hasSymbol = typeof Symbol === 'function' && Symbol.for;
+
+var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
+var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
+var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
+var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
+var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
+var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
+var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace;
+var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
+var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
+var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
+var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
+var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
+var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
+
+function isValidElementType(type) {
+  return typeof type === 'string' || typeof type === 'function' ||
+  // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE);
+}
+
+/**
+ * Forked from fbjs/warning:
+ * https://github.com/facebook/fbjs/blob/e66ba20ad5be433eb54423f2b097d829324d9de6/packages/fbjs/src/__forks__/warning.js
+ *
+ * Only change is we use console.warn instead of console.error,
+ * and do nothing when 'console' is not supported.
+ * This really simplifies the code.
+ * ---
+ * Similar to invariant but only logs a warning if the condition is not met.
+ * This can be used to log issues in development environments in critical
+ * paths. Removing the logging code for production environments will keep the
+ * same logic and follow the same code paths.
+ */
+
+var lowPriorityWarning = function () {};
+
+{
+  var printWarning = function (format) {
+    for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+      args[_key - 1] = arguments[_key];
+    }
+
+    var argIndex = 0;
+    var message = 'Warning: ' + format.replace(/%s/g, function () {
+      return args[argIndex++];
+    });
+    if (typeof console !== 'undefined') {
+      console.warn(message);
+    }
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  };
+
+  lowPriorityWarning = function (condition, format) {
+    if (format === undefined) {
+      throw new Error('`lowPriorityWarning(condition, format, ...args)` requires a warning ' + 'message argument');
+    }
+    if (!condition) {
+      for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
+        args[_key2 - 2] = arguments[_key2];
+      }
+
+      printWarning.apply(undefined, [format].concat(args));
+    }
+  };
+}
+
+var lowPriorityWarning$1 = lowPriorityWarning;
+
+function typeOf(object) {
+  if (typeof object === 'object' && object !== null) {
+    var $$typeof = object.$$typeof;
+    switch ($$typeof) {
+      case REACT_ELEMENT_TYPE:
+        var type = object.type;
+
+        switch (type) {
+          case REACT_ASYNC_MODE_TYPE:
+          case REACT_CONCURRENT_MODE_TYPE:
+          case REACT_FRAGMENT_TYPE:
+          case REACT_PROFILER_TYPE:
+          case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
+            return type;
+          default:
+            var $$typeofType = type && type.$$typeof;
+
+            switch ($$typeofType) {
+              case REACT_CONTEXT_TYPE:
+              case REACT_FORWARD_REF_TYPE:
+              case REACT_PROVIDER_TYPE:
+                return $$typeofType;
+              default:
+                return $$typeof;
+            }
+        }
+      case REACT_LAZY_TYPE:
+      case REACT_MEMO_TYPE:
+      case REACT_PORTAL_TYPE:
+        return $$typeof;
+    }
+  }
+
+  return undefined;
+}
+
+// AsyncMode is deprecated along with isAsyncMode
+var AsyncMode = REACT_ASYNC_MODE_TYPE;
+var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+var ContextConsumer = REACT_CONTEXT_TYPE;
+var ContextProvider = REACT_PROVIDER_TYPE;
+var Element = REACT_ELEMENT_TYPE;
+var ForwardRef = REACT_FORWARD_REF_TYPE;
+var Fragment = REACT_FRAGMENT_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
+var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
+var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
+
+var hasWarnedAboutDeprecatedIsAsyncMode = false;
+
+// AsyncMode should be deprecated
+function isAsyncMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+      hasWarnedAboutDeprecatedIsAsyncMode = true;
+      lowPriorityWarning$1(false, 'The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
+    }
+  }
+  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+}
+function isConcurrentMode(object) {
+  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+}
+function isContextConsumer(object) {
+  return typeOf(object) === REACT_CONTEXT_TYPE;
+}
+function isContextProvider(object) {
+  return typeOf(object) === REACT_PROVIDER_TYPE;
+}
+function isElement(object) {
+  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+}
+function isForwardRef(object) {
+  return typeOf(object) === REACT_FORWARD_REF_TYPE;
+}
+function isFragment(object) {
+  return typeOf(object) === REACT_FRAGMENT_TYPE;
+}
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
+}
+function isPortal(object) {
+  return typeOf(object) === REACT_PORTAL_TYPE;
+}
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
+function isStrictMode(object) {
+  return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
+}
+
+exports.typeOf = typeOf;
+exports.AsyncMode = AsyncMode;
+exports.ConcurrentMode = ConcurrentMode;
+exports.ContextConsumer = ContextConsumer;
+exports.ContextProvider = ContextProvider;
+exports.Element = Element;
+exports.ForwardRef = ForwardRef;
+exports.Fragment = Fragment;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
+exports.Portal = Portal;
+exports.Profiler = Profiler;
+exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
+exports.isValidElementType = isValidElementType;
+exports.isAsyncMode = isAsyncMode;
+exports.isConcurrentMode = isConcurrentMode;
+exports.isContextConsumer = isContextConsumer;
+exports.isContextProvider = isContextProvider;
+exports.isElement = isElement;
+exports.isForwardRef = isForwardRef;
+exports.isFragment = isFragment;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
+exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
+exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/react-is/index.js":
+/*!****************************************!*\
+  !*** ./node_modules/react-is/index.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/components/Context.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-redux/es/components/Context.js ***!
+  \***********************************************************/
+/*! exports provided: ReactReduxContext, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReactReduxContext", function() { return ReactReduxContext; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var ReactReduxContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext(null);
+/* harmony default export */ __webpack_exports__["default"] = (ReactReduxContext);
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/components/Provider.js":
 /*!************************************************************!*\
-  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  !*** ./node_modules/react-redux/es/components/Provider.js ***!
   \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/react-redux/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Context__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Context */ "./node_modules/react-redux/es/components/Context.js");
+/* harmony import */ var _utils_Subscription__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/Subscription */ "./node_modules/react-redux/es/utils/Subscription.js");
+
+
+
+
+
+
+
+var Provider =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Provider, _Component);
+
+  function Provider(props) {
+    var _this;
+
+    _this = _Component.call(this, props) || this;
+    var store = props.store;
+    _this.notifySubscribers = _this.notifySubscribers.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__["default"])(_this));
+    var subscription = new _utils_Subscription__WEBPACK_IMPORTED_MODULE_5__["default"](store);
+    subscription.onStateChange = _this.notifySubscribers;
+    _this.state = {
+      store: store,
+      subscription: subscription
+    };
+    _this.previousState = store.getState();
+    return _this;
+  }
+
+  var _proto = Provider.prototype;
+
+  _proto.componentDidMount = function componentDidMount() {
+    this._isMounted = true;
+    this.state.subscription.trySubscribe();
+
+    if (this.previousState !== this.props.store.getState()) {
+      this.state.subscription.notifyNestedSubs();
+    }
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    if (this.unsubscribe) this.unsubscribe();
+    this.state.subscription.tryUnsubscribe();
+    this._isMounted = false;
+  };
+
+  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
+    if (this.props.store !== prevProps.store) {
+      this.state.subscription.tryUnsubscribe();
+      var subscription = new _utils_Subscription__WEBPACK_IMPORTED_MODULE_5__["default"](this.props.store);
+      subscription.onStateChange = this.notifySubscribers;
+      this.setState({
+        store: this.props.store,
+        subscription: subscription
+      });
+    }
+  };
+
+  _proto.notifySubscribers = function notifySubscribers() {
+    this.state.subscription.notifyNestedSubs();
+  };
+
+  _proto.render = function render() {
+    var Context = this.props.context || _Context__WEBPACK_IMPORTED_MODULE_4__["ReactReduxContext"];
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Context.Provider, {
+      value: this.state
+    }, this.props.children);
+  };
+
+  return Provider;
+}(react__WEBPACK_IMPORTED_MODULE_2__["Component"]);
+
+Provider.propTypes = {
+  store: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.shape({
+    subscribe: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired,
+    dispatch: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired,
+    getState: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired
+  }),
+  context: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object,
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.any
+};
+/* harmony default export */ __webpack_exports__["default"] = (Provider);
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/components/connectAdvanced.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-redux/es/components/connectAdvanced.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return connectAdvanced; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hoist-non-react-statics */ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js");
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! invariant */ "./node_modules/invariant/browser.js");
+/* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(invariant__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_is__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _utils_Subscription__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/Subscription */ "./node_modules/react-redux/es/utils/Subscription.js");
+/* harmony import */ var _Context__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Context */ "./node_modules/react-redux/es/components/Context.js");
+
+
+
+
+
+
+
+ // Define some constant arrays just to avoid re-creating these
+
+var EMPTY_ARRAY = [];
+var NO_SUBSCRIPTION_ARRAY = [null, null];
+
+var stringifyComponent = function stringifyComponent(Comp) {
+  try {
+    return JSON.stringify(Comp);
+  } catch (err) {
+    return String(Comp);
+  }
+};
+
+function storeStateUpdatesReducer(state, action) {
+  var updateCount = state[1];
+  return [action.payload, updateCount + 1];
+}
+
+var initStateUpdates = function initStateUpdates() {
+  return [null, 0];
+}; // React currently throws a warning when using useLayoutEffect on the server.
+// To get around it, we can conditionally useEffect on the server (no-op) and
+// useLayoutEffect in the browser. We need useLayoutEffect because we want
+// `connect` to perform sync updates to a ref to save the latest props after
+// a render is actually committed to the DOM.
+
+
+var useIsomorphicLayoutEffect = typeof window !== 'undefined' ? react__WEBPACK_IMPORTED_MODULE_4__["useLayoutEffect"] : react__WEBPACK_IMPORTED_MODULE_4__["useEffect"];
+function connectAdvanced(
+/*
+  selectorFactory is a func that is responsible for returning the selector function used to
+  compute new props from state, props, and dispatch. For example:
+      export default connectAdvanced((dispatch, options) => (state, props) => ({
+      thing: state.things[props.thingId],
+      saveThing: fields => dispatch(actionCreators.saveThing(props.thingId, fields)),
+    }))(YourComponent)
+    Access to dispatch is provided to the factory so selectorFactories can bind actionCreators
+  outside of their selector as an optimization. Options passed to connectAdvanced are passed to
+  the selectorFactory, along with displayName and WrappedComponent, as the second argument.
+    Note that selectorFactory is responsible for all caching/memoization of inbound and outbound
+  props. Do not use connectAdvanced directly without memoizing results between calls to your
+  selector, otherwise the Connect component will re-render on every state or props change.
+*/
+selectorFactory, // options object:
+_ref) {
+  if (_ref === void 0) {
+    _ref = {};
+  }
+
+  var _ref2 = _ref,
+      _ref2$getDisplayName = _ref2.getDisplayName,
+      getDisplayName = _ref2$getDisplayName === void 0 ? function (name) {
+    return "ConnectAdvanced(" + name + ")";
+  } : _ref2$getDisplayName,
+      _ref2$methodName = _ref2.methodName,
+      methodName = _ref2$methodName === void 0 ? 'connectAdvanced' : _ref2$methodName,
+      _ref2$renderCountProp = _ref2.renderCountProp,
+      renderCountProp = _ref2$renderCountProp === void 0 ? undefined : _ref2$renderCountProp,
+      _ref2$shouldHandleSta = _ref2.shouldHandleStateChanges,
+      shouldHandleStateChanges = _ref2$shouldHandleSta === void 0 ? true : _ref2$shouldHandleSta,
+      _ref2$storeKey = _ref2.storeKey,
+      storeKey = _ref2$storeKey === void 0 ? 'store' : _ref2$storeKey,
+      _ref2$withRef = _ref2.withRef,
+      withRef = _ref2$withRef === void 0 ? false : _ref2$withRef,
+      _ref2$forwardRef = _ref2.forwardRef,
+      forwardRef = _ref2$forwardRef === void 0 ? false : _ref2$forwardRef,
+      _ref2$context = _ref2.context,
+      context = _ref2$context === void 0 ? _Context__WEBPACK_IMPORTED_MODULE_7__["ReactReduxContext"] : _ref2$context,
+      connectOptions = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref2, ["getDisplayName", "methodName", "renderCountProp", "shouldHandleStateChanges", "storeKey", "withRef", "forwardRef", "context"]);
+
+  invariant__WEBPACK_IMPORTED_MODULE_3___default()(renderCountProp === undefined, "renderCountProp is removed. render counting is built into the latest React Dev Tools profiling extension");
+  invariant__WEBPACK_IMPORTED_MODULE_3___default()(!withRef, 'withRef is removed. To access the wrapped instance, use a ref on the connected component');
+  var customStoreWarningMessage = 'To use a custom Redux store for specific components, create a custom React context with ' + "React.createContext(), and pass the context object to React Redux's Provider and specific components" + ' like: <Provider context={MyContext}><ConnectedComponent context={MyContext} /></Provider>. ' + 'You may also pass a {context : MyContext} option to connect';
+  invariant__WEBPACK_IMPORTED_MODULE_3___default()(storeKey === 'store', 'storeKey has been removed and does not do anything. ' + customStoreWarningMessage);
+  var Context = context;
+  return function wrapWithConnect(WrappedComponent) {
+    if (true) {
+      invariant__WEBPACK_IMPORTED_MODULE_3___default()(Object(react_is__WEBPACK_IMPORTED_MODULE_5__["isValidElementType"])(WrappedComponent), "You must pass a component to the function returned by " + (methodName + ". Instead received " + stringifyComponent(WrappedComponent)));
+    }
+
+    var wrappedComponentName = WrappedComponent.displayName || WrappedComponent.name || 'Component';
+    var displayName = getDisplayName(wrappedComponentName);
+
+    var selectorFactoryOptions = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, connectOptions, {
+      getDisplayName: getDisplayName,
+      methodName: methodName,
+      renderCountProp: renderCountProp,
+      shouldHandleStateChanges: shouldHandleStateChanges,
+      storeKey: storeKey,
+      displayName: displayName,
+      wrappedComponentName: wrappedComponentName,
+      WrappedComponent: WrappedComponent
+    });
+
+    var pure = connectOptions.pure;
+
+    function createChildSelector(store) {
+      return selectorFactory(store.dispatch, selectorFactoryOptions);
+    } // If we aren't running in "pure" mode, we don't want to memoize values.
+    // To avoid conditionally calling hooks, we fall back to a tiny wrapper
+    // that just executes the given callback immediately.
+
+
+    var usePureOnlyMemo = pure ? react__WEBPACK_IMPORTED_MODULE_4__["useMemo"] : function (callback) {
+      return callback();
+    };
+
+    function ConnectFunction(props) {
+      var _useMemo = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
+        // Distinguish between actual "data" props that were passed to the wrapper component,
+        // and values needed to control behavior (forwarded refs, alternate context instances).
+        // To maintain the wrapperProps object reference, memoize this destructuring.
+        var context = props.context,
+            forwardedRef = props.forwardedRef,
+            wrapperProps = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(props, ["context", "forwardedRef"]);
+
+        return [context, forwardedRef, wrapperProps];
+      }, [props]),
+          propsContext = _useMemo[0],
+          forwardedRef = _useMemo[1],
+          wrapperProps = _useMemo[2];
+
+      var ContextToUse = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
+        // Users may optionally pass in a custom context instance to use instead of our ReactReduxContext.
+        // Memoize the check that determines which context instance we should use.
+        return propsContext && propsContext.Consumer && Object(react_is__WEBPACK_IMPORTED_MODULE_5__["isContextConsumer"])(react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(propsContext.Consumer, null)) ? propsContext : Context;
+      }, [propsContext, Context]); // Retrieve the store and ancestor subscription via context, if available
+
+      var contextValue = Object(react__WEBPACK_IMPORTED_MODULE_4__["useContext"])(ContextToUse); // The store _must_ exist as either a prop or in context
+
+      var didStoreComeFromProps = Boolean(props.store);
+      var didStoreComeFromContext = Boolean(contextValue) && Boolean(contextValue.store);
+      invariant__WEBPACK_IMPORTED_MODULE_3___default()(didStoreComeFromProps || didStoreComeFromContext, "Could not find \"store\" in the context of " + ("\"" + displayName + "\". Either wrap the root component in a <Provider>, ") + "or pass a custom React context provider to <Provider> and the corresponding " + ("React context consumer to " + displayName + " in connect options."));
+      var store = props.store || contextValue.store;
+      var childPropsSelector = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
+        // The child props selector needs the store reference as an input.
+        // Re-create this selector whenever the store changes.
+        return createChildSelector(store);
+      }, [store]);
+
+      var _useMemo2 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
+        if (!shouldHandleStateChanges) return NO_SUBSCRIPTION_ARRAY; // This Subscription's source should match where store came from: props vs. context. A component
+        // connected to the store via props shouldn't use subscription from context, or vice versa.
+
+        var subscription = new _utils_Subscription__WEBPACK_IMPORTED_MODULE_6__["default"](store, didStoreComeFromProps ? null : contextValue.subscription); // `notifyNestedSubs` is duplicated to handle the case where the component is unmounted in
+        // the middle of the notification loop, where `subscription` will then be null. This can
+        // probably be avoided if Subscription's listeners logic is changed to not call listeners
+        // that have been unsubscribed in the  middle of the notification loop.
+
+        var notifyNestedSubs = subscription.notifyNestedSubs.bind(subscription);
+        return [subscription, notifyNestedSubs];
+      }, [store, didStoreComeFromProps, contextValue]),
+          subscription = _useMemo2[0],
+          notifyNestedSubs = _useMemo2[1]; // Determine what {store, subscription} value should be put into nested context, if necessary,
+      // and memoize that value to avoid unnecessary context updates.
+
+
+      var overriddenContextValue = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
+        if (didStoreComeFromProps) {
+          // This component is directly subscribed to a store from props.
+          // We don't want descendants reading from this store - pass down whatever
+          // the existing context value is from the nearest connected ancestor.
+          return contextValue;
+        } // Otherwise, put this component's subscription instance into context, so that
+        // connected descendants won't update until after this component is done
+
+
+        return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, contextValue, {
+          subscription: subscription
+        });
+      }, [didStoreComeFromProps, contextValue, subscription]); // We need to force this wrapper component to re-render whenever a Redux store update
+      // causes a change to the calculated child component props (or we caught an error in mapState)
+
+      var _useReducer = Object(react__WEBPACK_IMPORTED_MODULE_4__["useReducer"])(storeStateUpdatesReducer, EMPTY_ARRAY, initStateUpdates),
+          _useReducer$ = _useReducer[0],
+          previousStateUpdateResult = _useReducer$[0],
+          forceComponentUpdateDispatch = _useReducer[1]; // Propagate any mapState/mapDispatch errors upwards
+
+
+      if (previousStateUpdateResult && previousStateUpdateResult.error) {
+        throw previousStateUpdateResult.error;
+      } // Set up refs to coordinate values between the subscription effect and the render logic
+
+
+      var lastChildProps = Object(react__WEBPACK_IMPORTED_MODULE_4__["useRef"])();
+      var lastWrapperProps = Object(react__WEBPACK_IMPORTED_MODULE_4__["useRef"])(wrapperProps);
+      var childPropsFromStoreUpdate = Object(react__WEBPACK_IMPORTED_MODULE_4__["useRef"])();
+      var renderIsScheduled = Object(react__WEBPACK_IMPORTED_MODULE_4__["useRef"])(false);
+      var actualChildProps = usePureOnlyMemo(function () {
+        // Tricky logic here:
+        // - This render may have been triggered by a Redux store update that produced new child props
+        // - However, we may have gotten new wrapper props after that
+        // If we have new child props, and the same wrapper props, we know we should use the new child props as-is.
+        // But, if we have new wrapper props, those might change the child props, so we have to recalculate things.
+        // So, we'll use the child props from store update only if the wrapper props are the same as last time.
+        if (childPropsFromStoreUpdate.current && wrapperProps === lastWrapperProps.current) {
+          return childPropsFromStoreUpdate.current;
+        } // TODO We're reading the store directly in render() here. Bad idea?
+        // This will likely cause Bad Things (TM) to happen in Concurrent Mode.
+        // Note that we do this because on renders _not_ caused by store updates, we need the latest store state
+        // to determine what the child props should be.
+
+
+        return childPropsSelector(store.getState(), wrapperProps);
+      }, [store, previousStateUpdateResult, wrapperProps]); // We need this to execute synchronously every time we re-render. However, React warns
+      // about useLayoutEffect in SSR, so we try to detect environment and fall back to
+      // just useEffect instead to avoid the warning, since neither will run anyway.
+
+      useIsomorphicLayoutEffect(function () {
+        // We want to capture the wrapper props and child props we used for later comparisons
+        lastWrapperProps.current = wrapperProps;
+        lastChildProps.current = actualChildProps;
+        renderIsScheduled.current = false; // If the render was from a store update, clear out that reference and cascade the subscriber update
+
+        if (childPropsFromStoreUpdate.current) {
+          childPropsFromStoreUpdate.current = null;
+          notifyNestedSubs();
+        }
+      }); // Our re-subscribe logic only runs when the store/subscription setup changes
+
+      useIsomorphicLayoutEffect(function () {
+        // If we're not subscribed to the store, nothing to do here
+        if (!shouldHandleStateChanges) return; // Capture values for checking if and when this component unmounts
+
+        var didUnsubscribe = false;
+        var lastThrownError = null; // We'll run this callback every time a store subscription update propagates to this component
+
+        var checkForUpdates = function checkForUpdates() {
+          if (didUnsubscribe) {
+            // Don't run stale listeners.
+            // Redux doesn't guarantee unsubscriptions happen until next dispatch.
+            return;
+          }
+
+          var latestStoreState = store.getState();
+          var newChildProps, error;
+
+          try {
+            // Actually run the selector with the most recent store state and wrapper props
+            // to determine what the child props should be
+            newChildProps = childPropsSelector(latestStoreState, lastWrapperProps.current);
+          } catch (e) {
+            error = e;
+            lastThrownError = e;
+          }
+
+          if (!error) {
+            lastThrownError = null;
+          } // If the child props haven't changed, nothing to do here - cascade the subscription update
+
+
+          if (newChildProps === lastChildProps.current) {
+            if (!renderIsScheduled.current) {
+              notifyNestedSubs();
+            }
+          } else {
+            // Save references to the new child props.  Note that we track the "child props from store update"
+            // as a ref instead of a useState/useReducer because we need a way to determine if that value has
+            // been processed.  If this went into useState/useReducer, we couldn't clear out the value without
+            // forcing another re-render, which we don't want.
+            lastChildProps.current = newChildProps;
+            childPropsFromStoreUpdate.current = newChildProps;
+            renderIsScheduled.current = true; // If the child props _did_ change (or we caught an error), this wrapper component needs to re-render
+
+            forceComponentUpdateDispatch({
+              type: 'STORE_UPDATED',
+              payload: {
+                latestStoreState: latestStoreState,
+                error: error
+              }
+            });
+          }
+        }; // Actually subscribe to the nearest connected ancestor (or store)
+
+
+        subscription.onStateChange = checkForUpdates;
+        subscription.trySubscribe(); // Pull data from the store after first render in case the store has
+        // changed since we began.
+
+        checkForUpdates();
+
+        var unsubscribeWrapper = function unsubscribeWrapper() {
+          didUnsubscribe = true;
+          subscription.tryUnsubscribe();
+
+          if (lastThrownError) {
+            // It's possible that we caught an error due to a bad mapState function, but the
+            // parent re-rendered without this component and we're about to unmount.
+            // This shouldn't happen as long as we do top-down subscriptions correctly, but
+            // if we ever do those wrong, this throw will surface the error in our tests.
+            // In that case, throw the error from here so it doesn't get lost.
+            throw lastThrownError;
+          }
+        };
+
+        return unsubscribeWrapper;
+      }, [store, subscription, childPropsSelector]); // Now that all that's done, we can finally try to actually render the child component.
+      // We memoize the elements for the rendered child component as an optimization.
+
+      var renderedWrappedComponent = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
+        return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(WrappedComponent, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, actualChildProps, {
+          ref: forwardedRef
+        }));
+      }, [forwardedRef, WrappedComponent, actualChildProps]); // If React sees the exact same element reference as last time, it bails out of re-rendering
+      // that child, same as if it was wrapped in React.memo() or returned false from shouldComponentUpdate.
+
+      var renderedChild = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
+        if (shouldHandleStateChanges) {
+          // If this component is subscribed to store updates, we need to pass its own
+          // subscription instance down to our descendants. That means rendering the same
+          // Context instance, and putting a different value into the context.
+          return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(ContextToUse.Provider, {
+            value: overriddenContextValue
+          }, renderedWrappedComponent);
+        }
+
+        return renderedWrappedComponent;
+      }, [ContextToUse, renderedWrappedComponent, overriddenContextValue]);
+      return renderedChild;
+    } // If we're in "pure" mode, ensure our wrapper component only re-renders when incoming props have changed.
+
+
+    var Connect = pure ? react__WEBPACK_IMPORTED_MODULE_4___default.a.memo(ConnectFunction) : ConnectFunction;
+    Connect.WrappedComponent = WrappedComponent;
+    Connect.displayName = displayName;
+
+    if (forwardRef) {
+      var forwarded = react__WEBPACK_IMPORTED_MODULE_4___default.a.forwardRef(function forwardConnectRef(props, ref) {
+        return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(Connect, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+          forwardedRef: ref
+        }));
+      });
+      forwarded.displayName = displayName;
+      forwarded.WrappedComponent = WrappedComponent;
+      return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default()(forwarded, WrappedComponent);
+    }
+
+    return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default()(Connect, WrappedComponent);
+  };
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/connect/connect.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-redux/es/connect/connect.js ***!
+  \********************************************************/
+/*! exports provided: createConnect, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createConnect", function() { return createConnect; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var _components_connectAdvanced__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/connectAdvanced */ "./node_modules/react-redux/es/components/connectAdvanced.js");
+/* harmony import */ var _utils_shallowEqual__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/shallowEqual */ "./node_modules/react-redux/es/utils/shallowEqual.js");
+/* harmony import */ var _mapDispatchToProps__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mapDispatchToProps */ "./node_modules/react-redux/es/connect/mapDispatchToProps.js");
+/* harmony import */ var _mapStateToProps__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mapStateToProps */ "./node_modules/react-redux/es/connect/mapStateToProps.js");
+/* harmony import */ var _mergeProps__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./mergeProps */ "./node_modules/react-redux/es/connect/mergeProps.js");
+/* harmony import */ var _selectorFactory__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./selectorFactory */ "./node_modules/react-redux/es/connect/selectorFactory.js");
+
+
+
+
+
+
+
+
+/*
+  connect is a facade over connectAdvanced. It turns its args into a compatible
+  selectorFactory, which has the signature:
+
+    (dispatch, options) => (nextState, nextOwnProps) => nextFinalProps
+  
+  connect passes its args to connectAdvanced as options, which will in turn pass them to
+  selectorFactory each time a Connect component instance is instantiated or hot reloaded.
+
+  selectorFactory returns a final props selector from its mapStateToProps,
+  mapStateToPropsFactories, mapDispatchToProps, mapDispatchToPropsFactories, mergeProps,
+  mergePropsFactories, and pure args.
+
+  The resulting final props selector is called by the Connect component instance whenever
+  it receives new props or store state.
+ */
+
+function match(arg, factories, name) {
+  for (var i = factories.length - 1; i >= 0; i--) {
+    var result = factories[i](arg);
+    if (result) return result;
+  }
+
+  return function (dispatch, options) {
+    throw new Error("Invalid value of type " + typeof arg + " for " + name + " argument when connecting component " + options.wrappedComponentName + ".");
+  };
+}
+
+function strictEqual(a, b) {
+  return a === b;
+} // createConnect with default args builds the 'official' connect behavior. Calling it with
+// different options opens up some testing and extensibility scenarios
+
+
+function createConnect(_temp) {
+  var _ref = _temp === void 0 ? {} : _temp,
+      _ref$connectHOC = _ref.connectHOC,
+      connectHOC = _ref$connectHOC === void 0 ? _components_connectAdvanced__WEBPACK_IMPORTED_MODULE_2__["default"] : _ref$connectHOC,
+      _ref$mapStateToPropsF = _ref.mapStateToPropsFactories,
+      mapStateToPropsFactories = _ref$mapStateToPropsF === void 0 ? _mapStateToProps__WEBPACK_IMPORTED_MODULE_5__["default"] : _ref$mapStateToPropsF,
+      _ref$mapDispatchToPro = _ref.mapDispatchToPropsFactories,
+      mapDispatchToPropsFactories = _ref$mapDispatchToPro === void 0 ? _mapDispatchToProps__WEBPACK_IMPORTED_MODULE_4__["default"] : _ref$mapDispatchToPro,
+      _ref$mergePropsFactor = _ref.mergePropsFactories,
+      mergePropsFactories = _ref$mergePropsFactor === void 0 ? _mergeProps__WEBPACK_IMPORTED_MODULE_6__["default"] : _ref$mergePropsFactor,
+      _ref$selectorFactory = _ref.selectorFactory,
+      selectorFactory = _ref$selectorFactory === void 0 ? _selectorFactory__WEBPACK_IMPORTED_MODULE_7__["default"] : _ref$selectorFactory;
+
+  return function connect(mapStateToProps, mapDispatchToProps, mergeProps, _ref2) {
+    if (_ref2 === void 0) {
+      _ref2 = {};
+    }
+
+    var _ref3 = _ref2,
+        _ref3$pure = _ref3.pure,
+        pure = _ref3$pure === void 0 ? true : _ref3$pure,
+        _ref3$areStatesEqual = _ref3.areStatesEqual,
+        areStatesEqual = _ref3$areStatesEqual === void 0 ? strictEqual : _ref3$areStatesEqual,
+        _ref3$areOwnPropsEqua = _ref3.areOwnPropsEqual,
+        areOwnPropsEqual = _ref3$areOwnPropsEqua === void 0 ? _utils_shallowEqual__WEBPACK_IMPORTED_MODULE_3__["default"] : _ref3$areOwnPropsEqua,
+        _ref3$areStatePropsEq = _ref3.areStatePropsEqual,
+        areStatePropsEqual = _ref3$areStatePropsEq === void 0 ? _utils_shallowEqual__WEBPACK_IMPORTED_MODULE_3__["default"] : _ref3$areStatePropsEq,
+        _ref3$areMergedPropsE = _ref3.areMergedPropsEqual,
+        areMergedPropsEqual = _ref3$areMergedPropsE === void 0 ? _utils_shallowEqual__WEBPACK_IMPORTED_MODULE_3__["default"] : _ref3$areMergedPropsE,
+        extraOptions = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref3, ["pure", "areStatesEqual", "areOwnPropsEqual", "areStatePropsEqual", "areMergedPropsEqual"]);
+
+    var initMapStateToProps = match(mapStateToProps, mapStateToPropsFactories, 'mapStateToProps');
+    var initMapDispatchToProps = match(mapDispatchToProps, mapDispatchToPropsFactories, 'mapDispatchToProps');
+    var initMergeProps = match(mergeProps, mergePropsFactories, 'mergeProps');
+    return connectHOC(selectorFactory, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+      // used in error messages
+      methodName: 'connect',
+      // used to compute Connect's displayName from the wrapped component's displayName.
+      getDisplayName: function getDisplayName(name) {
+        return "Connect(" + name + ")";
+      },
+      // if mapStateToProps is falsy, the Connect component doesn't subscribe to store state changes
+      shouldHandleStateChanges: Boolean(mapStateToProps),
+      // passed through to selectorFactory
+      initMapStateToProps: initMapStateToProps,
+      initMapDispatchToProps: initMapDispatchToProps,
+      initMergeProps: initMergeProps,
+      pure: pure,
+      areStatesEqual: areStatesEqual,
+      areOwnPropsEqual: areOwnPropsEqual,
+      areStatePropsEqual: areStatePropsEqual,
+      areMergedPropsEqual: areMergedPropsEqual
+    }, extraOptions));
+  };
+}
+/* harmony default export */ __webpack_exports__["default"] = (createConnect());
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/connect/mapDispatchToProps.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-redux/es/connect/mapDispatchToProps.js ***!
+  \*******************************************************************/
+/*! exports provided: whenMapDispatchToPropsIsFunction, whenMapDispatchToPropsIsMissing, whenMapDispatchToPropsIsObject, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMapDispatchToPropsIsFunction", function() { return whenMapDispatchToPropsIsFunction; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMapDispatchToPropsIsMissing", function() { return whenMapDispatchToPropsIsMissing; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMapDispatchToPropsIsObject", function() { return whenMapDispatchToPropsIsObject; });
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
+/* harmony import */ var _wrapMapToProps__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./wrapMapToProps */ "./node_modules/react-redux/es/connect/wrapMapToProps.js");
+
+
+function whenMapDispatchToPropsIsFunction(mapDispatchToProps) {
+  return typeof mapDispatchToProps === 'function' ? Object(_wrapMapToProps__WEBPACK_IMPORTED_MODULE_1__["wrapMapToPropsFunc"])(mapDispatchToProps, 'mapDispatchToProps') : undefined;
+}
+function whenMapDispatchToPropsIsMissing(mapDispatchToProps) {
+  return !mapDispatchToProps ? Object(_wrapMapToProps__WEBPACK_IMPORTED_MODULE_1__["wrapMapToPropsConstant"])(function (dispatch) {
+    return {
+      dispatch: dispatch
+    };
+  }) : undefined;
+}
+function whenMapDispatchToPropsIsObject(mapDispatchToProps) {
+  return mapDispatchToProps && typeof mapDispatchToProps === 'object' ? Object(_wrapMapToProps__WEBPACK_IMPORTED_MODULE_1__["wrapMapToPropsConstant"])(function (dispatch) {
+    return Object(redux__WEBPACK_IMPORTED_MODULE_0__["bindActionCreators"])(mapDispatchToProps, dispatch);
+  }) : undefined;
+}
+/* harmony default export */ __webpack_exports__["default"] = ([whenMapDispatchToPropsIsFunction, whenMapDispatchToPropsIsMissing, whenMapDispatchToPropsIsObject]);
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/connect/mapStateToProps.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-redux/es/connect/mapStateToProps.js ***!
+  \****************************************************************/
+/*! exports provided: whenMapStateToPropsIsFunction, whenMapStateToPropsIsMissing, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMapStateToPropsIsFunction", function() { return whenMapStateToPropsIsFunction; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMapStateToPropsIsMissing", function() { return whenMapStateToPropsIsMissing; });
+/* harmony import */ var _wrapMapToProps__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./wrapMapToProps */ "./node_modules/react-redux/es/connect/wrapMapToProps.js");
+
+function whenMapStateToPropsIsFunction(mapStateToProps) {
+  return typeof mapStateToProps === 'function' ? Object(_wrapMapToProps__WEBPACK_IMPORTED_MODULE_0__["wrapMapToPropsFunc"])(mapStateToProps, 'mapStateToProps') : undefined;
+}
+function whenMapStateToPropsIsMissing(mapStateToProps) {
+  return !mapStateToProps ? Object(_wrapMapToProps__WEBPACK_IMPORTED_MODULE_0__["wrapMapToPropsConstant"])(function () {
+    return {};
+  }) : undefined;
+}
+/* harmony default export */ __webpack_exports__["default"] = ([whenMapStateToPropsIsFunction, whenMapStateToPropsIsMissing]);
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/connect/mergeProps.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-redux/es/connect/mergeProps.js ***!
+  \***********************************************************/
+/*! exports provided: defaultMergeProps, wrapMergePropsFunc, whenMergePropsIsFunction, whenMergePropsIsOmitted, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "defaultMergeProps", function() { return defaultMergeProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapMergePropsFunc", function() { return wrapMergePropsFunc; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMergePropsIsFunction", function() { return whenMergePropsIsFunction; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMergePropsIsOmitted", function() { return whenMergePropsIsOmitted; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _utils_verifyPlainObject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/verifyPlainObject */ "./node_modules/react-redux/es/utils/verifyPlainObject.js");
+
+
+function defaultMergeProps(stateProps, dispatchProps, ownProps) {
+  return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, ownProps, stateProps, dispatchProps);
+}
+function wrapMergePropsFunc(mergeProps) {
+  return function initMergePropsProxy(dispatch, _ref) {
+    var displayName = _ref.displayName,
+        pure = _ref.pure,
+        areMergedPropsEqual = _ref.areMergedPropsEqual;
+    var hasRunOnce = false;
+    var mergedProps;
+    return function mergePropsProxy(stateProps, dispatchProps, ownProps) {
+      var nextMergedProps = mergeProps(stateProps, dispatchProps, ownProps);
+
+      if (hasRunOnce) {
+        if (!pure || !areMergedPropsEqual(nextMergedProps, mergedProps)) mergedProps = nextMergedProps;
+      } else {
+        hasRunOnce = true;
+        mergedProps = nextMergedProps;
+        if (true) Object(_utils_verifyPlainObject__WEBPACK_IMPORTED_MODULE_1__["default"])(mergedProps, displayName, 'mergeProps');
+      }
+
+      return mergedProps;
+    };
+  };
+}
+function whenMergePropsIsFunction(mergeProps) {
+  return typeof mergeProps === 'function' ? wrapMergePropsFunc(mergeProps) : undefined;
+}
+function whenMergePropsIsOmitted(mergeProps) {
+  return !mergeProps ? function () {
+    return defaultMergeProps;
+  } : undefined;
+}
+/* harmony default export */ __webpack_exports__["default"] = ([whenMergePropsIsFunction, whenMergePropsIsOmitted]);
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/connect/selectorFactory.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-redux/es/connect/selectorFactory.js ***!
+  \****************************************************************/
+/*! exports provided: impureFinalPropsSelectorFactory, pureFinalPropsSelectorFactory, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "impureFinalPropsSelectorFactory", function() { return impureFinalPropsSelectorFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pureFinalPropsSelectorFactory", function() { return pureFinalPropsSelectorFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return finalPropsSelectorFactory; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var _verifySubselectors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./verifySubselectors */ "./node_modules/react-redux/es/connect/verifySubselectors.js");
+
+
+function impureFinalPropsSelectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch) {
+  return function impureFinalPropsSelector(state, ownProps) {
+    return mergeProps(mapStateToProps(state, ownProps), mapDispatchToProps(dispatch, ownProps), ownProps);
+  };
+}
+function pureFinalPropsSelectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch, _ref) {
+  var areStatesEqual = _ref.areStatesEqual,
+      areOwnPropsEqual = _ref.areOwnPropsEqual,
+      areStatePropsEqual = _ref.areStatePropsEqual;
+  var hasRunAtLeastOnce = false;
+  var state;
+  var ownProps;
+  var stateProps;
+  var dispatchProps;
+  var mergedProps;
+
+  function handleFirstCall(firstState, firstOwnProps) {
+    state = firstState;
+    ownProps = firstOwnProps;
+    stateProps = mapStateToProps(state, ownProps);
+    dispatchProps = mapDispatchToProps(dispatch, ownProps);
+    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
+    hasRunAtLeastOnce = true;
+    return mergedProps;
+  }
+
+  function handleNewPropsAndNewState() {
+    stateProps = mapStateToProps(state, ownProps);
+    if (mapDispatchToProps.dependsOnOwnProps) dispatchProps = mapDispatchToProps(dispatch, ownProps);
+    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
+    return mergedProps;
+  }
+
+  function handleNewProps() {
+    if (mapStateToProps.dependsOnOwnProps) stateProps = mapStateToProps(state, ownProps);
+    if (mapDispatchToProps.dependsOnOwnProps) dispatchProps = mapDispatchToProps(dispatch, ownProps);
+    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
+    return mergedProps;
+  }
+
+  function handleNewState() {
+    var nextStateProps = mapStateToProps(state, ownProps);
+    var statePropsChanged = !areStatePropsEqual(nextStateProps, stateProps);
+    stateProps = nextStateProps;
+    if (statePropsChanged) mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
+    return mergedProps;
+  }
+
+  function handleSubsequentCalls(nextState, nextOwnProps) {
+    var propsChanged = !areOwnPropsEqual(nextOwnProps, ownProps);
+    var stateChanged = !areStatesEqual(nextState, state);
+    state = nextState;
+    ownProps = nextOwnProps;
+    if (propsChanged && stateChanged) return handleNewPropsAndNewState();
+    if (propsChanged) return handleNewProps();
+    if (stateChanged) return handleNewState();
+    return mergedProps;
+  }
+
+  return function pureFinalPropsSelector(nextState, nextOwnProps) {
+    return hasRunAtLeastOnce ? handleSubsequentCalls(nextState, nextOwnProps) : handleFirstCall(nextState, nextOwnProps);
+  };
+} // TODO: Add more comments
+// If pure is true, the selector returned by selectorFactory will memoize its results,
+// allowing connectAdvanced's shouldComponentUpdate to return false if final
+// props have not changed. If false, the selector will always return a new
+// object and shouldComponentUpdate will always return true.
+
+function finalPropsSelectorFactory(dispatch, _ref2) {
+  var initMapStateToProps = _ref2.initMapStateToProps,
+      initMapDispatchToProps = _ref2.initMapDispatchToProps,
+      initMergeProps = _ref2.initMergeProps,
+      options = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, ["initMapStateToProps", "initMapDispatchToProps", "initMergeProps"]);
+
+  var mapStateToProps = initMapStateToProps(dispatch, options);
+  var mapDispatchToProps = initMapDispatchToProps(dispatch, options);
+  var mergeProps = initMergeProps(dispatch, options);
+
+  if (true) {
+    Object(_verifySubselectors__WEBPACK_IMPORTED_MODULE_1__["default"])(mapStateToProps, mapDispatchToProps, mergeProps, options.displayName);
+  }
+
+  var selectorFactory = options.pure ? pureFinalPropsSelectorFactory : impureFinalPropsSelectorFactory;
+  return selectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch, options);
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/connect/verifySubselectors.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-redux/es/connect/verifySubselectors.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return verifySubselectors; });
+/* harmony import */ var _utils_warning__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/warning */ "./node_modules/react-redux/es/utils/warning.js");
+
+
+function verify(selector, methodName, displayName) {
+  if (!selector) {
+    throw new Error("Unexpected value for " + methodName + " in " + displayName + ".");
+  } else if (methodName === 'mapStateToProps' || methodName === 'mapDispatchToProps') {
+    if (!selector.hasOwnProperty('dependsOnOwnProps')) {
+      Object(_utils_warning__WEBPACK_IMPORTED_MODULE_0__["default"])("The selector for " + methodName + " of " + displayName + " did not specify a value for dependsOnOwnProps.");
+    }
+  }
+}
+
+function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, displayName) {
+  verify(mapStateToProps, 'mapStateToProps', displayName);
+  verify(mapDispatchToProps, 'mapDispatchToProps', displayName);
+  verify(mergeProps, 'mergeProps', displayName);
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/connect/wrapMapToProps.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/react-redux/es/connect/wrapMapToProps.js ***!
+  \***************************************************************/
+/*! exports provided: wrapMapToPropsConstant, getDependsOnOwnProps, wrapMapToPropsFunc */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapMapToPropsConstant", function() { return wrapMapToPropsConstant; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getDependsOnOwnProps", function() { return getDependsOnOwnProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapMapToPropsFunc", function() { return wrapMapToPropsFunc; });
+/* harmony import */ var _utils_verifyPlainObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/verifyPlainObject */ "./node_modules/react-redux/es/utils/verifyPlainObject.js");
+
+function wrapMapToPropsConstant(getConstant) {
+  return function initConstantSelector(dispatch, options) {
+    var constant = getConstant(dispatch, options);
+
+    function constantSelector() {
+      return constant;
+    }
+
+    constantSelector.dependsOnOwnProps = false;
+    return constantSelector;
+  };
+} // dependsOnOwnProps is used by createMapToPropsProxy to determine whether to pass props as args
+// to the mapToProps function being wrapped. It is also used by makePurePropsSelector to determine
+// whether mapToProps needs to be invoked when props have changed.
+//
+// A length of one signals that mapToProps does not depend on props from the parent component.
+// A length of zero is assumed to mean mapToProps is getting args via arguments or ...args and
+// therefore not reporting its length accurately..
+
+function getDependsOnOwnProps(mapToProps) {
+  return mapToProps.dependsOnOwnProps !== null && mapToProps.dependsOnOwnProps !== undefined ? Boolean(mapToProps.dependsOnOwnProps) : mapToProps.length !== 1;
+} // Used by whenMapStateToPropsIsFunction and whenMapDispatchToPropsIsFunction,
+// this function wraps mapToProps in a proxy function which does several things:
+//
+//  * Detects whether the mapToProps function being called depends on props, which
+//    is used by selectorFactory to decide if it should reinvoke on props changes.
+//
+//  * On first call, handles mapToProps if returns another function, and treats that
+//    new function as the true mapToProps for subsequent calls.
+//
+//  * On first call, verifies the first result is a plain object, in order to warn
+//    the developer that their mapToProps function is not returning a valid result.
+//
+
+function wrapMapToPropsFunc(mapToProps, methodName) {
+  return function initProxySelector(dispatch, _ref) {
+    var displayName = _ref.displayName;
+
+    var proxy = function mapToPropsProxy(stateOrDispatch, ownProps) {
+      return proxy.dependsOnOwnProps ? proxy.mapToProps(stateOrDispatch, ownProps) : proxy.mapToProps(stateOrDispatch);
+    }; // allow detectFactoryAndVerify to get ownProps
+
+
+    proxy.dependsOnOwnProps = true;
+
+    proxy.mapToProps = function detectFactoryAndVerify(stateOrDispatch, ownProps) {
+      proxy.mapToProps = mapToProps;
+      proxy.dependsOnOwnProps = getDependsOnOwnProps(mapToProps);
+      var props = proxy(stateOrDispatch, ownProps);
+
+      if (typeof props === 'function') {
+        proxy.mapToProps = props;
+        proxy.dependsOnOwnProps = getDependsOnOwnProps(props);
+        props = proxy(stateOrDispatch, ownProps);
+      }
+
+      if (true) Object(_utils_verifyPlainObject__WEBPACK_IMPORTED_MODULE_0__["default"])(props, displayName, methodName);
+      return props;
+    };
+
+    return proxy;
+  };
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/react-redux/es/index.js ***!
+  \**********************************************/
+/*! exports provided: Provider, connectAdvanced, ReactReduxContext, connect, batch */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_Provider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Provider */ "./node_modules/react-redux/es/components/Provider.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Provider", function() { return _components_Provider__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+/* harmony import */ var _components_connectAdvanced__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/connectAdvanced */ "./node_modules/react-redux/es/components/connectAdvanced.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "connectAdvanced", function() { return _components_connectAdvanced__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+/* harmony import */ var _components_Context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Context */ "./node_modules/react-redux/es/components/Context.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReactReduxContext", function() { return _components_Context__WEBPACK_IMPORTED_MODULE_2__["ReactReduxContext"]; });
+
+/* harmony import */ var _connect_connect__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./connect/connect */ "./node_modules/react-redux/es/connect/connect.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "connect", function() { return _connect_connect__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+
+/* harmony import */ var _utils_batch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils/batch */ "./node_modules/react-redux/es/utils/batch.js");
+/* harmony import */ var _utils_reactBatchedUpdates__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils/reactBatchedUpdates */ "./node_modules/react-redux/es/utils/reactBatchedUpdates.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "batch", function() { return _utils_reactBatchedUpdates__WEBPACK_IMPORTED_MODULE_5__["unstable_batchedUpdates"]; });
+
+
+
+
+
+
+
+Object(_utils_batch__WEBPACK_IMPORTED_MODULE_4__["setBatch"])(_utils_reactBatchedUpdates__WEBPACK_IMPORTED_MODULE_5__["unstable_batchedUpdates"]);
+
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/utils/Subscription.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-redux/es/utils/Subscription.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Subscription; });
+/* harmony import */ var _batch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./batch */ "./node_modules/react-redux/es/utils/batch.js");
+ // encapsulates the subscription logic for connecting a component to the redux store, as
+// well as nesting subscriptions of descendant components, so that we can ensure the
+// ancestor components re-render before descendants
+
+var CLEARED = null;
+var nullListeners = {
+  notify: function notify() {}
+};
+
+function createListenerCollection() {
+  var batch = Object(_batch__WEBPACK_IMPORTED_MODULE_0__["getBatch"])(); // the current/next pattern is copied from redux's createStore code.
+  // TODO: refactor+expose that code to be reusable here?
+
+  var current = [];
+  var next = [];
+  return {
+    clear: function clear() {
+      next = CLEARED;
+      current = CLEARED;
+    },
+    notify: function notify() {
+      var listeners = current = next;
+      batch(function () {
+        for (var i = 0; i < listeners.length; i++) {
+          listeners[i]();
+        }
+      });
+    },
+    get: function get() {
+      return next;
+    },
+    subscribe: function subscribe(listener) {
+      var isSubscribed = true;
+      if (next === current) next = current.slice();
+      next.push(listener);
+      return function unsubscribe() {
+        if (!isSubscribed || current === CLEARED) return;
+        isSubscribed = false;
+        if (next === current) next = current.slice();
+        next.splice(next.indexOf(listener), 1);
+      };
+    }
+  };
+}
+
+var Subscription =
+/*#__PURE__*/
+function () {
+  function Subscription(store, parentSub) {
+    this.store = store;
+    this.parentSub = parentSub;
+    this.unsubscribe = null;
+    this.listeners = nullListeners;
+    this.handleChangeWrapper = this.handleChangeWrapper.bind(this);
+  }
+
+  var _proto = Subscription.prototype;
+
+  _proto.addNestedSub = function addNestedSub(listener) {
+    this.trySubscribe();
+    return this.listeners.subscribe(listener);
+  };
+
+  _proto.notifyNestedSubs = function notifyNestedSubs() {
+    this.listeners.notify();
+  };
+
+  _proto.handleChangeWrapper = function handleChangeWrapper() {
+    if (this.onStateChange) {
+      this.onStateChange();
+    }
+  };
+
+  _proto.isSubscribed = function isSubscribed() {
+    return Boolean(this.unsubscribe);
+  };
+
+  _proto.trySubscribe = function trySubscribe() {
+    if (!this.unsubscribe) {
+      this.unsubscribe = this.parentSub ? this.parentSub.addNestedSub(this.handleChangeWrapper) : this.store.subscribe(this.handleChangeWrapper);
+      this.listeners = createListenerCollection();
+    }
+  };
+
+  _proto.tryUnsubscribe = function tryUnsubscribe() {
+    if (this.unsubscribe) {
+      this.unsubscribe();
+      this.unsubscribe = null;
+      this.listeners.clear();
+      this.listeners = nullListeners;
+    }
+  };
+
+  return Subscription;
+}();
+
+
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/utils/batch.js":
+/*!****************************************************!*\
+  !*** ./node_modules/react-redux/es/utils/batch.js ***!
+  \****************************************************/
+/*! exports provided: setBatch, getBatch */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setBatch", function() { return setBatch; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getBatch", function() { return getBatch; });
+// Default to a dummy "batch" implementation that just runs the callback
+function defaultNoopBatch(callback) {
+  callback();
+}
+
+var batch = defaultNoopBatch; // Allow injecting another batching function later
+
+var setBatch = function setBatch(newBatch) {
+  return batch = newBatch;
+}; // Supply a getter just to skip dealing with ESM bindings
+
+var getBatch = function getBatch() {
+  return batch;
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/utils/isPlainObject.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-redux/es/utils/isPlainObject.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return isPlainObject; });
+/**
+ * @param {any} obj The object to inspect.
+ * @returns {boolean} True if the argument appears to be a plain object.
+ */
+function isPlainObject(obj) {
+  if (typeof obj !== 'object' || obj === null) return false;
+  var proto = Object.getPrototypeOf(obj);
+  if (proto === null) return true;
+  var baseProto = proto;
+
+  while (Object.getPrototypeOf(baseProto) !== null) {
+    baseProto = Object.getPrototypeOf(baseProto);
+  }
+
+  return proto === baseProto;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/utils/reactBatchedUpdates.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-redux/es/utils/reactBatchedUpdates.js ***!
+  \******************************************************************/
+/*! exports provided: unstable_batchedUpdates */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "unstable_batchedUpdates", function() { return react_dom__WEBPACK_IMPORTED_MODULE_0__["unstable_batchedUpdates"]; });
+
+/* eslint-disable import/no-unresolved */
+
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/utils/shallowEqual.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-redux/es/utils/shallowEqual.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return shallowEqual; });
+var hasOwn = Object.prototype.hasOwnProperty;
+
+function is(x, y) {
+  if (x === y) {
+    return x !== 0 || y !== 0 || 1 / x === 1 / y;
+  } else {
+    return x !== x && y !== y;
+  }
+}
+
+function shallowEqual(objA, objB) {
+  if (is(objA, objB)) return true;
+
+  if (typeof objA !== 'object' || objA === null || typeof objB !== 'object' || objB === null) {
+    return false;
+  }
+
+  var keysA = Object.keys(objA);
+  var keysB = Object.keys(objB);
+  if (keysA.length !== keysB.length) return false;
+
+  for (var i = 0; i < keysA.length; i++) {
+    if (!hasOwn.call(objB, keysA[i]) || !is(objA[keysA[i]], objB[keysA[i]])) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/utils/verifyPlainObject.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-redux/es/utils/verifyPlainObject.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return verifyPlainObject; });
+/* harmony import */ var _isPlainObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isPlainObject */ "./node_modules/react-redux/es/utils/isPlainObject.js");
+/* harmony import */ var _warning__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./warning */ "./node_modules/react-redux/es/utils/warning.js");
+
+
+function verifyPlainObject(value, displayName, methodName) {
+  if (!Object(_isPlainObject__WEBPACK_IMPORTED_MODULE_0__["default"])(value)) {
+    Object(_warning__WEBPACK_IMPORTED_MODULE_1__["default"])(methodName + "() in " + displayName + " must return a plain object. Instead received " + value + ".");
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/es/utils/warning.js":
+/*!******************************************************!*\
+  !*** ./node_modules/react-redux/es/utils/warning.js ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return warning; });
+/**
+ * Prints a warning in the console if it exists.
+ *
+ * @param {String} message The warning message.
+ * @returns {void}
+ */
+function warning(message) {
+  /* eslint-disable no-console */
+  if (typeof console !== 'undefined' && typeof console.error === 'function') {
+    console.error(message);
+  }
+  /* eslint-enable no-console */
+
+
+  try {
+    // This error was thrown as a convenience so that if you enable
+    // "break on all exceptions" in your console,
+    // it would pause the execution at this line.
+    throw new Error(message);
+    /* eslint-disable no-empty */
+  } catch (e) {}
+  /* eslint-enable no-empty */
+
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js ***!
+  \***************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _assertThisInitialized; });
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js ***!
+  \*******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _inheritsLoose; });
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectWithoutPropertiesLoose; });
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/node_modules/prop-types/checkPropTypes.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/react-redux/node_modules/prop-types/checkPropTypes.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+var printWarning = function() {};
+
+if (true) {
+  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/react-redux/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+  var loggedTypeFailures = {};
+  var has = Function.call.bind(Object.prototype.hasOwnProperty);
+
+  printWarning = function(text) {
+    var message = 'Warning: ' + text;
+    if (typeof console !== 'undefined') {
+      console.error(message);
+    }
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  };
+}
+
+/**
+ * Assert that the values match with the type specs.
+ * Error messages are memorized and will only be shown once.
+ *
+ * @param {object} typeSpecs Map of name to a ReactPropType
+ * @param {object} values Runtime values that need to be type-checked
+ * @param {string} location e.g. "prop", "context", "child context"
+ * @param {string} componentName Name of the component for error messages.
+ * @param {?Function} getStack Returns the component stack.
+ * @private
+ */
+function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
+  if (true) {
+    for (var typeSpecName in typeSpecs) {
+      if (has(typeSpecs, typeSpecName)) {
+        var error;
+        // Prop type validation may throw. In case they do, we don't want to
+        // fail the render phase where it didn't fail before. So we log it.
+        // After these have been cleaned up, we'll let them throw.
+        try {
+          // This is intentionally an invariant that gets caught. It's the same
+          // behavior as without this statement except with a better message.
+          if (typeof typeSpecs[typeSpecName] !== 'function') {
+            var err = Error(
+              (componentName || 'React class') + ': ' + location + ' type `' + typeSpecName + '` is invalid; ' +
+              'it must be a function, usually from the `prop-types` package, but received `' + typeof typeSpecs[typeSpecName] + '`.'
+            );
+            err.name = 'Invariant Violation';
+            throw err;
+          }
+          error = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, ReactPropTypesSecret);
+        } catch (ex) {
+          error = ex;
+        }
+        if (error && !(error instanceof Error)) {
+          printWarning(
+            (componentName || 'React class') + ': type specification of ' +
+            location + ' `' + typeSpecName + '` is invalid; the type checker ' +
+            'function must return `null` or an `Error` but returned a ' + typeof error + '. ' +
+            'You may have forgotten to pass an argument to the type checker ' +
+            'creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and ' +
+            'shape all require an argument).'
+          );
+        }
+        if (error instanceof Error && !(error.message in loggedTypeFailures)) {
+          // Only monitor this failure once because there tends to be a lot of the
+          // same error.
+          loggedTypeFailures[error.message] = true;
+
+          var stack = getStack ? getStack() : '';
+
+          printWarning(
+            'Failed ' + location + ' type: ' + error.message + (stack != null ? stack : '')
+          );
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Resets warning cache when testing.
+ *
+ * @private
+ */
+checkPropTypes.resetWarningCache = function() {
+  if (true) {
+    loggedTypeFailures = {};
+  }
+}
+
+module.exports = checkPropTypes;
+
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/node_modules/prop-types/factoryWithTypeCheckers.js":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/react-redux/node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7751,8 +9592,8 @@ module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226
 var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
 var assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
 
-var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
-var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/react-redux/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/react-redux/node_modules/prop-types/checkPropTypes.js");
 
 var has = Function.call.bind(Object.prototype.hasOwnProperty);
 var printWarning = function() {};
@@ -8334,10 +10175,10 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/index.js":
-/*!******************************************!*\
-  !*** ./node_modules/prop-types/index.js ***!
-  \******************************************/
+/***/ "./node_modules/react-redux/node_modules/prop-types/index.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-redux/node_modules/prop-types/index.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8354,255 +10195,22 @@ if (true) {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/react-redux/node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else {}
 
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
-/*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_7aff549c98b978433226 ***!
-  \*******************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
-
-/***/ }),
-
-/***/ "./node_modules/querystring-es3/decode.js":
-/*!************************************************!*\
-  !*** ./node_modules/querystring-es3/decode.js ***!
-  \************************************************/
+/***/ "./node_modules/react-redux/node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/react-redux/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-// If obj.hasOwnProperty has been overridden, then calling
-// obj.hasOwnProperty(prop) will break.
-// See: https://github.com/joyent/node/issues/1707
-function hasOwnProperty(obj, prop) {
-  return Object.prototype.hasOwnProperty.call(obj, prop);
-}
-
-module.exports = function(qs, sep, eq, options) {
-  sep = sep || '&';
-  eq = eq || '=';
-  var obj = {};
-
-  if (typeof qs !== 'string' || qs.length === 0) {
-    return obj;
-  }
-
-  var regexp = /\+/g;
-  qs = qs.split(sep);
-
-  var maxKeys = 1000;
-  if (options && typeof options.maxKeys === 'number') {
-    maxKeys = options.maxKeys;
-  }
-
-  var len = qs.length;
-  // maxKeys <= 0 means that we should not limit keys count
-  if (maxKeys > 0 && len > maxKeys) {
-    len = maxKeys;
-  }
-
-  for (var i = 0; i < len; ++i) {
-    var x = qs[i].replace(regexp, '%20'),
-        idx = x.indexOf(eq),
-        kstr, vstr, k, v;
-
-    if (idx >= 0) {
-      kstr = x.substr(0, idx);
-      vstr = x.substr(idx + 1);
-    } else {
-      kstr = x;
-      vstr = '';
-    }
-
-    k = decodeURIComponent(kstr);
-    v = decodeURIComponent(vstr);
-
-    if (!hasOwnProperty(obj, k)) {
-      obj[k] = v;
-    } else if (isArray(obj[k])) {
-      obj[k].push(v);
-    } else {
-      obj[k] = [obj[k], v];
-    }
-  }
-
-  return obj;
-};
-
-var isArray = Array.isArray || function (xs) {
-  return Object.prototype.toString.call(xs) === '[object Array]';
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/querystring-es3/encode.js":
-/*!************************************************!*\
-  !*** ./node_modules/querystring-es3/encode.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-var stringifyPrimitive = function(v) {
-  switch (typeof v) {
-    case 'string':
-      return v;
-
-    case 'boolean':
-      return v ? 'true' : 'false';
-
-    case 'number':
-      return isFinite(v) ? v : '';
-
-    default:
-      return '';
-  }
-};
-
-module.exports = function(obj, sep, eq, name) {
-  sep = sep || '&';
-  eq = eq || '=';
-  if (obj === null) {
-    obj = undefined;
-  }
-
-  if (typeof obj === 'object') {
-    return map(objectKeys(obj), function(k) {
-      var ks = encodeURIComponent(stringifyPrimitive(k)) + eq;
-      if (isArray(obj[k])) {
-        return map(obj[k], function(v) {
-          return ks + encodeURIComponent(stringifyPrimitive(v));
-        }).join(sep);
-      } else {
-        return ks + encodeURIComponent(stringifyPrimitive(obj[k]));
-      }
-    }).join(sep);
-
-  }
-
-  if (!name) return '';
-  return encodeURIComponent(stringifyPrimitive(name)) + eq +
-         encodeURIComponent(stringifyPrimitive(obj));
-};
-
-var isArray = Array.isArray || function (xs) {
-  return Object.prototype.toString.call(xs) === '[object Array]';
-};
-
-function map (xs, f) {
-  if (xs.map) return xs.map(f);
-  var res = [];
-  for (var i = 0; i < xs.length; i++) {
-    res.push(f(xs[i], i));
-  }
-  return res;
-}
-
-var objectKeys = Object.keys || function (obj) {
-  var res = [];
-  for (var key in obj) {
-    if (Object.prototype.hasOwnProperty.call(obj, key)) res.push(key);
-  }
-  return res;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/querystring-es3/index.js":
-/*!***********************************************!*\
-  !*** ./node_modules/querystring-es3/index.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring-es3/decode.js");
-exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring-es3/encode.js");
-
-
-/***/ }),
-
-/***/ "./node_modules/react-dom/index.js":
-/*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_7aff549c98b978433226 ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react-dom/index.js");
-
-/***/ }),
-
-/***/ "./node_modules/react-is/cjs/react-is.development.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/** @license React v16.8.6
- * react-is.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -8610,1502 +10218,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226
 
 
 
+var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
+module.exports = ReactPropTypesSecret;
 
-if (true) {
-  (function() {
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
-// nor polyfill, then a plain number is used for performance.
-var hasSymbol = typeof Symbol === 'function' && Symbol.for;
-
-var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
-var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
-var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
-var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
-var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
-var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
-var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace;
-var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
-var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
-var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
-var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
-var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
-var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
-
-function isValidElementType(type) {
-  return typeof type === 'string' || typeof type === 'function' ||
-  // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
-  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE);
-}
-
-/**
- * Forked from fbjs/warning:
- * https://github.com/facebook/fbjs/blob/e66ba20ad5be433eb54423f2b097d829324d9de6/packages/fbjs/src/__forks__/warning.js
- *
- * Only change is we use console.warn instead of console.error,
- * and do nothing when 'console' is not supported.
- * This really simplifies the code.
- * ---
- * Similar to invariant but only logs a warning if the condition is not met.
- * This can be used to log issues in development environments in critical
- * paths. Removing the logging code for production environments will keep the
- * same logic and follow the same code paths.
- */
-
-var lowPriorityWarning = function () {};
-
-{
-  var printWarning = function (format) {
-    for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-      args[_key - 1] = arguments[_key];
-    }
-
-    var argIndex = 0;
-    var message = 'Warning: ' + format.replace(/%s/g, function () {
-      return args[argIndex++];
-    });
-    if (typeof console !== 'undefined') {
-      console.warn(message);
-    }
-    try {
-      // --- Welcome to debugging React ---
-      // This error was thrown as a convenience so that you can use this stack
-      // to find the callsite that caused this warning to fire.
-      throw new Error(message);
-    } catch (x) {}
-  };
-
-  lowPriorityWarning = function (condition, format) {
-    if (format === undefined) {
-      throw new Error('`lowPriorityWarning(condition, format, ...args)` requires a warning ' + 'message argument');
-    }
-    if (!condition) {
-      for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
-        args[_key2 - 2] = arguments[_key2];
-      }
-
-      printWarning.apply(undefined, [format].concat(args));
-    }
-  };
-}
-
-var lowPriorityWarning$1 = lowPriorityWarning;
-
-function typeOf(object) {
-  if (typeof object === 'object' && object !== null) {
-    var $$typeof = object.$$typeof;
-    switch ($$typeof) {
-      case REACT_ELEMENT_TYPE:
-        var type = object.type;
-
-        switch (type) {
-          case REACT_ASYNC_MODE_TYPE:
-          case REACT_CONCURRENT_MODE_TYPE:
-          case REACT_FRAGMENT_TYPE:
-          case REACT_PROFILER_TYPE:
-          case REACT_STRICT_MODE_TYPE:
-          case REACT_SUSPENSE_TYPE:
-            return type;
-          default:
-            var $$typeofType = type && type.$$typeof;
-
-            switch ($$typeofType) {
-              case REACT_CONTEXT_TYPE:
-              case REACT_FORWARD_REF_TYPE:
-              case REACT_PROVIDER_TYPE:
-                return $$typeofType;
-              default:
-                return $$typeof;
-            }
-        }
-      case REACT_LAZY_TYPE:
-      case REACT_MEMO_TYPE:
-      case REACT_PORTAL_TYPE:
-        return $$typeof;
-    }
-  }
-
-  return undefined;
-}
-
-// AsyncMode is deprecated along with isAsyncMode
-var AsyncMode = REACT_ASYNC_MODE_TYPE;
-var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
-var ContextConsumer = REACT_CONTEXT_TYPE;
-var ContextProvider = REACT_PROVIDER_TYPE;
-var Element = REACT_ELEMENT_TYPE;
-var ForwardRef = REACT_FORWARD_REF_TYPE;
-var Fragment = REACT_FRAGMENT_TYPE;
-var Lazy = REACT_LAZY_TYPE;
-var Memo = REACT_MEMO_TYPE;
-var Portal = REACT_PORTAL_TYPE;
-var Profiler = REACT_PROFILER_TYPE;
-var StrictMode = REACT_STRICT_MODE_TYPE;
-var Suspense = REACT_SUSPENSE_TYPE;
-
-var hasWarnedAboutDeprecatedIsAsyncMode = false;
-
-// AsyncMode should be deprecated
-function isAsyncMode(object) {
-  {
-    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
-      hasWarnedAboutDeprecatedIsAsyncMode = true;
-      lowPriorityWarning$1(false, 'The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
-    }
-  }
-  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
-}
-function isConcurrentMode(object) {
-  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
-}
-function isContextConsumer(object) {
-  return typeOf(object) === REACT_CONTEXT_TYPE;
-}
-function isContextProvider(object) {
-  return typeOf(object) === REACT_PROVIDER_TYPE;
-}
-function isElement(object) {
-  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-}
-function isForwardRef(object) {
-  return typeOf(object) === REACT_FORWARD_REF_TYPE;
-}
-function isFragment(object) {
-  return typeOf(object) === REACT_FRAGMENT_TYPE;
-}
-function isLazy(object) {
-  return typeOf(object) === REACT_LAZY_TYPE;
-}
-function isMemo(object) {
-  return typeOf(object) === REACT_MEMO_TYPE;
-}
-function isPortal(object) {
-  return typeOf(object) === REACT_PORTAL_TYPE;
-}
-function isProfiler(object) {
-  return typeOf(object) === REACT_PROFILER_TYPE;
-}
-function isStrictMode(object) {
-  return typeOf(object) === REACT_STRICT_MODE_TYPE;
-}
-function isSuspense(object) {
-  return typeOf(object) === REACT_SUSPENSE_TYPE;
-}
-
-exports.typeOf = typeOf;
-exports.AsyncMode = AsyncMode;
-exports.ConcurrentMode = ConcurrentMode;
-exports.ContextConsumer = ContextConsumer;
-exports.ContextProvider = ContextProvider;
-exports.Element = Element;
-exports.ForwardRef = ForwardRef;
-exports.Fragment = Fragment;
-exports.Lazy = Lazy;
-exports.Memo = Memo;
-exports.Portal = Portal;
-exports.Profiler = Profiler;
-exports.StrictMode = StrictMode;
-exports.Suspense = Suspense;
-exports.isValidElementType = isValidElementType;
-exports.isAsyncMode = isAsyncMode;
-exports.isConcurrentMode = isConcurrentMode;
-exports.isContextConsumer = isContextConsumer;
-exports.isContextProvider = isContextProvider;
-exports.isElement = isElement;
-exports.isForwardRef = isForwardRef;
-exports.isFragment = isFragment;
-exports.isLazy = isLazy;
-exports.isMemo = isMemo;
-exports.isPortal = isPortal;
-exports.isProfiler = isProfiler;
-exports.isStrictMode = isStrictMode;
-exports.isSuspense = isSuspense;
-  })();
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/react-is/index.js":
-/*!****************************************!*\
-  !*** ./node_modules/react-is/index.js ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/components/Context.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-redux/es/components/Context.js ***!
-  \***********************************************************/
-/*! exports provided: ReactReduxContext, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReactReduxContext", function() { return ReactReduxContext; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-var ReactReduxContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext(null);
-/* harmony default export */ __webpack_exports__["default"] = (ReactReduxContext);
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/components/Provider.js":
-/*!************************************************************!*\
-  !*** ./node_modules/react-redux/es/components/Provider.js ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _Context__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Context */ "./node_modules/react-redux/es/components/Context.js");
-/* harmony import */ var _utils_Subscription__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/Subscription */ "./node_modules/react-redux/es/utils/Subscription.js");
-
-
-
-
-
-
-
-var Provider =
-/*#__PURE__*/
-function (_Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Provider, _Component);
-
-  function Provider(props) {
-    var _this;
-
-    _this = _Component.call(this, props) || this;
-    var store = props.store;
-    _this.notifySubscribers = _this.notifySubscribers.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__["default"])(_this));
-    var subscription = new _utils_Subscription__WEBPACK_IMPORTED_MODULE_5__["default"](store);
-    subscription.onStateChange = _this.notifySubscribers;
-    _this.state = {
-      store: store,
-      subscription: subscription
-    };
-    _this.previousState = store.getState();
-    return _this;
-  }
-
-  var _proto = Provider.prototype;
-
-  _proto.componentDidMount = function componentDidMount() {
-    this._isMounted = true;
-    this.state.subscription.trySubscribe();
-
-    if (this.previousState !== this.props.store.getState()) {
-      this.state.subscription.notifyNestedSubs();
-    }
-  };
-
-  _proto.componentWillUnmount = function componentWillUnmount() {
-    if (this.unsubscribe) this.unsubscribe();
-    this.state.subscription.tryUnsubscribe();
-    this._isMounted = false;
-  };
-
-  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
-    if (this.props.store !== prevProps.store) {
-      this.state.subscription.tryUnsubscribe();
-      var subscription = new _utils_Subscription__WEBPACK_IMPORTED_MODULE_5__["default"](this.props.store);
-      subscription.onStateChange = this.notifySubscribers;
-      this.setState({
-        store: this.props.store,
-        subscription: subscription
-      });
-    }
-  };
-
-  _proto.notifySubscribers = function notifySubscribers() {
-    this.state.subscription.notifyNestedSubs();
-  };
-
-  _proto.render = function render() {
-    var Context = this.props.context || _Context__WEBPACK_IMPORTED_MODULE_4__["ReactReduxContext"];
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Context.Provider, {
-      value: this.state
-    }, this.props.children);
-  };
-
-  return Provider;
-}(react__WEBPACK_IMPORTED_MODULE_2__["Component"]);
-
-Provider.propTypes = {
-  store: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.shape({
-    subscribe: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired,
-    dispatch: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired,
-    getState: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired
-  }),
-  context: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object,
-  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.any
-};
-/* harmony default export */ __webpack_exports__["default"] = (Provider);
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/components/connectAdvanced.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/react-redux/es/components/connectAdvanced.js ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return connectAdvanced; });
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hoist-non-react-statics */ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js");
-/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! invariant */ "./node_modules/invariant/browser.js");
-/* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(invariant__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
-/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_is__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _utils_Subscription__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/Subscription */ "./node_modules/react-redux/es/utils/Subscription.js");
-/* harmony import */ var _Context__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Context */ "./node_modules/react-redux/es/components/Context.js");
-
-
-
-
-
-
-
- // Define some constant arrays just to avoid re-creating these
-
-var EMPTY_ARRAY = [];
-var NO_SUBSCRIPTION_ARRAY = [null, null];
-
-var stringifyComponent = function stringifyComponent(Comp) {
-  try {
-    return JSON.stringify(Comp);
-  } catch (err) {
-    return String(Comp);
-  }
-};
-
-function storeStateUpdatesReducer(state, action) {
-  var updateCount = state[1];
-  return [action.payload, updateCount + 1];
-}
-
-var initStateUpdates = function initStateUpdates() {
-  return [null, 0];
-}; // React currently throws a warning when using useLayoutEffect on the server.
-// To get around it, we can conditionally useEffect on the server (no-op) and
-// useLayoutEffect in the browser. We need useLayoutEffect because we want
-// `connect` to perform sync updates to a ref to save the latest props after
-// a render is actually committed to the DOM.
-
-
-var useIsomorphicLayoutEffect = typeof window !== 'undefined' ? react__WEBPACK_IMPORTED_MODULE_4__["useLayoutEffect"] : react__WEBPACK_IMPORTED_MODULE_4__["useEffect"];
-function connectAdvanced(
-/*
-  selectorFactory is a func that is responsible for returning the selector function used to
-  compute new props from state, props, and dispatch. For example:
-      export default connectAdvanced((dispatch, options) => (state, props) => ({
-      thing: state.things[props.thingId],
-      saveThing: fields => dispatch(actionCreators.saveThing(props.thingId, fields)),
-    }))(YourComponent)
-    Access to dispatch is provided to the factory so selectorFactories can bind actionCreators
-  outside of their selector as an optimization. Options passed to connectAdvanced are passed to
-  the selectorFactory, along with displayName and WrappedComponent, as the second argument.
-    Note that selectorFactory is responsible for all caching/memoization of inbound and outbound
-  props. Do not use connectAdvanced directly without memoizing results between calls to your
-  selector, otherwise the Connect component will re-render on every state or props change.
-*/
-selectorFactory, // options object:
-_ref) {
-  if (_ref === void 0) {
-    _ref = {};
-  }
-
-  var _ref2 = _ref,
-      _ref2$getDisplayName = _ref2.getDisplayName,
-      getDisplayName = _ref2$getDisplayName === void 0 ? function (name) {
-    return "ConnectAdvanced(" + name + ")";
-  } : _ref2$getDisplayName,
-      _ref2$methodName = _ref2.methodName,
-      methodName = _ref2$methodName === void 0 ? 'connectAdvanced' : _ref2$methodName,
-      _ref2$renderCountProp = _ref2.renderCountProp,
-      renderCountProp = _ref2$renderCountProp === void 0 ? undefined : _ref2$renderCountProp,
-      _ref2$shouldHandleSta = _ref2.shouldHandleStateChanges,
-      shouldHandleStateChanges = _ref2$shouldHandleSta === void 0 ? true : _ref2$shouldHandleSta,
-      _ref2$storeKey = _ref2.storeKey,
-      storeKey = _ref2$storeKey === void 0 ? 'store' : _ref2$storeKey,
-      _ref2$withRef = _ref2.withRef,
-      withRef = _ref2$withRef === void 0 ? false : _ref2$withRef,
-      _ref2$forwardRef = _ref2.forwardRef,
-      forwardRef = _ref2$forwardRef === void 0 ? false : _ref2$forwardRef,
-      _ref2$context = _ref2.context,
-      context = _ref2$context === void 0 ? _Context__WEBPACK_IMPORTED_MODULE_7__["ReactReduxContext"] : _ref2$context,
-      connectOptions = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref2, ["getDisplayName", "methodName", "renderCountProp", "shouldHandleStateChanges", "storeKey", "withRef", "forwardRef", "context"]);
-
-  invariant__WEBPACK_IMPORTED_MODULE_3___default()(renderCountProp === undefined, "renderCountProp is removed. render counting is built into the latest React Dev Tools profiling extension");
-  invariant__WEBPACK_IMPORTED_MODULE_3___default()(!withRef, 'withRef is removed. To access the wrapped instance, use a ref on the connected component');
-  var customStoreWarningMessage = 'To use a custom Redux store for specific components, create a custom React context with ' + "React.createContext(), and pass the context object to React Redux's Provider and specific components" + ' like: <Provider context={MyContext}><ConnectedComponent context={MyContext} /></Provider>. ' + 'You may also pass a {context : MyContext} option to connect';
-  invariant__WEBPACK_IMPORTED_MODULE_3___default()(storeKey === 'store', 'storeKey has been removed and does not do anything. ' + customStoreWarningMessage);
-  var Context = context;
-  return function wrapWithConnect(WrappedComponent) {
-    if (true) {
-      invariant__WEBPACK_IMPORTED_MODULE_3___default()(Object(react_is__WEBPACK_IMPORTED_MODULE_5__["isValidElementType"])(WrappedComponent), "You must pass a component to the function returned by " + (methodName + ". Instead received " + stringifyComponent(WrappedComponent)));
-    }
-
-    var wrappedComponentName = WrappedComponent.displayName || WrappedComponent.name || 'Component';
-    var displayName = getDisplayName(wrappedComponentName);
-
-    var selectorFactoryOptions = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, connectOptions, {
-      getDisplayName: getDisplayName,
-      methodName: methodName,
-      renderCountProp: renderCountProp,
-      shouldHandleStateChanges: shouldHandleStateChanges,
-      storeKey: storeKey,
-      displayName: displayName,
-      wrappedComponentName: wrappedComponentName,
-      WrappedComponent: WrappedComponent
-    });
-
-    var pure = connectOptions.pure;
-
-    function createChildSelector(store) {
-      return selectorFactory(store.dispatch, selectorFactoryOptions);
-    } // If we aren't running in "pure" mode, we don't want to memoize values.
-    // To avoid conditionally calling hooks, we fall back to a tiny wrapper
-    // that just executes the given callback immediately.
-
-
-    var usePureOnlyMemo = pure ? react__WEBPACK_IMPORTED_MODULE_4__["useMemo"] : function (callback) {
-      return callback();
-    };
-
-    function ConnectFunction(props) {
-      var _useMemo = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
-        // Distinguish between actual "data" props that were passed to the wrapper component,
-        // and values needed to control behavior (forwarded refs, alternate context instances).
-        // To maintain the wrapperProps object reference, memoize this destructuring.
-        var context = props.context,
-            forwardedRef = props.forwardedRef,
-            wrapperProps = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(props, ["context", "forwardedRef"]);
-
-        return [context, forwardedRef, wrapperProps];
-      }, [props]),
-          propsContext = _useMemo[0],
-          forwardedRef = _useMemo[1],
-          wrapperProps = _useMemo[2];
-
-      var ContextToUse = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
-        // Users may optionally pass in a custom context instance to use instead of our ReactReduxContext.
-        // Memoize the check that determines which context instance we should use.
-        return propsContext && propsContext.Consumer && Object(react_is__WEBPACK_IMPORTED_MODULE_5__["isContextConsumer"])(react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(propsContext.Consumer, null)) ? propsContext : Context;
-      }, [propsContext, Context]); // Retrieve the store and ancestor subscription via context, if available
-
-      var contextValue = Object(react__WEBPACK_IMPORTED_MODULE_4__["useContext"])(ContextToUse); // The store _must_ exist as either a prop or in context
-
-      var didStoreComeFromProps = Boolean(props.store);
-      var didStoreComeFromContext = Boolean(contextValue) && Boolean(contextValue.store);
-      invariant__WEBPACK_IMPORTED_MODULE_3___default()(didStoreComeFromProps || didStoreComeFromContext, "Could not find \"store\" in the context of " + ("\"" + displayName + "\". Either wrap the root component in a <Provider>, ") + "or pass a custom React context provider to <Provider> and the corresponding " + ("React context consumer to " + displayName + " in connect options."));
-      var store = props.store || contextValue.store;
-      var childPropsSelector = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
-        // The child props selector needs the store reference as an input.
-        // Re-create this selector whenever the store changes.
-        return createChildSelector(store);
-      }, [store]);
-
-      var _useMemo2 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
-        if (!shouldHandleStateChanges) return NO_SUBSCRIPTION_ARRAY; // This Subscription's source should match where store came from: props vs. context. A component
-        // connected to the store via props shouldn't use subscription from context, or vice versa.
-
-        var subscription = new _utils_Subscription__WEBPACK_IMPORTED_MODULE_6__["default"](store, didStoreComeFromProps ? null : contextValue.subscription); // `notifyNestedSubs` is duplicated to handle the case where the component is unmounted in
-        // the middle of the notification loop, where `subscription` will then be null. This can
-        // probably be avoided if Subscription's listeners logic is changed to not call listeners
-        // that have been unsubscribed in the  middle of the notification loop.
-
-        var notifyNestedSubs = subscription.notifyNestedSubs.bind(subscription);
-        return [subscription, notifyNestedSubs];
-      }, [store, didStoreComeFromProps, contextValue]),
-          subscription = _useMemo2[0],
-          notifyNestedSubs = _useMemo2[1]; // Determine what {store, subscription} value should be put into nested context, if necessary,
-      // and memoize that value to avoid unnecessary context updates.
-
-
-      var overriddenContextValue = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
-        if (didStoreComeFromProps) {
-          // This component is directly subscribed to a store from props.
-          // We don't want descendants reading from this store - pass down whatever
-          // the existing context value is from the nearest connected ancestor.
-          return contextValue;
-        } // Otherwise, put this component's subscription instance into context, so that
-        // connected descendants won't update until after this component is done
-
-
-        return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, contextValue, {
-          subscription: subscription
-        });
-      }, [didStoreComeFromProps, contextValue, subscription]); // We need to force this wrapper component to re-render whenever a Redux store update
-      // causes a change to the calculated child component props (or we caught an error in mapState)
-
-      var _useReducer = Object(react__WEBPACK_IMPORTED_MODULE_4__["useReducer"])(storeStateUpdatesReducer, EMPTY_ARRAY, initStateUpdates),
-          _useReducer$ = _useReducer[0],
-          previousStateUpdateResult = _useReducer$[0],
-          forceComponentUpdateDispatch = _useReducer[1]; // Propagate any mapState/mapDispatch errors upwards
-
-
-      if (previousStateUpdateResult && previousStateUpdateResult.error) {
-        throw previousStateUpdateResult.error;
-      } // Set up refs to coordinate values between the subscription effect and the render logic
-
-
-      var lastChildProps = Object(react__WEBPACK_IMPORTED_MODULE_4__["useRef"])();
-      var lastWrapperProps = Object(react__WEBPACK_IMPORTED_MODULE_4__["useRef"])(wrapperProps);
-      var childPropsFromStoreUpdate = Object(react__WEBPACK_IMPORTED_MODULE_4__["useRef"])();
-      var renderIsScheduled = Object(react__WEBPACK_IMPORTED_MODULE_4__["useRef"])(false);
-      var actualChildProps = usePureOnlyMemo(function () {
-        // Tricky logic here:
-        // - This render may have been triggered by a Redux store update that produced new child props
-        // - However, we may have gotten new wrapper props after that
-        // If we have new child props, and the same wrapper props, we know we should use the new child props as-is.
-        // But, if we have new wrapper props, those might change the child props, so we have to recalculate things.
-        // So, we'll use the child props from store update only if the wrapper props are the same as last time.
-        if (childPropsFromStoreUpdate.current && wrapperProps === lastWrapperProps.current) {
-          return childPropsFromStoreUpdate.current;
-        } // TODO We're reading the store directly in render() here. Bad idea?
-        // This will likely cause Bad Things (TM) to happen in Concurrent Mode.
-        // Note that we do this because on renders _not_ caused by store updates, we need the latest store state
-        // to determine what the child props should be.
-
-
-        return childPropsSelector(store.getState(), wrapperProps);
-      }, [store, previousStateUpdateResult, wrapperProps]); // We need this to execute synchronously every time we re-render. However, React warns
-      // about useLayoutEffect in SSR, so we try to detect environment and fall back to
-      // just useEffect instead to avoid the warning, since neither will run anyway.
-
-      useIsomorphicLayoutEffect(function () {
-        // We want to capture the wrapper props and child props we used for later comparisons
-        lastWrapperProps.current = wrapperProps;
-        lastChildProps.current = actualChildProps;
-        renderIsScheduled.current = false; // If the render was from a store update, clear out that reference and cascade the subscriber update
-
-        if (childPropsFromStoreUpdate.current) {
-          childPropsFromStoreUpdate.current = null;
-          notifyNestedSubs();
-        }
-      }); // Our re-subscribe logic only runs when the store/subscription setup changes
-
-      useIsomorphicLayoutEffect(function () {
-        // If we're not subscribed to the store, nothing to do here
-        if (!shouldHandleStateChanges) return; // Capture values for checking if and when this component unmounts
-
-        var didUnsubscribe = false;
-        var lastThrownError = null; // We'll run this callback every time a store subscription update propagates to this component
-
-        var checkForUpdates = function checkForUpdates() {
-          if (didUnsubscribe) {
-            // Don't run stale listeners.
-            // Redux doesn't guarantee unsubscriptions happen until next dispatch.
-            return;
-          }
-
-          var latestStoreState = store.getState();
-          var newChildProps, error;
-
-          try {
-            // Actually run the selector with the most recent store state and wrapper props
-            // to determine what the child props should be
-            newChildProps = childPropsSelector(latestStoreState, lastWrapperProps.current);
-          } catch (e) {
-            error = e;
-            lastThrownError = e;
-          }
-
-          if (!error) {
-            lastThrownError = null;
-          } // If the child props haven't changed, nothing to do here - cascade the subscription update
-
-
-          if (newChildProps === lastChildProps.current) {
-            if (!renderIsScheduled.current) {
-              notifyNestedSubs();
-            }
-          } else {
-            // Save references to the new child props.  Note that we track the "child props from store update"
-            // as a ref instead of a useState/useReducer because we need a way to determine if that value has
-            // been processed.  If this went into useState/useReducer, we couldn't clear out the value without
-            // forcing another re-render, which we don't want.
-            lastChildProps.current = newChildProps;
-            childPropsFromStoreUpdate.current = newChildProps;
-            renderIsScheduled.current = true; // If the child props _did_ change (or we caught an error), this wrapper component needs to re-render
-
-            forceComponentUpdateDispatch({
-              type: 'STORE_UPDATED',
-              payload: {
-                latestStoreState: latestStoreState,
-                error: error
-              }
-            });
-          }
-        }; // Actually subscribe to the nearest connected ancestor (or store)
-
-
-        subscription.onStateChange = checkForUpdates;
-        subscription.trySubscribe(); // Pull data from the store after first render in case the store has
-        // changed since we began.
-
-        checkForUpdates();
-
-        var unsubscribeWrapper = function unsubscribeWrapper() {
-          didUnsubscribe = true;
-          subscription.tryUnsubscribe();
-
-          if (lastThrownError) {
-            // It's possible that we caught an error due to a bad mapState function, but the
-            // parent re-rendered without this component and we're about to unmount.
-            // This shouldn't happen as long as we do top-down subscriptions correctly, but
-            // if we ever do those wrong, this throw will surface the error in our tests.
-            // In that case, throw the error from here so it doesn't get lost.
-            throw lastThrownError;
-          }
-        };
-
-        return unsubscribeWrapper;
-      }, [store, subscription, childPropsSelector]); // Now that all that's done, we can finally try to actually render the child component.
-      // We memoize the elements for the rendered child component as an optimization.
-
-      var renderedWrappedComponent = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
-        return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(WrappedComponent, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, actualChildProps, {
-          ref: forwardedRef
-        }));
-      }, [forwardedRef, WrappedComponent, actualChildProps]); // If React sees the exact same element reference as last time, it bails out of re-rendering
-      // that child, same as if it was wrapped in React.memo() or returned false from shouldComponentUpdate.
-
-      var renderedChild = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
-        if (shouldHandleStateChanges) {
-          // If this component is subscribed to store updates, we need to pass its own
-          // subscription instance down to our descendants. That means rendering the same
-          // Context instance, and putting a different value into the context.
-          return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(ContextToUse.Provider, {
-            value: overriddenContextValue
-          }, renderedWrappedComponent);
-        }
-
-        return renderedWrappedComponent;
-      }, [ContextToUse, renderedWrappedComponent, overriddenContextValue]);
-      return renderedChild;
-    } // If we're in "pure" mode, ensure our wrapper component only re-renders when incoming props have changed.
-
-
-    var Connect = pure ? react__WEBPACK_IMPORTED_MODULE_4___default.a.memo(ConnectFunction) : ConnectFunction;
-    Connect.WrappedComponent = WrappedComponent;
-    Connect.displayName = displayName;
-
-    if (forwardRef) {
-      var forwarded = react__WEBPACK_IMPORTED_MODULE_4___default.a.forwardRef(function forwardConnectRef(props, ref) {
-        return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(Connect, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
-          forwardedRef: ref
-        }));
-      });
-      forwarded.displayName = displayName;
-      forwarded.WrappedComponent = WrappedComponent;
-      return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default()(forwarded, WrappedComponent);
-    }
-
-    return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default()(Connect, WrappedComponent);
-  };
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/connect/connect.js":
-/*!********************************************************!*\
-  !*** ./node_modules/react-redux/es/connect/connect.js ***!
-  \********************************************************/
-/*! exports provided: createConnect, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createConnect", function() { return createConnect; });
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var _components_connectAdvanced__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/connectAdvanced */ "./node_modules/react-redux/es/components/connectAdvanced.js");
-/* harmony import */ var _utils_shallowEqual__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/shallowEqual */ "./node_modules/react-redux/es/utils/shallowEqual.js");
-/* harmony import */ var _mapDispatchToProps__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mapDispatchToProps */ "./node_modules/react-redux/es/connect/mapDispatchToProps.js");
-/* harmony import */ var _mapStateToProps__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mapStateToProps */ "./node_modules/react-redux/es/connect/mapStateToProps.js");
-/* harmony import */ var _mergeProps__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./mergeProps */ "./node_modules/react-redux/es/connect/mergeProps.js");
-/* harmony import */ var _selectorFactory__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./selectorFactory */ "./node_modules/react-redux/es/connect/selectorFactory.js");
-
-
-
-
-
-
-
-
-/*
-  connect is a facade over connectAdvanced. It turns its args into a compatible
-  selectorFactory, which has the signature:
-
-    (dispatch, options) => (nextState, nextOwnProps) => nextFinalProps
-  
-  connect passes its args to connectAdvanced as options, which will in turn pass them to
-  selectorFactory each time a Connect component instance is instantiated or hot reloaded.
-
-  selectorFactory returns a final props selector from its mapStateToProps,
-  mapStateToPropsFactories, mapDispatchToProps, mapDispatchToPropsFactories, mergeProps,
-  mergePropsFactories, and pure args.
-
-  The resulting final props selector is called by the Connect component instance whenever
-  it receives new props or store state.
- */
-
-function match(arg, factories, name) {
-  for (var i = factories.length - 1; i >= 0; i--) {
-    var result = factories[i](arg);
-    if (result) return result;
-  }
-
-  return function (dispatch, options) {
-    throw new Error("Invalid value of type " + typeof arg + " for " + name + " argument when connecting component " + options.wrappedComponentName + ".");
-  };
-}
-
-function strictEqual(a, b) {
-  return a === b;
-} // createConnect with default args builds the 'official' connect behavior. Calling it with
-// different options opens up some testing and extensibility scenarios
-
-
-function createConnect(_temp) {
-  var _ref = _temp === void 0 ? {} : _temp,
-      _ref$connectHOC = _ref.connectHOC,
-      connectHOC = _ref$connectHOC === void 0 ? _components_connectAdvanced__WEBPACK_IMPORTED_MODULE_2__["default"] : _ref$connectHOC,
-      _ref$mapStateToPropsF = _ref.mapStateToPropsFactories,
-      mapStateToPropsFactories = _ref$mapStateToPropsF === void 0 ? _mapStateToProps__WEBPACK_IMPORTED_MODULE_5__["default"] : _ref$mapStateToPropsF,
-      _ref$mapDispatchToPro = _ref.mapDispatchToPropsFactories,
-      mapDispatchToPropsFactories = _ref$mapDispatchToPro === void 0 ? _mapDispatchToProps__WEBPACK_IMPORTED_MODULE_4__["default"] : _ref$mapDispatchToPro,
-      _ref$mergePropsFactor = _ref.mergePropsFactories,
-      mergePropsFactories = _ref$mergePropsFactor === void 0 ? _mergeProps__WEBPACK_IMPORTED_MODULE_6__["default"] : _ref$mergePropsFactor,
-      _ref$selectorFactory = _ref.selectorFactory,
-      selectorFactory = _ref$selectorFactory === void 0 ? _selectorFactory__WEBPACK_IMPORTED_MODULE_7__["default"] : _ref$selectorFactory;
-
-  return function connect(mapStateToProps, mapDispatchToProps, mergeProps, _ref2) {
-    if (_ref2 === void 0) {
-      _ref2 = {};
-    }
-
-    var _ref3 = _ref2,
-        _ref3$pure = _ref3.pure,
-        pure = _ref3$pure === void 0 ? true : _ref3$pure,
-        _ref3$areStatesEqual = _ref3.areStatesEqual,
-        areStatesEqual = _ref3$areStatesEqual === void 0 ? strictEqual : _ref3$areStatesEqual,
-        _ref3$areOwnPropsEqua = _ref3.areOwnPropsEqual,
-        areOwnPropsEqual = _ref3$areOwnPropsEqua === void 0 ? _utils_shallowEqual__WEBPACK_IMPORTED_MODULE_3__["default"] : _ref3$areOwnPropsEqua,
-        _ref3$areStatePropsEq = _ref3.areStatePropsEqual,
-        areStatePropsEqual = _ref3$areStatePropsEq === void 0 ? _utils_shallowEqual__WEBPACK_IMPORTED_MODULE_3__["default"] : _ref3$areStatePropsEq,
-        _ref3$areMergedPropsE = _ref3.areMergedPropsEqual,
-        areMergedPropsEqual = _ref3$areMergedPropsE === void 0 ? _utils_shallowEqual__WEBPACK_IMPORTED_MODULE_3__["default"] : _ref3$areMergedPropsE,
-        extraOptions = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref3, ["pure", "areStatesEqual", "areOwnPropsEqual", "areStatePropsEqual", "areMergedPropsEqual"]);
-
-    var initMapStateToProps = match(mapStateToProps, mapStateToPropsFactories, 'mapStateToProps');
-    var initMapDispatchToProps = match(mapDispatchToProps, mapDispatchToPropsFactories, 'mapDispatchToProps');
-    var initMergeProps = match(mergeProps, mergePropsFactories, 'mergeProps');
-    return connectHOC(selectorFactory, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-      // used in error messages
-      methodName: 'connect',
-      // used to compute Connect's displayName from the wrapped component's displayName.
-      getDisplayName: function getDisplayName(name) {
-        return "Connect(" + name + ")";
-      },
-      // if mapStateToProps is falsy, the Connect component doesn't subscribe to store state changes
-      shouldHandleStateChanges: Boolean(mapStateToProps),
-      // passed through to selectorFactory
-      initMapStateToProps: initMapStateToProps,
-      initMapDispatchToProps: initMapDispatchToProps,
-      initMergeProps: initMergeProps,
-      pure: pure,
-      areStatesEqual: areStatesEqual,
-      areOwnPropsEqual: areOwnPropsEqual,
-      areStatePropsEqual: areStatePropsEqual,
-      areMergedPropsEqual: areMergedPropsEqual
-    }, extraOptions));
-  };
-}
-/* harmony default export */ __webpack_exports__["default"] = (createConnect());
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/connect/mapDispatchToProps.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/react-redux/es/connect/mapDispatchToProps.js ***!
-  \*******************************************************************/
-/*! exports provided: whenMapDispatchToPropsIsFunction, whenMapDispatchToPropsIsMissing, whenMapDispatchToPropsIsObject, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMapDispatchToPropsIsFunction", function() { return whenMapDispatchToPropsIsFunction; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMapDispatchToPropsIsMissing", function() { return whenMapDispatchToPropsIsMissing; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMapDispatchToPropsIsObject", function() { return whenMapDispatchToPropsIsObject; });
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
-/* harmony import */ var _wrapMapToProps__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./wrapMapToProps */ "./node_modules/react-redux/es/connect/wrapMapToProps.js");
-
-
-function whenMapDispatchToPropsIsFunction(mapDispatchToProps) {
-  return typeof mapDispatchToProps === 'function' ? Object(_wrapMapToProps__WEBPACK_IMPORTED_MODULE_1__["wrapMapToPropsFunc"])(mapDispatchToProps, 'mapDispatchToProps') : undefined;
-}
-function whenMapDispatchToPropsIsMissing(mapDispatchToProps) {
-  return !mapDispatchToProps ? Object(_wrapMapToProps__WEBPACK_IMPORTED_MODULE_1__["wrapMapToPropsConstant"])(function (dispatch) {
-    return {
-      dispatch: dispatch
-    };
-  }) : undefined;
-}
-function whenMapDispatchToPropsIsObject(mapDispatchToProps) {
-  return mapDispatchToProps && typeof mapDispatchToProps === 'object' ? Object(_wrapMapToProps__WEBPACK_IMPORTED_MODULE_1__["wrapMapToPropsConstant"])(function (dispatch) {
-    return Object(redux__WEBPACK_IMPORTED_MODULE_0__["bindActionCreators"])(mapDispatchToProps, dispatch);
-  }) : undefined;
-}
-/* harmony default export */ __webpack_exports__["default"] = ([whenMapDispatchToPropsIsFunction, whenMapDispatchToPropsIsMissing, whenMapDispatchToPropsIsObject]);
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/connect/mapStateToProps.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/react-redux/es/connect/mapStateToProps.js ***!
-  \****************************************************************/
-/*! exports provided: whenMapStateToPropsIsFunction, whenMapStateToPropsIsMissing, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMapStateToPropsIsFunction", function() { return whenMapStateToPropsIsFunction; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMapStateToPropsIsMissing", function() { return whenMapStateToPropsIsMissing; });
-/* harmony import */ var _wrapMapToProps__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./wrapMapToProps */ "./node_modules/react-redux/es/connect/wrapMapToProps.js");
-
-function whenMapStateToPropsIsFunction(mapStateToProps) {
-  return typeof mapStateToProps === 'function' ? Object(_wrapMapToProps__WEBPACK_IMPORTED_MODULE_0__["wrapMapToPropsFunc"])(mapStateToProps, 'mapStateToProps') : undefined;
-}
-function whenMapStateToPropsIsMissing(mapStateToProps) {
-  return !mapStateToProps ? Object(_wrapMapToProps__WEBPACK_IMPORTED_MODULE_0__["wrapMapToPropsConstant"])(function () {
-    return {};
-  }) : undefined;
-}
-/* harmony default export */ __webpack_exports__["default"] = ([whenMapStateToPropsIsFunction, whenMapStateToPropsIsMissing]);
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/connect/mergeProps.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-redux/es/connect/mergeProps.js ***!
-  \***********************************************************/
-/*! exports provided: defaultMergeProps, wrapMergePropsFunc, whenMergePropsIsFunction, whenMergePropsIsOmitted, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "defaultMergeProps", function() { return defaultMergeProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapMergePropsFunc", function() { return wrapMergePropsFunc; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMergePropsIsFunction", function() { return whenMergePropsIsFunction; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whenMergePropsIsOmitted", function() { return whenMergePropsIsOmitted; });
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _utils_verifyPlainObject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/verifyPlainObject */ "./node_modules/react-redux/es/utils/verifyPlainObject.js");
-
-
-function defaultMergeProps(stateProps, dispatchProps, ownProps) {
-  return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, ownProps, stateProps, dispatchProps);
-}
-function wrapMergePropsFunc(mergeProps) {
-  return function initMergePropsProxy(dispatch, _ref) {
-    var displayName = _ref.displayName,
-        pure = _ref.pure,
-        areMergedPropsEqual = _ref.areMergedPropsEqual;
-    var hasRunOnce = false;
-    var mergedProps;
-    return function mergePropsProxy(stateProps, dispatchProps, ownProps) {
-      var nextMergedProps = mergeProps(stateProps, dispatchProps, ownProps);
-
-      if (hasRunOnce) {
-        if (!pure || !areMergedPropsEqual(nextMergedProps, mergedProps)) mergedProps = nextMergedProps;
-      } else {
-        hasRunOnce = true;
-        mergedProps = nextMergedProps;
-        if (true) Object(_utils_verifyPlainObject__WEBPACK_IMPORTED_MODULE_1__["default"])(mergedProps, displayName, 'mergeProps');
-      }
-
-      return mergedProps;
-    };
-  };
-}
-function whenMergePropsIsFunction(mergeProps) {
-  return typeof mergeProps === 'function' ? wrapMergePropsFunc(mergeProps) : undefined;
-}
-function whenMergePropsIsOmitted(mergeProps) {
-  return !mergeProps ? function () {
-    return defaultMergeProps;
-  } : undefined;
-}
-/* harmony default export */ __webpack_exports__["default"] = ([whenMergePropsIsFunction, whenMergePropsIsOmitted]);
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/connect/selectorFactory.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/react-redux/es/connect/selectorFactory.js ***!
-  \****************************************************************/
-/*! exports provided: impureFinalPropsSelectorFactory, pureFinalPropsSelectorFactory, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "impureFinalPropsSelectorFactory", function() { return impureFinalPropsSelectorFactory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pureFinalPropsSelectorFactory", function() { return pureFinalPropsSelectorFactory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return finalPropsSelectorFactory; });
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var _verifySubselectors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./verifySubselectors */ "./node_modules/react-redux/es/connect/verifySubselectors.js");
-
-
-function impureFinalPropsSelectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch) {
-  return function impureFinalPropsSelector(state, ownProps) {
-    return mergeProps(mapStateToProps(state, ownProps), mapDispatchToProps(dispatch, ownProps), ownProps);
-  };
-}
-function pureFinalPropsSelectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch, _ref) {
-  var areStatesEqual = _ref.areStatesEqual,
-      areOwnPropsEqual = _ref.areOwnPropsEqual,
-      areStatePropsEqual = _ref.areStatePropsEqual;
-  var hasRunAtLeastOnce = false;
-  var state;
-  var ownProps;
-  var stateProps;
-  var dispatchProps;
-  var mergedProps;
-
-  function handleFirstCall(firstState, firstOwnProps) {
-    state = firstState;
-    ownProps = firstOwnProps;
-    stateProps = mapStateToProps(state, ownProps);
-    dispatchProps = mapDispatchToProps(dispatch, ownProps);
-    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
-    hasRunAtLeastOnce = true;
-    return mergedProps;
-  }
-
-  function handleNewPropsAndNewState() {
-    stateProps = mapStateToProps(state, ownProps);
-    if (mapDispatchToProps.dependsOnOwnProps) dispatchProps = mapDispatchToProps(dispatch, ownProps);
-    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
-    return mergedProps;
-  }
-
-  function handleNewProps() {
-    if (mapStateToProps.dependsOnOwnProps) stateProps = mapStateToProps(state, ownProps);
-    if (mapDispatchToProps.dependsOnOwnProps) dispatchProps = mapDispatchToProps(dispatch, ownProps);
-    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
-    return mergedProps;
-  }
-
-  function handleNewState() {
-    var nextStateProps = mapStateToProps(state, ownProps);
-    var statePropsChanged = !areStatePropsEqual(nextStateProps, stateProps);
-    stateProps = nextStateProps;
-    if (statePropsChanged) mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
-    return mergedProps;
-  }
-
-  function handleSubsequentCalls(nextState, nextOwnProps) {
-    var propsChanged = !areOwnPropsEqual(nextOwnProps, ownProps);
-    var stateChanged = !areStatesEqual(nextState, state);
-    state = nextState;
-    ownProps = nextOwnProps;
-    if (propsChanged && stateChanged) return handleNewPropsAndNewState();
-    if (propsChanged) return handleNewProps();
-    if (stateChanged) return handleNewState();
-    return mergedProps;
-  }
-
-  return function pureFinalPropsSelector(nextState, nextOwnProps) {
-    return hasRunAtLeastOnce ? handleSubsequentCalls(nextState, nextOwnProps) : handleFirstCall(nextState, nextOwnProps);
-  };
-} // TODO: Add more comments
-// If pure is true, the selector returned by selectorFactory will memoize its results,
-// allowing connectAdvanced's shouldComponentUpdate to return false if final
-// props have not changed. If false, the selector will always return a new
-// object and shouldComponentUpdate will always return true.
-
-function finalPropsSelectorFactory(dispatch, _ref2) {
-  var initMapStateToProps = _ref2.initMapStateToProps,
-      initMapDispatchToProps = _ref2.initMapDispatchToProps,
-      initMergeProps = _ref2.initMergeProps,
-      options = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, ["initMapStateToProps", "initMapDispatchToProps", "initMergeProps"]);
-
-  var mapStateToProps = initMapStateToProps(dispatch, options);
-  var mapDispatchToProps = initMapDispatchToProps(dispatch, options);
-  var mergeProps = initMergeProps(dispatch, options);
-
-  if (true) {
-    Object(_verifySubselectors__WEBPACK_IMPORTED_MODULE_1__["default"])(mapStateToProps, mapDispatchToProps, mergeProps, options.displayName);
-  }
-
-  var selectorFactory = options.pure ? pureFinalPropsSelectorFactory : impureFinalPropsSelectorFactory;
-  return selectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch, options);
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/connect/verifySubselectors.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/react-redux/es/connect/verifySubselectors.js ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return verifySubselectors; });
-/* harmony import */ var _utils_warning__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/warning */ "./node_modules/react-redux/es/utils/warning.js");
-
-
-function verify(selector, methodName, displayName) {
-  if (!selector) {
-    throw new Error("Unexpected value for " + methodName + " in " + displayName + ".");
-  } else if (methodName === 'mapStateToProps' || methodName === 'mapDispatchToProps') {
-    if (!selector.hasOwnProperty('dependsOnOwnProps')) {
-      Object(_utils_warning__WEBPACK_IMPORTED_MODULE_0__["default"])("The selector for " + methodName + " of " + displayName + " did not specify a value for dependsOnOwnProps.");
-    }
-  }
-}
-
-function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, displayName) {
-  verify(mapStateToProps, 'mapStateToProps', displayName);
-  verify(mapDispatchToProps, 'mapDispatchToProps', displayName);
-  verify(mergeProps, 'mergeProps', displayName);
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/connect/wrapMapToProps.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/react-redux/es/connect/wrapMapToProps.js ***!
-  \***************************************************************/
-/*! exports provided: wrapMapToPropsConstant, getDependsOnOwnProps, wrapMapToPropsFunc */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapMapToPropsConstant", function() { return wrapMapToPropsConstant; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getDependsOnOwnProps", function() { return getDependsOnOwnProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapMapToPropsFunc", function() { return wrapMapToPropsFunc; });
-/* harmony import */ var _utils_verifyPlainObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/verifyPlainObject */ "./node_modules/react-redux/es/utils/verifyPlainObject.js");
-
-function wrapMapToPropsConstant(getConstant) {
-  return function initConstantSelector(dispatch, options) {
-    var constant = getConstant(dispatch, options);
-
-    function constantSelector() {
-      return constant;
-    }
-
-    constantSelector.dependsOnOwnProps = false;
-    return constantSelector;
-  };
-} // dependsOnOwnProps is used by createMapToPropsProxy to determine whether to pass props as args
-// to the mapToProps function being wrapped. It is also used by makePurePropsSelector to determine
-// whether mapToProps needs to be invoked when props have changed.
-//
-// A length of one signals that mapToProps does not depend on props from the parent component.
-// A length of zero is assumed to mean mapToProps is getting args via arguments or ...args and
-// therefore not reporting its length accurately..
-
-function getDependsOnOwnProps(mapToProps) {
-  return mapToProps.dependsOnOwnProps !== null && mapToProps.dependsOnOwnProps !== undefined ? Boolean(mapToProps.dependsOnOwnProps) : mapToProps.length !== 1;
-} // Used by whenMapStateToPropsIsFunction and whenMapDispatchToPropsIsFunction,
-// this function wraps mapToProps in a proxy function which does several things:
-//
-//  * Detects whether the mapToProps function being called depends on props, which
-//    is used by selectorFactory to decide if it should reinvoke on props changes.
-//
-//  * On first call, handles mapToProps if returns another function, and treats that
-//    new function as the true mapToProps for subsequent calls.
-//
-//  * On first call, verifies the first result is a plain object, in order to warn
-//    the developer that their mapToProps function is not returning a valid result.
-//
-
-function wrapMapToPropsFunc(mapToProps, methodName) {
-  return function initProxySelector(dispatch, _ref) {
-    var displayName = _ref.displayName;
-
-    var proxy = function mapToPropsProxy(stateOrDispatch, ownProps) {
-      return proxy.dependsOnOwnProps ? proxy.mapToProps(stateOrDispatch, ownProps) : proxy.mapToProps(stateOrDispatch);
-    }; // allow detectFactoryAndVerify to get ownProps
-
-
-    proxy.dependsOnOwnProps = true;
-
-    proxy.mapToProps = function detectFactoryAndVerify(stateOrDispatch, ownProps) {
-      proxy.mapToProps = mapToProps;
-      proxy.dependsOnOwnProps = getDependsOnOwnProps(mapToProps);
-      var props = proxy(stateOrDispatch, ownProps);
-
-      if (typeof props === 'function') {
-        proxy.mapToProps = props;
-        proxy.dependsOnOwnProps = getDependsOnOwnProps(props);
-        props = proxy(stateOrDispatch, ownProps);
-      }
-
-      if (true) Object(_utils_verifyPlainObject__WEBPACK_IMPORTED_MODULE_0__["default"])(props, displayName, methodName);
-      return props;
-    };
-
-    return proxy;
-  };
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/index.js":
-/*!**********************************************!*\
-  !*** ./node_modules/react-redux/es/index.js ***!
-  \**********************************************/
-/*! exports provided: Provider, connectAdvanced, ReactReduxContext, connect, batch */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_Provider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Provider */ "./node_modules/react-redux/es/components/Provider.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Provider", function() { return _components_Provider__WEBPACK_IMPORTED_MODULE_0__["default"]; });
-
-/* harmony import */ var _components_connectAdvanced__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/connectAdvanced */ "./node_modules/react-redux/es/components/connectAdvanced.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "connectAdvanced", function() { return _components_connectAdvanced__WEBPACK_IMPORTED_MODULE_1__["default"]; });
-
-/* harmony import */ var _components_Context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Context */ "./node_modules/react-redux/es/components/Context.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReactReduxContext", function() { return _components_Context__WEBPACK_IMPORTED_MODULE_2__["ReactReduxContext"]; });
-
-/* harmony import */ var _connect_connect__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./connect/connect */ "./node_modules/react-redux/es/connect/connect.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "connect", function() { return _connect_connect__WEBPACK_IMPORTED_MODULE_3__["default"]; });
-
-/* harmony import */ var _utils_batch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils/batch */ "./node_modules/react-redux/es/utils/batch.js");
-/* harmony import */ var _utils_reactBatchedUpdates__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils/reactBatchedUpdates */ "./node_modules/react-redux/es/utils/reactBatchedUpdates.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "batch", function() { return _utils_reactBatchedUpdates__WEBPACK_IMPORTED_MODULE_5__["unstable_batchedUpdates"]; });
-
-
-
-
-
-
-
-Object(_utils_batch__WEBPACK_IMPORTED_MODULE_4__["setBatch"])(_utils_reactBatchedUpdates__WEBPACK_IMPORTED_MODULE_5__["unstable_batchedUpdates"]);
-
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/utils/Subscription.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-redux/es/utils/Subscription.js ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Subscription; });
-/* harmony import */ var _batch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./batch */ "./node_modules/react-redux/es/utils/batch.js");
- // encapsulates the subscription logic for connecting a component to the redux store, as
-// well as nesting subscriptions of descendant components, so that we can ensure the
-// ancestor components re-render before descendants
-
-var CLEARED = null;
-var nullListeners = {
-  notify: function notify() {}
-};
-
-function createListenerCollection() {
-  var batch = Object(_batch__WEBPACK_IMPORTED_MODULE_0__["getBatch"])(); // the current/next pattern is copied from redux's createStore code.
-  // TODO: refactor+expose that code to be reusable here?
-
-  var current = [];
-  var next = [];
-  return {
-    clear: function clear() {
-      next = CLEARED;
-      current = CLEARED;
-    },
-    notify: function notify() {
-      var listeners = current = next;
-      batch(function () {
-        for (var i = 0; i < listeners.length; i++) {
-          listeners[i]();
-        }
-      });
-    },
-    get: function get() {
-      return next;
-    },
-    subscribe: function subscribe(listener) {
-      var isSubscribed = true;
-      if (next === current) next = current.slice();
-      next.push(listener);
-      return function unsubscribe() {
-        if (!isSubscribed || current === CLEARED) return;
-        isSubscribed = false;
-        if (next === current) next = current.slice();
-        next.splice(next.indexOf(listener), 1);
-      };
-    }
-  };
-}
-
-var Subscription =
-/*#__PURE__*/
-function () {
-  function Subscription(store, parentSub) {
-    this.store = store;
-    this.parentSub = parentSub;
-    this.unsubscribe = null;
-    this.listeners = nullListeners;
-    this.handleChangeWrapper = this.handleChangeWrapper.bind(this);
-  }
-
-  var _proto = Subscription.prototype;
-
-  _proto.addNestedSub = function addNestedSub(listener) {
-    this.trySubscribe();
-    return this.listeners.subscribe(listener);
-  };
-
-  _proto.notifyNestedSubs = function notifyNestedSubs() {
-    this.listeners.notify();
-  };
-
-  _proto.handleChangeWrapper = function handleChangeWrapper() {
-    if (this.onStateChange) {
-      this.onStateChange();
-    }
-  };
-
-  _proto.isSubscribed = function isSubscribed() {
-    return Boolean(this.unsubscribe);
-  };
-
-  _proto.trySubscribe = function trySubscribe() {
-    if (!this.unsubscribe) {
-      this.unsubscribe = this.parentSub ? this.parentSub.addNestedSub(this.handleChangeWrapper) : this.store.subscribe(this.handleChangeWrapper);
-      this.listeners = createListenerCollection();
-    }
-  };
-
-  _proto.tryUnsubscribe = function tryUnsubscribe() {
-    if (this.unsubscribe) {
-      this.unsubscribe();
-      this.unsubscribe = null;
-      this.listeners.clear();
-      this.listeners = nullListeners;
-    }
-  };
-
-  return Subscription;
-}();
-
-
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/utils/batch.js":
-/*!****************************************************!*\
-  !*** ./node_modules/react-redux/es/utils/batch.js ***!
-  \****************************************************/
-/*! exports provided: setBatch, getBatch */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setBatch", function() { return setBatch; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getBatch", function() { return getBatch; });
-// Default to a dummy "batch" implementation that just runs the callback
-function defaultNoopBatch(callback) {
-  callback();
-}
-
-var batch = defaultNoopBatch; // Allow injecting another batching function later
-
-var setBatch = function setBatch(newBatch) {
-  return batch = newBatch;
-}; // Supply a getter just to skip dealing with ESM bindings
-
-var getBatch = function getBatch() {
-  return batch;
-};
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/utils/isPlainObject.js":
-/*!************************************************************!*\
-  !*** ./node_modules/react-redux/es/utils/isPlainObject.js ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return isPlainObject; });
-/**
- * @param {any} obj The object to inspect.
- * @returns {boolean} True if the argument appears to be a plain object.
- */
-function isPlainObject(obj) {
-  if (typeof obj !== 'object' || obj === null) return false;
-  var proto = Object.getPrototypeOf(obj);
-  if (proto === null) return true;
-  var baseProto = proto;
-
-  while (Object.getPrototypeOf(baseProto) !== null) {
-    baseProto = Object.getPrototypeOf(baseProto);
-  }
-
-  return proto === baseProto;
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/utils/reactBatchedUpdates.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/react-redux/es/utils/reactBatchedUpdates.js ***!
-  \******************************************************************/
-/*! exports provided: unstable_batchedUpdates */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "unstable_batchedUpdates", function() { return react_dom__WEBPACK_IMPORTED_MODULE_0__["unstable_batchedUpdates"]; });
-
-/* eslint-disable import/no-unresolved */
-
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/utils/shallowEqual.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-redux/es/utils/shallowEqual.js ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return shallowEqual; });
-var hasOwn = Object.prototype.hasOwnProperty;
-
-function is(x, y) {
-  if (x === y) {
-    return x !== 0 || y !== 0 || 1 / x === 1 / y;
-  } else {
-    return x !== x && y !== y;
-  }
-}
-
-function shallowEqual(objA, objB) {
-  if (is(objA, objB)) return true;
-
-  if (typeof objA !== 'object' || objA === null || typeof objB !== 'object' || objB === null) {
-    return false;
-  }
-
-  var keysA = Object.keys(objA);
-  var keysB = Object.keys(objB);
-  if (keysA.length !== keysB.length) return false;
-
-  for (var i = 0; i < keysA.length; i++) {
-    if (!hasOwn.call(objB, keysA[i]) || !is(objA[keysA[i]], objB[keysA[i]])) {
-      return false;
-    }
-  }
-
-  return true;
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/utils/verifyPlainObject.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/react-redux/es/utils/verifyPlainObject.js ***!
-  \****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return verifyPlainObject; });
-/* harmony import */ var _isPlainObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isPlainObject */ "./node_modules/react-redux/es/utils/isPlainObject.js");
-/* harmony import */ var _warning__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./warning */ "./node_modules/react-redux/es/utils/warning.js");
-
-
-function verifyPlainObject(value, displayName, methodName) {
-  if (!Object(_isPlainObject__WEBPACK_IMPORTED_MODULE_0__["default"])(value)) {
-    Object(_warning__WEBPACK_IMPORTED_MODULE_1__["default"])(methodName + "() in " + displayName + " must return a plain object. Instead received " + value + ".");
-  }
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-redux/es/utils/warning.js":
-/*!******************************************************!*\
-  !*** ./node_modules/react-redux/es/utils/warning.js ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return warning; });
-/**
- * Prints a warning in the console if it exists.
- *
- * @param {String} message The warning message.
- * @returns {void}
- */
-function warning(message) {
-  /* eslint-disable no-console */
-  if (typeof console !== 'undefined' && typeof console.error === 'function') {
-    console.error(message);
-  }
-  /* eslint-enable no-console */
-
-
-  try {
-    // This error was thrown as a convenience so that if you enable
-    // "break on all exceptions" in your console,
-    // it would pause the execution at this line.
-    throw new Error(message);
-    /* eslint-disable no-empty */
-  } catch (e) {}
-  /* eslint-enable no-empty */
-
-}
 
 /***/ }),
 
@@ -11714,7 +11830,7 @@ function symbolObservablePonyfill(root) {
 
 
 
-var punycode = __webpack_require__(/*! punycode */ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js");
+var punycode = __webpack_require__(/*! punycode */ "./node_modules/punycode/punycode.js");
 var util = __webpack_require__(/*! ./util */ "./node_modules/url/util.js");
 
 exports.parse = urlParse;
@@ -12746,7 +12862,7 @@ module.exports = [{"name":"Accessibility","slug":"accessibility"},{"name":"Alert
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881, 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, default */
 /***/ (function(module) {
 
-module.exports = [{"id":1288,"name":"brush-alt","slug":"brush-alt-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID"},{"id":1287,"name":"conversation","slug":"conversation-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1286,"name":"sort-z-a","slug":"sort-z-a-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":1285,"name":"sort-a-z","slug":"sort-a-z-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":1284,"name":"printer","slug":"printer-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":1283,"name":"radio","slug":"radio-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":1282,"name":"layout","slug":"layout-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID"},{"id":1281,"name":"quote-alt-right","slug":"quote-alt-right-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1280,"name":"quote-alt-left","slug":"quote-alt-left-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1279,"name":"mobile-vibration","slug":"mobile-vibration-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1278,"name":"fast-forward-circle","slug":"fast-forward-circle-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":1277,"name":"rewind-circle","slug":"rewind-circle-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":1276,"name":"carousel","slug":"carousel-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":1275,"name":"customize","slug":"customize-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":1274,"name":"customize","slug":"customize-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":1273,"name":"calendar-event","slug":"calendar-event-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1272,"name":"calendar-check","slug":"calendar-check-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1271,"name":"calendar-x","slug":"calendar-x-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1270,"name":"calendar-minus","slug":"calendar-minus-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1269,"name":"calendar-plus","slug":"calendar-plus-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1268,"name":"calendar-alt","slug":"calendar-alt-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1267,"name":"calendar","slug":"calendar-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1266,"name":"brush-alt","slug":"brush-alt-regular","category":{"name":"Design","slug":"design"},"type_of_icon":"REGULAR"},{"id":1265,"name":"briefcase-alt-2","slug":"briefcase-alt-2-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":1264,"name":"briefcase-alt-2","slug":"briefcase-alt-2-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":1263,"name":"bookmark-minus","slug":"bookmark-minus-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":1262,"name":"bookmarks","slug":"bookmarks-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":1261,"name":"instagram-alt","slug":"instagram-alt-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":1259,"name":"time-five","slug":"time-five-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1258,"name":"time-five","slug":"time-five-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":1257,"name":"pie-chart-alt-2","slug":"pie-chart-alt-2-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":1256,"name":"pie-chart-alt-2","slug":"pie-chart-alt-2-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":1255,"name":"time","slug":"time-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1254,"name":"timer","slug":"timer-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1253,"name":"stopwatch","slug":"stopwatch-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1252,"name":"gas-pump","slug":"gas-pump-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":1251,"name":"compass","slug":"compass-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1250,"name":"user-check","slug":"user-check-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":1249,"name":"user-x","slug":"user-x-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":1248,"name":"grid","slug":"grid-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID"},{"id":1247,"name":"zoom-out","slug":"zoom-out-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":1246,"name":"zoom-in","slug":"zoom-in-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":1245,"name":"search","slug":"search-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":1244,"name":"bell-minus","slug":"bell-minus-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID"},{"id":1243,"name":"bell-plus","slug":"bell-plus-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID"},{"id":1242,"name":"folder-minus","slug":"folder-minus-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1241,"name":"mobile","slug":"mobile-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":1240,"name":"data","slug":"data-solid","category":{"name":"Code","slug":"code"},"type_of_icon":"SOLID"},{"id":1239,"name":"skip-next-circle","slug":"skip-next-circle-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":1238,"name":"skip-previous-circle","slug":"skip-previous-circle-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":1237,"name":"chalkboard","slug":"chalkboard-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":1236,"name":"school","slug":"school-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID"},{"id":1235,"name":"institution","slug":"institution-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID"},{"id":1234,"name":"left-down-arrow-circle","slug":"left-down-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":1233,"name":"left-top-arrow-circle","slug":"left-top-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":1232,"name":"right-down-arrow-circle","slug":"right-down-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":1231,"name":"right-top-arrow-circle","slug":"right-top-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":1230,"name":"down-arrow","slug":"down-arrow-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":1229,"name":"up-arrow","slug":"up-arrow-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":1228,"name":"left-arrow","slug":"left-arrow-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":1227,"name":"right-arrow","slug":"right-arrow-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":1226,"name":"rectangle","slug":"rectangle-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":1225,"name":"mobile-vibration","slug":"mobile-vibration-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1224,"name":"mobile-landscape","slug":"mobile-landscape-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":1223,"name":"border-all","slug":"border-all-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":1222,"name":"border-bottom","slug":"border-bottom-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":1221,"name":"border-top","slug":"border-top-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":1220,"name":"border-left","slug":"border-left-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":1219,"name":"border-right","slug":"border-right-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":1218,"name":"dialpad-alt","slug":"dialpad-alt-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1217,"name":"filter-alt","slug":"filter-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":1216,"name":"brightness","slug":"brightness-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":1215,"name":"brightness","slug":"brightness-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":1214,"name":"brightness-half","slug":"brightness-half-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":1213,"name":"brightness-half","slug":"brightness-half-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":1212,"name":"paint","slug":"paint-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID"},{"id":1211,"name":"wifi-off","slug":"wifi-off-regular","category":{"name":"Network","slug":"network"},"type_of_icon":"REGULAR"},{"id":1210,"name":"credit-card","slug":"credit-card-solid","category":{"name":"Finance","slug":"finance"},"type_of_icon":"SOLID"},{"id":1209,"name":"credit-card-alt","slug":"credit-card-alt-solid","category":{"name":"Finance","slug":"finance"},"type_of_icon":"SOLID"},{"id":1208,"name":"credit-card-alt","slug":"credit-card-alt-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR"},{"id":1207,"name":"band-aid","slug":"band-aid-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID"},{"id":1206,"name":"band-aid","slug":"band-aid-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR"},{"id":1205,"name":"hive","slug":"hive-regular","category":{"name":"Misc","slug":"misc"},"type_of_icon":"REGULAR"},{"id":1204,"name":"map-pin","slug":"map-pin-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1203,"name":"map-pin","slug":"map-pin-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":1202,"name":"line-chart","slug":"line-chart-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":1201,"name":"receipt","slug":"receipt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":1200,"name":"receipt","slug":"receipt-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":1199,"name":"purchase-tag-alt","slug":"purchase-tag-alt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":1198,"name":"purchase-tag-alt","slug":"purchase-tag-alt-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":1197,"name":"basket","slug":"basket-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":1196,"name":"basket","slug":"basket-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":1195,"name":"palette","slug":"palette-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID"},{"id":1194,"name":"palette","slug":"palette-regular","category":{"name":"Design","slug":"design"},"type_of_icon":"REGULAR"},{"id":1193,"name":"plane-alt","slug":"plane-alt-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1192,"name":"component","slug":"component-solid","category":{"name":"Code","slug":"code"},"type_of_icon":"SOLID"},{"id":1191,"name":"traffic-barrier","slug":"traffic-barrier-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1190,"name":"traffic-barrier","slug":"traffic-barrier-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":1189,"name":"no-entry","slug":"no-entry-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1188,"name":"no-entry","slug":"no-entry-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":1187,"name":"message-alt-dots","slug":"message-alt-dots-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1186,"name":"message-alt-dots","slug":"message-alt-dots-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1185,"name":"message-alt","slug":"message-alt-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1184,"name":"message-alt","slug":"message-alt-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1183,"name":"check-square","slug":"check-square-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":1182,"name":"check-square","slug":"check-square-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":1181,"name":"notification-off","slug":"notification-off-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":1180,"name":"notification","slug":"notification-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":1179,"name":"log-out","slug":"log-out-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":1178,"name":"log-in","slug":"log-in-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":1177,"name":"log-out-circle","slug":"log-out-circle-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":1176,"name":"log-out-circle","slug":"log-out-circle-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":1175,"name":"log-in-circle","slug":"log-in-circle-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":1174,"name":"log-in-circle","slug":"log-in-circle-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":1173,"name":"circle","slug":"circle-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":1172,"name":"doughnut-chart","slug":"doughnut-chart-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":1171,"name":"doughnut-chart","slug":"doughnut-chart-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":1170,"name":"building-house","slug":"building-house-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID"},{"id":1169,"name":"building-house","slug":"building-house-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR"},{"id":1168,"name":"accessibility","slug":"accessibility-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR"},{"id":1167,"name":"comment-error","slug":"comment-error-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID"},{"id":1166,"name":"user-voice","slug":"user-voice-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":1165,"name":"user-voice","slug":"user-voice-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":1164,"name":"cuboid","slug":"cuboid-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":1163,"name":"cuboid","slug":"cuboid-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":1162,"name":"cube-alt","slug":"cube-alt-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":1161,"name":"cube-alt","slug":"cube-alt-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":1160,"name":"polygon","slug":"polygon-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":1159,"name":"polygon","slug":"polygon-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":1158,"name":"square-rounded","slug":"square-rounded-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":1157,"name":"square-rounded","slug":"square-rounded-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":1156,"name":"square","slug":"square-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":1155,"name":"square","slug":"square-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":1154,"name":"error-alt","slug":"error-alt-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID"},{"id":1153,"name":"error-alt","slug":"error-alt-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR"},{"id":1152,"name":"shield-alt-2","slug":"shield-alt-2-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":1151,"name":"shield-alt-2","slug":"shield-alt-2-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":1150,"name":"paint-roll","slug":"paint-roll-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID"},{"id":1149,"name":"paint-roll","slug":"paint-roll-regular","category":{"name":"Design","slug":"design"},"type_of_icon":"REGULAR"},{"id":1148,"name":"comment-add","slug":"comment-add-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1147,"name":"droplet-half","slug":"droplet-half-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID"},{"id":1146,"name":"droplet","slug":"droplet-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR"},{"id":1145,"name":"street-view","slug":"street-view-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":1144,"name":"plus-medical","slug":"plus-medical-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR"},{"id":1143,"name":"search-alt-2","slug":"search-alt-2-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":1142,"name":"search-alt-2","slug":"search-alt-2-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":1141,"name":"bowling-ball","slug":"bowling-ball-solid","category":{"name":"Sports","slug":"sports"},"type_of_icon":"SOLID"},{"id":1140,"name":"bowling-ball","slug":"bowling-ball-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR"},{"id":1139,"name":"dna","slug":"dna-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR"},{"id":1138,"name":"cycling","slug":"cycling-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR"},{"id":1137,"name":"shape-circle","slug":"shape-circle-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":1136,"name":"down-arrow-alt","slug":"down-arrow-alt-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":1135,"name":"up-arrow-alt","slug":"up-arrow-alt-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":1134,"name":"right-arrow-alt","slug":"right-arrow-alt-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":1133,"name":"left-arrow-alt","slug":"left-arrow-alt-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":1132,"name":"hourglass-bottom","slug":"hourglass-bottom-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1131,"name":"hourglass-top","slug":"hourglass-top-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":1130,"name":"lock-open-alt","slug":"lock-open-alt-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":1129,"name":"lock-open-alt","slug":"lock-open-alt-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":1128,"name":"lock-alt","slug":"lock-alt-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":1127,"name":"lock-alt","slug":"lock-alt-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":1126,"name":"graduation","slug":"graduation-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":1125,"name":"vial","slug":"vial-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID"},{"id":1124,"name":"cylinder","slug":"cylinder-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":1123,"name":"cylinder","slug":"cylinder-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":1122,"name":"pyramid","slug":"pyramid-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":1121,"name":"pyramid","slug":"pyramid-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":1120,"name":"wine","slug":"wine-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID"},{"id":1119,"name":"comment-detail","slug":"comment-detail-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1118,"name":"comment-dots","slug":"comment-dots-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1117,"name":"comment-dots","slug":"comment-dots-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1116,"name":"comment","slug":"comment-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1114,"name":"comment","slug":"comment-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1113,"name":"traffic","slug":"traffic-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1112,"name":"landscape","slug":"landscape-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":1111,"name":"landscape","slug":"landscape-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":1110,"name":"adjust-alt","slug":"adjust-alt-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":1109,"name":"id-card","slug":"id-card-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":1108,"name":"parking","slug":"parking-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1107,"name":"plane-land","slug":"plane-land-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1106,"name":"plane-take-off","slug":"plane-take-off-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1105,"name":"book-open","slug":"book-open-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":1104,"name":"analyse","slug":"analyse-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":1103,"name":"file-gif","slug":"file-gif-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1102,"name":"file-jpg","slug":"file-jpg-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1101,"name":"file-png","slug":"file-png-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1100,"name":"file-txt","slug":"file-txt-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1099,"name":"file-md","slug":"file-md-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1098,"name":"file-json","slug":"file-json-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1097,"name":"file-js","slug":"file-js-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1096,"name":"file-css","slug":"file-css-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1095,"name":"file-html","slug":"file-html-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1094,"name":"file-doc","slug":"file-doc-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1093,"name":"transfer-alt","slug":"transfer-alt-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":1092,"name":"copy-alt","slug":"copy-alt-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":1091,"name":"copy-alt","slug":"copy-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":1089,"name":"run","slug":"run-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":1088,"name":"user-pin","slug":"user-pin-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":1087,"name":"user-pin","slug":"user-pin-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":1086,"name":"quote-single-right","slug":"quote-single-right-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1085,"name":"quote-single-left","slug":"quote-single-left-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1084,"name":"grid","slug":"grid-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":1083,"name":"code-alt","slug":"code-alt-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":1082,"name":"mail-send","slug":"mail-send-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1081,"name":"ghost","slug":"ghost-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID"},{"id":1080,"name":"ghost","slug":"ghost-regular","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"REGULAR"},{"id":1079,"name":"direction-left","slug":"direction-left-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1078,"name":"shape-triangle","slug":"shape-triangle-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":1077,"name":"shape-square","slug":"shape-square-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":1076,"name":"video-recording","slug":"video-recording-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":1075,"name":"video-recording","slug":"video-recording-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":1074,"name":"notepad","slug":"notepad-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":1073,"name":"notepad","slug":"notepad-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":1072,"name":"bug-alt","slug":"bug-alt-solid","category":{"name":"Code","slug":"code"},"type_of_icon":"SOLID"},{"id":1071,"name":"bug-alt","slug":"bug-alt-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":1070,"name":"mouse-alt","slug":"mouse-alt-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":1069,"name":"mouse-alt","slug":"mouse-alt-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":1068,"name":"edit-alt","slug":"edit-alt-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":1067,"name":"edit-alt","slug":"edit-alt-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":1066,"name":"chat","slug":"chat-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1065,"name":"chat","slug":"chat-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1064,"name":"book-content","slug":"book-content-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":1063,"name":"book-content","slug":"book-content-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":1062,"name":"message-square-dots","slug":"message-square-dots-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1061,"name":"message-square","slug":"message-square-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1060,"name":"message-square-dots","slug":"message-square-dots-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1059,"name":"message-square","slug":"message-square-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1058,"name":"slideshow","slug":"slideshow-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":1057,"name":"slideshow","slug":"slideshow-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":1056,"name":"bank","slug":"bank-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID"},{"id":1055,"name":"wallet-alt","slug":"wallet-alt-solid","category":{"name":"Finance","slug":"finance"},"type_of_icon":"SOLID"},{"id":1054,"name":"wallet-alt","slug":"wallet-alt-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR"},{"id":1053,"name":"memory-card","slug":"memory-card-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":1052,"name":"memory-card","slug":"memory-card-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":1051,"name":"devices","slug":"devices-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":1050,"name":"message-rounded-dots","slug":"message-rounded-dots-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1049,"name":"message-rounded-dots","slug":"message-rounded-dots-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1048,"name":"message-dots","slug":"message-dots-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1047,"name":"message-dots","slug":"message-dots-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":1046,"name":"bar-chart-alt-2","slug":"bar-chart-alt-2-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":1045,"name":"bar-chart-alt-2","slug":"bar-chart-alt-2-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":1044,"name":"store-alt","slug":"store-alt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":1043,"name":"store-alt","slug":"store-alt-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":1042,"name":"buildings","slug":"buildings-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID"},{"id":1041,"name":"buildings","slug":"buildings-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR"},{"id":1040,"name":"home-circle","slug":"home-circle-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID"},{"id":1039,"name":"home-circle","slug":"home-circle-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR"},{"id":1038,"name":"money","slug":"money-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR"},{"id":1037,"name":"file-pdf","slug":"file-pdf-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":1036,"name":"yin-yang","slug":"yin-yang-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID"},{"id":1035,"name":"walk","slug":"walk-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":1034,"name":"ship","slug":"ship-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1033,"name":"factory","slug":"factory-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID"},{"id":1032,"name":"tree","slug":"tree-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1031,"name":"plane","slug":"plane-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1030,"name":"user-rectangle","slug":"user-rectangle-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":1029,"name":"eyedropper","slug":"eyedropper-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID"},{"id":1028,"name":"cloud-lightning","slug":"cloud-lightning-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID"},{"id":1026,"name":"cloud-rain","slug":"cloud-rain-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID"},{"id":1023,"name":"eraser","slug":"eraser-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID"},{"id":1022,"name":"repeat","slug":"repeat-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":1021,"name":"magic-wand","slug":"magic-wand-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID"},{"id":1020,"name":"hotel","slug":"hotel-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1019,"name":"color-fill","slug":"color-fill-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID"},{"id":1018,"name":"capsule","slug":"capsule-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID"},{"id":1017,"name":"flask","slug":"flask-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID"},{"id":1016,"name":"font-family","slug":"font-family-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":1014,"name":"joystick-button","slug":"joystick-button-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":1013,"name":"joystick-button","slug":"joystick-button-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":1011,"name":"paint","slug":"paint-regular","category":{"name":"Design","slug":"design"},"type_of_icon":"REGULAR"},{"id":1009,"name":"unlink","slug":"unlink-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":1008,"name":"direction-right","slug":"direction-right-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1007,"name":"directions","slug":"directions-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":1006,"name":"megaphone","slug":"megaphone-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":1000,"name":"keyboard","slug":"keyboard-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":997,"name":"brush","slug":"brush-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID"},{"id":996,"name":"brush","slug":"brush-regular","category":{"name":"Design","slug":"design"},"type_of_icon":"REGULAR"},{"id":995,"name":"coffee-alt","slug":"coffee-alt-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID"},{"id":993,"name":"rotate-left","slug":"rotate-left-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":992,"name":"badge-check","slug":"badge-check-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":991,"name":"badge-check","slug":"badge-check-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":987,"name":"show-alt","slug":"show-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":986,"name":"landmark","slug":"landmark-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":985,"name":"gas-pump","slug":"gas-pump-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":983,"name":"caret-down","slug":"caret-down-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":982,"name":"caret-right","slug":"caret-right-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":981,"name":"caret-up","slug":"caret-up-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":980,"name":"caret-left","slug":"caret-left-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":978,"name":"calendar-event","slug":"calendar-event-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":977,"name":"user-badge","slug":"user-badge-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":975,"name":"right-arrow-square","slug":"right-arrow-square-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":973,"name":"down-arrow-square","slug":"down-arrow-square-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":971,"name":"up-arrow-square","slug":"up-arrow-square-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":969,"name":"left-arrow-square","slug":"left-arrow-square-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":967,"name":"ambulance","slug":"ambulance-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID"},{"id":966,"name":"ambulance","slug":"ambulance-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR"},{"id":948,"name":"flickr-square","slug":"flickr-square-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":947,"name":"whatsapp-square","slug":"whatsapp-square-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":946,"name":"squarespace","slug":"squarespace-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":945,"name":"medium-old","slug":"medium-old-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":944,"name":"mailchimp","slug":"mailchimp-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":943,"name":"wix","slug":"wix-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":942,"name":"trello","slug":"trello-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":941,"name":"spotify","slug":"spotify-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":940,"name":"soundcloud","slug":"soundcloud-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":939,"name":"snapchat","slug":"snapchat-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":938,"name":"less","slug":"less-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":937,"name":"flickr","slug":"flickr-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":936,"name":"shopify","slug":"shopify-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":935,"name":"jsfiddle","slug":"jsfiddle-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":934,"name":"css3","slug":"css3-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":933,"name":"microsoft","slug":"microsoft-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":932,"name":"yahoo","slug":"yahoo-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":931,"name":"bootstrap","slug":"bootstrap-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":930,"name":"redux","slug":"redux-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":929,"name":"mastercard","slug":"mastercard-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":928,"name":"visa","slug":"visa-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":927,"name":"baidu","slug":"baidu-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":926,"name":"chrome","slug":"chrome-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":925,"name":"dailymotion","slug":"dailymotion-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":924,"name":"joomla","slug":"joomla-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":923,"name":"internet-explorer","slug":"internet-explorer-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":922,"name":"paypal","slug":"paypal-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":921,"name":"edge","slug":"edge-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":920,"name":"stripe","slug":"stripe-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":919,"name":"telegram","slug":"telegram-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":918,"name":"wordpress","slug":"wordpress-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":917,"name":"periscope","slug":"periscope-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":916,"name":"react","slug":"react-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":915,"name":"bing","slug":"bing-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":914,"name":"vuejs","slug":"vuejs-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":913,"name":"kickstarter","slug":"kickstarter-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":912,"name":"nodejs","slug":"nodejs-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":911,"name":"javascript","slug":"javascript-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":910,"name":"firefox","slug":"firefox-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":909,"name":"stack-overflow","slug":"stack-overflow-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":908,"name":"magento","slug":"magento-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":907,"name":"product-hunt","slug":"product-hunt-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":906,"name":"html5","slug":"html5-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":905,"name":"git","slug":"git-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":904,"name":"quora","slug":"quora-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":903,"name":"yelp","slug":"yelp-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":902,"name":"airbnb","slug":"airbnb-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":901,"name":"opera","slug":"opera-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":900,"name":"invision","slug":"invision-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":899,"name":"foursquare","slug":"foursquare-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":898,"name":"sass","slug":"sass-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":897,"name":"wikipedia","slug":"wikipedia-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":896,"name":"unsplash","slug":"unsplash-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":895,"name":"digg","slug":"digg-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":894,"name":"amazon","slug":"amazon-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":893,"name":"ebay","slug":"ebay-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":892,"name":"drupal","slug":"drupal-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":891,"name":"dropbox","slug":"dropbox-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":890,"name":"discourse","slug":"discourse-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":889,"name":"deviantart","slug":"deviantart-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":888,"name":"digitalocean","slug":"digitalocean-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":887,"name":"creative-commons","slug":"creative-commons-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":886,"name":"codepen","slug":"codepen-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":885,"name":"angular","slug":"angular-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":884,"name":"500px","slug":"500px-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":883,"name":"magnet","slug":"magnet-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":882,"name":"magnet","slug":"magnet-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":880,"name":"rewind-circle","slug":"rewind-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":879,"name":"card","slug":"card-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID"},{"id":878,"name":"card","slug":"card-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":877,"name":"help-circle","slug":"help-circle-solid","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"SOLID"},{"id":876,"name":"help-circle","slug":"help-circle-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR"},{"id":874,"name":"test-tube","slug":"test-tube-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR"},{"id":871,"name":"note","slug":"note-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":870,"name":"note","slug":"note-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":869,"name":"sort-down","slug":"sort-down-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":868,"name":"sort-up","slug":"sort-up-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":867,"name":"id-card","slug":"id-card-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":866,"name":"badge","slug":"badge-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":865,"name":"badge","slug":"badge-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":864,"name":"grid-small","slug":"grid-small-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":863,"name":"grid-vertical","slug":"grid-vertical-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":862,"name":"grid-horizontal","slug":"grid-horizontal-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":861,"name":"flame","slug":"flame-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID"},{"id":859,"name":"move-vertical","slug":"move-vertical-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":858,"name":"move-horizontal","slug":"move-horizontal-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":857,"name":"stats","slug":"stats-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":856,"name":"equalizer","slug":"equalizer-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":855,"name":"disc","slug":"disc-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":854,"name":"disc","slug":"disc-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":853,"name":"minus-square","slug":"minus-square-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":851,"name":"plus-square","slug":"plus-square-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":849,"name":"x-square","slug":"x-square-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":847,"name":"analyse","slug":"analyse-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":846,"name":"microphone-alt","slug":"microphone-alt-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":845,"name":"image-alt","slug":"image-alt-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":841,"name":"search-alt","slug":"search-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":840,"name":"messenger","slug":"messenger-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":839,"name":"skull","slug":"skull-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID"},{"id":838,"name":"dollar-circle","slug":"dollar-circle-solid","category":{"name":"Finance","slug":"finance"},"type_of_icon":"SOLID"},{"id":837,"name":"dollar-circle","slug":"dollar-circle-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR"},{"id":836,"name":"bicycle","slug":"bicycle-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":834,"name":"film","slug":"film-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":833,"name":"football","slug":"football-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR"},{"id":832,"name":"ball","slug":"ball-solid","category":{"name":"Sports","slug":"sports"},"type_of_icon":"SOLID"},{"id":831,"name":"ball","slug":"ball-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR"},{"id":830,"name":"edit","slug":"edit-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":823,"name":"circle","slug":"circle-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":819,"name":"transfer","slug":"transfer-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":818,"name":"fingerprint","slug":"fingerprint-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":817,"name":"font-color","slug":"font-color-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":816,"name":"highlight","slug":"highlight-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":815,"name":"file-blank","slug":"file-blank-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":814,"name":"file-blank","slug":"file-blank-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR"},{"id":813,"name":"strikethrough","slug":"strikethrough-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":812,"name":"pocket","slug":"pocket-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":811,"name":"vk","slug":"vk-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":810,"name":"windows","slug":"windows-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":809,"name":"play-store","slug":"play-store-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":808,"name":"android","slug":"android-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":807,"name":"apple","slug":"apple-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":806,"name":"bell-ring","slug":"bell-ring-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID"},{"id":804,"name":"photo-album","slug":"photo-album-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":803,"name":"photo-album","slug":"photo-album-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":801,"name":"code-block","slug":"code-block-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":800,"name":"font-size","slug":"font-size-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":799,"name":"handicap","slug":"handicap-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR"},{"id":798,"name":"dialpad","slug":"dialpad-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":797,"name":"wind","slug":"wind-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR"},{"id":796,"name":"water","slug":"water-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR"},{"id":795,"name":"swim","slug":"swim-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":794,"name":"restaurant","slug":"restaurant-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":792,"name":"key","slug":"key-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":791,"name":"box","slug":"box-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":790,"name":"box","slug":"box-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR"},{"id":789,"name":"menu-alt-right","slug":"menu-alt-right-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":788,"name":"menu-alt-left","slug":"menu-alt-left-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":787,"name":"video-plus","slug":"video-plus-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":786,"name":"video-plus","slug":"video-plus-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":785,"name":"list-ol","slug":"list-ol-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":784,"name":"planet","slug":"planet-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":783,"name":"planet","slug":"planet-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":781,"name":"hotel","slug":"hotel-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":780,"name":"movie","slug":"movie-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":779,"name":"movie","slug":"movie-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":778,"name":"taxi","slug":"taxi-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":777,"name":"taxi","slug":"taxi-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":776,"name":"train","slug":"train-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":775,"name":"train","slug":"train-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":774,"name":"bath","slug":"bath-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID"},{"id":773,"name":"bath","slug":"bath-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR"},{"id":772,"name":"bed","slug":"bed-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID"},{"id":771,"name":"bed","slug":"bed-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR"},{"id":770,"name":"area","slug":"area-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":769,"name":"bot","slug":"bot-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID"},{"id":768,"name":"area","slug":"area-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":767,"name":"bot","slug":"bot-regular","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"REGULAR"},{"id":766,"name":"dumbbell","slug":"dumbbell-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR"},{"id":765,"name":"check-double","slug":"check-double-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":764,"name":"bus","slug":"bus-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":763,"name":"bus","slug":"bus-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":762,"name":"star-half","slug":"star-half-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":761,"name":"checkbox-checked","slug":"checkbox-checked-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":760,"name":"checkbox","slug":"checkbox-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":759,"name":"check-circle","slug":"check-circle-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":758,"name":"check-circle","slug":"check-circle-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":757,"name":"rocket","slug":"rocket-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":756,"name":"rocket","slug":"rocket-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":755,"name":"certification","slug":"certification-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":754,"name":"certification","slug":"certification-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":751,"name":"blogger","slug":"blogger-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":750,"name":"pinterest","slug":"pinterest-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":749,"name":"reddit","slug":"reddit-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":748,"name":"discord","slug":"discord-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":747,"name":"twitch","slug":"twitch-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":745,"name":"slack","slug":"slack-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":744,"name":"slack-old","slug":"slack-old-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":743,"name":"skype","slug":"skype-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":742,"name":"medium-square","slug":"medium-square-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":741,"name":"medium","slug":"medium-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":740,"name":"linkedin-square","slug":"linkedin-square-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":739,"name":"google-plus-circle","slug":"google-plus-circle-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":738,"name":"google-plus","slug":"google-plus-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":735,"name":"slider-alt","slug":"slider-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":734,"name":"file-plus","slug":"file-plus-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":733,"name":"dashboard","slug":"dashboard-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":732,"name":"conversation","slug":"conversation-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":730,"name":"battery-low","slug":"battery-low-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":729,"name":"folder-open","slug":"folder-open-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":726,"name":"zap","slug":"zap-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID"},{"id":724,"name":"x-circle","slug":"x-circle-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":723,"name":"wrench","slug":"wrench-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":717,"name":"widget","slug":"widget-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":715,"name":"watch","slug":"watch-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":714,"name":"watch-alt","slug":"watch-alt-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":713,"name":"wallet","slug":"wallet-solid","category":{"name":"Finance","slug":"finance"},"type_of_icon":"SOLID"},{"id":712,"name":"volume","slug":"volume-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":711,"name":"volume-mute","slug":"volume-mute-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":710,"name":"volume-low","slug":"volume-low-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":709,"name":"volume-full","slug":"volume-full-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":707,"name":"videos","slug":"videos-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":706,"name":"video","slug":"video-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":705,"name":"video-off","slug":"video-off-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":704,"name":"user","slug":"user-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":702,"name":"user-plus","slug":"user-plus-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":701,"name":"user-minus","slug":"user-minus-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":700,"name":"user-detail","slug":"user-detail-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":699,"name":"user-circle","slug":"user-circle-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":697,"name":"upvote","slug":"upvote-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":695,"name":"up-arrow-circle","slug":"up-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":691,"name":"truck","slug":"truck-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":690,"name":"trophy","slug":"trophy-solid","category":{"name":"Sports","slug":"sports"},"type_of_icon":"SOLID"},{"id":689,"name":"trash","slug":"trash-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":688,"name":"trash-alt","slug":"trash-alt-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":687,"name":"torch","slug":"torch-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":685,"name":"toggle-right","slug":"toggle-right-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":684,"name":"toggle-left","slug":"toggle-left-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":683,"name":"to-top","slug":"to-top-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":680,"name":"thermometer","slug":"thermometer-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID"},{"id":679,"name":"terminal","slug":"terminal-solid","category":{"name":"Code","slug":"code"},"type_of_icon":"SOLID"},{"id":678,"name":"tennis-ball","slug":"tennis-ball-solid","category":{"name":"Sports","slug":"sports"},"type_of_icon":"SOLID"},{"id":676,"name":"tag","slug":"tag-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":675,"name":"tag-x","slug":"tag-x-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":673,"name":"t-shirt","slug":"t-shirt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":672,"name":"sun","slug":"sun-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID"},{"id":671,"name":"store","slug":"store-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":668,"name":"star","slug":"star-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":667,"name":"spreadsheet","slug":"spreadsheet-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":665,"name":"smiley-sad","slug":"smiley-sad-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID"},{"id":664,"name":"smiley-meh","slug":"smiley-meh-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID"},{"id":663,"name":"smiley-happy","slug":"smiley-happy-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID"},{"id":658,"name":"show","slug":"show-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":657,"name":"shopping-bag","slug":"shopping-bag-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":656,"name":"shopping-bag-alt","slug":"shopping-bag-alt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":655,"name":"shield","slug":"shield-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":653,"name":"share","slug":"share-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":652,"name":"share-alt","slug":"share-alt-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":651,"name":"server","slug":"server-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":650,"name":"send","slug":"send-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":648,"name":"select-multiple","slug":"select-multiple-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":647,"name":"sort-alt","slug":"sort-alt-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":645,"name":"save","slug":"save-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":644,"name":"ruler","slug":"ruler-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":640,"name":"right-arrow-circle","slug":"right-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":639,"name":"report","slug":"report-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":638,"name":"rename","slug":"rename-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":637,"name":"radio","slug":"radio-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":636,"name":"quote-right","slug":"quote-right-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":635,"name":"quote-left","slug":"quote-left-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":634,"name":"purchase-tag","slug":"purchase-tag-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":633,"name":"printer","slug":"printer-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":632,"name":"plus-circle","slug":"plus-circle-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":631,"name":"plug","slug":"plug-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":630,"name":"playlist","slug":"playlist-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":628,"name":"pin","slug":"pin-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":627,"name":"pie-chart","slug":"pie-chart-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":626,"name":"pie-chart-alt","slug":"pie-chart-alt-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":625,"name":"phone","slug":"phone-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":624,"name":"phone-outgoing","slug":"phone-outgoing-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":623,"name":"phone-incoming","slug":"phone-incoming-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":622,"name":"phone-call","slug":"phone-call-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":621,"name":"pencil","slug":"pencil-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":620,"name":"pen","slug":"pen-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":618,"name":"paste","slug":"paste-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":617,"name":"paper-plane","slug":"paper-plane-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":616,"name":"package","slug":"package-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":612,"name":"news","slug":"news-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":611,"name":"navigation","slug":"navigation-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":610,"name":"music","slug":"music-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":609,"name":"mouse","slug":"mouse-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":608,"name":"moon","slug":"moon-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID"},{"id":605,"name":"minus-circle","slug":"minus-circle-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":604,"name":"microphone","slug":"microphone-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":603,"name":"microphone-off","slug":"microphone-off-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":602,"name":"message","slug":"message-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":601,"name":"message-rounded","slug":"message-rounded-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":597,"name":"map","slug":"map-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":596,"name":"map-alt","slug":"map-alt-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":595,"name":"lock","slug":"lock-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":594,"name":"lock-open","slug":"lock-open-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":592,"name":"like","slug":"like-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":588,"name":"left-arrow-circle","slug":"left-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":586,"name":"layer","slug":"layer-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID"},{"id":585,"name":"joystick","slug":"joystick-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":584,"name":"joystick-alt","slug":"joystick-alt-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":582,"name":"info-circle","slug":"info-circle-solid","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"SOLID"},{"id":581,"name":"inbox","slug":"inbox-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":579,"name":"image","slug":"image-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":576,"name":"hourglass","slug":"hourglass-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":575,"name":"hot","slug":"hot-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID"},{"id":574,"name":"home","slug":"home-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID"},{"id":572,"name":"hide","slug":"hide-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":571,"name":"heart","slug":"heart-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID"},{"id":570,"name":"hdd","slug":"hdd-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":569,"name":"group","slug":"group-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":568,"name":"grid-alt","slug":"grid-alt-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID"},{"id":566,"name":"gift","slug":"gift-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":564,"name":"flag","slug":"flag-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":563,"name":"flag-alt","slug":"flag-alt-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":562,"name":"first-aid","slug":"first-aid-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID"},{"id":560,"name":"filter-alt","slug":"filter-alt-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":558,"name":"file","slug":"file-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":557,"name":"file-image","slug":"file-image-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":553,"name":"error","slug":"error-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID"},{"id":552,"name":"error-circle","slug":"error-circle-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID"},{"id":550,"name":"envelope","slug":"envelope-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID"},{"id":549,"name":"eject","slug":"eject-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":548,"name":"duplicate","slug":"duplicate-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":547,"name":"droplet","slug":"droplet-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID"},{"id":546,"name":"drink","slug":"drink-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID"},{"id":544,"name":"downvote","slug":"downvote-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":543,"name":"download","slug":"download-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":541,"name":"down-arrow-circle","slug":"down-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":539,"name":"dock-top","slug":"dock-top-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID"},{"id":538,"name":"dock-right","slug":"dock-right-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID"},{"id":537,"name":"dock-left","slug":"dock-left-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID"},{"id":536,"name":"dock-bottom","slug":"dock-bottom-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID"},{"id":535,"name":"dislike","slug":"dislike-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":534,"name":"discount","slug":"discount-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":531,"name":"detail","slug":"detail-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":530,"name":"cube","slug":"cube-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID"},{"id":529,"name":"crown","slug":"crown-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":527,"name":"coupon","slug":"coupon-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":525,"name":"copy","slug":"copy-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":524,"name":"contact","slug":"contact-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID"},{"id":522,"name":"collection","slug":"collection-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":521,"name":"cog","slug":"cog-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":520,"name":"coffee","slug":"coffee-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID"},{"id":519,"name":"cloud","slug":"cloud-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID"},{"id":518,"name":"cloud-upload","slug":"cloud-upload-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":512,"name":"cloud-download","slug":"cloud-download-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID"},{"id":509,"name":"chip","slug":"chip-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":508,"name":"chart","slug":"chart-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":507,"name":"categories","slug":"categories-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":505,"name":"cart","slug":"cart-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":504,"name":"cart-alt","slug":"cart-alt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":502,"name":"car","slug":"car-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID"},{"id":501,"name":"captions","slug":"captions-solid","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"SOLID"},{"id":494,"name":"calculator","slug":"calculator-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":492,"name":"buoy","slug":"buoy-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":491,"name":"bulb","slug":"bulb-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":490,"name":"building","slug":"building-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID"},{"id":489,"name":"bug","slug":"bug-solid","category":{"name":"Code","slug":"code"},"type_of_icon":"SOLID"},{"id":487,"name":"briefcase-alt","slug":"briefcase-alt-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":486,"name":"briefcase","slug":"briefcase-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":485,"name":"bookmark-star","slug":"bookmark-star-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":484,"name":"book-open","slug":"book-open-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":483,"name":"bookmark-plus","slug":"bookmark-plus-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":481,"name":"bookmark","slug":"bookmark-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":480,"name":"book-bookmark","slug":"book-bookmark-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":479,"name":"book","slug":"book-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID"},{"id":478,"name":"bolt","slug":"bolt-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID"},{"id":476,"name":"bell-off","slug":"bell-off-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID"},{"id":474,"name":"bell","slug":"bell-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID"},{"id":473,"name":"battery-full","slug":"battery-full-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":472,"name":"battery-charging","slug":"battery-charging-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":471,"name":"battery","slug":"battery-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID"},{"id":469,"name":"barcode","slug":"barcode-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID"},{"id":468,"name":"bar-chart-square","slug":"bar-chart-square-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID"},{"id":467,"name":"award","slug":"award-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID"},{"id":464,"name":"folder-plus","slug":"folder-plus-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":463,"name":"folder","slug":"folder-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":462,"name":"camera-off","slug":"camera-off-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":460,"name":"camera","slug":"camera-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID"},{"id":456,"name":"archive","slug":"archive-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID"},{"id":455,"name":"album","slug":"album-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID"},{"id":454,"name":"alarm-off","slug":"alarm-off-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":453,"name":"alarm","slug":"alarm-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID"},{"id":452,"name":"adjust","slug":"adjust-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID"},{"id":450,"name":"dashboard","slug":"dashboard-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":449,"name":"cart-alt","slug":"cart-alt-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":445,"name":"car","slug":"car-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":441,"name":"loader-alt","slug":"loader-alt-regular","category":{"name":"Loader","slug":"loader"},"type_of_icon":"REGULAR"},{"id":440,"name":"loader-circle","slug":"loader-circle-regular","category":{"name":"Loader","slug":"loader"},"type_of_icon":"REGULAR"},{"id":439,"name":"wrench","slug":"wrench-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":437,"name":"alarm-off","slug":"alarm-off-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":435,"name":"facebook-square","slug":"facebook-square-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":434,"name":"bitcoin","slug":"bitcoin-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":432,"name":"layout","slug":"layout-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":431,"name":"dock-left","slug":"dock-left-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":430,"name":"dock-top","slug":"dock-top-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":429,"name":"dock-right","slug":"dock-right-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":428,"name":"dock-bottom","slug":"dock-bottom-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":427,"name":"world","slug":"world-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":424,"name":"linkedin","slug":"linkedin-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":422,"name":"selection","slug":"selection-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":421,"name":"paper-plane","slug":"paper-plane-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":416,"name":"slider","slug":"slider-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":415,"name":"loader","slug":"loader-regular","category":{"name":"Loader","slug":"loader"},"type_of_icon":"REGULAR"},{"id":410,"name":"chalkboard","slug":"chalkboard-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":409,"name":"trash-alt","slug":"trash-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":408,"name":"grid-alt","slug":"grid-alt-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":406,"name":"command","slug":"command-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":405,"name":"window-close","slug":"window-close-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":403,"name":"notification-off","slug":"notification-off-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":401,"name":"plug","slug":"plug-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":400,"name":"infinite","slug":"infinite-regular","category":{"name":"Misc","slug":"misc"},"type_of_icon":"REGULAR"},{"id":399,"name":"carousel","slug":"carousel-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":397,"name":"hourglass","slug":"hourglass-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":394,"name":"briefcase-alt","slug":"briefcase-alt-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":393,"name":"wallet","slug":"wallet-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR"},{"id":392,"name":"station","slug":"station-regular","category":{"name":"Network","slug":"network"},"type_of_icon":"REGULAR"},{"id":390,"name":"collection","slug":"collection-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":389,"name":"tv","slug":"tv-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":388,"name":"closet","slug":"closet-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":385,"name":"paperclip","slug":"paperclip-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":384,"name":"expand","slug":"expand-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":383,"name":"pen","slug":"pen-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":382,"name":"purchase-tag","slug":"purchase-tag-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":380,"name":"images","slug":"images-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":379,"name":"pie-chart-alt","slug":"pie-chart-alt-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":378,"name":"news","slug":"news-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":375,"name":"downvote","slug":"downvote-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":374,"name":"upvote","slug":"upvote-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":372,"name":"vimeo","slug":"vimeo-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":371,"name":"globe-alt","slug":"globe-alt-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":370,"name":"store","slug":"store-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":369,"name":"hdd","slug":"hdd-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":367,"name":"skip-previous-circle","slug":"skip-previous-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":366,"name":"skip-next-circle","slug":"skip-next-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":364,"name":"chip","slug":"chip-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":363,"name":"cast","slug":"cast-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":362,"name":"body","slug":"body-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR"},{"id":361,"name":"phone-outgoing","slug":"phone-outgoing-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":360,"name":"phone-incoming","slug":"phone-incoming-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":359,"name":"collapse","slug":"collapse-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":358,"name":"rename","slug":"rename-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":356,"name":"rotate-right","slug":"rotate-right-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":355,"name":"horizontal-center","slug":"horizontal-center-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":354,"name":"ruler","slug":"ruler-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":353,"name":"import","slug":"import-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR"},{"id":352,"name":"calendar-alt","slug":"calendar-alt-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":348,"name":"battery","slug":"battery-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":347,"name":"server","slug":"server-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":346,"name":"task","slug":"task-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":345,"name":"folder-open","slug":"folder-open-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR"},{"id":344,"name":"film","slug":"film-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":343,"name":"aperture","slug":"aperture-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":339,"name":"dribbble","slug":"dribbble-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":337,"name":"behance","slug":"behance-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":336,"name":"phone-call","slug":"phone-call-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":335,"name":"tumblr","slug":"tumblr-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":334,"name":"whatsapp","slug":"whatsapp-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":333,"name":"youtube","slug":"youtube-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":331,"name":"up-arrow","slug":"up-arrow-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":330,"name":"undo","slug":"undo-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":329,"name":"twitter","slug":"twitter-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":327,"name":"timer","slug":"timer-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":326,"name":"support","slug":"support-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":325,"name":"subdirectory-right","slug":"subdirectory-right-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":324,"name":"subdirectory-left","slug":"subdirectory-left-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":323,"name":"right-arrow","slug":"right-arrow-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":322,"name":"revision","slug":"revision-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":321,"name":"repost","slug":"repost-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":320,"name":"reply","slug":"reply-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":319,"name":"reply-all","slug":"reply-all-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":318,"name":"redo","slug":"redo-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":317,"name":"radar","slug":"radar-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":314,"name":"poll","slug":"poll-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":311,"name":"list-check","slug":"list-check-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":310,"name":"like","slug":"like-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":309,"name":"left-arrow","slug":"left-arrow-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":308,"name":"joystick-alt","slug":"joystick-alt-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":307,"name":"instagram","slug":"instagram-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":305,"name":"history","slug":"history-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":303,"name":"google","slug":"google-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":302,"name":"github","slug":"github-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":301,"name":"flag","slug":"flag-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":300,"name":"first-aid","slug":"first-aid-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR"},{"id":299,"name":"facebook","slug":"facebook-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO"},{"id":298,"name":"export","slug":"export-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR"},{"id":295,"name":"down-arrow","slug":"down-arrow-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":294,"name":"dislike","slug":"dislike-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":293,"name":"crown","slug":"crown-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":291,"name":"barcode","slug":"barcode-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":289,"name":"user","slug":"user-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":288,"name":"user-x","slug":"user-x-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":287,"name":"user-plus","slug":"user-plus-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":286,"name":"user-minus","slug":"user-minus-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":285,"name":"user-circle","slug":"user-circle-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":284,"name":"user-check","slug":"user-check-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":283,"name":"underline","slug":"underline-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":282,"name":"truck","slug":"truck-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":281,"name":"trophy","slug":"trophy-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR"},{"id":280,"name":"trash","slug":"trash-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":279,"name":"text","slug":"text-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":278,"name":"sun","slug":"sun-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR"},{"id":277,"name":"star","slug":"star-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":276,"name":"sort","slug":"sort-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":274,"name":"shuffle","slug":"shuffle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":273,"name":"shopping-bag","slug":"shopping-bag-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":271,"name":"shield","slug":"shield-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":270,"name":"shield-alt","slug":"shield-alt-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":269,"name":"share","slug":"share-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":268,"name":"share-alt","slug":"share-alt-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":267,"name":"select-multiple","slug":"select-multiple-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":266,"name":"screenshot","slug":"screenshot-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":265,"name":"save","slug":"save-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":263,"name":"pulse","slug":"pulse-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR"},{"id":262,"name":"power-off","slug":"power-off-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":261,"name":"plus","slug":"plus-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":260,"name":"pin","slug":"pin-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":259,"name":"pencil","slug":"pencil-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":258,"name":"paste","slug":"paste-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":257,"name":"paragraph","slug":"paragraph-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":256,"name":"package","slug":"package-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":255,"name":"notification","slug":"notification-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":253,"name":"music","slug":"music-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":252,"name":"move","slug":"move-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":251,"name":"mouse","slug":"mouse-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":250,"name":"minus","slug":"minus-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":249,"name":"microphone-off","slug":"microphone-off-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":247,"name":"male","slug":"male-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":246,"name":"log-out","slug":"log-out-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":245,"name":"log-in","slug":"log-in-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":244,"name":"link-external","slug":"link-external-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":243,"name":"joystick","slug":"joystick-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":242,"name":"italic","slug":"italic-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":238,"name":"home-alt","slug":"home-alt-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR"},{"id":237,"name":"heading","slug":"heading-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":236,"name":"hash","slug":"hash-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":235,"name":"group","slug":"group-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":234,"name":"git-repo-forked","slug":"git-repo-forked-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":233,"name":"git-pull-request","slug":"git-pull-request-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":232,"name":"git-merge","slug":"git-merge-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":231,"name":"git-compare","slug":"git-compare-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":230,"name":"git-commit","slug":"git-commit-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":229,"name":"git-branch","slug":"git-branch-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":228,"name":"font","slug":"font-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":226,"name":"filter","slug":"filter-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":224,"name":"file","slug":"file-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR"},{"id":223,"name":"female","slug":"female-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR"},{"id":221,"name":"edit","slug":"edit-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":219,"name":"diamond","slug":"diamond-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":218,"name":"detail","slug":"detail-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":217,"name":"cut","slug":"cut-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":216,"name":"cube","slug":"cube-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":215,"name":"crop","slug":"crop-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":214,"name":"credit-card","slug":"credit-card-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR"},{"id":212,"name":"columns","slug":"columns-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":211,"name":"cog","slug":"cog-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":210,"name":"cloud-snow","slug":"cloud-snow-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR"},{"id":209,"name":"cloud-rain","slug":"cloud-rain-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR"},{"id":208,"name":"cloud-lightning","slug":"cloud-lightning-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR"},{"id":207,"name":"cloud-light-rain","slug":"cloud-light-rain-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR"},{"id":206,"name":"cloud-drizzle","slug":"cloud-drizzle-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR"},{"id":204,"name":"check","slug":"check-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":203,"name":"cart","slug":"cart-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":202,"name":"calculator","slug":"calculator-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":200,"name":"bold","slug":"bold-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":199,"name":"award","slug":"award-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":198,"name":"anchor","slug":"anchor-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":197,"name":"album","slug":"album-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":196,"name":"adjust","slug":"adjust-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":195,"name":"x","slug":"x-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":194,"name":"table","slug":"table-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":193,"name":"duplicate","slug":"duplicate-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":191,"name":"windows","slug":"windows-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":190,"name":"window","slug":"window-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":189,"name":"window-open","slug":"window-open-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":188,"name":"wifi","slug":"wifi-regular","category":{"name":"Network","slug":"network"},"type_of_icon":"REGULAR"},{"id":186,"name":"voicemail","slug":"voicemail-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":185,"name":"video-off","slug":"video-off-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":184,"name":"usb","slug":"usb-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":183,"name":"upload","slug":"upload-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":182,"name":"alarm","slug":"alarm-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":181,"name":"tennis-ball","slug":"tennis-ball-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR"},{"id":180,"name":"target-lock","slug":"target-lock-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":178,"name":"tag","slug":"tag-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":177,"name":"tab","slug":"tab-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":176,"name":"spreadsheet","slug":"spreadsheet-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":173,"name":"sitemap","slug":"sitemap-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":172,"name":"sidebar","slug":"sidebar-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":171,"name":"send","slug":"send-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":168,"name":"pie-chart","slug":"pie-chart-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":167,"name":"phone","slug":"phone-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":166,"name":"navigation","slug":"navigation-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":165,"name":"mobile","slug":"mobile-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":164,"name":"mobile-alt","slug":"mobile-alt-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":163,"name":"message","slug":"message-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":162,"name":"message-rounded","slug":"message-rounded-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":161,"name":"map","slug":"map-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":160,"name":"map-alt","slug":"map-alt-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":159,"name":"lock","slug":"lock-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":158,"name":"lock-open","slug":"lock-open-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":156,"name":"list-x","slug":"list-x-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":155,"name":"list-ul","slug":"list-ul-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":154,"name":"list-plus","slug":"list-plus-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":153,"name":"link","slug":"link-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":152,"name":"link-alt","slug":"link-alt-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":151,"name":"layer","slug":"layer-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":150,"name":"laptop","slug":"laptop-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":149,"name":"home","slug":"home-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR"},{"id":148,"name":"heart","slug":"heart-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR"},{"id":147,"name":"headphone","slug":"headphone-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":146,"name":"devices","slug":"devices-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":145,"name":"globe","slug":"globe-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":144,"name":"gift","slug":"gift-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR"},{"id":142,"name":"envelope","slug":"envelope-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":140,"name":"download","slug":"download-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":139,"name":"dots-vertical","slug":"dots-vertical-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":138,"name":"dots-vertical-rounded","slug":"dots-vertical-rounded-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":137,"name":"dots-horizontal","slug":"dots-horizontal-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":136,"name":"dots-horizontal-rounded","slug":"dots-horizontal-rounded-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":135,"name":"dollar","slug":"dollar-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR"},{"id":133,"name":"directions","slug":"directions-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":132,"name":"desktop","slug":"desktop-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR"},{"id":131,"name":"data","slug":"data-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":130,"name":"compass","slug":"compass-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR"},{"id":129,"name":"crosshair","slug":"crosshair-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":128,"name":"terminal","slug":"terminal-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":126,"name":"cloud","slug":"cloud-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR"},{"id":125,"name":"cloud-upload","slug":"cloud-upload-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":124,"name":"cloud-download","slug":"cloud-download-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":123,"name":"chart","slug":"chart-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":122,"name":"calendar","slug":"calendar-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":121,"name":"calendar-x","slug":"calendar-x-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":120,"name":"calendar-minus","slug":"calendar-minus-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":119,"name":"calendar-check","slug":"calendar-check-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":118,"name":"calendar-plus","slug":"calendar-plus-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":117,"name":"buoy","slug":"buoy-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":116,"name":"bulb","slug":"bulb-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":115,"name":"bluetooth","slug":"bluetooth-regular","category":{"name":"Network","slug":"network"},"type_of_icon":"REGULAR"},{"id":114,"name":"bug","slug":"bug-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":113,"name":"building","slug":"building-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR"},{"id":112,"name":"broadcast","slug":"broadcast-regular","category":{"name":"Network","slug":"network"},"type_of_icon":"REGULAR"},{"id":111,"name":"briefcase","slug":"briefcase-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":110,"name":"bookmark-plus","slug":"bookmark-plus-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":109,"name":"bookmark-minus","slug":"bookmark-minus-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":108,"name":"book","slug":"book-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":107,"name":"book-bookmark","slug":"book-bookmark-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":106,"name":"block","slug":"block-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":105,"name":"basketball","slug":"basketball-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR"},{"id":104,"name":"bar-chart","slug":"bar-chart-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":103,"name":"bar-chart-square","slug":"bar-chart-square-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":102,"name":"bar-chart-alt","slug":"bar-chart-alt-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":101,"name":"at","slug":"at-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":100,"name":"archive","slug":"archive-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR"},{"id":96,"name":"zoom-out","slug":"zoom-out-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":95,"name":"zoom-in","slug":"zoom-in-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":94,"name":"x-circle","slug":"x-circle-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":93,"name":"volume","slug":"volume-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":92,"name":"volume-mute","slug":"volume-mute-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":91,"name":"volume-low","slug":"volume-low-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":90,"name":"volume-full","slug":"volume-full-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":89,"name":"video","slug":"video-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":88,"name":"vertical-center","slug":"vertical-center-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR"},{"id":87,"name":"up-arrow-circle","slug":"up-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":86,"name":"trending-up","slug":"trending-up-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":85,"name":"trending-down","slug":"trending-down-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":84,"name":"toggle-right","slug":"toggle-right-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":83,"name":"toggle-left","slug":"toggle-left-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":82,"name":"time","slug":"time-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":81,"name":"sync","slug":"sync-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":80,"name":"stopwatch","slug":"stopwatch-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR"},{"id":79,"name":"stop","slug":"stop-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":78,"name":"stop-circle","slug":"stop-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":77,"name":"skip-previous","slug":"skip-previous-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":76,"name":"skip-next","slug":"skip-next-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":75,"name":"show","slug":"show-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":74,"name":"search","slug":"search-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":73,"name":"rss","slug":"rss-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":72,"name":"right-top-arrow-circle","slug":"right-top-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":71,"name":"right-indent","slug":"right-indent-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":70,"name":"right-down-arrow-circle","slug":"right-down-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":69,"name":"right-arrow-circle","slug":"right-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":68,"name":"reset","slug":"reset-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":67,"name":"rewind","slug":"rewind-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":66,"name":"rectangle","slug":"rectangle-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR"},{"id":65,"name":"radio-circle","slug":"radio-circle-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":64,"name":"radio-circle-marked","slug":"radio-circle-marked-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":63,"name":"question-mark","slug":"question-mark-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR"},{"id":62,"name":"plus-circle","slug":"plus-circle-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":61,"name":"play","slug":"play-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":60,"name":"play-circle","slug":"play-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":58,"name":"pause","slug":"pause-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":57,"name":"pause-circle","slug":"pause-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":56,"name":"moon","slug":"moon-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR"},{"id":55,"name":"minus-circle","slug":"minus-circle-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":54,"name":"microphone","slug":"microphone-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR"},{"id":53,"name":"menu","slug":"menu-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":52,"name":"left-top-arrow-circle","slug":"left-top-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":51,"name":"left-indent","slug":"left-indent-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":50,"name":"left-down-arrow-circle","slug":"left-down-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":49,"name":"left-arrow-circle","slug":"left-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":48,"name":"last-page","slug":"last-page-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":47,"name":"key","slug":"key-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR"},{"id":46,"name":"align-justify","slug":"align-justify-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":45,"name":"info-circle","slug":"info-circle-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR"},{"id":44,"name":"image","slug":"image-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":43,"name":"hide","slug":"hide-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":42,"name":"fullscreen","slug":"fullscreen-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":41,"name":"folder","slug":"folder-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR"},{"id":40,"name":"folder-plus","slug":"folder-plus-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR"},{"id":39,"name":"folder-minus","slug":"folder-minus-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR"},{"id":38,"name":"first-page","slug":"first-page-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":37,"name":"fast-forward","slug":"fast-forward-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":36,"name":"fast-forward-circle","slug":"fast-forward-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR"},{"id":35,"name":"exit-fullscreen","slug":"exit-fullscreen-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":34,"name":"error","slug":"error-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR"},{"id":33,"name":"error-circle","slug":"error-circle-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR"},{"id":32,"name":"down-arrow-circle","slug":"down-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":31,"name":"copyright","slug":"copyright-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":30,"name":"copy","slug":"copy-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":29,"name":"coffee","slug":"coffee-regular","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"REGULAR"},{"id":28,"name":"code","slug":"code-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":27,"name":"code-curly","slug":"code-curly-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR"},{"id":26,"name":"clipboard","slug":"clipboard-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":25,"name":"chevrons-left","slug":"chevrons-left-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":24,"name":"chevrons-right","slug":"chevrons-right-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":23,"name":"chevrons-up","slug":"chevrons-up-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":22,"name":"chevrons-down","slug":"chevrons-down-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":21,"name":"chevron-right","slug":"chevron-right-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":20,"name":"chevron-left","slug":"chevron-left-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":19,"name":"chevron-up","slug":"chevron-up-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":18,"name":"chevron-down","slug":"chevron-down-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":17,"name":"checkbox-square","slug":"checkbox-square-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":16,"name":"checkbox","slug":"checkbox-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":15,"name":"checkbox-checked","slug":"checkbox-checked-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR"},{"id":14,"name":"captions","slug":"captions-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR"},{"id":13,"name":"camera","slug":"camera-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":12,"name":"camera-off","slug":"camera-off-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR"},{"id":11,"name":"bullseye","slug":"bullseye-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR"},{"id":10,"name":"bookmarks","slug":"bookmarks-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":9,"name":"bookmark","slug":"bookmark-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":8,"name":"bell","slug":"bell-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR"},{"id":7,"name":"bell-plus","slug":"bell-plus-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR"},{"id":6,"name":"bell-off","slug":"bell-off-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR"},{"id":5,"name":"bell-minus","slug":"bell-minus-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR"},{"id":4,"name":"arrow-back","slug":"arrow-back-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR"},{"id":3,"name":"align-right","slug":"align-right-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":2,"name":"align-middle","slug":"align-middle-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"},{"id":1,"name":"align-left","slug":"align-left-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR"}];
+module.exports = [{"id":877,"name":"help-circle","slug":"help-circle-solid","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"SOLID","new":false},{"id":45,"name":"info-circle","slug":"info-circle-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR","new":false},{"id":362,"name":"body","slug":"body-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR","new":false},{"id":501,"name":"captions","slug":"captions-solid","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"SOLID","new":false},{"id":876,"name":"help-circle","slug":"help-circle-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR","new":false},{"id":14,"name":"captions","slug":"captions-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR","new":false},{"id":63,"name":"question-mark","slug":"question-mark-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR","new":false},{"id":582,"name":"info-circle","slug":"info-circle-solid","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"SOLID","new":false},{"id":799,"name":"handicap","slug":"handicap-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR","new":false},{"id":1168,"name":"accessibility","slug":"accessibility-regular","category":{"name":"Accessibility","slug":"accessibility"},"type_of_icon":"REGULAR","new":true},{"id":1153,"name":"error-alt","slug":"error-alt-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR","new":true},{"id":5,"name":"bell-minus","slug":"bell-minus-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR","new":false},{"id":1243,"name":"bell-plus","slug":"bell-plus-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID","new":true},{"id":7,"name":"bell-plus","slug":"bell-plus-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR","new":false},{"id":553,"name":"error","slug":"error-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID","new":false},{"id":476,"name":"bell-off","slug":"bell-off-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID","new":false},{"id":1244,"name":"bell-minus","slug":"bell-minus-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID","new":true},{"id":474,"name":"bell","slug":"bell-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID","new":false},{"id":806,"name":"bell-ring","slug":"bell-ring-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID","new":false},{"id":34,"name":"error","slug":"error-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR","new":false},{"id":8,"name":"bell","slug":"bell-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR","new":false},{"id":6,"name":"bell-off","slug":"bell-off-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR","new":false},{"id":1167,"name":"comment-error","slug":"comment-error-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID","new":true},{"id":1154,"name":"error-alt","slug":"error-alt-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID","new":true},{"id":552,"name":"error-circle","slug":"error-circle-solid","category":{"name":"Alert","slug":"alert"},"type_of_icon":"SOLID","new":false},{"id":33,"name":"error-circle","slug":"error-circle-regular","category":{"name":"Alert","slug":"alert"},"type_of_icon":"REGULAR","new":false},{"id":21,"name":"chevron-right","slug":"chevron-right-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":20,"name":"chevron-left","slug":"chevron-left-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":819,"name":"transfer","slug":"transfer-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":1136,"name":"down-arrow-alt","slug":"down-arrow-alt-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":true},{"id":697,"name":"upvote","slug":"upvote-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":647,"name":"sort-alt","slug":"sort-alt-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":1231,"name":"right-top-arrow-circle","slug":"right-top-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":true},{"id":695,"name":"up-arrow-circle","slug":"up-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":125,"name":"cloud-upload","slug":"cloud-upload-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":982,"name":"caret-right","slug":"caret-right-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":140,"name":"download","slug":"download-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":869,"name":"sort-down","slug":"sort-down-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":319,"name":"reply-all","slug":"reply-all-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":320,"name":"reply","slug":"reply-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":4,"name":"arrow-back","slug":"arrow-back-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":23,"name":"chevrons-up","slug":"chevrons-up-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":24,"name":"chevrons-right","slug":"chevrons-right-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":975,"name":"right-arrow-square","slug":"right-arrow-square-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":49,"name":"left-arrow-circle","slug":"left-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":50,"name":"left-down-arrow-circle","slug":"left-down-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":324,"name":"subdirectory-left","slug":"subdirectory-left-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":52,"name":"left-top-arrow-circle","slug":"left-top-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":980,"name":"caret-left","slug":"caret-left-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":325,"name":"subdirectory-right","slug":"subdirectory-right-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":22,"name":"chevrons-down","slug":"chevrons-down-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":309,"name":"left-arrow","slug":"left-arrow-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":969,"name":"left-arrow-square","slug":"left-arrow-square-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":86,"name":"trending-up","slug":"trending-up-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":331,"name":"up-arrow","slug":"up-arrow-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":85,"name":"trending-down","slug":"trending-down-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":72,"name":"right-top-arrow-circle","slug":"right-top-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":70,"name":"right-down-arrow-circle","slug":"right-down-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":512,"name":"cloud-download","slug":"cloud-download-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":981,"name":"caret-up","slug":"caret-up-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":87,"name":"up-arrow-circle","slug":"up-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":323,"name":"right-arrow","slug":"right-arrow-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":69,"name":"right-arrow-circle","slug":"right-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":18,"name":"chevron-down","slug":"chevron-down-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":541,"name":"down-arrow-circle","slug":"down-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":971,"name":"up-arrow-square","slug":"up-arrow-square-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":276,"name":"sort","slug":"sort-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":32,"name":"down-arrow-circle","slug":"down-arrow-circle-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":1234,"name":"left-down-arrow-circle","slug":"left-down-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":true},{"id":588,"name":"left-arrow-circle","slug":"left-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":375,"name":"downvote","slug":"downvote-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":640,"name":"right-arrow-circle","slug":"right-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":543,"name":"download","slug":"download-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":1227,"name":"right-arrow","slug":"right-arrow-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":true},{"id":518,"name":"cloud-upload","slug":"cloud-upload-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":25,"name":"chevrons-left","slug":"chevrons-left-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":1093,"name":"transfer-alt","slug":"transfer-alt-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":true},{"id":318,"name":"redo","slug":"redo-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":124,"name":"cloud-download","slug":"cloud-download-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":973,"name":"down-arrow-square","slug":"down-arrow-square-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":1133,"name":"left-arrow-alt","slug":"left-arrow-alt-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":true},{"id":295,"name":"down-arrow","slug":"down-arrow-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":19,"name":"chevron-up","slug":"chevron-up-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":1228,"name":"left-arrow","slug":"left-arrow-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":true},{"id":1285,"name":"sort-a-z","slug":"sort-a-z-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":true},{"id":868,"name":"sort-up","slug":"sort-up-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":983,"name":"caret-down","slug":"caret-down-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":1134,"name":"right-arrow-alt","slug":"right-arrow-alt-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":true},{"id":48,"name":"last-page","slug":"last-page-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":38,"name":"first-page","slug":"first-page-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":1229,"name":"up-arrow","slug":"up-arrow-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":true},{"id":1286,"name":"sort-z-a","slug":"sort-z-a-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":true},{"id":1233,"name":"left-top-arrow-circle","slug":"left-top-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":true},{"id":330,"name":"undo","slug":"undo-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":374,"name":"upvote","slug":"upvote-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":544,"name":"downvote","slug":"downvote-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":false},{"id":1135,"name":"up-arrow-alt","slug":"up-arrow-alt-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":true},{"id":1232,"name":"right-down-arrow-circle","slug":"right-down-arrow-circle-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":true},{"id":1230,"name":"down-arrow","slug":"down-arrow-solid","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"SOLID","new":true},{"id":183,"name":"upload","slug":"upload-regular","category":{"name":"Arrow","slug":"arrow"},"type_of_icon":"REGULAR","new":false},{"id":29,"name":"coffee","slug":"coffee-regular","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"REGULAR","new":false},{"id":995,"name":"coffee-alt","slug":"coffee-alt-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID","new":false},{"id":1120,"name":"wine","slug":"wine-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID","new":true},{"id":1017,"name":"flask","slug":"flask-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID","new":false},{"id":1125,"name":"vial","slug":"vial-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID","new":true},{"id":520,"name":"coffee","slug":"coffee-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID","new":false},{"id":546,"name":"drink","slug":"drink-solid","category":{"name":"Beverage","slug":"beverage"},"type_of_icon":"SOLID","new":false},{"id":924,"name":"joomla","slug":"joomla-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":916,"name":"react","slug":"react-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":913,"name":"kickstarter","slug":"kickstarter-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":751,"name":"blogger","slug":"blogger-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":905,"name":"git","slug":"git-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":740,"name":"linkedin-square","slug":"linkedin-square-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":888,"name":"digitalocean","slug":"digitalocean-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":940,"name":"soundcloud","slug":"soundcloud-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":932,"name":"yahoo","slug":"yahoo-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":299,"name":"facebook","slug":"facebook-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":749,"name":"reddit","slug":"reddit-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":920,"name":"stripe","slug":"stripe-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":750,"name":"pinterest","slug":"pinterest-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":931,"name":"bootstrap","slug":"bootstrap-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":927,"name":"baidu","slug":"baidu-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":914,"name":"vuejs","slug":"vuejs-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":741,"name":"medium","slug":"medium-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":946,"name":"squarespace","slug":"squarespace-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":939,"name":"snapchat","slug":"snapchat-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":912,"name":"nodejs","slug":"nodejs-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":907,"name":"product-hunt","slug":"product-hunt-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":945,"name":"medium-old","slug":"medium-old-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":743,"name":"skype","slug":"skype-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":329,"name":"twitter","slug":"twitter-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":333,"name":"youtube","slug":"youtube-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":334,"name":"whatsapp","slug":"whatsapp-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":938,"name":"less","slug":"less-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":335,"name":"tumblr","slug":"tumblr-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":339,"name":"dribbble","slug":"dribbble-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":738,"name":"google-plus","slug":"google-plus-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":372,"name":"vimeo","slug":"vimeo-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":745,"name":"slack","slug":"slack-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":812,"name":"pocket","slug":"pocket-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":930,"name":"redux","slug":"redux-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":424,"name":"linkedin","slug":"linkedin-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":435,"name":"facebook-square","slug":"facebook-square-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":739,"name":"google-plus-circle","slug":"google-plus-circle-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":807,"name":"apple","slug":"apple-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":923,"name":"internet-explorer","slug":"internet-explorer-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":748,"name":"discord","slug":"discord-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":948,"name":"flickr-square","slug":"flickr-square-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":899,"name":"foursquare","slug":"foursquare-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":742,"name":"medium-square","slug":"medium-square-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":928,"name":"visa","slug":"visa-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":941,"name":"spotify","slug":"spotify-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":933,"name":"microsoft","slug":"microsoft-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":925,"name":"dailymotion","slug":"dailymotion-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":917,"name":"periscope","slug":"periscope-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":891,"name":"dropbox","slug":"dropbox-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":1261,"name":"instagram-alt","slug":"instagram-alt-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":true},{"id":434,"name":"bitcoin","slug":"bitcoin-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":808,"name":"android","slug":"android-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":892,"name":"drupal","slug":"drupal-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":337,"name":"behance","slug":"behance-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":898,"name":"sass","slug":"sass-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":890,"name":"discourse","slug":"discourse-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":900,"name":"invision","slug":"invision-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":811,"name":"vk","slug":"vk-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":947,"name":"whatsapp-square","slug":"whatsapp-square-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":840,"name":"messenger","slug":"messenger-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":886,"name":"codepen","slug":"codepen-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":942,"name":"trello","slug":"trello-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":934,"name":"css3","slug":"css3-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":896,"name":"unsplash","slug":"unsplash-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":895,"name":"digg","slug":"digg-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":911,"name":"javascript","slug":"javascript-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":919,"name":"telegram","slug":"telegram-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":944,"name":"mailchimp","slug":"mailchimp-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":922,"name":"paypal","slug":"paypal-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":918,"name":"wordpress","slug":"wordpress-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":910,"name":"firefox","slug":"firefox-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":887,"name":"creative-commons","slug":"creative-commons-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":929,"name":"mastercard","slug":"mastercard-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":943,"name":"wix","slug":"wix-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":889,"name":"deviantart","slug":"deviantart-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":935,"name":"jsfiddle","slug":"jsfiddle-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":809,"name":"play-store","slug":"play-store-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":937,"name":"flickr","slug":"flickr-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":926,"name":"chrome","slug":"chrome-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":810,"name":"windows","slug":"windows-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":915,"name":"bing","slug":"bing-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":936,"name":"shopify","slug":"shopify-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":307,"name":"instagram","slug":"instagram-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":303,"name":"google","slug":"google-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":921,"name":"edge","slug":"edge-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":909,"name":"stack-overflow","slug":"stack-overflow-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":902,"name":"airbnb","slug":"airbnb-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":904,"name":"quora","slug":"quora-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":302,"name":"github","slug":"github-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":894,"name":"amazon","slug":"amazon-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":901,"name":"opera","slug":"opera-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":885,"name":"angular","slug":"angular-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":884,"name":"500px","slug":"500px-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":897,"name":"wikipedia","slug":"wikipedia-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":893,"name":"ebay","slug":"ebay-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":906,"name":"html5","slug":"html5-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":747,"name":"twitch","slug":"twitch-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":908,"name":"magento","slug":"magento-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":744,"name":"slack-old","slug":"slack-old-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":903,"name":"yelp","slug":"yelp-logo","category":{"name":"Brands","slug":"brands"},"type_of_icon":"LOGO","new":false},{"id":1170,"name":"building-house","slug":"building-house-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID","new":true},{"id":490,"name":"building","slug":"building-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID","new":false},{"id":1040,"name":"home-circle","slug":"home-circle-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID","new":true},{"id":574,"name":"home","slug":"home-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID","new":false},{"id":1169,"name":"building-house","slug":"building-house-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR","new":true},{"id":238,"name":"home-alt","slug":"home-alt-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR","new":false},{"id":1033,"name":"factory","slug":"factory-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID","new":false},{"id":1041,"name":"buildings","slug":"buildings-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR","new":true},{"id":1042,"name":"buildings","slug":"buildings-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID","new":true},{"id":1235,"name":"institution","slug":"institution-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID","new":true},{"id":1039,"name":"home-circle","slug":"home-circle-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR","new":true},{"id":1056,"name":"bank","slug":"bank-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID","new":true},{"id":149,"name":"home","slug":"home-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR","new":false},{"id":1236,"name":"school","slug":"school-solid","category":{"name":"Building","slug":"building"},"type_of_icon":"SOLID","new":true},{"id":113,"name":"building","slug":"building-regular","category":{"name":"Building","slug":"building"},"type_of_icon":"REGULAR","new":false},{"id":1257,"name":"pie-chart-alt-2","slug":"pie-chart-alt-2-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":true},{"id":176,"name":"spreadsheet","slug":"spreadsheet-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":1046,"name":"bar-chart-alt-2","slug":"bar-chart-alt-2-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":true},{"id":378,"name":"news","slug":"news-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":1264,"name":"briefcase-alt-2","slug":"briefcase-alt-2-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":true},{"id":612,"name":"news","slug":"news-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":651,"name":"server","slug":"server-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":1057,"name":"slideshow","slug":"slideshow-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":true},{"id":31,"name":"copyright","slug":"copyright-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":173,"name":"sitemap","slug":"sitemap-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":639,"name":"report","slug":"report-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":857,"name":"stats","slug":"stats-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":847,"name":"analyse","slug":"analyse-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":1058,"name":"slideshow","slug":"slideshow-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":true},{"id":1104,"name":"analyse","slug":"analyse-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":true},{"id":410,"name":"chalkboard","slug":"chalkboard-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":394,"name":"briefcase-alt","slug":"briefcase-alt-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":180,"name":"target-lock","slug":"target-lock-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":508,"name":"chart","slug":"chart-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":379,"name":"pie-chart-alt","slug":"pie-chart-alt-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":1237,"name":"chalkboard","slug":"chalkboard-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":true},{"id":1256,"name":"pie-chart-alt-2","slug":"pie-chart-alt-2-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":true},{"id":486,"name":"briefcase","slug":"briefcase-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":487,"name":"briefcase-alt","slug":"briefcase-alt-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":111,"name":"briefcase","slug":"briefcase-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":1172,"name":"doughnut-chart","slug":"doughnut-chart-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":true},{"id":617,"name":"paper-plane","slug":"paper-plane-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":667,"name":"spreadsheet","slug":"spreadsheet-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":627,"name":"pie-chart","slug":"pie-chart-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":871,"name":"note","slug":"note-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":347,"name":"server","slug":"server-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":870,"name":"note","slug":"note-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":103,"name":"bar-chart-square","slug":"bar-chart-square-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":1171,"name":"doughnut-chart","slug":"doughnut-chart-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":true},{"id":1265,"name":"briefcase-alt-2","slug":"briefcase-alt-2-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":true},{"id":468,"name":"bar-chart-square","slug":"bar-chart-square-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":1045,"name":"bar-chart-alt-2","slug":"bar-chart-alt-2-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":true},{"id":1202,"name":"line-chart","slug":"line-chart-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":true},{"id":628,"name":"pin","slug":"pin-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":346,"name":"task","slug":"task-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":123,"name":"chart","slug":"chart-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":102,"name":"bar-chart-alt","slug":"bar-chart-alt-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":104,"name":"bar-chart","slug":"bar-chart-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":385,"name":"paperclip","slug":"paperclip-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":260,"name":"pin","slug":"pin-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":626,"name":"pie-chart-alt","slug":"pie-chart-alt-solid","category":{"name":"Business","slug":"business"},"type_of_icon":"SOLID","new":false},{"id":168,"name":"pie-chart","slug":"pie-chart-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":421,"name":"paper-plane","slug":"paper-plane-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":11,"name":"bullseye","slug":"bullseye-regular","category":{"name":"Business","slug":"business"},"type_of_icon":"REGULAR","new":false},{"id":131,"name":"data","slug":"data-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":801,"name":"code-block","slug":"code-block-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":679,"name":"terminal","slug":"terminal-solid","category":{"name":"Code","slug":"code"},"type_of_icon":"SOLID","new":false},{"id":406,"name":"command","slug":"command-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":230,"name":"git-commit","slug":"git-commit-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":1072,"name":"bug-alt","slug":"bug-alt-solid","category":{"name":"Code","slug":"code"},"type_of_icon":"SOLID","new":true},{"id":234,"name":"git-repo-forked","slug":"git-repo-forked-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":27,"name":"code-curly","slug":"code-curly-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":28,"name":"code","slug":"code-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":1240,"name":"data","slug":"data-solid","category":{"name":"Code","slug":"code"},"type_of_icon":"SOLID","new":true},{"id":232,"name":"git-merge","slug":"git-merge-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":1071,"name":"bug-alt","slug":"bug-alt-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":true},{"id":233,"name":"git-pull-request","slug":"git-pull-request-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":114,"name":"bug","slug":"bug-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":229,"name":"git-branch","slug":"git-branch-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":231,"name":"git-compare","slug":"git-compare-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":128,"name":"terminal","slug":"terminal-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":false},{"id":489,"name":"bug","slug":"bug-solid","category":{"name":"Code","slug":"code"},"type_of_icon":"SOLID","new":false},{"id":1192,"name":"component","slug":"component-solid","category":{"name":"Code","slug":"code"},"type_of_icon":"SOLID","new":true},{"id":1083,"name":"code-alt","slug":"code-alt-regular","category":{"name":"Code","slug":"code"},"type_of_icon":"REGULAR","new":true},{"id":650,"name":"send","slug":"send-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":1280,"name":"quote-alt-left","slug":"quote-alt-left-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":336,"name":"phone-call","slug":"phone-call-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":360,"name":"phone-incoming","slug":"phone-incoming-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":361,"name":"phone-outgoing","slug":"phone-outgoing-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":269,"name":"share","slug":"share-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":268,"name":"share-alt","slug":"share-alt-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":1187,"name":"message-alt-dots","slug":"message-alt-dots-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":1225,"name":"mobile-vibration","slug":"mobile-vibration-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":101,"name":"at","slug":"at-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":1059,"name":"message-square","slug":"message-square-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":603,"name":"microphone-off","slug":"microphone-off-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":604,"name":"microphone","slug":"microphone-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":249,"name":"microphone-off","slug":"microphone-off-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":236,"name":"hash","slug":"hash-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":142,"name":"envelope","slug":"envelope-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":1060,"name":"message-square-dots","slug":"message-square-dots-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":1148,"name":"comment-add","slug":"comment-add-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":167,"name":"phone","slug":"phone-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":163,"name":"message","slug":"message-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":652,"name":"share-alt","slug":"share-alt-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":653,"name":"share","slug":"share-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":162,"name":"message-rounded","slug":"message-rounded-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":1186,"name":"message-alt-dots","slug":"message-alt-dots-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":1061,"name":"message-square","slug":"message-square-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":1185,"name":"message-alt","slug":"message-alt-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":1062,"name":"message-square-dots","slug":"message-square-dots-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":1114,"name":"comment","slug":"comment-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":1082,"name":"mail-send","slug":"mail-send-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":1281,"name":"quote-alt-right","slug":"quote-alt-right-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":1116,"name":"comment","slug":"comment-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":798,"name":"dialpad","slug":"dialpad-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":1006,"name":"megaphone","slug":"megaphone-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":846,"name":"microphone-alt","slug":"microphone-alt-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":1287,"name":"conversation","slug":"conversation-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":1065,"name":"chat","slug":"chat-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":732,"name":"conversation","slug":"conversation-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":1117,"name":"comment-dots","slug":"comment-dots-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":1118,"name":"comment-dots","slug":"comment-dots-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":1047,"name":"message-dots","slug":"message-dots-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":1066,"name":"chat","slug":"chat-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":1085,"name":"quote-single-left","slug":"quote-single-left-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":636,"name":"quote-right","slug":"quote-right-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":1048,"name":"message-dots","slug":"message-dots-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":1086,"name":"quote-single-right","slug":"quote-single-right-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":635,"name":"quote-left","slug":"quote-left-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":625,"name":"phone","slug":"phone-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":624,"name":"phone-outgoing","slug":"phone-outgoing-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":1119,"name":"comment-detail","slug":"comment-detail-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":623,"name":"phone-incoming","slug":"phone-incoming-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":622,"name":"phone-call","slug":"phone-call-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":602,"name":"message","slug":"message-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":601,"name":"message-rounded","slug":"message-rounded-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":1279,"name":"mobile-vibration","slug":"mobile-vibration-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":581,"name":"inbox","slug":"inbox-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":1184,"name":"message-alt","slug":"message-alt-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":1218,"name":"dialpad-alt","slug":"dialpad-alt-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":1049,"name":"message-rounded-dots","slug":"message-rounded-dots-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":true},{"id":550,"name":"envelope","slug":"envelope-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":false},{"id":171,"name":"send","slug":"send-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":1050,"name":"message-rounded-dots","slug":"message-rounded-dots-solid","category":{"name":"Communication","slug":"communication"},"type_of_icon":"SOLID","new":true},{"id":54,"name":"microphone","slug":"microphone-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":186,"name":"voicemail","slug":"voicemail-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":326,"name":"support","slug":"support-regular","category":{"name":"Communication","slug":"communication"},"type_of_icon":"REGULAR","new":false},{"id":1150,"name":"paint-roll","slug":"paint-roll-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID","new":true},{"id":1019,"name":"color-fill","slug":"color-fill-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID","new":false},{"id":1023,"name":"eraser","slug":"eraser-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID","new":false},{"id":1288,"name":"brush-alt","slug":"brush-alt-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID","new":true},{"id":1212,"name":"paint","slug":"paint-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID","new":true},{"id":1195,"name":"palette","slug":"palette-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID","new":true},{"id":997,"name":"brush","slug":"brush-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID","new":false},{"id":1029,"name":"eyedropper","slug":"eyedropper-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID","new":false},{"id":1011,"name":"paint","slug":"paint-regular","category":{"name":"Design","slug":"design"},"type_of_icon":"REGULAR","new":false},{"id":1021,"name":"magic-wand","slug":"magic-wand-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID","new":false},{"id":1266,"name":"brush-alt","slug":"brush-alt-regular","category":{"name":"Design","slug":"design"},"type_of_icon":"REGULAR","new":true},{"id":1147,"name":"droplet-half","slug":"droplet-half-solid","category":{"name":"Design","slug":"design"},"type_of_icon":"SOLID","new":true},{"id":996,"name":"brush","slug":"brush-regular","category":{"name":"Design","slug":"design"},"type_of_icon":"REGULAR","new":false},{"id":1149,"name":"paint-roll","slug":"paint-roll-regular","category":{"name":"Design","slug":"design"},"type_of_icon":"REGULAR","new":true},{"id":1194,"name":"palette","slug":"palette-regular","category":{"name":"Design","slug":"design"},"type_of_icon":"REGULAR","new":true},{"id":243,"name":"joystick","slug":"joystick-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":1053,"name":"memory-card","slug":"memory-card-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":true},{"id":730,"name":"battery-low","slug":"battery-low-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":146,"name":"devices","slug":"devices-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":609,"name":"mouse","slug":"mouse-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":184,"name":"usb","slug":"usb-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":308,"name":"joystick-alt","slug":"joystick-alt-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":1051,"name":"devices","slug":"devices-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":true},{"id":450,"name":"dashboard","slug":"dashboard-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":570,"name":"hdd","slug":"hdd-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":369,"name":"hdd","slug":"hdd-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":1014,"name":"joystick-button","slug":"joystick-button-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":733,"name":"dashboard","slug":"dashboard-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":1069,"name":"mouse-alt","slug":"mouse-alt-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":true},{"id":1224,"name":"mobile-landscape","slug":"mobile-landscape-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":true},{"id":364,"name":"chip","slug":"chip-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":348,"name":"battery","slug":"battery-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":251,"name":"mouse","slug":"mouse-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":317,"name":"radar","slug":"radar-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":1241,"name":"mobile","slug":"mobile-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":true},{"id":473,"name":"battery-full","slug":"battery-full-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":1000,"name":"keyboard","slug":"keyboard-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":1284,"name":"printer","slug":"printer-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":true},{"id":584,"name":"joystick-alt","slug":"joystick-alt-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":132,"name":"desktop","slug":"desktop-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":472,"name":"battery-charging","slug":"battery-charging-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":818,"name":"fingerprint","slug":"fingerprint-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":177,"name":"tab","slug":"tab-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":633,"name":"printer","slug":"printer-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":585,"name":"joystick","slug":"joystick-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":471,"name":"battery","slug":"battery-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":509,"name":"chip","slug":"chip-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":false},{"id":389,"name":"tv","slug":"tv-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":164,"name":"mobile-alt","slug":"mobile-alt-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":1052,"name":"memory-card","slug":"memory-card-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":true},{"id":165,"name":"mobile","slug":"mobile-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":1070,"name":"mouse-alt","slug":"mouse-alt-solid","category":{"name":"Device","slug":"device"},"type_of_icon":"SOLID","new":true},{"id":150,"name":"laptop","slug":"laptop-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":1013,"name":"joystick-button","slug":"joystick-button-regular","category":{"name":"Device","slug":"device"},"type_of_icon":"REGULAR","new":false},{"id":656,"name":"shopping-bag-alt","slug":"shopping-bag-alt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":504,"name":"cart-alt","slug":"cart-alt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":673,"name":"t-shirt","slug":"t-shirt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":1197,"name":"basket","slug":"basket-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":true},{"id":534,"name":"discount","slug":"discount-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":616,"name":"package","slug":"package-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":634,"name":"purchase-tag","slug":"purchase-tag-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":1201,"name":"receipt","slug":"receipt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":true},{"id":1044,"name":"store-alt","slug":"store-alt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":true},{"id":527,"name":"coupon","slug":"coupon-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":1043,"name":"store-alt","slug":"store-alt-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":true},{"id":505,"name":"cart","slug":"cart-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":1196,"name":"basket","slug":"basket-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":true},{"id":671,"name":"store","slug":"store-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":1200,"name":"receipt","slug":"receipt-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":true},{"id":657,"name":"shopping-bag","slug":"shopping-bag-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":469,"name":"barcode","slug":"barcode-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":370,"name":"store","slug":"store-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":false},{"id":382,"name":"purchase-tag","slug":"purchase-tag-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":false},{"id":256,"name":"package","slug":"package-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":false},{"id":1199,"name":"purchase-tag-alt","slug":"purchase-tag-alt-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":true},{"id":566,"name":"gift","slug":"gift-solid","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"SOLID","new":false},{"id":203,"name":"cart","slug":"cart-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":false},{"id":449,"name":"cart-alt","slug":"cart-alt-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":false},{"id":291,"name":"barcode","slug":"barcode-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":false},{"id":1198,"name":"purchase-tag-alt","slug":"purchase-tag-alt-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":true},{"id":144,"name":"gift","slug":"gift-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":false},{"id":273,"name":"shopping-bag","slug":"shopping-bag-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":false},{"id":388,"name":"closet","slug":"closet-regular","category":{"name":"E-Commerce","slug":"e-commerce"},"type_of_icon":"REGULAR","new":false},{"id":767,"name":"bot","slug":"bot-regular","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"REGULAR","new":false},{"id":1081,"name":"ghost","slug":"ghost-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID","new":true},{"id":839,"name":"skull","slug":"skull-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID","new":false},{"id":769,"name":"bot","slug":"bot-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID","new":false},{"id":665,"name":"smiley-sad","slug":"smiley-sad-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID","new":false},{"id":664,"name":"smiley-meh","slug":"smiley-meh-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID","new":false},{"id":663,"name":"smiley-happy","slug":"smiley-happy-solid","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"SOLID","new":false},{"id":1080,"name":"ghost","slug":"ghost-regular","category":{"name":"Emoji","slug":"emoji"},"type_of_icon":"REGULAR","new":true},{"id":41,"name":"folder","slug":"folder-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR","new":false},{"id":40,"name":"folder-plus","slug":"folder-plus-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR","new":false},{"id":1242,"name":"folder-minus","slug":"folder-minus-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":true},{"id":815,"name":"file-blank","slug":"file-blank-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":false},{"id":1097,"name":"file-js","slug":"file-js-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":true},{"id":1100,"name":"file-txt","slug":"file-txt-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":true},{"id":1037,"name":"file-pdf","slug":"file-pdf-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":false},{"id":463,"name":"folder","slug":"folder-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":false},{"id":39,"name":"folder-minus","slug":"folder-minus-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR","new":false},{"id":464,"name":"folder-plus","slug":"folder-plus-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":false},{"id":1101,"name":"file-png","slug":"file-png-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":true},{"id":791,"name":"box","slug":"box-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":false},{"id":1095,"name":"file-html","slug":"file-html-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":true},{"id":1102,"name":"file-jpg","slug":"file-jpg-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":true},{"id":1096,"name":"file-css","slug":"file-css-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":true},{"id":814,"name":"file-blank","slug":"file-blank-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR","new":false},{"id":345,"name":"folder-open","slug":"folder-open-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR","new":false},{"id":558,"name":"file","slug":"file-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":false},{"id":734,"name":"file-plus","slug":"file-plus-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":false},{"id":1098,"name":"file-json","slug":"file-json-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":true},{"id":100,"name":"archive","slug":"archive-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR","new":false},{"id":557,"name":"file-image","slug":"file-image-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":false},{"id":298,"name":"export","slug":"export-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR","new":false},{"id":790,"name":"box","slug":"box-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR","new":false},{"id":1094,"name":"file-doc","slug":"file-doc-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":true},{"id":729,"name":"folder-open","slug":"folder-open-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":false},{"id":1099,"name":"file-md","slug":"file-md-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":true},{"id":353,"name":"import","slug":"import-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR","new":false},{"id":1103,"name":"file-gif","slug":"file-gif-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":true},{"id":224,"name":"file","slug":"file-regular","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"REGULAR","new":false},{"id":456,"name":"archive","slug":"archive-solid","category":{"name":"Files & Folders","slug":"files-folders"},"type_of_icon":"SOLID","new":false},{"id":214,"name":"credit-card","slug":"credit-card-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR","new":false},{"id":1054,"name":"wallet-alt","slug":"wallet-alt-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR","new":true},{"id":838,"name":"dollar-circle","slug":"dollar-circle-solid","category":{"name":"Finance","slug":"finance"},"type_of_icon":"SOLID","new":false},{"id":1210,"name":"credit-card","slug":"credit-card-solid","category":{"name":"Finance","slug":"finance"},"type_of_icon":"SOLID","new":true},{"id":1209,"name":"credit-card-alt","slug":"credit-card-alt-solid","category":{"name":"Finance","slug":"finance"},"type_of_icon":"SOLID","new":true},{"id":1208,"name":"credit-card-alt","slug":"credit-card-alt-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR","new":true},{"id":1055,"name":"wallet-alt","slug":"wallet-alt-solid","category":{"name":"Finance","slug":"finance"},"type_of_icon":"SOLID","new":true},{"id":1038,"name":"money","slug":"money-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR","new":false},{"id":135,"name":"dollar","slug":"dollar-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR","new":false},{"id":713,"name":"wallet","slug":"wallet-solid","category":{"name":"Finance","slug":"finance"},"type_of_icon":"SOLID","new":false},{"id":393,"name":"wallet","slug":"wallet-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR","new":false},{"id":837,"name":"dollar-circle","slug":"dollar-circle-regular","category":{"name":"Finance","slug":"finance"},"type_of_icon":"REGULAR","new":false},{"id":766,"name":"dumbbell","slug":"dumbbell-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR","new":false},{"id":1144,"name":"plus-medical","slug":"plus-medical-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR","new":true},{"id":148,"name":"heart","slug":"heart-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR","new":false},{"id":1018,"name":"capsule","slug":"capsule-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID","new":false},{"id":874,"name":"test-tube","slug":"test-tube-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR","new":false},{"id":1206,"name":"band-aid","slug":"band-aid-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR","new":true},{"id":1207,"name":"band-aid","slug":"band-aid-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID","new":true},{"id":774,"name":"bath","slug":"bath-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID","new":false},{"id":300,"name":"first-aid","slug":"first-aid-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR","new":false},{"id":967,"name":"ambulance","slug":"ambulance-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID","new":false},{"id":1139,"name":"dna","slug":"dna-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR","new":true},{"id":772,"name":"bed","slug":"bed-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID","new":false},{"id":771,"name":"bed","slug":"bed-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR","new":false},{"id":773,"name":"bath","slug":"bath-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR","new":false},{"id":966,"name":"ambulance","slug":"ambulance-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR","new":false},{"id":571,"name":"heart","slug":"heart-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID","new":false},{"id":263,"name":"pulse","slug":"pulse-regular","category":{"name":"Health","slug":"health"},"type_of_icon":"REGULAR","new":false},{"id":562,"name":"first-aid","slug":"first-aid-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID","new":false},{"id":1036,"name":"yin-yang","slug":"yin-yang-solid","category":{"name":"Health","slug":"health"},"type_of_icon":"SOLID","new":false},{"id":218,"name":"detail","slug":"detail-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":53,"name":"menu","slug":"menu-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":735,"name":"slider-alt","slug":"slider-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":1110,"name":"adjust-alt","slug":"adjust-alt-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":true},{"id":30,"name":"copy","slug":"copy-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":35,"name":"exit-fullscreen","slug":"exit-fullscreen-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":42,"name":"fullscreen","slug":"fullscreen-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":193,"name":"duplicate","slug":"duplicate-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":548,"name":"duplicate","slug":"duplicate-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":658,"name":"show","slug":"show-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":572,"name":"hide","slug":"hide-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":62,"name":"plus-circle","slug":"plus-circle-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":129,"name":"crosshair","slug":"crosshair-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":194,"name":"table","slug":"table-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":684,"name":"toggle-left","slug":"toggle-left-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":685,"name":"toggle-right","slug":"toggle-right-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":189,"name":"window-open","slug":"window-open-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":190,"name":"window","slug":"window-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":1245,"name":"search","slug":"search-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":true},{"id":211,"name":"cog","slug":"cog-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":212,"name":"columns","slug":"columns-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":191,"name":"windows","slug":"windows-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":258,"name":"paste","slug":"paste-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":314,"name":"poll","slug":"poll-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":1246,"name":"zoom-in","slug":"zoom-in-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":true},{"id":788,"name":"menu-alt-left","slug":"menu-alt-left-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":261,"name":"plus","slug":"plus-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":422,"name":"selection","slug":"selection-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":1247,"name":"zoom-out","slug":"zoom-out-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":true},{"id":521,"name":"cog","slug":"cog-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":525,"name":"copy","slug":"copy-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":531,"name":"detail","slug":"detail-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":522,"name":"collection","slug":"collection-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":560,"name":"filter-alt","slug":"filter-alt-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":789,"name":"menu-alt-right","slug":"menu-alt-right-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":759,"name":"check-circle","slug":"check-circle-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":841,"name":"search-alt","slug":"search-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":74,"name":"search","slug":"search-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":75,"name":"show","slug":"show-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":83,"name":"toggle-left","slug":"toggle-left-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":84,"name":"toggle-right","slug":"toggle-right-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":95,"name":"zoom-in","slug":"zoom-in-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":849,"name":"x-square","slug":"x-square-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":760,"name":"checkbox","slug":"checkbox-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":96,"name":"zoom-out","slug":"zoom-out-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":94,"name":"x-circle","slug":"x-circle-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":68,"name":"reset","slug":"reset-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":65,"name":"radio-circle","slug":"radio-circle-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":64,"name":"radio-circle-marked","slug":"radio-circle-marked-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":993,"name":"rotate-left","slug":"rotate-left-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":43,"name":"hide","slug":"hide-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":761,"name":"checkbox-checked","slug":"checkbox-checked-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":136,"name":"dots-horizontal-rounded","slug":"dots-horizontal-rounded-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":55,"name":"minus-circle","slug":"minus-circle-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":137,"name":"dots-horizontal","slug":"dots-horizontal-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":138,"name":"dots-vertical-rounded","slug":"dots-vertical-rounded-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":139,"name":"dots-vertical","slug":"dots-vertical-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":178,"name":"tag","slug":"tag-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":507,"name":"categories","slug":"categories-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":195,"name":"x","slug":"x-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":851,"name":"plus-square","slug":"plus-square-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":390,"name":"collection","slug":"collection-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":403,"name":"notification-off","slug":"notification-off-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":384,"name":"expand","slug":"expand-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":359,"name":"collapse","slug":"collapse-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":215,"name":"crop","slug":"crop-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":267,"name":"select-multiple","slug":"select-multiple-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":266,"name":"screenshot","slug":"screenshot-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":280,"name":"trash","slug":"trash-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":1217,"name":"filter-alt","slug":"filter-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":true},{"id":1274,"name":"customize","slug":"customize-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":true},{"id":452,"name":"adjust","slug":"adjust-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":26,"name":"clipboard","slug":"clipboard-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":405,"name":"window-close","slug":"window-close-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":853,"name":"minus-square","slug":"minus-square-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":15,"name":"checkbox-checked","slug":"checkbox-checked-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":16,"name":"checkbox","slug":"checkbox-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":322,"name":"revision","slug":"revision-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":17,"name":"checkbox-square","slug":"checkbox-square-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":321,"name":"repost","slug":"repost-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":535,"name":"dislike","slug":"dislike-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":1142,"name":"search-alt-2","slug":"search-alt-2-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":true},{"id":1180,"name":"notification","slug":"notification-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":true},{"id":1275,"name":"customize","slug":"customize-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":true},{"id":1091,"name":"copy-alt","slug":"copy-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":true},{"id":618,"name":"paste","slug":"paste-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":648,"name":"select-multiple","slug":"select-multiple-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":605,"name":"minus-circle","slug":"minus-circle-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":632,"name":"plus-circle","slug":"plus-circle-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":676,"name":"tag","slug":"tag-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":592,"name":"like","slug":"like-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":1143,"name":"search-alt-2","slug":"search-alt-2-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":true},{"id":1181,"name":"notification-off","slug":"notification-off-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":true},{"id":1182,"name":"check-square","slug":"check-square-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":true},{"id":770,"name":"area","slug":"area-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":1092,"name":"copy-alt","slug":"copy-alt-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":true},{"id":987,"name":"show-alt","slug":"show-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":765,"name":"check-double","slug":"check-double-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":724,"name":"x-circle","slug":"x-circle-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":675,"name":"tag-x","slug":"tag-x-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":683,"name":"to-top","slug":"to-top-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":688,"name":"trash-alt","slug":"trash-alt-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":689,"name":"trash","slug":"trash-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":717,"name":"widget","slug":"widget-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":false},{"id":217,"name":"cut","slug":"cut-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":204,"name":"check","slug":"check-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":106,"name":"block","slug":"block-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":226,"name":"filter","slug":"filter-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":294,"name":"dislike","slug":"dislike-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":255,"name":"notification","slug":"notification-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":262,"name":"power-off","slug":"power-off-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":250,"name":"minus","slug":"minus-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":1183,"name":"check-square","slug":"check-square-solid","category":{"name":"Interface","slug":"interface"},"type_of_icon":"SOLID","new":true},{"id":758,"name":"check-circle","slug":"check-circle-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":196,"name":"adjust","slug":"adjust-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":768,"name":"area","slug":"area-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":356,"name":"rotate-right","slug":"rotate-right-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":409,"name":"trash-alt","slug":"trash-alt-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":416,"name":"slider","slug":"slider-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":305,"name":"history","slug":"history-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":310,"name":"like","slug":"like-regular","category":{"name":"Interface","slug":"interface"},"type_of_icon":"REGULAR","new":false},{"id":568,"name":"grid-alt","slug":"grid-alt-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID","new":false},{"id":88,"name":"vertical-center","slug":"vertical-center-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":252,"name":"move","slug":"move-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":1220,"name":"border-left","slug":"border-left-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":true},{"id":864,"name":"grid-small","slug":"grid-small-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":1221,"name":"border-top","slug":"border-top-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":true},{"id":355,"name":"horizontal-center","slug":"horizontal-center-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":859,"name":"move-vertical","slug":"move-vertical-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":586,"name":"layer","slug":"layer-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID","new":false},{"id":1282,"name":"layout","slug":"layout-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID","new":true},{"id":432,"name":"layout","slug":"layout-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":431,"name":"dock-left","slug":"dock-left-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":408,"name":"grid-alt","slug":"grid-alt-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":879,"name":"card","slug":"card-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID","new":false},{"id":1248,"name":"grid","slug":"grid-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID","new":true},{"id":539,"name":"dock-top","slug":"dock-top-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID","new":false},{"id":430,"name":"dock-top","slug":"dock-top-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":429,"name":"dock-right","slug":"dock-right-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":428,"name":"dock-bottom","slug":"dock-bottom-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":862,"name":"grid-horizontal","slug":"grid-horizontal-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":1219,"name":"border-right","slug":"border-right-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":true},{"id":1084,"name":"grid","slug":"grid-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":true},{"id":538,"name":"dock-right","slug":"dock-right-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID","new":false},{"id":537,"name":"dock-left","slug":"dock-left-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID","new":false},{"id":536,"name":"dock-bottom","slug":"dock-bottom-solid","category":{"name":"Layout","slug":"layout"},"type_of_icon":"SOLID","new":false},{"id":172,"name":"sidebar","slug":"sidebar-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":878,"name":"card","slug":"card-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":858,"name":"move-horizontal","slug":"move-horizontal-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":151,"name":"layer","slug":"layer-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":863,"name":"grid-vertical","slug":"grid-vertical-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":false},{"id":1222,"name":"border-bottom","slug":"border-bottom-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":true},{"id":1223,"name":"border-all","slug":"border-all-regular","category":{"name":"Layout","slug":"layout"},"type_of_icon":"REGULAR","new":true},{"id":415,"name":"loader","slug":"loader-regular","category":{"name":"Loader","slug":"loader"},"type_of_icon":"REGULAR","new":false},{"id":441,"name":"loader-alt","slug":"loader-alt-regular","category":{"name":"Loader","slug":"loader"},"type_of_icon":"REGULAR","new":false},{"id":440,"name":"loader-circle","slug":"loader-circle-regular","category":{"name":"Loader","slug":"loader"},"type_of_icon":"REGULAR","new":false},{"id":1205,"name":"hive","slug":"hive-regular","category":{"name":"Misc","slug":"misc"},"type_of_icon":"REGULAR","new":true},{"id":400,"name":"infinite","slug":"infinite-regular","category":{"name":"Misc","slug":"misc"},"type_of_icon":"REGULAR","new":false},{"id":366,"name":"skip-next-circle","slug":"skip-next-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":37,"name":"fast-forward","slug":"fast-forward-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":36,"name":"fast-forward-circle","slug":"fast-forward-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":57,"name":"pause-circle","slug":"pause-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":274,"name":"shuffle","slug":"shuffle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":856,"name":"equalizer","slug":"equalizer-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":549,"name":"eject","slug":"eject-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":false},{"id":197,"name":"album","slug":"album-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":79,"name":"stop","slug":"stop-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":78,"name":"stop-circle","slug":"stop-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":81,"name":"sync","slug":"sync-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":93,"name":"volume","slug":"volume-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":92,"name":"volume-mute","slug":"volume-mute-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":91,"name":"volume-low","slug":"volume-low-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":90,"name":"volume-full","slug":"volume-full-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":67,"name":"rewind","slug":"rewind-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":880,"name":"rewind-circle","slug":"rewind-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":77,"name":"skip-previous","slug":"skip-previous-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":76,"name":"skip-next","slug":"skip-next-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":709,"name":"volume-full","slug":"volume-full-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":false},{"id":710,"name":"volume-low","slug":"volume-low-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":false},{"id":711,"name":"volume-mute","slug":"volume-mute-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":false},{"id":712,"name":"volume","slug":"volume-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":false},{"id":630,"name":"playlist","slug":"playlist-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":false},{"id":610,"name":"music","slug":"music-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":false},{"id":1278,"name":"fast-forward-circle","slug":"fast-forward-circle-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":true},{"id":637,"name":"radio","slug":"radio-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":false},{"id":147,"name":"headphone","slug":"headphone-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":58,"name":"pause","slug":"pause-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":61,"name":"play","slug":"play-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":253,"name":"music","slug":"music-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":60,"name":"play-circle","slug":"play-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":367,"name":"skip-previous-circle","slug":"skip-previous-circle-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":1022,"name":"repeat","slug":"repeat-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":false},{"id":455,"name":"album","slug":"album-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":false},{"id":1283,"name":"radio","slug":"radio-regular","category":{"name":"Music","slug":"music"},"type_of_icon":"REGULAR","new":true},{"id":1238,"name":"skip-previous-circle","slug":"skip-previous-circle-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":true},{"id":1277,"name":"rewind-circle","slug":"rewind-circle-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":true},{"id":1239,"name":"skip-next-circle","slug":"skip-next-circle-solid","category":{"name":"Music","slug":"music"},"type_of_icon":"SOLID","new":true},{"id":392,"name":"station","slug":"station-regular","category":{"name":"Network","slug":"network"},"type_of_icon":"REGULAR","new":false},{"id":1211,"name":"wifi-off","slug":"wifi-off-regular","category":{"name":"Network","slug":"network"},"type_of_icon":"REGULAR","new":true},{"id":112,"name":"broadcast","slug":"broadcast-regular","category":{"name":"Network","slug":"network"},"type_of_icon":"REGULAR","new":false},{"id":188,"name":"wifi","slug":"wifi-regular","category":{"name":"Network","slug":"network"},"type_of_icon":"REGULAR","new":false},{"id":115,"name":"bluetooth","slug":"bluetooth-regular","category":{"name":"Network","slug":"network"},"type_of_icon":"REGULAR","new":false},{"id":47,"name":"key","slug":"key-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":492,"name":"buoy","slug":"buoy-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":792,"name":"key","slug":"key-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":1128,"name":"lock-alt","slug":"lock-alt-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":true},{"id":882,"name":"magnet","slug":"magnet-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":631,"name":"plug","slug":"plug-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":644,"name":"ruler","slug":"ruler-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":301,"name":"flag","slug":"flag-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":645,"name":"save","slug":"save-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":401,"name":"plug","slug":"plug-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":1129,"name":"lock-open-alt","slug":"lock-open-alt-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":true},{"id":293,"name":"crown","slug":"crown-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":202,"name":"calculator","slug":"calculator-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":723,"name":"wrench","slug":"wrench-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":467,"name":"award","slug":"award-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":219,"name":"diamond","slug":"diamond-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":529,"name":"crown","slug":"crown-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":854,"name":"disc","slug":"disc-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":116,"name":"bulb","slug":"bulb-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":158,"name":"lock-open","slug":"lock-open-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":595,"name":"lock","slug":"lock-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":563,"name":"flag-alt","slug":"flag-alt-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":354,"name":"ruler","slug":"ruler-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":594,"name":"lock-open","slug":"lock-open-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":564,"name":"flag","slug":"flag-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":494,"name":"calculator","slug":"calculator-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":491,"name":"bulb","slug":"bulb-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":265,"name":"save","slug":"save-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":687,"name":"torch","slug":"torch-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":117,"name":"buoy","slug":"buoy-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":159,"name":"lock","slug":"lock-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":198,"name":"anchor","slug":"anchor-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":1127,"name":"lock-alt","slug":"lock-alt-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":true},{"id":1130,"name":"lock-open-alt","slug":"lock-open-alt-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":true},{"id":199,"name":"award","slug":"award-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":439,"name":"wrench","slug":"wrench-regular","category":{"name":"Object","slug":"object"},"type_of_icon":"REGULAR","new":false},{"id":855,"name":"disc","slug":"disc-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":883,"name":"magnet","slug":"magnet-solid","category":{"name":"Object","slug":"object"},"type_of_icon":"SOLID","new":false},{"id":706,"name":"video","slug":"video-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":false},{"id":12,"name":"camera-off","slug":"camera-off-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":399,"name":"carousel","slug":"carousel-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":1213,"name":"brightness-half","slug":"brightness-half-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":true},{"id":803,"name":"photo-album","slug":"photo-album-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":579,"name":"image","slug":"image-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":false},{"id":779,"name":"movie","slug":"movie-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":1075,"name":"video-recording","slug":"video-recording-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":true},{"id":1216,"name":"brightness","slug":"brightness-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":true},{"id":44,"name":"image","slug":"image-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":1214,"name":"brightness-half","slug":"brightness-half-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":true},{"id":363,"name":"cast","slug":"cast-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":1076,"name":"video-recording","slug":"video-recording-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":true},{"id":343,"name":"aperture","slug":"aperture-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":1215,"name":"brightness","slug":"brightness-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":true},{"id":707,"name":"videos","slug":"videos-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":false},{"id":380,"name":"images","slug":"images-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":787,"name":"video-plus","slug":"video-plus-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":false},{"id":185,"name":"video-off","slug":"video-off-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":1276,"name":"carousel","slug":"carousel-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":true},{"id":1112,"name":"landscape","slug":"landscape-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":true},{"id":344,"name":"film","slug":"film-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":460,"name":"camera","slug":"camera-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":false},{"id":786,"name":"video-plus","slug":"video-plus-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":804,"name":"photo-album","slug":"photo-album-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":false},{"id":1111,"name":"landscape","slug":"landscape-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":true},{"id":462,"name":"camera-off","slug":"camera-off-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":false},{"id":780,"name":"movie","slug":"movie-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":false},{"id":845,"name":"image-alt","slug":"image-alt-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":false},{"id":13,"name":"camera","slug":"camera-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":89,"name":"video","slug":"video-regular","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"REGULAR","new":false},{"id":834,"name":"film","slug":"film-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":false},{"id":705,"name":"video-off","slug":"video-off-solid","category":{"name":"Photo & Video","slug":"photo-video"},"type_of_icon":"SOLID","new":false},{"id":1155,"name":"square","slug":"square-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":true},{"id":1121,"name":"pyramid","slug":"pyramid-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":true},{"id":1123,"name":"cylinder","slug":"cylinder-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":true},{"id":865,"name":"badge","slug":"badge-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":false},{"id":1161,"name":"cube-alt","slug":"cube-alt-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":true},{"id":866,"name":"badge","slug":"badge-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":false},{"id":655,"name":"shield","slug":"shield-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":false},{"id":1158,"name":"square-rounded","slug":"square-rounded-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":true},{"id":668,"name":"star","slug":"star-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":false},{"id":66,"name":"rectangle","slug":"rectangle-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":false},{"id":1157,"name":"square-rounded","slug":"square-rounded-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":true},{"id":1124,"name":"cylinder","slug":"cylinder-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":true},{"id":1078,"name":"shape-triangle","slug":"shape-triangle-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":true},{"id":1162,"name":"cube-alt","slug":"cube-alt-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":true},{"id":1156,"name":"square","slug":"square-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":true},{"id":1137,"name":"shape-circle","slug":"shape-circle-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":true},{"id":1163,"name":"cuboid","slug":"cuboid-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":true},{"id":1173,"name":"circle","slug":"circle-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":true},{"id":530,"name":"cube","slug":"cube-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":false},{"id":991,"name":"badge-check","slug":"badge-check-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":false},{"id":823,"name":"circle","slug":"circle-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":false},{"id":1152,"name":"shield-alt-2","slug":"shield-alt-2-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":true},{"id":755,"name":"certification","slug":"certification-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":false},{"id":1151,"name":"shield-alt-2","slug":"shield-alt-2-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":true},{"id":277,"name":"star","slug":"star-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":false},{"id":754,"name":"certification","slug":"certification-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":false},{"id":992,"name":"badge-check","slug":"badge-check-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":false},{"id":1226,"name":"rectangle","slug":"rectangle-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":true},{"id":1077,"name":"shape-square","slug":"shape-square-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":true},{"id":762,"name":"star-half","slug":"star-half-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":false},{"id":1164,"name":"cuboid","slug":"cuboid-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":true},{"id":1160,"name":"polygon","slug":"polygon-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":true},{"id":1122,"name":"pyramid","slug":"pyramid-solid","category":{"name":"Shape","slug":"shape"},"type_of_icon":"SOLID","new":true},{"id":216,"name":"cube","slug":"cube-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":false},{"id":271,"name":"shield","slug":"shield-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":false},{"id":270,"name":"shield-alt","slug":"shield-alt-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":false},{"id":1159,"name":"polygon","slug":"polygon-regular","category":{"name":"Shape","slug":"shape"},"type_of_icon":"REGULAR","new":true},{"id":832,"name":"ball","slug":"ball-solid","category":{"name":"Sports","slug":"sports"},"type_of_icon":"SOLID","new":false},{"id":833,"name":"football","slug":"football-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR","new":false},{"id":1141,"name":"bowling-ball","slug":"bowling-ball-solid","category":{"name":"Sports","slug":"sports"},"type_of_icon":"SOLID","new":true},{"id":690,"name":"trophy","slug":"trophy-solid","category":{"name":"Sports","slug":"sports"},"type_of_icon":"SOLID","new":false},{"id":1138,"name":"cycling","slug":"cycling-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR","new":true},{"id":831,"name":"ball","slug":"ball-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR","new":false},{"id":181,"name":"tennis-ball","slug":"tennis-ball-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR","new":false},{"id":281,"name":"trophy","slug":"trophy-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR","new":false},{"id":105,"name":"basketball","slug":"basketball-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR","new":false},{"id":1140,"name":"bowling-ball","slug":"bowling-ball-regular","category":{"name":"Sports","slug":"sports"},"type_of_icon":"REGULAR","new":true},{"id":678,"name":"tennis-ball","slug":"tennis-ball-solid","category":{"name":"Sports","slug":"sports"},"type_of_icon":"SOLID","new":false},{"id":454,"name":"alarm-off","slug":"alarm-off-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":false},{"id":182,"name":"alarm","slug":"alarm-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":1271,"name":"calendar-x","slug":"calendar-x-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":978,"name":"calendar-event","slug":"calendar-event-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":327,"name":"timer","slug":"timer-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":437,"name":"alarm-off","slug":"alarm-off-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":1132,"name":"hourglass-bottom","slug":"hourglass-bottom-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":1259,"name":"time-five","slug":"time-five-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":1267,"name":"calendar","slug":"calendar-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":120,"name":"calendar-minus","slug":"calendar-minus-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":1258,"name":"time-five","slug":"time-five-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":true},{"id":1131,"name":"hourglass-top","slug":"hourglass-top-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":715,"name":"watch","slug":"watch-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":false},{"id":1273,"name":"calendar-event","slug":"calendar-event-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":352,"name":"calendar-alt","slug":"calendar-alt-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":1268,"name":"calendar-alt","slug":"calendar-alt-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":118,"name":"calendar-plus","slug":"calendar-plus-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":453,"name":"alarm","slug":"alarm-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":false},{"id":714,"name":"watch-alt","slug":"watch-alt-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":false},{"id":122,"name":"calendar","slug":"calendar-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":1272,"name":"calendar-check","slug":"calendar-check-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":397,"name":"hourglass","slug":"hourglass-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":121,"name":"calendar-x","slug":"calendar-x-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":82,"name":"time","slug":"time-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":1269,"name":"calendar-plus","slug":"calendar-plus-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":80,"name":"stopwatch","slug":"stopwatch-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":1253,"name":"stopwatch","slug":"stopwatch-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":119,"name":"calendar-check","slug":"calendar-check-regular","category":{"name":"Time","slug":"time"},"type_of_icon":"REGULAR","new":false},{"id":1270,"name":"calendar-minus","slug":"calendar-minus-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":1255,"name":"time","slug":"time-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":576,"name":"hourglass","slug":"hourglass-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":false},{"id":1254,"name":"timer","slug":"timer-solid","category":{"name":"Time","slug":"time"},"type_of_icon":"SOLID","new":true},{"id":781,"name":"hotel","slug":"hotel-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":1190,"name":"traffic-barrier","slug":"traffic-barrier-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":true},{"id":1188,"name":"no-entry","slug":"no-entry-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":true},{"id":282,"name":"truck","slug":"truck-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":1008,"name":"direction-right","slug":"direction-right-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":1032,"name":"tree","slug":"tree-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":611,"name":"navigation","slug":"navigation-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":784,"name":"planet","slug":"planet-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":597,"name":"map","slug":"map-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":1203,"name":"map-pin","slug":"map-pin-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":true},{"id":596,"name":"map-alt","slug":"map-alt-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":371,"name":"globe-alt","slug":"globe-alt-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":1079,"name":"direction-left","slug":"direction-left-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":true},{"id":160,"name":"map-alt","slug":"map-alt-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":1145,"name":"street-view","slug":"street-view-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":true},{"id":777,"name":"taxi","slug":"taxi-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":794,"name":"restaurant","slug":"restaurant-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":1252,"name":"gas-pump","slug":"gas-pump-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":true},{"id":1031,"name":"plane","slug":"plane-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":757,"name":"rocket","slug":"rocket-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":161,"name":"map","slug":"map-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":1193,"name":"plane-alt","slug":"plane-alt-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":true},{"id":1106,"name":"plane-take-off","slug":"plane-take-off-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":true},{"id":1108,"name":"parking","slug":"parking-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":true},{"id":1089,"name":"run","slug":"run-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":true},{"id":764,"name":"bus","slug":"bus-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":1034,"name":"ship","slug":"ship-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":427,"name":"world","slug":"world-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":795,"name":"swim","slug":"swim-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":145,"name":"globe","slug":"globe-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":691,"name":"truck","slug":"truck-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":763,"name":"bus","slug":"bus-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":776,"name":"train","slug":"train-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":1191,"name":"traffic-barrier","slug":"traffic-barrier-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":true},{"id":836,"name":"bicycle","slug":"bicycle-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":445,"name":"car","slug":"car-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":502,"name":"car","slug":"car-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":1035,"name":"walk","slug":"walk-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":986,"name":"landmark","slug":"landmark-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":1251,"name":"compass","slug":"compass-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":true},{"id":166,"name":"navigation","slug":"navigation-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":133,"name":"directions","slug":"directions-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":1107,"name":"plane-land","slug":"plane-land-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":true},{"id":985,"name":"gas-pump","slug":"gas-pump-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":775,"name":"train","slug":"train-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":1204,"name":"map-pin","slug":"map-pin-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":true},{"id":1020,"name":"hotel","slug":"hotel-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":783,"name":"planet","slug":"planet-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":1007,"name":"directions","slug":"directions-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":756,"name":"rocket","slug":"rocket-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":1113,"name":"traffic","slug":"traffic-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":true},{"id":130,"name":"compass","slug":"compass-regular","category":{"name":"Travel","slug":"travel"},"type_of_icon":"REGULAR","new":false},{"id":1189,"name":"no-entry","slug":"no-entry-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":true},{"id":778,"name":"taxi","slug":"taxi-solid","category":{"name":"Travel","slug":"travel"},"type_of_icon":"SOLID","new":false},{"id":246,"name":"log-out","slug":"log-out-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":1109,"name":"id-card","slug":"id-card-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":true},{"id":285,"name":"user-circle","slug":"user-circle-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":1088,"name":"user-pin","slug":"user-pin-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":true},{"id":1179,"name":"log-out","slug":"log-out-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":true},{"id":284,"name":"user-check","slug":"user-check-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":700,"name":"user-detail","slug":"user-detail-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":false},{"id":286,"name":"user-minus","slug":"user-minus-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":287,"name":"user-plus","slug":"user-plus-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":288,"name":"user-x","slug":"user-x-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":289,"name":"user","slug":"user-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":867,"name":"id-card","slug":"id-card-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":1166,"name":"user-voice","slug":"user-voice-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":true},{"id":1249,"name":"user-x","slug":"user-x-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":true},{"id":699,"name":"user-circle","slug":"user-circle-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":false},{"id":524,"name":"contact","slug":"contact-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":false},{"id":1174,"name":"log-in-circle","slug":"log-in-circle-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":true},{"id":223,"name":"female","slug":"female-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":247,"name":"male","slug":"male-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":701,"name":"user-minus","slug":"user-minus-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":false},{"id":702,"name":"user-plus","slug":"user-plus-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":false},{"id":704,"name":"user","slug":"user-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":false},{"id":977,"name":"user-badge","slug":"user-badge-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":false},{"id":235,"name":"group","slug":"group-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":245,"name":"log-in","slug":"log-in-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":false},{"id":569,"name":"group","slug":"group-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":false},{"id":1176,"name":"log-out-circle","slug":"log-out-circle-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":true},{"id":1250,"name":"user-check","slug":"user-check-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":true},{"id":1030,"name":"user-rectangle","slug":"user-rectangle-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":false},{"id":1087,"name":"user-pin","slug":"user-pin-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":true},{"id":1165,"name":"user-voice","slug":"user-voice-regular","category":{"name":"User","slug":"user"},"type_of_icon":"REGULAR","new":true},{"id":1178,"name":"log-in","slug":"log-in-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":true},{"id":1177,"name":"log-out-circle","slug":"log-out-circle-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":true},{"id":1175,"name":"log-in-circle","slug":"log-in-circle-solid","category":{"name":"User","slug":"user"},"type_of_icon":"SOLID","new":true},{"id":209,"name":"cloud-rain","slug":"cloud-rain-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR","new":false},{"id":575,"name":"hot","slug":"hot-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID","new":false},{"id":1146,"name":"droplet","slug":"droplet-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR","new":true},{"id":210,"name":"cloud-snow","slug":"cloud-snow-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR","new":false},{"id":608,"name":"moon","slug":"moon-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID","new":false},{"id":672,"name":"sun","slug":"sun-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID","new":false},{"id":861,"name":"flame","slug":"flame-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID","new":false},{"id":519,"name":"cloud","slug":"cloud-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID","new":false},{"id":207,"name":"cloud-light-rain","slug":"cloud-light-rain-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR","new":false},{"id":726,"name":"zap","slug":"zap-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID","new":false},{"id":1028,"name":"cloud-lightning","slug":"cloud-lightning-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID","new":false},{"id":56,"name":"moon","slug":"moon-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR","new":false},{"id":1026,"name":"cloud-rain","slug":"cloud-rain-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID","new":false},{"id":208,"name":"cloud-lightning","slug":"cloud-lightning-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR","new":false},{"id":206,"name":"cloud-drizzle","slug":"cloud-drizzle-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR","new":false},{"id":547,"name":"droplet","slug":"droplet-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID","new":false},{"id":126,"name":"cloud","slug":"cloud-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR","new":false},{"id":796,"name":"water","slug":"water-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR","new":false},{"id":680,"name":"thermometer","slug":"thermometer-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID","new":false},{"id":797,"name":"wind","slug":"wind-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR","new":false},{"id":478,"name":"bolt","slug":"bolt-solid","category":{"name":"Weather","slug":"weather"},"type_of_icon":"SOLID","new":false},{"id":278,"name":"sun","slug":"sun-regular","category":{"name":"Weather","slug":"weather"},"type_of_icon":"REGULAR","new":false},{"id":800,"name":"font-size","slug":"font-size-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":1009,"name":"unlink","slug":"unlink-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":830,"name":"edit","slug":"edit-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":false},{"id":10,"name":"bookmarks","slug":"bookmarks-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":1073,"name":"notepad","slug":"notepad-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":true},{"id":1074,"name":"notepad","slug":"notepad-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":true},{"id":3,"name":"align-right","slug":"align-right-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":109,"name":"bookmark-minus","slug":"bookmark-minus-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":813,"name":"strikethrough","slug":"strikethrough-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":108,"name":"book","slug":"book-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":242,"name":"italic","slug":"italic-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":283,"name":"underline","slug":"underline-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":279,"name":"text","slug":"text-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":107,"name":"book-bookmark","slug":"book-bookmark-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":638,"name":"rename","slug":"rename-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":false},{"id":1105,"name":"book-open","slug":"book-open-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":true},{"id":1067,"name":"edit-alt","slug":"edit-alt-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":true},{"id":221,"name":"edit","slug":"edit-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":228,"name":"font","slug":"font-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":237,"name":"heading","slug":"heading-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":257,"name":"paragraph","slug":"paragraph-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":244,"name":"link-external","slug":"link-external-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":259,"name":"pencil","slug":"pencil-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":383,"name":"pen","slug":"pen-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":156,"name":"list-x","slug":"list-x-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":358,"name":"rename","slug":"rename-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":1126,"name":"graduation","slug":"graduation-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":true},{"id":154,"name":"list-plus","slug":"list-plus-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":1068,"name":"edit-alt","slug":"edit-alt-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":true},{"id":817,"name":"font-color","slug":"font-color-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":621,"name":"pencil","slug":"pencil-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":false},{"id":1,"name":"align-left","slug":"align-left-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":484,"name":"book-open","slug":"book-open-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":false},{"id":485,"name":"bookmark-star","slug":"bookmark-star-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":false},{"id":483,"name":"bookmark-plus","slug":"bookmark-plus-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":false},{"id":200,"name":"bold","slug":"bold-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":816,"name":"highlight","slug":"highlight-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":1263,"name":"bookmark-minus","slug":"bookmark-minus-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":true},{"id":71,"name":"right-indent","slug":"right-indent-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":73,"name":"rss","slug":"rss-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":620,"name":"pen","slug":"pen-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":false},{"id":1016,"name":"font-family","slug":"font-family-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":311,"name":"list-check","slug":"list-check-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":155,"name":"list-ul","slug":"list-ul-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":785,"name":"list-ol","slug":"list-ol-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":481,"name":"bookmark","slug":"bookmark-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":false},{"id":480,"name":"book-bookmark","slug":"book-bookmark-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":false},{"id":479,"name":"book","slug":"book-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":false},{"id":110,"name":"bookmark-plus","slug":"bookmark-plus-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":9,"name":"bookmark","slug":"bookmark-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":46,"name":"align-justify","slug":"align-justify-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":2,"name":"align-middle","slug":"align-middle-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":152,"name":"link-alt","slug":"link-alt-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":153,"name":"link","slug":"link-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":51,"name":"left-indent","slug":"left-indent-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":false},{"id":1262,"name":"bookmarks","slug":"bookmarks-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":true},{"id":1064,"name":"book-content","slug":"book-content-solid","category":{"name":"Writing","slug":"writing"},"type_of_icon":"SOLID","new":true},{"id":1063,"name":"book-content","slug":"book-content-regular","category":{"name":"Writing","slug":"writing"},"type_of_icon":"REGULAR","new":true}];
 
 /***/ }),
 
