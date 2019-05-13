@@ -159,7 +159,7 @@ var SET_SEARCH_TERM = 'SET_SEARCH_TERM';
 var TOGGLE_SIDE_ICON = 'TOGGLE_SIDE_ICON';
 var CHANGE_SIDE_ICON = 'CHANGE_SIDE_ICON';
 var SET_SELECTED_ICON = 'SET_SELECTED_ICON';
-var VERSION = '2.0.1';
+var VERSION = '2.0.2';
 var FETCH_STYLE = 'FETCH_STYLE';
 var SET_STYLE = 'SET_STYLE';
 var SET_CATEGORY = 'SET_CATEGORY';
@@ -498,17 +498,18 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
 
 
 
+var isProd = ("development" || false) === 'production';
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -516,14 +517,14 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "width=device-width, initial-scale=1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 11
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     charSet: "UTF-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 12
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -531,7 +532,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "IE=edge",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -539,7 +540,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "text/html; charset=utf-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -547,13 +548,13 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "always",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 15
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     },
     __self: this
   }, "Boxicons : Premium web friendly icons for free"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -561,7 +562,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "Boxicons : Premium web friendly icons for free",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -569,7 +570,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "Boxicons",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -577,15 +578,23 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "Boxicons is a free collection of carefully crafted open source icons. Each icon is designed on a 24px grid with the material guidelines",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+  }), isProd ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     href: 'https://cdn.jsdelivr.net/npm/boxicons@' + _actions_types__WEBPACK_IMPORTED_MODULE_4__["VERSION"] + '/css/boxicons.min.css',
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
+    },
+    __self: this
+  }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    href: '/static/css/boxicons.min.css',
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -593,7 +602,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "website",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -601,7 +610,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "Boxicons is a free collection of carefully crafted open source icons. Each icon is designed on a 24px grid with the material guidelines",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 28
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -610,7 +619,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "Boxicons : Premium web friendly icons for free",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 29
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -618,7 +627,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "https://boxicons.com/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 30
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -626,7 +635,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "http://boxicons.com/static/img/og-image.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 31
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -635,7 +644,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     src: "https://buttons.github.io/buttons.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 32
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -643,7 +652,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "summary_large_image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 33
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -651,7 +660,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "https://boxicons.com/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 34
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -659,7 +668,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "Boxicons : Premium web friendly icons for free",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 35
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -667,7 +676,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "Boxicons is a free collection of carefully crafted open source icons. Each icon is designed on a 24px grid with the material guidelines",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 36
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -675,7 +684,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "http://boxicons.com/static/img/og-image.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 37
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -683,7 +692,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     content: "free icons,open source icons, royalty free icons,google icons, icon, line icon, sharp icon, material icons, premium icons, pixel perfect icons, open source icons, free icon set",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 39
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -692,7 +701,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     href: "../../static/img/favicon.ico?v=7",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 40
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -700,7 +709,7 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     src: "https://www.googletagmanager.com/gtag/js?id=".concat(_lib_gtag__WEBPACK_IMPORTED_MODULE_3__["GA_TRACKING_ID"]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 43
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -709,13 +718,13 @@ var _jsxFileName = "C:\\Sorted\\Work 2\\Personal Projects\\boxicons\\basic\\boxi
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 47
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style_global__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 58
     },
     __self: this
   }));
@@ -1453,10 +1462,10 @@ var FLEX_SM = "20%";
 var FLEX_ACTIVE = "11.111%";
 var DARK_BORDER_COLOR = 'rgba(0, 31, 51, 0.06)';
 var BORDER_COLOR_DARK = 'rgba(255, 255, 255, 0.075)';
-var ICON_SIZE = "32px";
+var ICON_SIZE = "36px";
 var ICON_SIZE_MD = "24px";
-var ICON_BASE = "32px";
-var ICON_BASE_LG = "32px";
+var ICON_BASE = "36px";
+var ICON_BASE_LG = "36px";
 var ICON_BASE_MD = "24px";
 var BUTTON_RADIUS = "5px";
 var SIDE_WIDTH = "365px";
@@ -25716,7 +25725,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CSorted%5CWork%202%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js ***!
   \********************************************************************************************************************************************************************/
@@ -25739,5 +25748,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

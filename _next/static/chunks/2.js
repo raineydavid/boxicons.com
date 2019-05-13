@@ -1260,7 +1260,7 @@ function (_Component) {
           lineNumber: 707
         },
         __self: this
-      }, this.state.icons.data.length, "  icons crafted with material guidelines  ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_common_buttons__WEBPACK_IMPORTED_MODULE_12__["BlueButton"], {
+      }, this.state.icons.data.length, "  icons crafted for web and app use  ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_common_buttons__WEBPACK_IMPORTED_MODULE_12__["BlueButton"], {
         href: "/static/boxicons-" + _actions_types__WEBPACK_IMPORTED_MODULE_17__["VERSION"] + ".zip",
         className: " noselect ",
         __source: {
@@ -6962,10 +6962,10 @@ for (var COLLECTION_NAME in DOMIterables) {
 /*!***************************************!*\
   !*** ./reducers/data/categories.json ***!
   \***************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, default */
 /***/ (function(module) {
 
-module.exports = [{"name":"Accessibility","slug":"accessibility"},{"name":"Alert","slug":"alert"},{"name":"Arrow","slug":"arrow"},{"name":"Beverage","slug":"beverage"},{"name":"Building","slug":"building"},{"name":"Business","slug":"business"},{"name":"Code","slug":"code"},{"name":"Communication","slug":"communication"},{"name":"Design","slug":"design"},{"name":"Device","slug":"device"},{"name":"E-Commerce","slug":"e-commerce"},{"name":"Emoji","slug":"emoji"},{"name":"Files & Folders","slug":"files-folders"},{"name":"Finance","slug":"finance"},{"name":"Health","slug":"health"},{"name":"Interface","slug":"interface"},{"name":"Layout","slug":"layout"},{"name":"Loader","slug":"loader"},{"name":"Misc","slug":"misc"},{"name":"Music","slug":"music"},{"name":"Network","slug":"network"},{"name":"Object","slug":"object"},{"name":"Photo & Video","slug":"photo-video"},{"name":"Shape","slug":"shape"},{"name":"Sports","slug":"sports"},{"name":"Time","slug":"time"},{"name":"Travel","slug":"travel"},{"name":"User","slug":"user"},{"name":"Weather","slug":"weather"},{"name":"Writing","slug":"writing"}];
+module.exports = [{"name":"Accessibility","slug":"accessibility"},{"name":"Alert","slug":"alert"},{"name":"Arrow","slug":"arrow"},{"name":"Brands","slug":"brands"},{"name":"Building","slug":"building"},{"name":"Business","slug":"business"},{"name":"Code","slug":"code"},{"name":"Communication","slug":"communication"},{"name":"Design","slug":"design"},{"name":"Device","slug":"device"},{"name":"E-Commerce","slug":"e-commerce"},{"name":"Emoji","slug":"emoji"},{"name":"Files & Folders","slug":"files-folders"},{"name":"Finance","slug":"finance"},{"name":"Food & Beverage","slug":"food-beverage"},{"name":"Health","slug":"health"},{"name":"Interface","slug":"interface"},{"name":"Layout","slug":"layout"},{"name":"Loader","slug":"loader"},{"name":"Misc","slug":"misc"},{"name":"Music","slug":"music"},{"name":"Network","slug":"network"},{"name":"Object","slug":"object"},{"name":"Photo & Video","slug":"photo-video"},{"name":"Shape","slug":"shape"},{"name":"Sports","slug":"sports"},{"name":"Time","slug":"time"},{"name":"Travel","slug":"travel"},{"name":"User","slug":"user"},{"name":"Weather","slug":"weather"},{"name":"Writing","slug":"writing"}];
 
 /***/ })
 
