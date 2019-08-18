@@ -501,6 +501,7 @@ function (_Component) {
         __self: this
       }), " by"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "https://github.com/atisawd",
+        rel: "noopener noreferrer",
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
@@ -510,7 +511,6 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("svg", {
         className: "footer-logo",
         version: "1.1",
-        id: "Layer_1",
         x: "0px",
         y: "0px",
         width: "1825.596px",
@@ -1169,7 +1169,6 @@ function (_Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("svg", {
         version: "1.1",
-        id: "Layer_1",
         xmlns: "http://www.w3.org/2000/svg",
         x: "0px",
         y: "0px",
@@ -1247,6 +1246,7 @@ function (_Component) {
         __self: this
       }, "Icons")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         target: "_blank",
+        rel: "noopener noreferrer",
         href: "https://github.com/atisawd/boxicons",
         __source: {
           fileName: _jsxFileName,
@@ -1268,6 +1268,7 @@ function (_Component) {
         },
         __self: this
       }, "Usage")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
+        rel: "noopener noreferrer",
         href: "http://gum.co/boxicons",
         target: "_blank",
         __source: {
@@ -2282,7 +2283,6 @@ function (_Component) {
     _this.emptySearch = _this.emptySearch.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
     _this.onSearchFocus = _this.onSearchFocus.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
     _this.onSearchBlur = _this.onSearchBlur.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
-    _this.onSubmit = _this.onSubmit.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
     _this.handleSearchScroll = _this.handleSearchScroll.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
     return _this;
   }
@@ -2368,11 +2368,6 @@ function (_Component) {
       }
     }
   }, {
-    key: "onSubmit",
-    value: function onSubmit(e) {
-      e.preventDefault();
-    }
-  }, {
     key: "componentWillReceiveProps",
     value: function componentWillReceiveProps(newProps) {
       this.setState({
@@ -2400,7 +2395,7 @@ function (_Component) {
         className: "search-sticky animated fadeIn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 233
+          lineNumber: 230
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2409,14 +2404,7 @@ function (_Component) {
         onBlur: this.onSearchBlur,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 234
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("form", {
-        onSubmit: this.onSubmit,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 235
+          lineNumber: 231
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2424,14 +2412,14 @@ function (_Component) {
         ref: "searchBox",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 236
+          lineNumber: 233
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bx-search",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 237
+          lineNumber: 234
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
@@ -2441,7 +2429,7 @@ function (_Component) {
         placeholder: "Search icons...",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 238
+          lineNumber: 235
         },
         __self: this
       }), this.state.search.length > 0 && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
@@ -2449,10 +2437,10 @@ function (_Component) {
         onClick: this.emptySearch,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 245
+          lineNumber: 242
         },
         __self: this
-      })))));
+      }))));
     }
   }]);
 
