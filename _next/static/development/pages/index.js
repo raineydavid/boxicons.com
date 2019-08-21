@@ -361,13 +361,13 @@ var NavButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.with
 })(["margin-left:10px;transition:", ";background:", ";color:#fff!important;text-align:center;border-radius:", "!important;font-weight:700!important;font-size:.875rem!important;padding:0 15px!important;letter-spacing:0.25px!important;height:40px!important;line-height:40px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{color:#fff;padding-left:0;font-size:21px!important;@media screen and (max-width:", "){padding-right:0px;}}&:hover{color:#fff!important;background:#5a6cf3;}&:active{background:#3c4fde;color:#fff!important;box-shadow:", ";}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"]);
 var LoadButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-1"
-})(["transition:", ";justify-content:center;background:#73859d;color:#fff;cursor:pointer;padding:0px 16px;height:45px!important;text-align:center;border-radius:", ";font-weight:700;letter-spacing:0.25px!important;font-size:1rem;display:flex;align-items:center;line-height:45px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{color:#fff!important;background:#8b9cb3;}&:active{background:#607086;color:#fff!important;box-shadow:0 0px 0px 3px rgba(115,133,157,0.85);}@media screen and (max-width:", "){margin:0 20px!important;}.button-name{line-height:24px;flex:1;}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
+})(["transition:", ";max-width:400px;justify-content:center;background:#73859d;color:#fff;cursor:pointer;padding:0px 16px;height:45px!important;text-align:center;border-radius:", ";font-weight:700;letter-spacing:0.25px!important;font-size:1rem;display:flex;align-items:center;line-height:45px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{color:#fff!important;background:#8b9cb3;}&:active{background:#607086;color:#fff!important;}@media screen and (max-width:", "){margin:0 20px!important;}.button-name{line-height:24px;flex:1;}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
 var BlueButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-2"
 })(["transition:", ";background:", ";color:#fff;padding:0px 16px;height:40px!important;text-align:center;border-radius:", ";font-weight:700;letter-spacing:0.25px!important;font-size:.875rem;display:flex;align-items:center;line-height:40px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{color:#fff!important;background:#5a6cf3;}&:active{background:#3c4fde;color:#fff!important;box-shadow:", ";}@media screen and (max-width:", "){padding:5px;width:160px;}.button-name{line-height:24px;flex:1;}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
 var WhiteButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-3"
-})(["margin-left:10px;transition:", ";color:", ";background:#fff;border:1px solid #dee2ef;text-align:center;border-radius:", "!important;font-weight:700!important;font-size:13px!important;padding:0 12px!important;letter-spacing:0.25px!important;height:40px!important;line-height:40px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{font-size:22px;color:", ";padding-right:10px;@media screen and (max-width:", "){padding-right:0px;}}&:hover{}&:active{box-shadow:", ";}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_ICON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"]);
+})(["margin-left:10px;transition:", ";color:", ";background:#fff;border:1px solid #dee2ef;text-align:center;border-radius:", "!important;font-weight:700!important;font-size:13px!important;padding:0 12px!important;letter-spacing:0.25px!important;height:40px!important;line-height:40px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{font-size:22px;color:", ";padding-right:10px;@media screen and (max-width:", "){padding-right:0px;}}&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}&:active{box-shadow:", ";}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_ICON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"]);
 var DarkBGButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-4"
 })(["transition:", ";color:#fff!important;background:", ";text-align:center;font-size:20px!important;padding:0 16px!important;height:60px!important;line-height:60px!important;display:block;border-radius:2px!important;@media screen and (max-width:", "){max-width:225px;font-size:18px!important;height:50px!important;line-height:50px!important;}.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{background:#b06c4a;color:#fff!important;}&:active{color:#fff!important;box-shadow:0 0px 0 5px rgba(176,108,74,0.2);}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
@@ -410,7 +410,7 @@ var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxico
 
 var FootNav = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
   componentId: "ywb9o1-0"
-})(["background:", ";padding-top:50px;color:", ";.footer-max{border-top:1px solid ", ";;max-width:", ";margin:0 auto;.footer-in{padding:10px;display:flex;@media screen and (max-width:", "){flex-wrap:wrap;.footer-links{flex:0 0 100%;justify-content:center!important;margin-bottom:20px;}.footer-logo{flex:0 0 100%;justify-content:center!important;}}.footer-links{justify-content:flex-start;display:flex;align-items:center;a{&.no-mobile{@media screen and (max-width:", "){display:none;visibility:hidden;}}color:#73859d;img{height:auto !important;width:auto !important;box-shadow:0 0 15px rgba(0,0,0,0.1);border-radius:5px;}margin-right:15px;}}.footer-logo{display:flex;justify-content:flex-end;flex:1;}}}display:block;text-align:right;color:#1a1b1c;font-size:.875rem;span{font-size:.875rem;color:#73859d;line-height:30px;margin-right:10px;@media screen and (max-width:", "){font-size:12px;}}svg{width:120px;height:32px;@media screen and (max-width:", "){width:90px;}}"], _types__WEBPACK_IMPORTED_MODULE_7__["ICONS_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_7__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"]);
+})(["background:", ";padding-top:50px;color:", ";.footer-max{border-top:1px solid ", ";;max-width:", ";margin:0 auto;.footer-in{padding:10px;display:flex;padding-bottom:25px;@media screen and (max-width:", "){flex-wrap:wrap;.footer-links{flex:0 0 100%;justify-content:center!important;margin-bottom:20px;}.footer-logo{flex:0 0 100%;justify-content:center!important;}}.footer-links{justify-content:flex-start;display:flex;align-items:center;a{&.no-mobile{@media screen and (max-width:", "){display:none;visibility:hidden;}}color:#73859d;img{height:auto !important;width:auto !important;box-shadow:0 0 15px rgba(0,0,0,0.1);border-radius:5px;}margin-right:15px;}}.footer-logo{display:flex;justify-content:flex-end;flex:1;}}}display:block;text-align:right;color:#1a1b1c;font-size:.875rem;span{font-size:.875rem;color:#73859d;line-height:30px;margin-right:10px;@media screen and (max-width:", "){font-size:12px;}}svg{width:120px;height:32px;@media screen and (max-width:", "){width:90px;}}"], _types__WEBPACK_IMPORTED_MODULE_7__["ICONS_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_7__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"]);
 
 var Footer =
 /*#__PURE__*/
@@ -730,7 +730,7 @@ function (_Component) {
           lineNumber: 159
         },
         __self: this
-      }, "Boxicons is a simple open-source icons set carefully crafted for designers and developers to use in your next project")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_search_searchForm__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, "Boxicons is a simple vector icons set carefully crafted for designers and developers to use in your next project")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_search_searchForm__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 161
@@ -1169,26 +1169,36 @@ function (_Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("svg", {
         version: "1.1",
+        id: "Layer_1",
         xmlns: "http://www.w3.org/2000/svg",
         x: "0px",
         y: "0px",
-        viewBox: "-191 239 117 23",
+        width: "612px",
+        height: "134.994px",
+        viewBox: "0 274.096 612 134.994",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 386
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        id: "XMLID_1_",
+        fill: "#DCE0E6",
+        d: "M6.669,319.417v39.23c0,6.277,3.138,11.508,8.892,14.646l39.754,21.97\r c3.662,2.091,8.369-0.523,8.369-4.708v-52.308l46.554-23.538c4.185-2.093,4.185-7.847,0-9.939l-40.8-19.876\r c-4.708-2.093-9.938-2.093-14.646,0l-38.708,19.876C10.33,307.91,6.669,313.14,6.669,319.417z",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 388
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        id: "XMLID_1_",
-        fill: "#dce0e6",
-        d: "M-189.6,246.7v7.5c0,1.2,0.6,2.2,1.7,2.8l7.6,4.2c0.7,0.4,1.6-0.1,1.6-0.9v-10l8.9-4.5\r c0.8-0.4,0.8-1.5,0-1.9l-7.8-3.8c-0.9-0.4-1.9-0.4-2.8,0l-7.4,3.8C-188.9,244.5-189.6,245.5-189.6,246.7z",
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#73859D",
+        d: "M9.284,311.048c-1.569,2.615-2.615,5.754-2.615,8.369v39.23c0,6.277,3.138,11.508,8.892,14.646l39.754,21.97\r c3.662,2.091,8.369-0.523,8.369-4.708v-52.308l1.046-0.523L9.284,311.048z",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 391
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("g", {
-        className: "logo-hide",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 393
@@ -1196,38 +1206,102 @@ function (_Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
-        d: "M-147.8,252c-0.5-0.6-1.1-1-1.8-1.2c0.7-0.2,1.2-0.5,1.6-1c0.4-0.5,0.6-1.1,0.6-1.9c0-1-0.4-1.9-1.1-2.4\r s-1.7-0.8-3-0.8h-5.7v12.6h5.9c1.4,0,2.4-0.3,3.1-0.9c0.7-0.6,1.1-1.4,1.1-2.5C-147.1,253.2-147.4,252.6-147.8,252z M-154.1,247.1\r h2c1.1,0,1.6,0.5,1.6,1.4s-0.5,1.4-1.6,1.4h-2V247.1z M-151.9,254.8h-2.2V252h2.2c0.6,0,1,0.1,1.3,0.4c0.3,0.3,0.4,0.6,0.4,1.1\r C-150.3,254.4-150.9,254.9-151.9,254.8z M-136.4,249.7c-0.4-0.8-1-1.4-1.8-1.8c-0.8-0.4-1.6-0.6-2.6-0.6c-1,0-1.9,0.2-2.7,0.6\r c-0.7,0.4-1.4,1-1.8,1.8c-0.5,0.8-0.7,1.7-0.7,2.7s0.3,1.9,0.7,2.7c0.4,0.8,1,1.4,1.8,1.8c0.8,0.4,1.8,0.6,2.7,0.6\r c0.9,0,1.8-0.2,2.6-0.6c0.7-0.4,1.4-1,1.8-1.8c0.5-0.8,0.7-1.7,0.7-2.7S-136.1,250.5-136.4,249.7z M-139.4,254.1\r c-0.4,0.4-0.9,0.6-1.5,0.6c-0.6,0-1.1-0.2-1.5-0.6c-0.4-0.4-0.6-1-0.6-1.8s0.2-1.4,0.6-1.8c0.4-0.4,0.9-0.6,1.5-0.6\r c0.6,0,1.1,0.2,1.5,0.6c0.4,0.4,0.6,1,0.6,1.8S-138.9,253.7-139.4,254.1z M-124.7,247.3h-3.3l-1.7,2.8l-2-2.8h-3.4l3.4,4.8\r l-3.3,5.2h3.3l1.7-2.8l2,2.8h3.4l-3.5-4.9L-124.7,247.3z M-121.9,243c-0.5,0-1,0.2-1.3,0.5c-0.3,0.3-0.5,0.6-0.5,1.1\r c0,0.4,0.2,0.8,0.5,1.1c0.3,0.3,0.8,0.5,1.3,0.5s1-0.2,1.3-0.5s0.5-0.6,0.5-1.1c0-0.4-0.2-0.8-0.5-1.1S-121.4,243-121.9,243z\r M-123.4,247.4h3v9.9h-3V247.4z M-113.8,249.8c0.4,0,0.8,0.2,1.1,0.4c0.3,0.2,0.5,0.6,0.6,1h3.2c-0.2-1.2-0.7-2.2-1.6-2.9\r s-2-1-3.2-1.3c-1,0-1.8,0.2-2.6,0.6c-0.8,0.4-1.4,1-1.8,1.8c-0.4,0.7-0.6,1.7-0.6,2.7s0.2,1.9,0.6,2.7c0.5,0.8,1,1.4,1.8,1.8\r c0.8,0.4,1.6,0.6,2.6,0.6c1.3,0,2.3-0.4,3.2-1.1c0.8-0.7,1.4-1.7,1.6-2.9h-3.2c-0.1,0.4-0.3,0.8-0.6,1c-0.3,0.3-0.6,0.4-1.1,0.4\r s-1-0.2-1.3-0.6s-0.5-1-0.5-1.8c0-0.8,0.2-1.4,0.5-1.8C-114.8,250-114.3,249.8-113.8,249.8L-113.8,249.8z M-98.2,249.7\r c-0.4-0.8-1-1.4-1.8-1.8c-0.8-0.4-1.7-0.6-2.6-0.6c-1,0-1.9,0.2-2.7,0.6c-0.7,0.4-1.4,1-1.8,1.8c-0.5,0.8-0.7,1.7-0.7,2.7\r s0.3,1.9,0.7,2.7c0.4,0.8,1,1.4,1.8,1.8c0.8,0.4,1.7,0.6,2.7,0.6c0.9,0,1.8-0.2,2.6-0.6c0.7-0.4,1.4-1,1.8-1.8\r c0.5-0.8,0.7-1.7,0.7-2.7S-97.8,250.5-98.2,249.7z M-101.1,254.1c-0.4,0.4-0.9,0.6-1.5,0.6s-1.1-0.2-1.5-0.6\r c-0.4-0.4-0.6-1-0.6-1.8s0.2-1.4,0.6-1.8s0.8-0.6,1.5-0.6c0.6,0,1.1,0.2,1.5,0.6s0.6,1,0.6,1.8S-100.7,253.7-101.1,254.1z\r M-89.5,247.3c-0.8,0-1.4,0.2-2,0.5s-1,0.8-1.3,1.4v-1.8h-3v9.9h3V252c0-0.7,0.1-1.3,0.5-1.7c0.4-0.4,0.9-0.6,1.5-0.6\r c0.6,0,1,0.2,1.4,0.6c0.3,0.4,0.5,0.9,0.5,1.6v5.4h3v-5.8c0-1.3-0.3-2.3-1-3.1C-87.6,247.7-88.5,247.3-89.5,247.3L-89.5,247.3z\r M-77.7,251.9c-0.5-0.1-1.1-0.3-1.9-0.5c-0.7-0.2-1.2-0.3-1.5-0.5c-0.3-0.2-0.5-0.4-0.5-0.7c0-0.2,0.1-0.5,0.3-0.6\r c0.2-0.1,0.5-0.2,0.8-0.2c0.4,0,0.8,0.1,1.1,0.3c0.3,0.3,0.5,0.6,0.6,1h2.9c-0.2-1-0.6-1.9-1.4-2.5c-0.7-0.6-1.7-0.9-3.2-0.9\r c-1.3,0-2.2,0.2-2.9,0.8c-0.7,0.6-1,1.3-1,2.2c0,0.7,0.2,1.2,0.5,1.6c0.3,0.4,0.7,0.7,1.2,0.9s1.1,0.3,1.8,0.5\r c0.7,0.2,1.3,0.4,1.6,0.5c0.3,0.1,0.5,0.4,0.5,0.7c0,0.2-0.1,0.4-0.3,0.6c-0.2,0.1-0.5,0.2-0.8,0.2c-0.5,0-0.9-0.1-1.2-0.3\r s-0.5-0.6-0.5-1h-2.9c0.2,1.1,0.7,1.9,1.5,2.5c0.8,0.6,1.9,0.9,3.2,0.9c0.8,0,1.5-0.2,2.1-0.4c0.5-0.2,1-0.6,1.3-1\r c0.3-0.4,0.5-0.9,0.5-1.5c0-0.7-0.1-1.3-0.5-1.7C-76.8,252.4-77.2,252.1-77.7,251.9L-77.7,251.9z",
+        stroke: "#15161E",
+        "stroke-miterlimit": "10",
+        d: "M225.35,348.711c2.35,2.946,3.525,6.361,3.525,10.246\r c0,5.703-1.896,10.152-5.687,13.348c-3.792,3.196-9.228,4.794-16.309,4.794h-30.926v-66.458h30.174c6.768,0,12,1.473,15.698,4.418\r c3.697,2.946,5.546,7.144,5.546,12.596c0,4.011-1.066,7.348-3.196,10.011c-2.131,2.665-4.92,4.403-8.366,5.217\r C219.819,343.823,223,345.766,225.35,348.711z M192.027,337.807h10.528c5.577,0,8.366-2.381,8.366-7.144\r c0-4.762-2.853-7.144-8.554-7.144h-10.34V337.807z M212.425,356.701c0-2.381-0.784-4.245-2.35-5.593\r c-1.567-1.347-3.792-2.021-6.674-2.021h-11.374v14.946h11.468C209.448,364.033,212.425,361.589,212.425,356.701z",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 394
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#73859d",
-        d: "M-189.1,245.1c-0.3,0.5-0.5,1.1-0.5,1.6v7.5c0,1.2,0.6,2.2,1.7,2.8l7.6,4.2c0.7,0.4,1.6-0.1,1.6-0.9v-10\r l0.2-0.1L-189.1,245.1z",
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#15161E",
+        stroke: "#15161E",
+        "stroke-miterlimit": "10",
+        d: "M275.828,327.232c4.104,2.162,7.332,5.28,9.682,9.353\r c2.35,4.075,3.525,8.836,3.525,14.288s-1.175,10.215-3.525,14.288c-2.35,4.074-5.579,7.191-9.682,9.353\r c-4.105,2.162-8.758,3.243-13.959,3.243c-5.202,0-9.87-1.081-14.006-3.243c-4.136-2.162-7.379-5.279-9.729-9.353\r c-2.35-4.073-3.525-8.836-3.525-14.288s1.175-10.213,3.525-14.288c2.35-4.073,5.593-7.191,9.729-9.353\r c4.136-2.162,8.804-3.243,14.006-3.243C267.07,323.989,271.723,325.07,275.828,327.232z M254.114,341.238\r c-2.101,2.225-3.149,5.437-3.149,9.635c0,4.199,1.049,7.395,3.149,9.588c2.099,2.194,4.684,3.29,7.755,3.29\r c3.07,0,5.64-1.096,7.708-3.29c2.068-2.193,3.102-5.389,3.102-9.588c0-4.198-1.034-7.41-3.102-9.635\r c-2.068-2.224-4.638-3.337-7.708-3.337C258.798,337.901,256.213,339.015,254.114,341.238z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 400
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#15161E",
+        stroke: "#15161E",
+        "stroke-miterlimit": "10",
+        d: "M330.206,377.099l-10.716-14.946l-8.742,14.946h-17.671\r l17.39-27.354l-18.048-25.098h18.048l10.622,14.758l8.741-14.758h17.673l-17.767,26.696l18.519,25.756H330.206z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 408
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#15161E",
+        stroke: "#15161E",
+        "stroke-miterlimit": "10",
+        d: "M355.397,303.826c1.754-1.598,4.073-2.397,6.956-2.397\r c2.882,0,5.201,0.799,6.956,2.397c1.754,1.598,2.632,3.619,2.632,6.063c0,2.382-0.878,4.371-2.632,5.969\r c-1.755,1.598-4.074,2.397-6.956,2.397c-2.883,0-5.202-0.799-6.956-2.397c-1.755-1.598-2.632-3.586-2.632-5.969\r C352.766,307.445,353.643,305.424,355.397,303.826z M370.344,324.647v52.452H354.27v-52.452H370.344z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 410
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#15161E",
+        stroke: "#15161E",
+        "stroke-miterlimit": "10",
+        d: "M422.137,329.582c4.573,3.729,7.457,8.852,8.648,15.369h-17.015\r c-0.502-2.256-1.536-4.01-3.102-5.264c-1.567-1.253-3.541-1.88-5.922-1.88c-2.82,0-5.14,1.113-6.956,3.337\r c-1.818,2.225-2.727,5.468-2.727,9.729c0,4.262,0.908,7.505,2.727,9.729c1.816,2.225,4.136,3.337,6.956,3.337\r c2.381,0,4.354-0.625,5.922-1.88c1.565-1.253,2.6-3.008,3.102-5.264h17.015c-1.191,6.519-4.075,11.642-8.648,15.369\r c-4.575,3.729-10.246,5.593-17.014,5.593c-5.14,0-9.698-1.081-13.678-3.243s-7.097-5.279-9.353-9.353\r c-2.256-4.073-3.384-8.836-3.384-14.288c0-5.514,1.111-10.293,3.337-14.335c2.224-4.042,5.342-7.144,9.353-9.306\r c4.01-2.162,8.585-3.243,13.725-3.243C411.891,323.989,417.562,325.854,422.137,329.582z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 414
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#15161E",
+        stroke: "#15161E",
+        "stroke-miterlimit": "10",
+        d: "M477.644,327.232c4.104,2.162,7.332,5.28,9.682,9.353\r c2.351,4.075,3.525,8.836,3.525,14.288s-1.175,10.215-3.525,14.288c-2.35,4.074-5.578,7.191-9.682,9.353\r c-4.105,2.162-8.758,3.243-13.959,3.243c-5.202,0-9.87-1.081-14.006-3.243s-7.379-5.279-9.729-9.353\r c-2.35-4.073-3.524-8.836-3.524-14.288s1.175-10.213,3.524-14.288c2.351-4.073,5.594-7.191,9.729-9.353\r c4.136-2.162,8.804-3.243,14.006-3.243C468.886,323.989,473.538,325.07,477.644,327.232z M455.93,341.238\r c-2.101,2.225-3.149,5.437-3.149,9.635c0,4.199,1.049,7.395,3.149,9.588c2.099,2.194,4.684,3.29,7.755,3.29\r c3.069,0,5.64-1.096,7.708-3.29c2.068-2.193,3.102-5.389,3.102-9.588c0-4.198-1.033-7.41-3.102-9.635\r c-2.068-2.224-4.639-3.337-7.708-3.337C460.613,337.901,458.028,339.015,455.93,341.238z",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 421
         },
         __self: this
-      })))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#15161E",
+        stroke: "#15161E",
+        "stroke-miterlimit": "10",
+        d: "M546.827,330.099c3.539,4.011,5.311,9.526,5.311,16.544v30.456\r h-16.074v-28.576c0-3.509-0.925-6.251-2.772-8.225c-1.85-1.974-4.31-2.961-7.379-2.961c-3.26,0-5.845,1.034-7.755,3.102\r c-1.913,2.068-2.867,5.015-2.867,8.836v27.824h-16.074v-52.452h16.074v9.588c1.504-3.133,3.744-5.608,6.721-7.426\r c2.976-1.817,6.47-2.726,10.481-2.726C538.508,324.083,543.286,326.089,546.827,330.099z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 429
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#15161E",
+        stroke: "#15161E",
+        "stroke-miterlimit": "10",
+        d: "M597.774,328.971c3.979,3.322,6.471,7.708,7.474,13.16h-15.04\r c-0.439-2.13-1.427-3.807-2.961-5.029c-1.536-1.222-3.464-1.833-5.781-1.833c-1.818,0-3.196,0.392-4.136,1.175\r c-0.94,0.784-1.41,1.896-1.41,3.337c0,1.63,0.86,2.852,2.585,3.666c1.723,0.815,4.433,1.63,8.131,2.444\r c4.01,0.94,7.3,1.896,9.87,2.867c2.569,0.972,4.794,2.554,6.674,4.747c1.88,2.194,2.82,5.139,2.82,8.836\r c0,3.008-0.815,5.672-2.444,7.99c-1.63,2.319-3.98,4.136-7.05,5.452c-3.071,1.316-6.706,1.974-10.904,1.974\r c-7.082,0-12.753-1.566-17.014-4.7c-4.263-3.133-6.862-7.614-7.802-13.442h15.51c0.25,2.256,1.206,3.98,2.867,5.17\r c1.659,1.191,3.807,1.786,6.438,1.786c1.817,0,3.196-0.423,4.137-1.269c0.939-0.846,1.409-1.958,1.409-3.337\r c0-1.817-0.861-3.117-2.585-3.901c-1.724-0.783-4.527-1.612-8.413-2.491c-3.886-0.814-7.082-1.692-9.588-2.632\r c-2.507-0.94-4.669-2.458-6.485-4.559c-1.818-2.099-2.727-4.966-2.727-8.601c0-4.7,1.786-8.507,5.358-11.421\r c3.572-2.914,8.615-4.371,15.134-4.371C588.483,323.989,593.795,325.65,597.774,328.971z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 433
+        },
+        __self: this
+      }))))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "nav-search",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 430
+          lineNumber: 458
         },
         __self: this
       }, this.props.page == 'index' ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_search_searchForm__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 431
+          lineNumber: 459
         },
         __self: this
       }) : null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "nav-links",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 433
+          lineNumber: 461
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -1235,13 +1309,13 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 435
+          lineNumber: 463
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 436
+          lineNumber: 464
         },
         __self: this
       }, "Icons")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -1250,7 +1324,7 @@ function (_Component) {
         href: "https://github.com/atisawd/boxicons",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 439
+          lineNumber: 467
         },
         __self: this
       }, "Github"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -1258,13 +1332,13 @@ function (_Component) {
         href: "/usage",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 443
+          lineNumber: 471
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 443
+          lineNumber: 471
         },
         __self: this
       }, "Usage")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
@@ -1273,20 +1347,20 @@ function (_Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 446
+          lineNumber: 474
         },
         __self: this
       }, "Download ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 446
+          lineNumber: 474
         },
         __self: this
       }, "v", _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"]))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "mobile-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 451
+          lineNumber: 479
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
@@ -1294,13 +1368,13 @@ function (_Component) {
         href: "/static/boxicons-" + _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"] + ".zip",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 452
+          lineNumber: 480
         },
         __self: this
       }, "Download ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 452
+          lineNumber: 480
         },
         __self: this
       }, "v", _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"]))))));
@@ -1501,56 +1575,56 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 195
+          lineNumber: 194
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-box-inner",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 197
+          lineNumber: 196
         },
         __self: this
       }, this.props.icon.new && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "new-dot",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 198
+          lineNumber: 197
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-base",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 199
+          lineNumber: 198
         },
         __self: this
       }, this.props.icon.type_of_icon === 'REGULAR' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bx-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 200
+          lineNumber: 199
         },
         __self: this
       }), this.props.icon.type_of_icon === 'SOLID' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bxs-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 201
+          lineNumber: 200
         },
         __self: this
       }), this.props.icon.type_of_icon === 'LOGO' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bxl-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 202
+          lineNumber: 201
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-box-name",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 204
+          lineNumber: 203
         },
         __self: this
       }, this.props.icon.name)));
@@ -1677,13 +1751,13 @@ var StyledIconCont = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].
 })(["padding:15px;border-radius:.5rem;border-bottom-right-radius:0px;border-bottom-left-radius:0px;background:", ";display:flex;pointer-events:auto;@media screen and (max-width:", "){display:block;height:48px;padding:15px;}@keyframes placeHolderShimmer{0%{background-position:-468px 0}100%{background-position:468px 0}}"], _types__WEBPACK_IMPORTED_MODULE_13__["FILTER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
 var IconsSection = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-2"
-})(["padding:0px;background:", ";@media screen and (max-width:", "){padding:0px;}&.active .icons-left-section{order:0;}"], _types__WEBPACK_IMPORTED_MODULE_13__["ICONS_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"]);
+})(["padding:0px;min-height:300px;background:", ";@media screen and (max-width:", "){padding:0px;}&.active .icons-left-section{order:0;}"], _types__WEBPACK_IMPORTED_MODULE_13__["ICONS_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"]);
 var IconsSectionCont = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-3"
 })(["@media screen and (max-width:", "){padding:0px;}@media screen and (min-width:", "){&.side-active .icon-box{flex:0 0 ", "!important;max-width:", "!important;}}@media screen and (min-width:", "){display:flex;}.icons-left-section{@media screen and (max-width:", "){display:none;visibility:hidden;}-webkit-animation-duration:0.5s !important;animation-duration:0.5s !important;position:fixed;z-index:99997;-webkit-transform:translateZ(0);animation-fill-mode:forwards;bottom:0;left:100px;width:", ";transition:", ";.left-section-inner{background:", ";margin:0 auto;display:block;border-radius:0.5rem;box-shadow:", ";@media screen and (max-width:", "){border-radius:0px;border-left:0px;border-right:0px;max-width:none;left:0;right:0;}}@media screen and (max-width:", "){pointer-events:all;}}.icons-side-section{position:absolute;background:#fff;z-index:99999;margin-top:0px;margin-left:20px;overflow-y:scroll;max-height:200px;border-radius:", ";box-shadow:", ";min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;padding-top:0;padding-bottom:0;max-height:256px;overflow-x:hidden;.side-section-inner{border-bottom:1px solid transparent;padding-left:0px;@media screen and (max-width:", "){border-bottom:1px solid ", ";margin:0;}}@media screen and (max-width:", "){display:none;visibility:hidden;}}.icons-right-section{width:100%;@media screen and (max-width:", "){width:auto;}@media screen and (max-width:", "){padding:0px;}h2{margin:15px;margin-bottom:30px;font-size:36px;font-weight:400;line-height:48px;color:", ";a{display:none!important;visibility:hidden;@media screen and (max-width:", "){display:flex!important;visibility:visible;}}@media screen and (max-width:", "){font-size:30px;line-height:44px;margin:10px;margin-bottom:25px;}@media screen and (max-width:", "){font-size:24px;line-height:36px;}}}.icon-list{padding:0px;min-height:calc(100vh - 260px);padding-bottom:10px;max-width:", ";margin:0 auto;.container{@media screen and (max-width:", "){text-align:center;}.no-result{text-align:center;font-weight:400;padding:30px;min-height:50px;color:", ";font-size:18px;margin-bottom:0px;p{margin-top:2px;font-size:16px;color:#73859d;font-style:italic;}}}@media screen and (max-width:", "){padding:0px;}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["FLEX_ACTIVE"], _types__WEBPACK_IMPORTED_MODULE_13__["FLEX_ACTIVE"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["FILTER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_13__["BOX_SHADOW_POPUP"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["HEADER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDS"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["SECONDARY_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
 var IconsFilter = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-4"
-})(["   box-sizing:border-box;margin-bottom:15px;background:#fff;.icon-filter-max{max-width:", ";margin:0 auto;padding:0px 15px;@media screen and (max-width:", "){padding-top:0px;padding:0!important;margin-bottom:0px;}.icons-filter-in{font-weight:400;margin:0 10px;border-top:1px solid #dee2ef;padding-bottom:15px!important;padding-top:15px!important;@media screen and (max-width:", "){padding:15px 20px!important;}.icons-count{align-self:flex-end;flex:1;font-style:italic;transition:", ";text-align:left;border-left:1px solid #dee2ef;padding:0;padding-left:15px;padding-right:15px;margin-left:15px;border-radius:0px;@media screen and (max-width:", "){display:none;}}.selected-category{display:flex;background:#313133;@media screen and (max-width:", "){display:none;visibility:hidden;}color:#fff;margin-left:10px;align-items:center;height:28px;transition:", ";justify-content:center;border-radius:30px!important;&:active{box-shadow:0 0px 0 5px ", ";}div{padding:0px!important;line-height:18px!important;height:20px!important;font-weight:400;}.selected-category-name{color:#fff!important;}.selected-category-x i{color:#fff!important;font-size:12px!important;margin-left:10px;}}.icons-theme{@media screen and (max-width:", "){display:none;visibility:hidden;}flex:0 0 36px;width:36px;height:36px;margin-bottom:4px;align-items:center;box-shadow:0 0px 0 2px #f9f9f9;justify-content:center;transition:", ";margin-left:0px;display:flex;padding:0px;border-radius:30px;div{width:12px!important;height:12px!important;background:#313133;padding:0!important;border-radius:50%!important;}@media screen and (max-width:", "){margin-bottom:7px;}@media screen and (max-width:", "){display:none;visibility:hidden;}&:active{box-shadow:0 0px 0 5px ", ";}}.icons-filter{align-self:flex-end;min-width:150px;color:#070b28;font-weight:600;cursor:pointer;span.category{color:#73859d;font-weight:400;}i{line-height:40px!important;}@media screen and (max-width:", "){display:none;visibility:hidden;}line-height:38px;height:38px;text-align:left;padding:0px;padding:0px 10px;padding-top:0px;font-size:.875rem;margin-bottom:4px;@media screen and (max-width:", "){margin-bottom:7px;}transition:", ";margin:0px;border-radius:", ";border:1px solid #dee2ef;background:", ";i{margin-left:15px;color:#73859d;}&:active{box-shadow:", ";}}i{font-size:16px;color:#313133;float:right;line-height:30px;}display:flex;@media screen and (max-width:", "){margin:0;padding:15px;padding-bottom:10px;}.filter-top,.filter-bottom{display:flex;padding:0;line-height:40px!important;height:40px!important;align-items:center;}.filter-bottom{cursor:pointer;overflow:hidden;div{flex:1;text-align:center;}}.filter-top{flex:1;border-radius:0px!important;@media screen and (max-width:", "){display:none;visibility:none;}}div{@media screen and (max-width:", "){margin:0;}padding:0px 12px;margin:0px;font-size:.875rem;line-height:35px;height:35px;transition:", ";border-radius:5px;color:", ";-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;&.active{color:#3f54f1;background:#e8ecf7;font-weight:600;}&:last-child{}&:first:child{margin-right:0px;}}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_RADIUS"], function (props) {
+})(["   box-sizing:border-box;margin-bottom:15px;background:#fff;.icon-filter-max{max-width:", ";margin:0 auto;padding:0px 15px;@media screen and (max-width:", "){padding-top:0px;padding:0!important;margin-bottom:0px;}.icons-filter-in{font-weight:400;margin:0 10px;border-top:1px solid #dee2ef;padding-bottom:15px!important;padding-top:15px!important;@media screen and (max-width:", "){padding:15px 20px!important;}.icons-count{align-self:flex-end;flex:1;font-style:italic;transition:", ";text-align:left;border-left:1px solid #dee2ef;padding:0;padding-left:15px;padding-right:15px;margin-left:15px;border-radius:0px;@media screen and (max-width:", "){display:none;}}.selected-category{display:flex;background:#313133;@media screen and (max-width:", "){display:none;visibility:hidden;}color:#fff;margin-left:10px;align-items:center;height:28px;transition:", ";justify-content:center;border-radius:30px!important;&:active{box-shadow:0 0px 0 5px ", ";}div{padding:0px!important;line-height:18px!important;height:20px!important;font-weight:400;}.selected-category-name{color:#fff!important;}.selected-category-x i{color:#fff!important;font-size:12px!important;margin-left:10px;}}.icons-theme{@media screen and (max-width:", "){display:none;visibility:hidden;}flex:0 0 36px;width:36px;height:36px;margin-bottom:4px;align-items:center;box-shadow:0 0px 0 2px #f9f9f9;justify-content:center;transition:", ";margin-left:0px;display:flex;padding:0px;border-radius:30px;div{width:12px!important;height:12px!important;background:#313133;padding:0!important;border-radius:50%!important;}@media screen and (max-width:", "){margin-bottom:7px;}@media screen and (max-width:", "){display:none;visibility:hidden;}&:active{box-shadow:0 0px 0 5px ", ";}}.icons-filter{align-self:flex-end;min-width:150px;color:#070b28;font-weight:600;cursor:pointer;&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}span.category{color:#73859d;font-weight:400;}i{line-height:40px!important;}@media screen and (max-width:", "){display:none;visibility:hidden;}line-height:38px;height:38px;text-align:left;padding:0px;padding:0px 10px;padding-top:0px;font-size:.875rem;margin-bottom:4px;@media screen and (max-width:", "){margin-bottom:7px;}transition:", ";margin:0px;border-radius:", ";border:1px solid #dee2ef;background:", ";i{margin-left:15px;color:#73859d;}&:active{box-shadow:", ";}}i{font-size:16px;color:#313133;float:right;line-height:30px;}display:flex;@media screen and (max-width:", "){margin:0;padding:15px;padding-bottom:10px;}.filter-top,.filter-bottom{display:flex;padding:0;line-height:40px!important;height:40px!important;align-items:center;}.filter-bottom{cursor:pointer;overflow:hidden;div{flex:1;text-align:center;}}.filter-top{flex:1;border-radius:0px!important;@media screen and (max-width:", "){display:none;visibility:none;}}div{@media screen and (max-width:", "){margin:0;}padding:0px 12px;margin:0px;font-size:.875rem;line-height:35px;height:35px;transition:", ";border-radius:5px;color:", ";-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;&.active{color:#3f54f1;background:#e8ecf7;font-weight:600;}&:last-child{}&:first:child{margin-right:0px;}}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_RADIUS"], function (props) {
   return props.side ? _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"] : 'transparent';
 }, _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["NAV_LIST_COLOR"]);
 
@@ -1743,14 +1817,14 @@ function (_Component) {
         return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 512
+            lineNumber: 516
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Icon, {
           icon: this.state.selectedIcon,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 513
+            lineNumber: 517
           },
           __self: this
         }));
@@ -1856,14 +1930,20 @@ function (_Component) {
         });
       }
 
-      if (newProps.icons.data.length > 200) {
+      if (newProps.icons.data.length > 200 * this.state.iteration) {
         this.setState({
           showLI: true
         });
       } else {
-        this.setState({
-          showLI: false
-        });
+        if (newProps.icons !== this.state.icons && newProps.icons.data.length > 200 * this.state.iteration) {
+          this.setState({
+            showLI: true
+          });
+        } else {
+          this.setState({
+            showLI: false
+          });
+        }
       }
 
       if (newProps.icons !== this.state.icons) {
@@ -1907,14 +1987,14 @@ function (_Component) {
         onKeyDown: this.handleKeyPress,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 667
+          lineNumber: 678
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_common_ToTop__WEBPACK_IMPORTED_MODULE_16__["default"], {
         side: this.state.displaySideIcon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 668
+          lineNumber: 679
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(IconsSectionCont, {
@@ -1923,14 +2003,14 @@ function (_Component) {
         className: sectionContClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 670
+          lineNumber: 681
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-left-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 671
+          lineNumber: 682
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -1938,34 +2018,34 @@ function (_Component) {
         onBlur: this.handleBlur,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 672
+          lineNumber: 683
         },
         __self: this
       }, this.state.selectedIcon.name != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(StyledIconCont, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 676
+          lineNumber: 687
         },
         __self: this
       }, this.renderIcon()))), this.state.icons.data != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-right-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 684
+          lineNumber: 695
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(IconsFilter, {
         side: this.state.showSide,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 686
+          lineNumber: 697
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-filter-max",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 687
+          lineNumber: 698
         },
         __self: this
       }, this.state.showSide && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_outside_click_handler__WEBPACK_IMPORTED_MODULE_15___default.a, {
@@ -1976,21 +2056,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 689
+          lineNumber: 700
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-side-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 692
+          lineNumber: 703
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "side-section-inner",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 694
+          lineNumber: 705
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Categories, {
@@ -1999,21 +2079,21 @@ function (_Component) {
         style: this.state.style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 695
+          lineNumber: 706
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-filter-in",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 700
+          lineNumber: 711
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filter-top",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 701
+          lineNumber: 712
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2021,41 +2101,41 @@ function (_Component) {
         onClick: this.handleSide,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 703
+          lineNumber: 714
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         className: "category",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 704
+          lineNumber: 715
         },
         __self: this
       }, "Category \xA0/\xA0  "), this.state.category != null ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 704
+          lineNumber: 715
         },
         __self: this
       }, this.state.category.id != null ? this.state.category.name : 'All') : 'All', " ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bx-caret-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 704
+          lineNumber: 715
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-count",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 707
+          lineNumber: 718
         },
         __self: this
       }, this.state.icons.data !== null ? this.state.icons.data.length : '0', " icons")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filter-bottom",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 711
+          lineNumber: 722
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2065,7 +2145,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 712
+          lineNumber: 723
         },
         __self: this
       }, "All"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2075,7 +2155,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 715
+          lineNumber: 726
         },
         __self: this
       }, "Regular"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2085,7 +2165,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 718
+          lineNumber: 729
         },
         __self: this
       }, "Solid"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2095,71 +2175,71 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 721
+          lineNumber: 732
         },
         __self: this
       }, "Logos"))))), this.state.noResult ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-list ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 730
+          lineNumber: 741
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 731
+          lineNumber: 742
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
         className: "no-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 732
+          lineNumber: 743
         },
         __self: this
       }, "No result found", this.state.search !== '' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 735
+          lineNumber: 746
         },
         __self: this
       }, " for", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 736
+          lineNumber: 747
         },
         __self: this
       }, " '", this.state.search, "'")), this.state.category != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 738
+          lineNumber: 749
         },
         __self: this
       }, " in ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 738
+          lineNumber: 749
         },
         __self: this
       }, "'", this.state.category.name, "'")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 739
+          lineNumber: 750
         },
         __self: this
       }, "Having trouble finding an icon, try the ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_18___default.a, {
         href: "cheatsheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 739
+          lineNumber: 750
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 739
+          lineNumber: 750
         },
         __self: this
       }, "Cheatsheet")))))) : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_iconsList__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -2167,20 +2247,20 @@ function (_Component) {
         style: this.state.style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 744
+          lineNumber: 755
         },
         __self: this
       }), this.state.showLI && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(LoadMore, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 747
+          lineNumber: 758
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_common_buttons__WEBPACK_IMPORTED_MODULE_14__["LoadButton"], {
         onClick: this.handleShowMore,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 747
+          lineNumber: 758
         },
         __self: this
       }, "Show more icons")))));
