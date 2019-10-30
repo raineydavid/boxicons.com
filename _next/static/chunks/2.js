@@ -30,7 +30,7 @@ var _reducers_data_categories_json__WEBPACK_IMPORTED_MODULE_12___namespace = /*#
 
 
 
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\icons\\categories.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\icons\\categories.js";
 
 
 
@@ -160,7 +160,7 @@ function mapDispatchToProps(dispatch) {
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, default */
 /***/ (function(module) {
 
-module.exports = [{"name":"Accessibility","id":94},{"name":"Alert","id":95},{"name":"Arrow","id":96},{"name":"Brands","id":97},{"name":"Building","id":98},{"name":"Business","id":99},{"name":"Code","id":100},{"name":"Communication","id":101},{"name":"Design","id":102},{"name":"Device","id":103},{"name":"E-Commerce","id":104},{"name":"Emoji","id":105},{"name":"Files & Folders","id":106},{"name":"Finance","id":107},{"name":"Food & Beverage","id":108},{"name":"Health","id":109},{"name":"Interface","id":110},{"name":"Layout","id":111},{"name":"Loader","id":112},{"name":"Misc","id":113},{"name":"Music","id":114},{"name":"Network","id":115},{"name":"Object","id":116},{"name":"Photo & Video","id":117},{"name":"Shape","id":118},{"name":"Sports","id":119},{"name":"Time","id":120},{"name":"Travel","id":121},{"name":"User","id":122},{"name":"Weather","id":123},{"name":"Writing","id":124}];
+module.exports = [{"name":"Accessibility","id":94},{"name":"Alert","id":95},{"name":"Arrow","id":96},{"name":"Brands","id":97},{"name":"Building","id":98},{"name":"Business","id":99},{"name":"Code","id":100},{"name":"Communication","id":101},{"name":"Design","id":102},{"name":"Device","id":103},{"name":"E-Commerce","id":104},{"name":"Emoji","id":105},{"name":"Files & Folders","id":106},{"name":"Finance","id":107},{"name":"Food & Beverage","id":108},{"name":"Health","id":109},{"name":"Interface","id":110},{"name":"Layout","id":111},{"name":"Loader","id":112},{"name":"Misc","id":113},{"name":"Music","id":114},{"name":"Network","id":115},{"name":"Object","id":116},{"name":"Photo & Video","id":117},{"name":"Shape","id":118},{"name":"Sports & Games","id":119},{"name":"Time","id":120},{"name":"Travel","id":121},{"name":"User","id":122},{"name":"Weather","id":123},{"name":"Writing","id":124}];
 
 /***/ })
 

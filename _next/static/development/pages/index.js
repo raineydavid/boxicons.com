@@ -160,7 +160,7 @@ var SET_SEARCH_TERM = 'SET_SEARCH_TERM';
 var TOGGLE_SIDE_ICON = 'TOGGLE_SIDE_ICON';
 var CHANGE_SIDE_ICON = 'CHANGE_SIDE_ICON';
 var SET_SELECTED_ICON = 'SET_SELECTED_ICON';
-var VERSION = '2.0.2';
+var VERSION = '2.0.4';
 var FETCH_STYLE = 'FETCH_STYLE';
 var SET_STYLE = 'SET_STYLE';
 var SET_CATEGORY = 'SET_CATEGORY';
@@ -186,7 +186,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 
 
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\ActiveLink.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\ActiveLink.js";
 
 
 
@@ -246,7 +246,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\ToTop.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\ToTop.js";
 
 
 
@@ -403,7 +403,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\footer.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\footer.js";
 
 
 
@@ -479,24 +479,38 @@ function (_Component) {
           lineNumber: 102
         },
         __self: this
-      }, "Request Icons")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "footer-logo",
+      }, "Request Icons"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/usage#license",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "no-mobile",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 104
         },
         __self: this
+      }, "License"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "footer-logo",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 108
         },
         __self: this
       }, "Made with ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         className: "bx bxs-heart",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 108
         },
         __self: this
       }), " by"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -505,7 +519,7 @@ function (_Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 109
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("svg", {
@@ -518,7 +532,7 @@ function (_Component) {
         viewBox: "0 0 1825.596 238.593",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 111
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("path", {
@@ -526,13 +540,13 @@ function (_Component) {
         d: "M49.282,228.111",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 114
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("g", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 115
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("polyline", {
@@ -541,7 +555,7 @@ function (_Component) {
         points: "241.149,77.679 241.149,226.777 286.708,226.777 \r 286.708,226.777 329.893,226.777 329.893,226.777 375.448,226.777 375.448,57.378 375.448,11.819 375.448,11.817 329.893,11.817 \r 329.893,11.819 286.708,11.819 286.704,11.819 286.708,11.817 241.149,11.817  ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 116
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("polyline", {
@@ -549,13 +563,13 @@ function (_Component) {
         points: "282.99,11.819 282.985,11.819 282.99,11.817 237.43,11.817 237.43,11.817 194.245,11.819 \r 194.245,11.819 148.686,11.819 -0.001,226.777 45.563,226.777 45.563,226.777 88.743,226.777 133.082,226.777 134.303,226.777 \r 237.43,77.679   ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116
+          lineNumber: 119
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("g", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 120
+          lineNumber: 123
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("path", {
@@ -563,7 +577,7 @@ function (_Component) {
         d: "M749.099,238.593l-21.69-50.389h-97.772l-21.69,50.389h-55.394L653.328,5.34h50.388l100.776,233.253\r H749.099z M678.688,74.748l-29.364,67.742h58.396L678.688,74.748z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121
+          lineNumber: 124
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("path", {
@@ -571,7 +585,7 @@ function (_Component) {
         d: "M980.018,50.389v188.205h-52.059V50.389h-66.071V5.34h184.201v45.049H980.018z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 126
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("path", {
@@ -579,7 +593,7 @@ function (_Component) {
         d: "M1150.867,5.34h52.057v233.253h-52.057V5.34z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 127
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("path", {
@@ -587,7 +601,7 @@ function (_Component) {
         d: "M1381.615,51.891c-5.007,4.119-7.509,9.568-7.509,16.351c0,6.789,3.056,12.181,9.177,16.187\r c6.114,4.004,20.239,8.732,42.379,14.182c22.134,5.453,39.317,13.629,51.557,24.525c12.232,10.902,18.354,26.813,18.354,47.721\r c0,20.912-7.842,37.873-23.525,50.889c-15.684,13.014-36.32,19.52-61.9,19.52c-36.932,0-70.189-13.68-99.773-41.043l31.032-38.041\r c25.136,22.023,48.386,33.035,69.742,33.035c9.563,0,17.069-2.055,22.524-6.174c5.447-4.113,8.176-9.676,8.176-16.686\r c0-7.008-2.895-12.564-8.678-16.686c-5.786-4.113-17.24-8.285-34.368-12.514c-27.146-6.449-47-14.85-59.565-25.193\r c-12.57-10.345-18.854-26.582-18.854-48.72c0-22.134,7.951-39.21,23.859-51.223C1360.145,6.008,1380,0,1403.807,0\r c15.568,0,31.143,2.67,46.718,8.008c15.568,5.34,29.142,12.906,40.71,22.692l-26.361,38.042\r c-20.244-15.352-41.16-23.025-62.734-23.025C1393.459,45.717,1386.619,47.776,1381.615,51.891z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 128
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("path", {
@@ -595,7 +609,7 @@ function (_Component) {
         d: "M1770.201,238.593l-21.689-50.389h-97.773l-21.689,50.389h-55.395L1674.432,5.34h50.387l100.777,233.253\r H1770.201z M1699.789,74.748l-29.364,67.742h58.397L1699.789,74.748z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133
+          lineNumber: 136
         },
         __self: this
       }))))))));
@@ -634,7 +648,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\heroSection.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\heroSection.js";
 
 
 
@@ -763,7 +777,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_global__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style_global */ "./components/common/style_global.js");
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/gtag */ "./lib/gtag.js");
 /* harmony import */ var _actions_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../actions/types */ "./actions/types.js");
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\meta.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\meta.js";
 
 
 
@@ -1023,7 +1037,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\navbar.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\common\\navbar.js";
 
 
 
@@ -1207,7 +1221,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        "stroke-miterlimit": "10",
+        strokeMiterlimit: "10",
         d: "M225.35,348.711c2.35,2.946,3.525,6.361,3.525,10.246\r c0,5.703-1.896,10.152-5.687,13.348c-3.792,3.196-9.228,4.794-16.309,4.794h-30.926v-66.458h30.174c6.768,0,12,1.473,15.698,4.418\r c3.697,2.946,5.546,7.144,5.546,12.596c0,4.011-1.066,7.348-3.196,10.011c-2.131,2.665-4.92,4.403-8.366,5.217\r C219.819,343.823,223,345.766,225.35,348.711z M192.027,337.807h10.528c5.577,0,8.366-2.381,8.366-7.144\r c0-4.762-2.853-7.144-8.554-7.144h-10.34V337.807z M212.425,356.701c0-2.381-0.784-4.245-2.35-5.593\r c-1.567-1.347-3.792-2.021-6.674-2.021h-11.374v14.946h11.468C209.448,364.033,212.425,361.589,212.425,356.701z",
         __source: {
           fileName: _jsxFileName,
@@ -1217,7 +1231,7 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        "stroke-miterlimit": "10",
+        strokeMiterlimit: "10",
         d: "M275.828,327.232c4.104,2.162,7.332,5.28,9.682,9.353\r c2.35,4.075,3.525,8.836,3.525,14.288s-1.175,10.215-3.525,14.288c-2.35,4.074-5.579,7.191-9.682,9.353\r c-4.105,2.162-8.758,3.243-13.959,3.243c-5.202,0-9.87-1.081-14.006-3.243c-4.136-2.162-7.379-5.279-9.729-9.353\r c-2.35-4.073-3.525-8.836-3.525-14.288s1.175-10.213,3.525-14.288c2.35-4.073,5.593-7.191,9.729-9.353\r c4.136-2.162,8.804-3.243,14.006-3.243C267.07,323.989,271.723,325.07,275.828,327.232z M254.114,341.238\r c-2.101,2.225-3.149,5.437-3.149,9.635c0,4.199,1.049,7.395,3.149,9.588c2.099,2.194,4.684,3.29,7.755,3.29\r c3.07,0,5.64-1.096,7.708-3.29c2.068-2.193,3.102-5.389,3.102-9.588c0-4.198-1.034-7.41-3.102-9.635\r c-2.068-2.224-4.638-3.337-7.708-3.337C258.798,337.901,256.213,339.015,254.114,341.238z",
         __source: {
           fileName: _jsxFileName,
@@ -1227,7 +1241,7 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        "stroke-miterlimit": "10",
+        strokeMiterlimit: "10",
         d: "M330.206,377.099l-10.716-14.946l-8.742,14.946h-17.671\r l17.39-27.354l-18.048-25.098h18.048l10.622,14.758l8.741-14.758h17.673l-17.767,26.696l18.519,25.756H330.206z",
         __source: {
           fileName: _jsxFileName,
@@ -1237,7 +1251,7 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        "stroke-miterlimit": "10",
+        strokeMiterlimit: "10",
         d: "M355.397,303.826c1.754-1.598,4.073-2.397,6.956-2.397\r c2.882,0,5.201,0.799,6.956,2.397c1.754,1.598,2.632,3.619,2.632,6.063c0,2.382-0.878,4.371-2.632,5.969\r c-1.755,1.598-4.074,2.397-6.956,2.397c-2.883,0-5.202-0.799-6.956-2.397c-1.755-1.598-2.632-3.586-2.632-5.969\r C352.766,307.445,353.643,305.424,355.397,303.826z M370.344,324.647v52.452H354.27v-52.452H370.344z",
         __source: {
           fileName: _jsxFileName,
@@ -1247,7 +1261,7 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        "stroke-miterlimit": "10",
+        strokeMiterlimit: "10",
         d: "M422.137,329.582c4.573,3.729,7.457,8.852,8.648,15.369h-17.015\r c-0.502-2.256-1.536-4.01-3.102-5.264c-1.567-1.253-3.541-1.88-5.922-1.88c-2.82,0-5.14,1.113-6.956,3.337\r c-1.818,2.225-2.727,5.468-2.727,9.729c0,4.262,0.908,7.505,2.727,9.729c1.816,2.225,4.136,3.337,6.956,3.337\r c2.381,0,4.354-0.625,5.922-1.88c1.565-1.253,2.6-3.008,3.102-5.264h17.015c-1.191,6.519-4.075,11.642-8.648,15.369\r c-4.575,3.729-10.246,5.593-17.014,5.593c-5.14,0-9.698-1.081-13.678-3.243s-7.097-5.279-9.353-9.353\r c-2.256-4.073-3.384-8.836-3.384-14.288c0-5.514,1.111-10.293,3.337-14.335c2.224-4.042,5.342-7.144,9.353-9.306\r c4.01-2.162,8.585-3.243,13.725-3.243C411.891,323.989,417.562,325.854,422.137,329.582z",
         __source: {
           fileName: _jsxFileName,
@@ -1257,7 +1271,7 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        "stroke-miterlimit": "10",
+        strokeMiterlimit: "10",
         d: "M477.644,327.232c4.104,2.162,7.332,5.28,9.682,9.353\r c2.351,4.075,3.525,8.836,3.525,14.288s-1.175,10.215-3.525,14.288c-2.35,4.074-5.578,7.191-9.682,9.353\r c-4.105,2.162-8.758,3.243-13.959,3.243c-5.202,0-9.87-1.081-14.006-3.243s-7.379-5.279-9.729-9.353\r c-2.35-4.073-3.524-8.836-3.524-14.288s1.175-10.213,3.524-14.288c2.351-4.073,5.594-7.191,9.729-9.353\r c4.136-2.162,8.804-3.243,14.006-3.243C468.886,323.989,473.538,325.07,477.644,327.232z M455.93,341.238\r c-2.101,2.225-3.149,5.437-3.149,9.635c0,4.199,1.049,7.395,3.149,9.588c2.099,2.194,4.684,3.29,7.755,3.29\r c3.069,0,5.64-1.096,7.708-3.29c2.068-2.193,3.102-5.389,3.102-9.588c0-4.198-1.033-7.41-3.102-9.635\r c-2.068-2.224-4.639-3.337-7.708-3.337C460.613,337.901,458.028,339.015,455.93,341.238z",
         __source: {
           fileName: _jsxFileName,
@@ -1267,7 +1281,7 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        "stroke-miterlimit": "10",
+        strokeMiterlimit: "10",
         d: "M546.827,330.099c3.539,4.011,5.311,9.526,5.311,16.544v30.456\r h-16.074v-28.576c0-3.509-0.925-6.251-2.772-8.225c-1.85-1.974-4.31-2.961-7.379-2.961c-3.26,0-5.845,1.034-7.755,3.102\r c-1.913,2.068-2.867,5.015-2.867,8.836v27.824h-16.074v-52.452h16.074v9.588c1.504-3.133,3.744-5.608,6.721-7.426\r c2.976-1.817,6.47-2.726,10.481-2.726C538.508,324.083,543.286,326.089,546.827,330.099z",
         __source: {
           fileName: _jsxFileName,
@@ -1277,7 +1291,7 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        "stroke-miterlimit": "10",
+        strokeMiterlimit: "10",
         d: "M597.774,328.971c3.979,3.322,6.471,7.708,7.474,13.16h-15.04\r c-0.439-2.13-1.427-3.807-2.961-5.029c-1.536-1.222-3.464-1.833-5.781-1.833c-1.818,0-3.196,0.392-4.136,1.175\r c-0.94,0.784-1.41,1.896-1.41,3.337c0,1.63,0.86,2.852,2.585,3.666c1.723,0.815,4.433,1.63,8.131,2.444\r c4.01,0.94,7.3,1.896,9.87,2.867c2.569,0.972,4.794,2.554,6.674,4.747c1.88,2.194,2.82,5.139,2.82,8.836\r c0,3.008-0.815,5.672-2.444,7.99c-1.63,2.319-3.98,4.136-7.05,5.452c-3.071,1.316-6.706,1.974-10.904,1.974\r c-7.082,0-12.753-1.566-17.014-4.7c-4.263-3.133-6.862-7.614-7.802-13.442h15.51c0.25,2.256,1.206,3.98,2.867,5.17\r c1.659,1.191,3.807,1.786,6.438,1.786c1.817,0,3.196-0.423,4.137-1.269c0.939-0.846,1.409-1.958,1.409-3.337\r c0-1.817-0.861-3.117-2.585-3.901c-1.724-0.783-4.527-1.612-8.413-2.491c-3.886-0.814-7.082-1.692-9.588-2.632\r c-2.507-0.94-4.669-2.458-6.485-4.559c-1.818-2.099-2.727-4.966-2.727-8.601c0-4.7,1.786-8.507,5.358-11.421\r c3.572-2.914,8.615-4.371,15.134-4.371C588.483,323.989,593.795,325.65,597.774,328.971z",
         __source: {
           fileName: _jsxFileName,
@@ -1341,26 +1355,35 @@ function (_Component) {
           lineNumber: 471
         },
         __self: this
-      }, "Usage")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
-        rel: "noopener noreferrer",
-        href: "http://gum.co/boxicons",
+      }, "Usage")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         target: "_blank",
+        rel: "noopener noreferrer",
+        href: "https://paypal.me/atisawd",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 474
         },
         __self: this
+      }, "Donate"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
+        rel: "noopener noreferrer",
+        href: "http://gum.co/boxicons",
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 477
+        },
+        __self: this
       }, "Download ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 474
+          lineNumber: 477
         },
         __self: this
       }, "v", _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"]))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "mobile-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 479
+          lineNumber: 482
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
@@ -1368,13 +1391,13 @@ function (_Component) {
         href: "/static/boxicons-" + _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"] + ".zip",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 480
+          lineNumber: 483
         },
         __self: this
       }, "Download ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 480
+          lineNumber: 483
         },
         __self: this
       }, "v", _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"]))))));
@@ -1431,7 +1454,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _iconsListItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iconsListItem */ "./components/icons/iconsListItem.js");
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\icons\\iconsList.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\icons\\iconsList.js";
 
 
 
@@ -1501,7 +1524,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\icons\\iconsListItem.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\icons\\iconsListItem.js";
 
 
 
@@ -1693,7 +1716,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\icons\\iconsSet.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\icons\\iconsSet.js";
 
 
 
@@ -2325,7 +2348,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\search\\searchForm.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\components\\search\\searchForm.js";
 
 
 
@@ -15594,10 +15617,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CMAIN%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js!./":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CMAIN%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js ***!
-  \************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js!./":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js ***!
+  \*****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26850,7 +26873,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\MAIN\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\pages\\index.js";
+var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com\\pages\\index.js";
 
 
 
@@ -26931,14 +26954,14 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 0:
-/*!****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CMAIN%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js ***!
-  \****************************************************************************************************************************************************************/
+/***/ 2:
+/*!*********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js ***!
+  \*********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CMAIN%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CMAIN%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -26954,5 +26977,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
