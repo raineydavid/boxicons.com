@@ -358,16 +358,16 @@ __webpack_require__.r(__webpack_exports__);
 
 var NavButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-0"
-})(["margin-left:10px;transition:", ";background:", ";color:#fff!important;text-align:center;border-radius:", "!important;font-weight:700!important;font-size:.875rem!important;padding:0 15px!important;letter-spacing:0.25px!important;height:40px!important;line-height:40px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{color:#fff;padding-left:0;font-size:21px!important;@media screen and (max-width:", "){padding-right:0px;}}&:hover{color:#fff!important;background:#5a6cf3;}&:active{background:#3c4fde;color:#fff!important;box-shadow:", ";}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"]);
+})(["margin-left:10px;transition:", ";background:", ";color:#fff!important;text-align:center;border-radius:", "!important;font-weight:500!important;font-size:.875rem!important;padding:0 20px!important;letter-spacing:0.25px!important;height:40px!important;line-height:40px!important;align-items:center;display:flex;font-family:", ";.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{color:#fff;padding-left:0;font-size:21px!important;@media screen and (max-width:", "){padding-right:0px;}}&:hover{color:#fff!important;background:#5a6cf3;}&:active{background:#3c4fde;color:#fff!important;box-shadow:", ";}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"]);
 var LoadButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-1"
-})(["transition:", ";max-width:400px;justify-content:center;background:#73859d;color:#fff;cursor:pointer;padding:0px 16px;height:45px!important;text-align:center;border-radius:", ";font-weight:700;letter-spacing:0.25px!important;font-size:1rem;display:flex;align-items:center;line-height:45px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{color:#fff!important;background:#8b9cb3;}&:active{background:#607086;color:#fff!important;}@media screen and (max-width:", "){margin:0 20px!important;}.button-name{line-height:24px;flex:1;}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
+})(["transition:", ";max-width:300px;font-family:", ";justify-content:center;background:#73859d;color:#fff;cursor:pointer;padding:0px 16px;height:50px!important;text-align:center;border-radius:", ";font-weight:500;letter-spacing:0.25px!important;font-size:1rem;display:flex;align-items:center;line-height:50px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{color:#fff!important;background:#8b9cb3;}&:active{background:#607086;color:#fff!important;}@media screen and (max-width:", "){margin:0 20px!important;}.button-name{line-height:24px;flex:1;}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
 var BlueButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-2"
-})(["transition:", ";background:", ";color:#fff;padding:0px 16px;height:40px!important;text-align:center;border-radius:", ";font-weight:700;letter-spacing:0.25px!important;font-size:.875rem;display:flex;align-items:center;line-height:40px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{color:#fff!important;background:#5a6cf3;}&:active{background:#3c4fde;color:#fff!important;box-shadow:", ";}@media screen and (max-width:", "){padding:5px;width:160px;}.button-name{line-height:24px;flex:1;}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
+})(["transition:", ";background:", ";color:#fff;padding:0px 16px;height:42px!important;text-align:center;border-radius:", ";font-weight:500;letter-spacing:0.25px!important;font-size:.875rem;display:flex;align-items:center;line-height:42px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{color:#fff!important;background:#5a6cf3;}&:active{background:#3c4fde;color:#fff!important;box-shadow:", ";}@media screen and (max-width:", "){padding:5px;width:160px;}.button-name{line-height:24px;flex:1;font-family:", ";}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
 var WhiteButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-3"
-})(["margin-left:10px;transition:", ";color:", ";background:#fff;border:1px solid #dee2ef;text-align:center;border-radius:", "!important;font-weight:700!important;font-size:13px!important;padding:0 12px!important;letter-spacing:0.25px!important;height:40px!important;line-height:40px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{font-size:22px;color:", ";padding-right:10px;@media screen and (max-width:", "){padding-right:0px;}}&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}&:active{box-shadow:", ";}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_ICON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"]);
+})(["margin-left:10px;transition:", ";color:", ";background:#fff;border:1px solid #dee2ef;text-align:center;border-radius:", "!important;font-weight:500!important;font-size:14px!important;font-family:", ";padding:0 12px!important;letter-spacing:0.25px!important;height:40px!important;line-height:40px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{font-size:22px;color:", ";padding-right:10px;@media screen and (max-width:", "){padding-right:0px;}}&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}&:active{box-shadow:", ";}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_ICON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"]);
 var DarkBGButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-4"
 })(["transition:", ";color:#fff!important;background:", ";text-align:center;font-size:20px!important;padding:0 16px!important;height:60px!important;line-height:60px!important;display:block;border-radius:2px!important;@media screen and (max-width:", "){max-width:225px;font-size:18px!important;height:50px!important;line-height:50px!important;}.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{background:#b06c4a;color:#fff!important;}&:active{color:#fff!important;box-shadow:0 0px 0 5px rgba(176,108,74,0.2);}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
@@ -655,7 +655,7 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var StyledHero = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
   componentId: "j0itq8-0"
-})([".hero-sticky{.hero{max-width:", ";text-align:left;position:relative;margin:0 auto;display:flex;margin-top:64px;padding-top:40px;padding-bottom:40px;transform:", ";opacity:", ";transition:0.5s ease;@media screen and (max-width:", "){display:block;}@media screen and (max-width:", "){max-width:600px;}.hero-side{padding-right:25px;@media screen and (max-width:", "){padding:0px 30px;p{display:none;}}flex:1;p{color:", ";font-size:30px;margin:0 auto;font-weight:300;text-align:left;height:170px;max-width:550px;line-height:1.4;@media screen and (max-width:", "){font-size:18px;text-align:left;margin-left:0px;}@media screen and (max-width:", "){font-size:16px;}@media screen and (max-width:", "){font-size:15px;}}}.hero-text{flex:2;@media screen and (max-width:", "){padding-right:20px;padding-left:20px;}.hero-header{max-width:650px;text-align:center;margin:0 auto;@media screen and (max-width:", "){height:auto!important;margin-bottom:25px;}p{color:#73859d;font-size:18px;margin-top:10px;margin-bottom:25px;@media screen and (max-width:", "){font-size:16px;}}h2{font-size:36px;margin-top:0px;text-align:center;font-family:", ";color:", ";line-height:50px;font-weight:700 !important;text-rendering:optimizeLegibility;position:relative;word-break:break-word;display:inline;background-size:100% 100%;@media screen and (max-width:768px){font-size:32px;line-height:1.25;text-align:left;}}}margin:0 auto;text-align:left;.hero-head{text-align:left;padding:0 50px;@media screen and (max-width:", "){text-align:left;padding:0 10px!important;}}}}}"], _types__WEBPACK_IMPORTED_MODULE_7__["MAX_WIDTH"], function (props) {
+})([".hero-sticky{background:#0c0c0e;.hero{max-width:", ";text-align:left;position:relative;margin:0 auto;display:flex;margin-top:64px;padding-top:60px;padding-bottom:60px;transform:", ";opacity:", ";transition:0.5s ease;@media screen and (max-width:", "){display:block;}@media screen and (max-width:", "){max-width:600px;}.hero-side{padding-right:25px;@media screen and (max-width:", "){padding:0px 30px;p{display:none;}}flex:1;p{color:", ";font-size:30px;margin:0 auto;font-weight:300;text-align:left;height:170px;max-width:550px;line-height:1.4;@media screen and (max-width:", "){font-size:18px;text-align:left;margin-left:0px;}@media screen and (max-width:", "){font-size:16px;}@media screen and (max-width:", "){font-size:15px;}}}.hero-text{flex:2;@media screen and (max-width:", "){padding-right:20px;padding-left:20px;}.hero-header{max-width:570px;text-align:center;margin:0 auto;@media screen and (max-width:", "){height:auto!important;margin-bottom:25px;}p{color:rgba(255,255,255,0.6);font-size:16px;margin-top:10px;margin-bottom:25px;@media screen and (max-width:", "){font-size:16px;}}h2{font-size:40px;margin-top:0px;text-align:center;font-family:", ";color:", ";line-height:50px;font-weight:500 !important;text-rendering:optimizeLegibility;position:relative;word-break:break-word;display:inline;background-size:100% 100%;@media screen and (max-width:768px){font-size:32px;line-height:1.25;text-align:left;}}}margin:0 auto;text-align:left;.hero-head{text-align:left;padding:0 50px;@media screen and (max-width:", "){text-align:left;padding:0 10px!important;}}}}}"], _types__WEBPACK_IMPORTED_MODULE_7__["MAX_WIDTH"], function (props) {
   return props.is_Mounted ? 'translateY(0px)' : 'translateY(50px)';
 }, function (props) {
   return props.is_Mounted ? '1' : '0';
@@ -694,60 +694,60 @@ function (_Component) {
         is_Mounted: this.state.is_Mounted,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152
+          lineNumber: 153
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-sticky",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 153
+          lineNumber: 154
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154
+          lineNumber: 155
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 156
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-head",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 156
+          lineNumber: 157
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158
+          lineNumber: 159
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158
+          lineNumber: 159
         },
         __self: this
       }, "High Quality Web Icons Set "), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 160
         },
         __self: this
       }, "Boxicons is a simple vector icons set carefully crafted for designers and developers to use in your next project")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_search_searchForm__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161
+          lineNumber: 162
         },
         __self: this
       }))))));
@@ -880,6 +880,14 @@ var isProd = ("development" || false) === 'production';
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css?family=Poppins:500",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -1050,7 +1058,7 @@ var Dropdown = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.wit
 })(["position:absolute;background:", ";border-radius:5px;color:#fff;&:before{content:\"\";right:100%;bottom:100%;position:absolute;margin-right:-33px;position:absolute;width:0;height:0;border:7px solid transparent;border-top-width:0;border-bottom-color:", ";}transition:all .25s cubic-bezier(.24,.22,.015,1.56),opacity .1s ease-in-out;top:60px;max-width:160px;opacity:0;visibility:hidden;transform:scale(0.8) translateY(-10px);&.active{box-shadow:0 1px 3px 0 rgba(0,0,0,0.08),0 0 5PX 1px rgba(0,0,0,0.04);opacity:1;visibility:visible;transform:scale(1) translateY(0);}ul{list-style:none;display:block;text-align:left;padding:12px 15px!important;li{display:block;font-size:13px!important;line-height:1.6!important;min-width:130px;a{line-height:30px!important;height:auto!important;}}}"], _types__WEBPACK_IMPORTED_MODULE_12__["SEARCH_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["SEARCH_BACKGROUND"]);
 var Navbar = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   componentId: "r3kz9n-1"
-})(["left:0;right:0;position:fixed;background:", ";z-index:99996;transition:all  200ms cubic-bezier(0.4,0,0.2,1);top:0;border-bottom:1px solid #e8ecf7;&.scroll{background:", ";ul{li{&.nav-search{.search-sticky{display:block!important;visibility:visible!important;}}&.boxicon_brand{overflow:hidden;.brand{svg{width:100%;}}}}}}ul li a.active{}ul li a:hover{color:", ";}.navbar-max{max-width:", ";margin:0px auto;ul{transition:0.15s;margin:0;list-style:none;padding:2px 20px;@media screen and (max-width:", "){padding:13px 20px!important;}display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;align-items:center;justify-content:flex-start;flex-direction:row;flex-wrap:wrap;li{input{height:36px!important;line-height:36px!important;}&.mobile-menu{order:3;display:none;@media screen and (max-width:", "){display:block;}@media screen and (max-width:", "){a{font-size:13PX!important;padding:0 10px!important;height:36px!important;line-height:36px!important;span{display:none;}}}}&.nav-search{padding-left:15px;flex:1;.search-sticky{display:none;visibility:hidden;}@media screen and (max-width:", "){display:none !important;}}&.nav-links{display:flex;text-align:right;padding:0;order:2;align-items:center;padding:0 15px;padding-right:0px;.git-frame{display:flex;align-items:center;padding:0px;}a{&.active{color:", ";}}@media screen and (max-width:", "){display:none !important;}}margin:0px;line-height:20px;font-size:13px;padding:0px;order:0;&.boxicon_brand{a{padding:0px;}@media screen and (max-width:", "){flex:1;height:38px;padding:0 5px!important;}a{&:hover{background:transparent!important;}@media screen and (max-width:", "){padding:0px;}}}.search-sticky{background:transparent;padding-bottom:0px;padding:0px;transition:0.15s;transform:translateY(0px);}.search-cont{margin:0px 0!important;max-width:none;margin-left:0px!important;padding:2px;display:flex;height:40px;margin:0px;align-items:center;&.active input{color:#111!important;}i{font-size:21px!important;line-height:25px;padding:0px 12px!important;}i.bx-x{font-size:21px !important;padding:3px !important;height:21px !important;line-height:21px !important;color:#73859d;border-radius:50%;cursor:pointer;margin-right:7px;}form{width:100%;}&.active{}}a{&.show-dropdown{cursor:pointer;}font-weight:400;border-radius:2px;&.mobile-menu-button{line-height:24px !important;height:24px !important;border-radius:50%;padding:0px 12px;}&:hover{color:", ";}i{font-size:24px;line-height:24px;height:24px;vertical-align:middle;}.brand{height:56px;@media screen and (max-width:", "){height:34px;width:150px;}@media screen and (max-width:", "){height:34px;width:130px;}svg{width:100%;height:40px;}display:flex;align-items:center;width:160px;margin:1px 0;margin-right:10px;transition:0.15s;&:hover{opacity:0.9;}}padding:0px 15px;text-decoration:none;color:", ";height:60px;line-height:64px;border-radius:0;position:relative;display:inline-block;transition:0.15s;font-size:.875rem;font-weight:500;}}}}"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_SCROLL_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["ACTIVE_NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["NAV_LIST_COLOR"]);
+})(["left:0;right:0;position:fixed;background:", ";z-index:99996;transition:all  200ms cubic-bezier(0.4,0,0.2,1);top:0;border-bottom:1px solid #e8ecf7;&.scroll{background:", ";ul{li{&.nav-search{.search-sticky{display:block!important;visibility:visible!important;}}&.boxicon_brand{overflow:hidden;.brand{svg{width:100%;}}}}}}ul li a.active{}ul li a:hover{color:", ";}.navbar-max{max-width:", ";margin:0px auto;ul{transition:0.15s;margin:0;list-style:none;padding:2px 20px;@media screen and (max-width:", "){padding:13px 20px!important;}display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;align-items:center;justify-content:flex-start;flex-direction:row;flex-wrap:wrap;li{input{height:36px!important;line-height:36px!important;font-size:18px!important;}&.mobile-menu{order:3;display:none;@media screen and (max-width:", "){display:block;}@media screen and (max-width:", "){a{font-size:13PX!important;padding:0 10px!important;height:36px!important;line-height:36px!important;span{display:none;}}}}&.nav-search{padding-left:15px;flex:1;.search-sticky{display:none;visibility:hidden;}@media screen and (max-width:", "){display:none !important;}}&.nav-links{display:flex;text-align:right;padding:0;order:2;align-items:center;padding:0 15px;padding-right:0px;.git-frame{display:flex;align-items:center;padding:0px;}a{&.active{color:", ";}}@media screen and (max-width:", "){display:none !important;}}margin:0px;line-height:20px;font-size:13px;padding:0px;order:0;&.boxicon_brand{a{padding:0px;}@media screen and (max-width:", "){flex:1;height:38px;padding:0 5px!important;}a{&:hover{background:transparent!important;}@media screen and (max-width:", "){padding:0px;}}}.search-sticky{background:transparent;padding-bottom:0px;padding:0px;transition:0.15s;transform:translateY(0px);}.search-cont{margin:0px 0!important;max-width:none;margin-left:0px!important;padding:2px;display:flex;box-shadow:0 0 0 1px rgba(0,0,0,0.1);height:40px;margin:0px;align-items:center;&.active input{color:#111!important;}i{font-size:21px!important;line-height:25px;padding:0px 12px!important;}i.bx-x{font-size:21px !important;padding:3px !important;height:21px !important;line-height:21px !important;color:#73859d;border-radius:50%;cursor:pointer;margin-right:7px;}form{width:100%;}&.active{}}a{&.show-dropdown{cursor:pointer;}font-weight:400;border-radius:2px;&.mobile-menu-button{line-height:24px !important;height:24px !important;border-radius:50%;padding:0px 12px;}&:hover{color:", ";}i{font-size:24px;line-height:24px;height:24px;vertical-align:middle;}.brand{height:56px;@media screen and (max-width:", "){height:34px;width:150px;}@media screen and (max-width:", "){height:34px;width:130px;}svg{width:100%;height:40px;}display:flex;align-items:center;width:170px;margin:1px 0;margin-right:10px;transition:0.15s;&:hover{opacity:0.9;}}padding:0px 12px;text-decoration:none;color:", ";height:60px;line-height:64px;border-radius:0;position:relative;display:inline-block;transition:0.15s;font-size:.875rem;font-weight:400;}}}}"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_SCROLL_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["ACTIVE_NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["NAV_LIST_COLOR"]);
 
 var NavigationBar =
 /*#__PURE__*/
@@ -1135,14 +1143,14 @@ function (_Component) {
         className: "navbar-cont",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 379
+          lineNumber: 382
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "navbar-max",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 380
+          lineNumber: 383
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("ul", {
@@ -1150,14 +1158,14 @@ function (_Component) {
         role: "navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 381
+          lineNumber: 384
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "boxicon_brand",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 382
+          lineNumber: 385
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -1165,104 +1173,89 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 383
+          lineNumber: 386
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 384
+          lineNumber: 387
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "brand sprite",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 385
+          lineNumber: 388
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("svg", {
         version: "1.1",
-        id: "Layer_1",
         xmlns: "http://www.w3.org/2000/svg",
         x: "0px",
         y: "0px",
         width: "612px",
         height: "134.994px",
-        viewBox: "0 274.096 612 134.994",
+        viewBox: "0 0 612 134.994",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 386
+          lineNumber: 390
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         id: "XMLID_1_",
-        fill: "#DCE0E6",
-        d: "M6.669,319.417v39.23c0,6.277,3.138,11.508,8.892,14.646l39.754,21.97\r c3.662,2.091,8.369-0.523,8.369-4.708v-52.308l46.554-23.538c4.185-2.093,4.185-7.847,0-9.939l-40.8-19.876\r c-4.708-2.093-9.938-2.093-14.646,0l-38.708,19.876C10.33,307.91,6.669,313.14,6.669,319.417z",
+        fill: "#15161E",
+        d: "M6.753,47.253v39.23c0,6.276,3.138,11.508,8.892,14.646l39.754,21.97\r c3.662,2.091,8.369-0.522,8.369-4.707V66.083l46.554-23.538c4.185-2.093,4.185-7.847,0-9.938l-40.8-19.877\r c-4.708-2.093-9.938-2.093-14.646,0L16.168,32.606C10.414,35.746,6.753,40.976,6.753,47.253z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 388
+          lineNumber: 392
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#73859D",
-        d: "M9.284,311.048c-1.569,2.615-2.615,5.754-2.615,8.369v39.23c0,6.277,3.138,11.508,8.892,14.646l39.754,21.97\r c3.662,2.091,8.369-0.523,8.369-4.708v-52.308l1.046-0.523L9.284,311.048z",
+        fill: "#15161E",
+        d: "M9.368,38.884c-1.569,2.615-2.615,5.754-2.615,8.369v39.23c0,6.276,3.138,11.508,8.892,14.646l39.754,21.97\r c3.662,2.091,8.369-0.522,8.369-4.707V66.083l1.046-0.523L9.368,38.884z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 391
+          lineNumber: 395
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("g", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 393
+          lineNumber: 397
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        strokeMiterlimit: "10",
-        d: "M225.35,348.711c2.35,2.946,3.525,6.361,3.525,10.246\r c0,5.703-1.896,10.152-5.687,13.348c-3.792,3.196-9.228,4.794-16.309,4.794h-30.926v-66.458h30.174c6.768,0,12,1.473,15.698,4.418\r c3.697,2.946,5.546,7.144,5.546,12.596c0,4.011-1.066,7.348-3.196,10.011c-2.131,2.665-4.92,4.403-8.366,5.217\r C219.819,343.823,223,345.766,225.35,348.711z M192.027,337.807h10.528c5.577,0,8.366-2.381,8.366-7.144\r c0-4.762-2.853-7.144-8.554-7.144h-10.34V337.807z M212.425,356.701c0-2.381-0.784-4.245-2.35-5.593\r c-1.567-1.347-3.792-2.021-6.674-2.021h-11.374v14.946h11.468C209.448,364.033,212.425,361.589,212.425,356.701z",
+        d: "M225.434,76.547c2.35,2.946,3.525,6.36,3.525,10.246c0,5.703-1.896,10.151-5.687,13.349\r c-3.792,3.195-9.228,4.793-16.309,4.793h-30.926V38.478h30.174c6.768,0,12,1.473,15.698,4.418\r c3.697,2.945,5.546,7.144,5.546,12.596c0,4.011-1.066,7.348-3.196,10.011c-2.131,2.665-4.92,4.403-8.366,5.217\r C219.903,71.659,223.084,73.603,225.434,76.547z M192.111,65.644h10.528c5.577,0,8.366-2.382,8.366-7.145\r c0-4.762-2.853-7.145-8.554-7.145h-10.34V65.644z M212.509,84.537c0-2.382-0.784-4.245-2.35-5.593\r c-1.567-1.348-3.792-2.021-6.674-2.021h-11.374v14.946h11.468C209.532,91.869,212.509,89.425,212.509,84.537z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 394
+          lineNumber: 398
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        strokeMiterlimit: "10",
-        d: "M275.828,327.232c4.104,2.162,7.332,5.28,9.682,9.353\r c2.35,4.075,3.525,8.836,3.525,14.288s-1.175,10.215-3.525,14.288c-2.35,4.074-5.579,7.191-9.682,9.353\r c-4.105,2.162-8.758,3.243-13.959,3.243c-5.202,0-9.87-1.081-14.006-3.243c-4.136-2.162-7.379-5.279-9.729-9.353\r c-2.35-4.073-3.525-8.836-3.525-14.288s1.175-10.213,3.525-14.288c2.35-4.073,5.593-7.191,9.729-9.353\r c4.136-2.162,8.804-3.243,14.006-3.243C267.07,323.989,271.723,325.07,275.828,327.232z M254.114,341.238\r c-2.101,2.225-3.149,5.437-3.149,9.635c0,4.199,1.049,7.395,3.149,9.588c2.099,2.194,4.684,3.29,7.755,3.29\r c3.07,0,5.64-1.096,7.708-3.29c2.068-2.193,3.102-5.389,3.102-9.588c0-4.198-1.034-7.41-3.102-9.635\r c-2.068-2.224-4.638-3.337-7.708-3.337C258.798,337.901,256.213,339.015,254.114,341.238z",
+        d: "M275.912,55.067c4.104,2.162,7.332,5.281,9.682,9.354\r c2.35,4.075,3.525,8.836,3.525,14.288s-1.175,10.215-3.525,14.288c-2.35,4.074-5.579,7.191-9.682,9.354\r c-4.105,2.161-8.758,3.242-13.959,3.242c-5.202,0-9.87-1.081-14.006-3.242c-4.136-2.162-7.379-5.279-9.729-9.354\r c-2.35-4.073-3.525-8.836-3.525-14.288s1.175-10.213,3.525-14.288c2.35-4.072,5.593-7.191,9.729-9.354\r c4.136-2.162,8.804-3.242,14.006-3.242C267.154,51.825,271.807,52.905,275.912,55.067z M254.198,69.073\r c-2.101,2.226-3.149,5.438-3.149,9.636c0,4.199,1.049,7.396,3.149,9.588c2.099,2.194,4.684,3.29,7.755,3.29\r c3.07,0,5.64-1.096,7.708-3.29c2.068-2.192,3.102-5.389,3.102-9.588c0-4.198-1.034-7.41-3.102-9.636\r c-2.068-2.223-4.638-3.336-7.708-3.336C258.882,65.737,256.297,66.851,254.198,69.073z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 400
+          lineNumber: 404
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        strokeMiterlimit: "10",
-        d: "M330.206,377.099l-10.716-14.946l-8.742,14.946h-17.671\r l17.39-27.354l-18.048-25.098h18.048l10.622,14.758l8.741-14.758h17.673l-17.767,26.696l18.519,25.756H330.206z",
+        d: "M330.29,104.935l-10.716-14.945l-8.742,14.945h-17.671l17.39-27.354l-18.048-25.098\r h18.048l10.622,14.758l8.741-14.758h17.673L329.82,79.179l18.519,25.756H330.29L330.29,104.935z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 408
+          lineNumber: 412
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        strokeMiterlimit: "10",
-        d: "M355.397,303.826c1.754-1.598,4.073-2.397,6.956-2.397\r c2.882,0,5.201,0.799,6.956,2.397c1.754,1.598,2.632,3.619,2.632,6.063c0,2.382-0.878,4.371-2.632,5.969\r c-1.755,1.598-4.074,2.397-6.956,2.397c-2.883,0-5.202-0.799-6.956-2.397c-1.755-1.598-2.632-3.586-2.632-5.969\r C352.766,307.445,353.643,305.424,355.397,303.826z M370.344,324.647v52.452H354.27v-52.452H370.344z",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 410
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#15161E",
-        stroke: "#15161E",
-        strokeMiterlimit: "10",
-        d: "M422.137,329.582c4.573,3.729,7.457,8.852,8.648,15.369h-17.015\r c-0.502-2.256-1.536-4.01-3.102-5.264c-1.567-1.253-3.541-1.88-5.922-1.88c-2.82,0-5.14,1.113-6.956,3.337\r c-1.818,2.225-2.727,5.468-2.727,9.729c0,4.262,0.908,7.505,2.727,9.729c1.816,2.225,4.136,3.337,6.956,3.337\r c2.381,0,4.354-0.625,5.922-1.88c1.565-1.253,2.6-3.008,3.102-5.264h17.015c-1.191,6.519-4.075,11.642-8.648,15.369\r c-4.575,3.729-10.246,5.593-17.014,5.593c-5.14,0-9.698-1.081-13.678-3.243s-7.097-5.279-9.353-9.353\r c-2.256-4.073-3.384-8.836-3.384-14.288c0-5.514,1.111-10.293,3.337-14.335c2.224-4.042,5.342-7.144,9.353-9.306\r c4.01-2.162,8.585-3.243,13.725-3.243C411.891,323.989,417.562,325.854,422.137,329.582z",
+        d: "M355.481,31.662c1.754-1.599,4.072-2.397,6.955-2.397s5.201,0.799,6.956,2.397\r c1.754,1.598,2.633,3.618,2.633,6.063c0,2.381-0.879,4.37-2.633,5.969c-1.755,1.598-4.073,2.396-6.956,2.396\r s-5.201-0.799-6.955-2.396c-1.756-1.599-2.633-3.586-2.633-5.969C352.85,35.28,353.727,33.26,355.481,31.662z M370.428,52.483\r v52.451h-16.074V52.483H370.428z",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 414
@@ -1271,51 +1264,57 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        strokeMiterlimit: "10",
-        d: "M477.644,327.232c4.104,2.162,7.332,5.28,9.682,9.353\r c2.351,4.075,3.525,8.836,3.525,14.288s-1.175,10.215-3.525,14.288c-2.35,4.074-5.578,7.191-9.682,9.353\r c-4.105,2.162-8.758,3.243-13.959,3.243c-5.202,0-9.87-1.081-14.006-3.243s-7.379-5.279-9.729-9.353\r c-2.35-4.073-3.524-8.836-3.524-14.288s1.175-10.213,3.524-14.288c2.351-4.073,5.594-7.191,9.729-9.353\r c4.136-2.162,8.804-3.243,14.006-3.243C468.886,323.989,473.538,325.07,477.644,327.232z M455.93,341.238\r c-2.101,2.225-3.149,5.437-3.149,9.635c0,4.199,1.049,7.395,3.149,9.588c2.099,2.194,4.684,3.29,7.755,3.29\r c3.069,0,5.64-1.096,7.708-3.29c2.068-2.193,3.102-5.389,3.102-9.588c0-4.198-1.033-7.41-3.102-9.635\r c-2.068-2.224-4.639-3.337-7.708-3.337C460.613,337.901,458.028,339.015,455.93,341.238z",
+        d: "M422.221,57.418c4.573,3.729,7.457,8.853,8.648,15.369h-17.016\r c-0.502-2.257-1.535-4.011-3.102-5.265c-1.567-1.252-3.541-1.879-5.922-1.879c-2.82,0-5.14,1.112-6.956,3.336\r c-1.818,2.226-2.727,5.469-2.727,9.729c0,4.262,0.907,7.505,2.727,9.729c1.816,2.225,4.136,3.336,6.956,3.336\r c2.381,0,4.354-0.625,5.922-1.879c1.565-1.254,2.6-3.009,3.102-5.265h17.016c-1.191,6.519-4.075,11.642-8.648,15.369\r c-4.574,3.729-10.246,5.593-17.014,5.593c-5.14,0-9.698-1.081-13.678-3.242c-3.98-2.162-7.098-5.279-9.354-9.354\r c-2.256-4.073-3.384-8.836-3.384-14.288c0-5.515,1.111-10.293,3.337-14.335c2.224-4.042,5.342-7.145,9.354-9.307\r c4.01-2.162,8.585-3.242,13.725-3.242C411.975,51.825,417.646,53.69,422.221,57.418z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 421
+          lineNumber: 418
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        strokeMiterlimit: "10",
-        d: "M546.827,330.099c3.539,4.011,5.311,9.526,5.311,16.544v30.456\r h-16.074v-28.576c0-3.509-0.925-6.251-2.772-8.225c-1.85-1.974-4.31-2.961-7.379-2.961c-3.26,0-5.845,1.034-7.755,3.102\r c-1.913,2.068-2.867,5.015-2.867,8.836v27.824h-16.074v-52.452h16.074v9.588c1.504-3.133,3.744-5.608,6.721-7.426\r c2.976-1.817,6.47-2.726,10.481-2.726C538.508,324.083,543.286,326.089,546.827,330.099z",
+        d: "M477.728,55.067c4.104,2.162,7.332,5.281,9.683,9.354\r c2.351,4.075,3.524,8.836,3.524,14.288s-1.175,10.215-3.524,14.288c-2.351,4.074-5.578,7.191-9.683,9.354\r c-4.104,2.161-8.758,3.242-13.959,3.242s-9.869-1.081-14.006-3.242c-4.136-2.162-7.379-5.279-9.729-9.354\r c-2.351-4.073-3.524-8.836-3.524-14.288s1.175-10.213,3.524-14.288c2.351-4.072,5.594-7.191,9.729-9.354\r c4.137-2.162,8.805-3.242,14.006-3.242S473.622,52.905,477.728,55.067z M456.014,69.073c-2.101,2.226-3.148,5.438-3.148,9.636\r c0,4.199,1.049,7.396,3.148,9.588c2.1,2.194,4.685,3.29,7.755,3.29c3.069,0,5.641-1.096,7.708-3.29\r c2.068-2.192,3.103-5.389,3.103-9.588c0-4.198-1.033-7.41-3.103-9.636c-2.067-2.223-4.639-3.336-7.708-3.336\r C460.697,65.737,458.112,66.851,456.014,69.073z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 429
+          lineNumber: 425
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         fill: "#15161E",
         stroke: "#15161E",
-        strokeMiterlimit: "10",
-        d: "M597.774,328.971c3.979,3.322,6.471,7.708,7.474,13.16h-15.04\r c-0.439-2.13-1.427-3.807-2.961-5.029c-1.536-1.222-3.464-1.833-5.781-1.833c-1.818,0-3.196,0.392-4.136,1.175\r c-0.94,0.784-1.41,1.896-1.41,3.337c0,1.63,0.86,2.852,2.585,3.666c1.723,0.815,4.433,1.63,8.131,2.444\r c4.01,0.94,7.3,1.896,9.87,2.867c2.569,0.972,4.794,2.554,6.674,4.747c1.88,2.194,2.82,5.139,2.82,8.836\r c0,3.008-0.815,5.672-2.444,7.99c-1.63,2.319-3.98,4.136-7.05,5.452c-3.071,1.316-6.706,1.974-10.904,1.974\r c-7.082,0-12.753-1.566-17.014-4.7c-4.263-3.133-6.862-7.614-7.802-13.442h15.51c0.25,2.256,1.206,3.98,2.867,5.17\r c1.659,1.191,3.807,1.786,6.438,1.786c1.817,0,3.196-0.423,4.137-1.269c0.939-0.846,1.409-1.958,1.409-3.337\r c0-1.817-0.861-3.117-2.585-3.901c-1.724-0.783-4.527-1.612-8.413-2.491c-3.886-0.814-7.082-1.692-9.588-2.632\r c-2.507-0.94-4.669-2.458-6.485-4.559c-1.818-2.099-2.727-4.966-2.727-8.601c0-4.7,1.786-8.507,5.358-11.421\r c3.572-2.914,8.615-4.371,15.134-4.371C588.483,323.989,593.795,325.65,597.774,328.971z",
+        d: "M546.911,57.935c3.539,4.012,5.311,9.526,5.311,16.545v30.455h-16.073V76.358\r c0-3.508-0.926-6.25-2.772-8.225c-1.85-1.974-4.31-2.961-7.379-2.961c-3.26,0-5.845,1.034-7.755,3.102\r c-1.913,2.068-2.867,5.016-2.867,8.836v27.824h-16.074V52.483h16.074v9.588c1.504-3.133,3.744-5.608,6.721-7.426\r s6.471-2.727,10.481-2.727C538.592,51.919,543.37,53.925,546.911,57.935z",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 433
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#15161E",
+        stroke: "#15161E",
+        d: "M597.858,56.808c3.979,3.321,6.471,7.707,7.474,13.159h-15.04\r c-0.439-2.13-1.427-3.807-2.961-5.028c-1.536-1.223-3.464-1.834-5.781-1.834c-1.817,0-3.196,0.393-4.136,1.176\r c-0.94,0.783-1.41,1.896-1.41,3.337c0,1.63,0.86,2.852,2.585,3.665c1.724,0.816,4.434,1.631,8.131,2.445\r c4.011,0.939,7.3,1.896,9.87,2.866c2.569,0.972,4.794,2.554,6.674,4.747c1.881,2.194,2.82,5.139,2.82,8.836\r c0,3.008-0.814,5.672-2.444,7.99s-3.979,4.136-7.05,5.452c-3.07,1.315-6.706,1.974-10.903,1.974\r c-7.082,0-12.753-1.566-17.015-4.699c-4.263-3.134-6.861-7.615-7.802-13.442h15.51c0.25,2.256,1.206,3.979,2.867,5.17\r c1.659,1.19,3.807,1.786,6.438,1.786c1.816,0,3.195-0.424,4.137-1.27c0.938-0.846,1.409-1.958,1.409-3.337\r c0-1.817-0.861-3.116-2.585-3.901c-1.725-0.782-4.527-1.611-8.413-2.49c-3.887-0.814-7.082-1.692-9.588-2.633\r c-2.508-0.939-4.669-2.457-6.485-4.559c-1.818-2.099-2.727-4.966-2.727-8.601c0-4.7,1.785-8.507,5.357-11.421\r s8.615-4.371,15.134-4.371C588.567,51.825,593.879,53.485,597.858,56.808z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 437
         },
         __self: this
       }))))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "nav-search",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 458
+          lineNumber: 463
         },
         __self: this
       }, this.props.page == 'index' ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_search_searchForm__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 459
+          lineNumber: 464
         },
         __self: this
       }) : null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "nav-links",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 461
+          lineNumber: 466
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -1323,13 +1322,13 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 463
+          lineNumber: 468
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 464
+          lineNumber: 469
         },
         __self: this
       }, "Icons")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -1338,7 +1337,7 @@ function (_Component) {
         href: "https://github.com/atisawd/boxicons",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 467
+          lineNumber: 472
         },
         __self: this
       }, "Github"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -1346,13 +1345,13 @@ function (_Component) {
         href: "/usage",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 471
+          lineNumber: 476
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 471
+          lineNumber: 476
         },
         __self: this
       }, "Usage")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -1361,7 +1360,7 @@ function (_Component) {
         href: "https://paypal.me/atisawd",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 474
+          lineNumber: 479
         },
         __self: this
       }, "Donate"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
@@ -1370,20 +1369,14 @@ function (_Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 477
+          lineNumber: 482
         },
         __self: this
-      }, "Download ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 477
-        },
-        __self: this
-      }, "v", _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"]))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+      }, "Download Pack")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "mobile-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 482
+          lineNumber: 487
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
@@ -1391,13 +1384,13 @@ function (_Component) {
         href: "/static/boxicons-" + _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"] + ".zip",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 483
+          lineNumber: 488
         },
         __self: this
       }, "Download ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 483
+          lineNumber: 488
         },
         __self: this
       }, "v", _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"]))))));
@@ -1534,11 +1527,11 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var IconBox = styled_components__WEBPACK_IMPORTED_MODULE_10__["default"].div.withConfig({
   componentId: "qp0pm4-0"
-})(["animation-fill-mode:forwards;margin:7px 10px;box-shadow:0 1px 2px 0 rgba(16,22,64,.12);.new-dot{background:", ";width:5px;height:5px;border-radius:50%;position:absolute;right:5px;top:5px;}i{color:", ";font-size:", ";@media screen and (max-width:", "){font-size:", ";}@media screen and (max-width:", "){font-size:", ";}}&.fade{&.active{.icon-base{opacity:1;}}.icon-base{opacity:0.5;}}&.active{i{color:", ";}}cursor:pointer;outline:none !important;display:inline-block;&:hover{z-index:9999999;}&:active{box-shadow:0 0px 0px 3px rgba(81,158,250,0.85);.icon-box-inner{background:#e8ecf7;}}transition:", ";&:focus{box-shadow:0 0px 0px 3px rgba(81,158,250,0.85);outline:0;}border-radius:5px;overflow:hidden;overflow:hidden;.icon-box-inner{margin:0px;font-weight:700;position:relative;background:#fff;font-size:16px;border-radius:5px;line-height:35px;text-align:center;pointer-events:none;.icon-base{height:", ";i{line-height:", ";}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}}.icon-box-name{font-size:13px;-webkit-touch-callout:none;-webkit-user-select:none;text-transform:capitalize;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:80px;font-weight:400;color:", ";@media screen and (max-width:", "){display:none;}margin:0px 5px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:20px;margin-top:10px;margin-bottom:2px;}padding:25px 11px;@media screen and (max-width:", "){width:auto;padding:20px;}}&:active{border-radius:5px;}&.active{border-radius:5px;background:#f7fafc;}@media screen and (max-width:", "){cursor:initial;margin:3px 7px;&.active,&:hover,&:active{box-shadow:none;background:transparent;}}"], _types__WEBPACK_IMPORTED_MODULE_11__["BLUE_COLOR"], function (props) {
+})(["animation-fill-mode:forwards;margin:7px 10px;box-shadow:0 1px 2px 1px rgba(16,22,64,.085);.new-dot{background:", ";width:5px;height:5px;border-radius:50%;position:absolute;right:5px;top:5px;}i{color:", ";font-size:", ";@media screen and (max-width:", "){font-size:", ";}@media screen and (max-width:", "){font-size:", ";}}&.fade{&.active{.icon-base{opacity:1;}}.icon-base{opacity:0.5;}}&.active{i{color:", ";}}cursor:pointer;outline:none !important;display:inline-block;&:hover{z-index:9999999;}&:active{box-shadow:0 0px 0px 1px #3f54f1;.icon-box-inner{background:#e8ecf7;}}transition:", ";&:focus{box-shadow:0 0px 0px 1px #3f54f1;outline:0;}border-radius:5px;overflow:hidden;overflow:hidden;.icon-box-inner{margin:0px;font-weight:700;position:relative;background:#fff;font-size:16px;border-radius:5px;line-height:35px;text-align:center;pointer-events:none;.icon-base{height:", ";i{line-height:", ";}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}}.icon-box-name{font-size:11px;-webkit-touch-callout:none;-webkit-user-select:none;text-transform:capitalize;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:80px;font-family:", ";font-weight:500;color:", ";@media screen and (max-width:", "){display:none;}margin:0px 5px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:20px;margin-top:10px;margin-bottom:2px;}padding:25px 11px;@media screen and (max-width:", "){width:auto;padding:20px;}}&:active{border-radius:5px;}&.active{border-radius:5px;background:#f7fafc;}@media screen and (max-width:", "){cursor:initial;margin:3px 7px;&.active,&:hover,&:active{box-shadow:none;background:transparent;}}"], _types__WEBPACK_IMPORTED_MODULE_11__["BLUE_COLOR"], function (props) {
   return props.dark ? _types__WEBPACK_IMPORTED_MODULE_11__["DARK_FONT_COLOR"] : _types__WEBPACK_IMPORTED_MODULE_11__["FONT_COLOR"];
 }, _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE_MD"], function (props) {
   return props.dark ? '#FFF' : _types__WEBPACK_IMPORTED_MODULE_11__["BLUE_COLOR"];
-}, _types__WEBPACK_IMPORTED_MODULE_11__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_NAME_COLOR"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MDL"]);
+}, _types__WEBPACK_IMPORTED_MODULE_11__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_NAME_COLOR"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MDL"]);
 
 var IconsListItem =
 /*#__PURE__*/
@@ -1598,56 +1591,56 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 194
+          lineNumber: 195
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-box-inner",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 196
+          lineNumber: 197
         },
         __self: this
       }, this.props.icon.new && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "new-dot",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 197
+          lineNumber: 198
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-base",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 198
+          lineNumber: 199
         },
         __self: this
       }, this.props.icon.type_of_icon === 'REGULAR' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bx-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 199
+          lineNumber: 200
         },
         __self: this
       }), this.props.icon.type_of_icon === 'SOLID' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bxs-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 200
+          lineNumber: 201
         },
         __self: this
       }), this.props.icon.type_of_icon === 'LOGO' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bxl-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 201
+          lineNumber: 202
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-box-name",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 203
+          lineNumber: 204
         },
         __self: this
       }, this.props.icon.name)));
@@ -1780,7 +1773,7 @@ var IconsSectionCont = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"
 })(["@media screen and (max-width:", "){padding:0px;}@media screen and (min-width:", "){&.side-active .icon-box{flex:0 0 ", "!important;max-width:", "!important;}}@media screen and (min-width:", "){display:flex;}.icons-left-section{@media screen and (max-width:", "){display:none;visibility:hidden;}-webkit-animation-duration:0.5s !important;animation-duration:0.5s !important;position:fixed;z-index:99997;-webkit-transform:translateZ(0);animation-fill-mode:forwards;bottom:0;left:100px;width:", ";transition:", ";.left-section-inner{background:", ";margin:0 auto;display:block;border-radius:0.5rem;box-shadow:", ";@media screen and (max-width:", "){border-radius:0px;border-left:0px;border-right:0px;max-width:none;left:0;right:0;}}@media screen and (max-width:", "){pointer-events:all;}}.icons-side-section{position:absolute;background:#fff;z-index:99999;margin-top:0px;margin-left:20px;overflow-y:scroll;max-height:200px;border-radius:", ";box-shadow:", ";min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;padding-top:0;padding-bottom:0;max-height:256px;overflow-x:hidden;.side-section-inner{border-bottom:1px solid transparent;padding-left:0px;@media screen and (max-width:", "){border-bottom:1px solid ", ";margin:0;}}@media screen and (max-width:", "){display:none;visibility:hidden;}}.icons-right-section{width:100%;@media screen and (max-width:", "){width:auto;}@media screen and (max-width:", "){padding:0px;}h2{margin:15px;margin-bottom:30px;font-size:36px;font-weight:400;line-height:48px;color:", ";a{display:none!important;visibility:hidden;@media screen and (max-width:", "){display:flex!important;visibility:visible;}}@media screen and (max-width:", "){font-size:30px;line-height:44px;margin:10px;margin-bottom:25px;}@media screen and (max-width:", "){font-size:24px;line-height:36px;}}}.icon-list{padding:0px;min-height:calc(100vh - 260px);padding-bottom:10px;max-width:", ";margin:0 auto;.container{@media screen and (max-width:", "){text-align:center;}.no-result{text-align:center;font-weight:400;padding:30px;min-height:50px;color:", ";font-size:18px;margin-bottom:0px;p{margin-top:2px;font-size:16px;color:#73859d;font-style:italic;}}}@media screen and (max-width:", "){padding:0px;}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["FLEX_ACTIVE"], _types__WEBPACK_IMPORTED_MODULE_13__["FLEX_ACTIVE"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["FILTER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_13__["BOX_SHADOW_POPUP"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["HEADER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDS"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["SECONDARY_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
 var IconsFilter = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-4"
-})(["   box-sizing:border-box;margin-bottom:15px;background:#fff;.icon-filter-max{max-width:", ";margin:0 auto;padding:0px 15px;@media screen and (max-width:", "){padding-top:0px;padding:0!important;margin-bottom:0px;}.icons-filter-in{font-weight:400;margin:0 10px;border-top:1px solid #dee2ef;padding-bottom:15px!important;padding-top:15px!important;@media screen and (max-width:", "){padding:15px 20px!important;}.icons-count{align-self:flex-end;flex:1;font-style:italic;transition:", ";text-align:left;border-left:1px solid #dee2ef;padding:0;padding-left:15px;padding-right:15px;margin-left:15px;border-radius:0px;@media screen and (max-width:", "){display:none;}}.selected-category{display:flex;background:#313133;@media screen and (max-width:", "){display:none;visibility:hidden;}color:#fff;margin-left:10px;align-items:center;height:28px;transition:", ";justify-content:center;border-radius:30px!important;&:active{box-shadow:0 0px 0 5px ", ";}div{padding:0px!important;line-height:18px!important;height:20px!important;font-weight:400;}.selected-category-name{color:#fff!important;}.selected-category-x i{color:#fff!important;font-size:12px!important;margin-left:10px;}}.icons-theme{@media screen and (max-width:", "){display:none;visibility:hidden;}flex:0 0 36px;width:36px;height:36px;margin-bottom:4px;align-items:center;box-shadow:0 0px 0 2px #f9f9f9;justify-content:center;transition:", ";margin-left:0px;display:flex;padding:0px;border-radius:30px;div{width:12px!important;height:12px!important;background:#313133;padding:0!important;border-radius:50%!important;}@media screen and (max-width:", "){margin-bottom:7px;}@media screen and (max-width:", "){display:none;visibility:hidden;}&:active{box-shadow:0 0px 0 5px ", ";}}.icons-filter{align-self:flex-end;min-width:150px;color:#070b28;font-weight:600;cursor:pointer;&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}span.category{color:#73859d;font-weight:400;}i{line-height:40px!important;}@media screen and (max-width:", "){display:none;visibility:hidden;}line-height:38px;height:38px;text-align:left;padding:0px;padding:0px 10px;padding-top:0px;font-size:.875rem;margin-bottom:4px;@media screen and (max-width:", "){margin-bottom:7px;}transition:", ";margin:0px;border-radius:", ";border:1px solid #dee2ef;background:", ";i{margin-left:15px;color:#73859d;}&:active{box-shadow:", ";}}i{font-size:16px;color:#313133;float:right;line-height:30px;}display:flex;@media screen and (max-width:", "){margin:0;padding:15px;padding-bottom:10px;}.filter-top,.filter-bottom{display:flex;padding:0;line-height:40px!important;height:40px!important;align-items:center;}.filter-bottom{cursor:pointer;overflow:hidden;div{flex:1;text-align:center;}}.filter-top{flex:1;border-radius:0px!important;@media screen and (max-width:", "){display:none;visibility:none;}}div{@media screen and (max-width:", "){margin:0;}padding:0px 12px;margin:0px;font-size:.875rem;line-height:35px;height:35px;transition:", ";border-radius:5px;color:", ";-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;&.active{color:#3f54f1;background:#e8ecf7;font-weight:600;}&:last-child{}&:first:child{margin-right:0px;}}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_RADIUS"], function (props) {
+})(["   box-sizing:border-box;margin-bottom:15px;background:#fff;.icon-filter-max{max-width:", ";margin:0 auto;padding:0px 15px;@media screen and (max-width:", "){padding-top:0px;padding:0!important;margin-bottom:0px;}.icons-filter-in{font-weight:400;margin:0 10px;padding-bottom:15px!important;padding-top:15px!important;@media screen and (max-width:", "){padding:15px 20px!important;}.icons-count{align-self:flex-end;flex:1;font-style:italic;transition:", ";text-align:left;border-left:1px solid #dee2ef;padding:0;padding-left:15px;padding-right:15px;margin-left:15px;border-radius:0px;@media screen and (max-width:", "){display:none;}}.selected-category{display:flex;background:#313133;@media screen and (max-width:", "){display:none;visibility:hidden;}color:#fff;margin-left:10px;align-items:center;height:28px;transition:", ";justify-content:center;border-radius:30px!important;&:active{box-shadow:0 0px 0 5px ", ";}div{padding:0px!important;line-height:18px!important;height:20px!important;font-weight:400;}.selected-category-name{color:#fff!important;}.selected-category-x i{color:#fff!important;font-size:12px!important;margin-left:10px;}}.icons-theme{@media screen and (max-width:", "){display:none;visibility:hidden;}flex:0 0 36px;width:36px;height:36px;margin-bottom:4px;align-items:center;box-shadow:0 0px 0 2px #f9f9f9;justify-content:center;transition:", ";margin-left:0px;display:flex;padding:0px;border-radius:30px;div{width:12px!important;height:12px!important;background:#313133;padding:0!important;border-radius:50%!important;}@media screen and (max-width:", "){margin-bottom:7px;}@media screen and (max-width:", "){display:none;visibility:hidden;}&:active{box-shadow:0 0px 0 5px ", ";}}.icons-filter{align-self:flex-end;min-width:150px;color:#070b28;font-weight:600;cursor:pointer;&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}span.category{color:#73859d;font-weight:400;}i{line-height:45px!important;}@media screen and (max-width:", "){display:none;visibility:hidden;}line-height:45px;height:45px;text-align:left;padding:0px;padding:0px 15px;padding-top:0px;font-size:.875rem;margin-bottom:4px;@media screen and (max-width:", "){margin-bottom:7px;}transition:", ";margin:0px;border-radius:", ";border:1px solid #dee2ef;background:", ";i{margin-left:15px;color:#73859d;}&:active{box-shadow:", ";}}i{font-size:16px;color:#313133;float:right;line-height:30px;}display:flex;@media screen and (max-width:", "){margin:0;padding:15px;padding-bottom:10px;}.filter-top,.filter-bottom{display:flex;padding:0;line-height:45px!important;height:45px!important;align-items:center;}.filter-bottom{cursor:pointer;overflow:hidden;div{flex:1;text-align:center;}}.filter-top{flex:1;border-radius:0px!important;@media screen and (max-width:", "){display:none;visibility:none;}}div{@media screen and (max-width:", "){margin:0;}padding:0px 15px;margin:0px;font-size:.875rem;line-height:45px;height:45px;transition:", ";border-radius:5px;color:", ";-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;&.active{color:#3f54f1;background:#e8ecf7;font-weight:600;}&:last-child{}&:first:child{margin-right:0px;}}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_RADIUS"], function (props) {
   return props.side ? _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"] : 'transparent';
 }, _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["NAV_LIST_COLOR"]);
 
@@ -1840,14 +1833,14 @@ function (_Component) {
         return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 516
+            lineNumber: 515
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Icon, {
           icon: this.state.selectedIcon,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 517
+            lineNumber: 516
           },
           __self: this
         }));
@@ -2010,14 +2003,14 @@ function (_Component) {
         onKeyDown: this.handleKeyPress,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 678
+          lineNumber: 677
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_common_ToTop__WEBPACK_IMPORTED_MODULE_16__["default"], {
         side: this.state.displaySideIcon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 679
+          lineNumber: 678
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(IconsSectionCont, {
@@ -2026,14 +2019,14 @@ function (_Component) {
         className: sectionContClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 681
+          lineNumber: 680
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-left-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 682
+          lineNumber: 681
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2041,34 +2034,34 @@ function (_Component) {
         onBlur: this.handleBlur,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 683
+          lineNumber: 682
         },
         __self: this
       }, this.state.selectedIcon.name != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(StyledIconCont, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 687
+          lineNumber: 686
         },
         __self: this
       }, this.renderIcon()))), this.state.icons.data != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-right-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 695
+          lineNumber: 694
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(IconsFilter, {
         side: this.state.showSide,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 697
+          lineNumber: 696
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-filter-max",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 698
+          lineNumber: 697
         },
         __self: this
       }, this.state.showSide && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_outside_click_handler__WEBPACK_IMPORTED_MODULE_15___default.a, {
@@ -2079,21 +2072,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 700
+          lineNumber: 699
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-side-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 703
+          lineNumber: 702
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "side-section-inner",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 705
+          lineNumber: 704
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Categories, {
@@ -2102,21 +2095,21 @@ function (_Component) {
         style: this.state.style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 706
+          lineNumber: 705
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-filter-in",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 711
+          lineNumber: 710
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filter-top",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 712
+          lineNumber: 711
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2124,41 +2117,41 @@ function (_Component) {
         onClick: this.handleSide,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 714
+          lineNumber: 713
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         className: "category",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 715
+          lineNumber: 714
         },
         __self: this
       }, "Category \xA0/\xA0  "), this.state.category != null ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 715
+          lineNumber: 714
         },
         __self: this
       }, this.state.category.id != null ? this.state.category.name : 'All') : 'All', " ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bx-caret-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 715
+          lineNumber: 714
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-count",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 718
+          lineNumber: 717
         },
         __self: this
       }, this.state.icons.data !== null ? this.state.icons.data.length : '0', " icons")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filter-bottom",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 722
+          lineNumber: 721
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2168,7 +2161,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 723
+          lineNumber: 722
         },
         __self: this
       }, "All"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2178,7 +2171,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 726
+          lineNumber: 725
         },
         __self: this
       }, "Regular"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2188,7 +2181,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 729
+          lineNumber: 728
         },
         __self: this
       }, "Solid"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2198,71 +2191,71 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 732
+          lineNumber: 731
         },
         __self: this
       }, "Logos"))))), this.state.noResult ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-list ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 741
+          lineNumber: 740
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 742
+          lineNumber: 741
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
         className: "no-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 743
+          lineNumber: 742
         },
         __self: this
       }, "No result found", this.state.search !== '' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 746
+          lineNumber: 745
         },
         __self: this
       }, " for", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 747
+          lineNumber: 746
         },
         __self: this
       }, " '", this.state.search, "'")), this.state.category != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 749
+          lineNumber: 748
         },
         __self: this
       }, " in ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 749
+          lineNumber: 748
         },
         __self: this
       }, "'", this.state.category.name, "'")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 750
+          lineNumber: 749
         },
         __self: this
       }, "Having trouble finding an icon, try the ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_18___default.a, {
         href: "cheatsheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 750
+          lineNumber: 749
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 750
+          lineNumber: 749
         },
         __self: this
       }, "Cheatsheet")))))) : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_iconsList__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -2270,20 +2263,20 @@ function (_Component) {
         style: this.state.style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 755
+          lineNumber: 754
         },
         __self: this
       }), this.state.showLI && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(LoadMore, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 758
+          lineNumber: 757
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_common_buttons__WEBPACK_IMPORTED_MODULE_14__["LoadButton"], {
         onClick: this.handleShowMore,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 758
+          lineNumber: 757
         },
         __self: this
       }, "Show more icons")))));
@@ -2357,7 +2350,7 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var StyledSearch = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "e9dimx-0"
-})([".search-cont{transition:", ";&.active{background:#fff;box-shadow:0 0px 0px 3px rgba(81,158,250,0.85);.search-box{input{color:", ";}}}&.fixed{position:fixed;top:70px;left:0px;padding:5px;z-index:11;border-radius:0;right:0;max-width:none;background:#fff;border:0px;border-top:1px solid #dee3eb;border-bottom:1px solid #dee3eb;.search-box{max-width:", ";border-bottom:0px solid #ddd;}}&.active{}.search-box input::-ms-clear{display:none;}@media screen and (max-width:", "){margin:0px 0px;margin-bottom:0px;max-width:none;&.fixed{margin:0px;}}.search-box{position:relative;border-radius:", ";display:flex;width:100%;.close{order:1;align-self:center;padding:0px 15px;height:32px;cursor:pointer;}input{height:40px;margin-left:60px;box-shadow:none;outline:none;font-weight:600;order:1;color:#73859d;font-size:18px;width:100%;margin:0;padding:0;border-radius:2px;border:0;display:block;background:transparent;margin-left:10px;@media screen and (max-width:", "){height:40px;font-size:18px;}}i{@media screen and (max-width:", "){font-size:24px;height:24px;}order:1;align-self:center;padding:0px 5px;height:24px;font-size:24px;color:#73859d;cursor:pointer;&.bx-x{font-size:22px;padding:5px;background:#e8ecf7;;height:22px;line-height:22px;color:#73859d;border-radius:50%;cursor:pointer;&:hover{background:#cbd5e0;}}}}z-index:23;margin-bottom:25px;position:relative;display:block;padding:5px 15px;margin:0 auto;max-width:600px;background:#e8ecf7;border-radius:", ";}"], _types__WEBPACK_IMPORTED_MODULE_10__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_10__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_10__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_10__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["BUTTON_RADIUS"]);
+})([".search-cont{transition:", ";&.active{box-shadow:0 0px 0px 1px #3f54f1!important;.search-box{}}&.fixed{position:fixed;top:70px;left:0px;padding:5px;z-index:11;border-radius:0;right:0;max-width:none;background:#fff;border:0px;border-top:1px solid #dee3eb;border-bottom:1px solid #dee3eb;.search-box{max-width:", ";border-bottom:0px solid #ddd;}}&.active{}.search-box input::-ms-clear{display:none;}@media screen and (max-width:", "){margin:0px 0px;margin-bottom:0px;max-width:none;&.fixed{margin:0px;}}.search-box{position:relative;border-radius:", ";display:flex;width:100%;.close{order:1;align-self:center;padding:0px 15px;height:32px;cursor:pointer;}input{height:40px;margin-left:60px;box-shadow:none;outline:none;font-weight:400;order:1;color:#fff;font-size:21px;width:100%;margin:0;padding:0;border-radius:2px;border:0;display:block;background:transparent;margin-left:10px;@media screen and (max-width:", "){height:40px;font-size:18px;}}i{@media screen and (max-width:", "){font-size:24px;height:24px;}order:1;align-self:center;padding:0px 5px;height:24px;font-size:24px;color:#73859d;cursor:pointer;&.bx-x{font-size:22px;padding:5px;background:#e8ecf7;;height:22px;line-height:22px;color:#73859d;color:#fff;background:rgba(255,255,255,0.1);border-radius:50%;cursor:pointer;&:hover{background:rgba(255,255,255,0.2);}}}}z-index:23;margin-bottom:25px;position:relative;display:block;padding:10px 15px;margin:0 auto;max-width:600px;background:rgba(255,255,255,0.1);border-radius:", ";}"], _types__WEBPACK_IMPORTED_MODULE_10__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_10__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_10__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["BUTTON_RADIUS"]);
 
 var SearchForm =
 /*#__PURE__*/
@@ -2498,7 +2491,7 @@ function (_Component) {
         className: "search-sticky animated fadeIn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 230
+          lineNumber: 229
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2507,7 +2500,7 @@ function (_Component) {
         onBlur: this.onSearchBlur,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 231
+          lineNumber: 230
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2515,14 +2508,14 @@ function (_Component) {
         ref: "searchBox",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 233
+          lineNumber: 232
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bx-search",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 234
+          lineNumber: 233
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
@@ -2532,7 +2525,7 @@ function (_Component) {
         placeholder: "Search icons...",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 235
+          lineNumber: 234
         },
         __self: this
       }), this.state.search.length > 0 && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
@@ -2540,7 +2533,7 @@ function (_Component) {
         onClick: this.emptySearch,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 242
+          lineNumber: 241
         },
         __self: this
       }))));
@@ -2645,28 +2638,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BREAKPOINT_MD", function() { return BREAKPOINT_MD; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BREAKPOINT_MDS", function() { return BREAKPOINT_MDS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BREAKPOINT_SM", function() { return BREAKPOINT_SM; });
-var FONT_COLOR = '#15161E';
+var FONT_COLOR = '#0c0c0e';
 var DARK_FONT_COLOR = '#d1d1d1';
 var TRANSITION = "all .15s ease";
 var PRIMARY_COLOR = '#b06c4a';
 var BLUE_COLOR = '#3f54f1';
-var BUTTON_COLOR = '#15161E';
-var BUTTON_ICON_COLOR = '#73859d';
-var SELECTED_ACTIVE_COLOR = '#15161E';
+var BUTTON_COLOR = '#0c0c0e';
+var BUTTON_ICON_COLOR = '#656565';
+var SELECTED_ACTIVE_COLOR = '#0c0c0e';
 var GREEN_COLOR = '#36b167';
 var RED_COLOR = "#fff";
 var FONT_FAMILY = '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif';
-var FONT_FAMILY_HEADER = FONT_FAMILY;
-var ACTIVE_NAV_LIST_COLOR = '#15161E';
-var NAV_LIST_COLOR = '#73859d';
-var SECONDARY_FONT_COLOR = '#15161E';
-var FADE_FONT_COLOR = '#73859d';
+var FONT_FAMILY_HEADER = '"Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif';
+var ACTIVE_NAV_LIST_COLOR = '#0c0c0e';
+var NAV_LIST_COLOR = '#656565';
+var SECONDARY_FONT_COLOR = '#0c0c0e';
+var FADE_FONT_COLOR = '#656565';
 var LIGHT_BACKGROUND = '#f3f5f7';
 var DARK_BACKGROUND = '#404142';
-var ICON_COLOR = '#73859d';
-var HEADER_COLOR = '#15161E';
-var SELECTED_COLOR = '#15161E';
-var MAIN_HEADER_COLOR = "#15161E";
+var ICON_COLOR = '#656565';
+var HEADER_COLOR = '#0c0c0e';
+var SELECTED_COLOR = '#0c0c0e';
+var MAIN_HEADER_COLOR = "#fff";
 var ICON_NAME_COLOR = "#aab3bf";
 var TOP_BAR_GRADIENT = "linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%)";
 var BOX_SHADOW_POPUP = "0 4px 10px -1px rgba(0,0,0,.2),0 2px 4px -1px rgba(0,0,0,.06)!important";
@@ -2687,15 +2680,15 @@ var ICON_SIZE_MD = "36px";
 var ICON_BASE = "36px";
 var ICON_BASE_LG = "36px";
 var ICON_BASE_MD = "36px";
-var BUTTON_RADIUS = "6px";
+var BUTTON_RADIUS = "5px";
 var SIDE_WIDTH = "665px";
 var COMMON_PADDING = "20px";
 var PADDING = "0px " + COMMON_PADDING;
 var NAVBAR_PADDING = "2px " + COMMON_PADDING;
 var BODY_BACKGROUND = '#FFF';
-var HEADER_BACKGROUND = '#f3f5f7';
+var HEADER_BACKGROUND = '#0c0c0e';
 var SEARCH_BACKGROUND = '#fff';
-var ICONS_BACKGROUND = '#f3f5f7';
+var ICONS_BACKGROUND = '#f5f7fb';
 var ICONS_DARK_BACKGROUND = '#4f5d6a';
 var NAVBAR_BACKGROUND = "#fff";
 var NAVBAR_SCROLL_BACKGROUND = "#fff;";
@@ -26954,7 +26947,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js ***!
   \*********************************************************************************************************************************************************/
@@ -26977,5 +26970,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
