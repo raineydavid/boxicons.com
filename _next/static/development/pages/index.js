@@ -966,7 +966,7 @@ var isProd = ("development" || false) === 'production';
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "shortcut icon",
     type: "image/x-icon",
-    href: "../../static/img/favicon.ico?v=9",
+    href: "../../static/img/favicon.ico?v=10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
@@ -2124,6 +2124,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_search_searchForm__WEBPACK_IMPORTED_MODULE_16__["default"], {
+        icons: this.state.icons.data !== null ? this.state.icons.data.length : '0',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 769
@@ -2511,7 +2512,7 @@ function (_Component) {
         onChange: this.onChange,
         value: this.state.search,
         autoComplete: "off",
-        placeholder: "Search icons...",
+        placeholder: this.props.icons ? "Search " + this.props.icons + " icons..." : "Search icons...",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 234
@@ -2655,7 +2656,7 @@ var HEADER_COLOR = '#3a3a3a';
 var SELECTED_COLOR = '#3a3a3a';
 var MAIN_HEADER_COLOR = "#3a3a3a";
 var MAIN_HEADER_SUB_COLOR = "#3a3a3a";
-var ICON_NAME_COLOR = "#aab3bf";
+var ICON_NAME_COLOR = "#989898";
 var TOP_BAR_GRADIENT = "linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%)";
 var BOX_SHADOW_POPUP = "0 4px 10px -1px rgba(0,0,0,.2),0 2px 4px -1px rgba(0,0,0,.06)!important";
 var BOX_SHADOW = "0px 5px 10px 0px rgba(0,64,128,0.05)";
