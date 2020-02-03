@@ -253,7 +253,7 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var StyledToTop = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
   componentId: "sc-1x8ru9n-0"
-})(["position:fixed;left:30px;cursor:pointer;bottom:30px;width:50px;box-shadow:0 3px 6px 0 rgba(0,0,0,.1),0 1px 3px 0 rgba(0,0,0,.08);transition:", ";visibility:hidden;z-index:999;height:50px;&.active{visibility:visible;}background:#fff;border-radius:50%;align-items:center;display:flex;justify-content:center;&:active{background:#e8ecf7;box-shadow:", ";}i{color:", ";font-size:32px;}"], _types__WEBPACK_IMPORTED_MODULE_9__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_9__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_9__["FONT_COLOR"]);
+})(["position:fixed;left:30px;cursor:pointer;bottom:30px;width:50px;border:1px solid rgb(220,223,225);box-shadow:rgba(0,0,0,0.03) 0px 1px 2px,rgba(0,0,0,0.05) 0px 1px 2px,rgba(0,0,0,0.03) 0px -1px 1px inset;transition:", ";visibility:hidden;z-index:999;height:50px;&.active{visibility:visible;}background:#fff;border-radius:50%;align-items:center;display:flex;justify-content:center;&:active{background:#e8ecf7;box-shadow:", ";}i{color:", ";font-size:32px;}"], _types__WEBPACK_IMPORTED_MODULE_9__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_9__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_9__["FONT_COLOR"]);
 
 var ToTop =
 /*#__PURE__*/
@@ -315,14 +315,14 @@ function (_Component) {
         onClick: this.handleClick,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 89
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bx-chevron-up",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 90
         },
         __self: this
       }));
@@ -358,16 +358,16 @@ __webpack_require__.r(__webpack_exports__);
 
 var NavButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-0"
-})(["margin-left:10px;transition:", ";color:", "!important;border:1px solid;text-align:center;border-radius:", "!important;font-weight:500!important;font-size:15px!important;padding:0 20px!important;letter-spacing:0.25px!important;height:40px!important;line-height:40px!important;align-items:center;display:flex;font-family:", ";.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{color:", ";padding-left:0;font-size:21px!important;@media screen and (max-width:", "){padding-right:0px;}}&:hover{background:", ";color:#fff!important;}&:active{color:#fff!important;background:#2430cc;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"]);
+})(["margin-left:10px;transition:", ";color:", "!important;border:1px solid;text-align:center;border-radius:", "!important;font-weight:500!important;font-size:16px!important;padding:0 20px!important;letter-spacing:0.25px!important;height:40px!important;line-height:40px!important;align-items:center;display:flex;font-family:", ";.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{padding-left:5px;}i{color:", ";padding-left:0;font-size:21px!important;@media screen and (max-width:", "){padding-right:0px;}}&:hover{background:", ";color:#fff!important;}&:active{color:#fff!important;background:#1080be;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"]);
 var LoadButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-1"
-})(["transition:", ";max-width:300px;font-family:", ";box-shadow:0 3px 6px 0 rgba(0,0,0,.1),0 1px 3px 0 rgba(0,0,0,.08);justify-content:center;background:#fff;color:", ";cursor:pointer;padding:0px 16px;height:50px!important;text-align:center;border-radius:", ";font-weight:500;letter-spacing:0.25px!important;font-size:1rem;display:flex;align-items:center;line-height:50px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:active{background:#e8ecf7;box-shadow:", ";}@media screen and (max-width:", "){margin:0 20px!important;}.button-name{line-height:24px;flex:1;}i{font-size:22px;fill:#fff;opacity:0.5;padding-right:15px;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"]);
+})(["transition:", ";max-width:300px;font-family:", ";box-shadow:0 3px 6px 0 rgba(0,0,0,.1),0 1px 3px 0 rgba(0,0,0,.08);justify-content:center;background:#fff;color:", ";cursor:pointer;padding:0px 16px;height:50px!important;text-align:center;border-radius:", ";font-weight:500;letter-spacing:0.25px!important;font-size:18px;display:flex;align-items:center;line-height:50px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:active{background:#e8ecf7;box-shadow:", ";}@media screen and (max-width:", "){margin:0 20px!important;}.button-name{line-height:24px;flex:1;}i{font-size:22px;fill:#fff;padding-right:15px;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"]);
 var BlueButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-2"
-})(["transition:", ";background:", ";color:#fff;padding:0px 16px;height:42px!important;text-align:center;border-radius:", ";font-weight:500;letter-spacing:0.25px!important;font-size:15px;display:flex;align-items:center;line-height:42px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover,&:active{color:#fff!important;background:#2430cc;}@media screen and (max-width:", "){padding:5px;width:160px;}.button-name{line-height:24px;flex:1;font-family:", ";}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
+})(["transition:", ";background:", ";color:#fff;padding:0px 16px;height:42px!important;text-align:center;border-radius:", ";font-weight:500;letter-spacing:0.25px!important;font-size:15px;display:flex;align-items:center;line-height:42px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover,&:active{color:#fff!important;background:linear-gradient(rgb(22,165,243) 0%,rgb(13,158,237) 100%);background:#1080be;}@media screen and (max-width:", "){padding:5px;width:160px;}.button-name{line-height:24px;flex:1;font-family:", ";}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
 var WhiteButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-3"
-})(["margin-left:10px;transition:", ";color:", "!important;border:1px solid;text-align:center;border-radius:", "!important;font-weight:500!important;font-size:15px!important;font-family:", ";padding:0 12px!important;letter-spacing:0.25px!important;height:42px!important;line-height:42px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{font-size:22px;color:", ";padding-right:10px;@media screen and (max-width:", "){padding-right:0px;}}&:hover{i{color:#fff!important;}background:", ";color:#fff!important;}&:active{color:#fff!important;i{color:#fff!important;}background:#2430cc;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"]);
+})(["margin-left:10px;transition:", ";color:", "!important;border:1px solid #ccc;text-align:center;border-radius:", "!important;font-weight:500!important;font-size:15px!important;font-family:", ";padding:0 12px!important;letter-spacing:0.25px!important;height:42px!important;line-height:42px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{font-size:22px;color:#999;padding-right:10px;@media screen and (max-width:", "){padding-right:0px;}}&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}&:active{background:#f6f6f6;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
 var DarkBGButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-4"
 })(["transition:", ";color:#fff!important;background:", ";text-align:center;font-size:20px!important;padding:0 16px!important;height:60px!important;line-height:60px!important;display:block;border-radius:2px!important;@media screen and (max-width:", "){max-width:225px;font-size:18px!important;height:50px!important;line-height:50px!important;}.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{background:#b06c4a;color:#fff!important;}&:active{color:#fff!important;box-shadow:0 0px 0 5px rgba(176,108,74,0.2);}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
@@ -653,7 +653,7 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var StyledHero = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
   componentId: "j0itq8-0"
-})([".hero-sticky{background:", ";.hero{max-width:", ";text-align:left;position:relative;margin:0 auto;display:flex;margin-top:60px;padding-top:0px;padding-bottom:0px;transform:", ";opacity:", ";transition:0.5s ease;@media screen and (max-width:", "){display:block;padding-top:80px;}@media screen and (max-width:", "){max-width:600px;padding-top:60px;margin-left:0px;}.hero-side{padding-right:25px;@media screen and (max-width:", "){padding:0px 30px;p{display:none;}}flex:1;p{color:", ";font-size:30px;margin:0 auto;font-weight:300;text-align:left;height:170px;max-width:550px;line-height:1.4;@media screen and (max-width:", "){font-size:18px;text-align:left;margin-left:0px;}@media screen and (max-width:", "){font-size:16px;}@media screen and (max-width:", "){font-size:15px;}}}.hero-text{flex:2;@media screen and (max-width:", "){padding-right:20px;padding-left:20px;}.hero-header{max-width:600px;@media screen and (max-width:", "){height:auto!important;margin-bottom:25px;}p{font-size:19px;margin-top:20px;margin-bottom:5px;color:", ";@media screen and (max-width:", "){font-size:16px;}}h2{font-size:45px;margin-top:0px;font-family:", ";color:", ";line-height:50px;font-weight:700 !important;text-rendering:optimizeLegibility;position:relative;word-break:break-word;display:inline;background-size:100% 100%;@media screen and (max-width:768px){font-size:32px;line-height:1.25;text-align:left;}}}text-align:left;.hero-head{max-width:660px;text-align:left;padding:80px 10px;padding-bottom:10px;@media screen and (max-width:", "){text-align:left;padding:0 10px!important;}}}}}"], _types__WEBPACK_IMPORTED_MODULE_7__["HEADER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_7__["MAX_WIDTH"], function (props) {
+})([".hero-sticky{background:", ";.hero{max-width:", ";text-align:left;position:relative;margin:0 auto;display:flex;margin-top:60px;padding-top:0px;padding-bottom:0px;transform:", ";opacity:", ";transition:0.5s ease;@media screen and (max-width:", "){display:block;padding-top:80px;}@media screen and (max-width:", "){max-width:600px;padding-top:60px;margin-left:0px;}.hero-side{padding-right:25px;@media screen and (max-width:", "){padding:0px 30px;p{display:none;}}flex:1;p{color:", ";font-size:30px;margin:0 auto;font-weight:300;text-align:left;height:170px;max-width:550px;line-height:1.4;@media screen and (max-width:", "){font-size:18px;text-align:left;margin-left:0px;}@media screen and (max-width:", "){font-size:16px;}@media screen and (max-width:", "){font-size:15px;}}}.hero-text{flex:2;@media screen and (max-width:", "){padding-right:20px;padding-left:20px;}.hero-header{max-width:600px;text-align:center;@media screen and (max-width:", "){height:auto!important;margin-bottom:25px;}p{font-size:19px;margin-top:15px;margin-bottom:5px;color:", ";@media screen and (max-width:", "){font-size:16px;}}h2{font-size:45px;margin-top:0px;font-family:", ";color:", ";line-height:50px;font-weight:700 !important;text-rendering:optimizeLegibility;position:relative;word-break:break-word;display:inline;background-size:100% 100%;@media screen and (max-width:768px){font-size:32px;line-height:1.25;text-align:left;}}}text-align:left;.hero-head{max-width:660px;text-align:left;margin:0 auto;padding:80px 10px;padding-bottom:10px;@media screen and (max-width:", "){text-align:left;padding:0 10px!important;}}}}}"], _types__WEBPACK_IMPORTED_MODULE_7__["HEADER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_7__["MAX_WIDTH"], function (props) {
   return props.is_Mounted ? 'translateY(0px)' : 'translateY(50px)';
 }, function (props) {
   return props.is_Mounted ? '1' : '0';
@@ -692,54 +692,54 @@ function (_Component) {
         is_Mounted: this.state.is_Mounted,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 159
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-sticky",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158
+          lineNumber: 160
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 161
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160
+          lineNumber: 162
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-head",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161
+          lineNumber: 163
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163
+          lineNumber: 165
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163
+          lineNumber: 165
         },
         __self: this
       }, "High Quality Web Icons Set "), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 164
+          lineNumber: 166
         },
         __self: this
       }, "Boxicons is a simple vector icons set carefully crafted for designers and developers to use in your next project")))))));
@@ -957,7 +957,7 @@ var isProd = ("development" || false) === 'production';
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     name: "keywords",
-    content: "free icons,open source icons, royalty free icons,google icons, icon, line icon, sharp icon, material icons, premium icons, pixel perfect icons, open source icons, free icon set",
+    content: "boxicons,free icons,open source icons, royalty free icons,google icons, icon, line icon, sharp icon, material icons, premium icons, pixel perfect icons, open source icons, free icon set",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
@@ -966,7 +966,7 @@ var isProd = ("development" || false) === 'production';
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "shortcut icon",
     type: "image/x-icon",
-    href: "../../static/img/favicon.ico?v=10",
+    href: "../../static/img/favicon.ico?v=11",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
@@ -1042,7 +1042,7 @@ var Dropdown = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.wit
 })(["position:absolute;background:", ";border-radius:5px;color:#fff;&:before{content:\"\";right:100%;bottom:100%;position:absolute;margin-right:-33px;position:absolute;width:0;height:0;border:7px solid transparent;border-top-width:0;border-bottom-color:", ";}transition:all .25s cubic-bezier(.24,.22,.015,1.56),opacity .1s ease-in-out;top:60px;max-width:160px;opacity:0;visibility:hidden;transform:scale(0.8) translateY(-10px);&.active{box-shadow:0 1px 3px 0 rgba(0,0,0,0.08),0 0 5PX 1px rgba(0,0,0,0.04);opacity:1;visibility:visible;transform:scale(1) translateY(0);}ul{list-style:none;display:block;text-align:left;padding:12px 15px!important;li{display:block;font-size:13px!important;line-height:1.6!important;min-width:130px;a{line-height:30px!important;height:auto!important;}}}"], _types__WEBPACK_IMPORTED_MODULE_12__["SEARCH_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["SEARCH_BACKGROUND"]);
 var Navbar = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   componentId: "r3kz9n-1"
-})(["left:0;right:0;position:fixed;background:", ";z-index:99996;transition:all  200ms cubic-bezier(0.4,0,0.2,1);top:0;&.scroll{box-shadow:0 4px 4px rgba(0,0,0,.06);background:", ";ul{li{&.nav-search{.search-sticky{display:block!important;visibility:visible!important;}}&.boxicon_brand{width:50px;overflow:hidden;.brand{svg{width:100%;}}}}}}ul li a.active{}ul li a:hover{color:", ";}.navbar-max{margin:0px auto;ul{transition:0.15s;margin:0;list-style:none;padding:5px 20px;@media screen and (max-width:", "){padding:13px 20px!important;}display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;align-items:center;justify-content:flex-start;flex-direction:row;flex-wrap:wrap;li{input{height:36px!important;line-height:36px!important;font-size:18px!important;}&.mobile-menu{order:3;display:none;@media screen and (max-width:", "){display:block;}@media screen and (max-width:", "){a{font-size:13PX!important;padding:0 10px!important;height:36px!important;line-height:36px!important;span{display:none;}}}}&.nav-search{padding-left:15px;flex:1;.search-sticky{display:none;visibility:hidden;}@media screen and (max-width:", "){display:none !important;}}&.nav-links{display:flex;text-align:right;padding:0;order:2;align-items:center;padding:0 15px;padding-right:0px;.git-frame{display:flex;align-items:center;padding:0px;}a{&.active{color:", ";}}@media screen and (max-width:", "){display:none !important;}}margin:0px;line-height:20px;font-size:13px;padding:0px;order:0;&.boxicon_brand{a{padding:0px;@media screen and (max-width:", "){width:50px!important;overflow:hidden;}}@media screen and (max-width:", "){flex:1;height:38px;padding:0 5px!important;}a{&:hover{background:transparent!important;}@media screen and (max-width:", "){padding:0px;}}}.search-sticky{background:transparent;padding-bottom:0px;padding:0px;transition:0.15s;transform:translateY(0px);}.search-cont{margin:0px 0!important;max-width:none;margin-left:0px!important;padding:2px;display:flex;background:", ";border:1px solid ", ";box-shadow:0 0 0 0px rgba(0,0,0,0.1)!important;height:40px;margin:0px;align-items:center;&.active{background:#fff;border:1px solid #ddd;}&.active input{color:#111!important;}i{font-size:21px!important;line-height:25px;padding:0px 12px!important;}i.bx-x{font-size:21px !important;padding:3px !important;height:21px !important;line-height:21px !important;color:#73859d;border-radius:50%;cursor:pointer;margin-right:7px;}form{width:100%;}&.active{}}a{&.show-dropdown{cursor:pointer;}font-weight:400;border-radius:2px;&.mobile-menu-button{line-height:24px !important;height:24px !important;border-radius:50%;padding:0px 12px;}&:hover{color:", ";}i{font-size:24px;line-height:24px;height:24px;vertical-align:middle;}.brand{height:60px;@media screen and (max-width:", "){height:34px;width:170px;}@media screen and (max-width:", "){height:34px;width:170px;}svg{width:100%;height:50px;}display:flex;align-items:center;width:190px;margin:1px 0;margin-right:10px;transition:0.15s;&:hover{opacity:0.9;}}padding:0px 15px;text-decoration:none;color:", ";height:60px;line-height:64px;border-radius:0;position:relative;display:inline-block;transition:0.15s;font-size:.875rem;font-weight:400;}}}}"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_SCROLL_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["ACTIVE_NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["NAV_LIST_COLOR"]);
+})(["left:0;right:0;position:fixed;background:", ";z-index:99996;transition:all  200ms cubic-bezier(0.4,0,0.2,1);top:0;&.scroll{box-shadow:0 4px 4px rgba(0,0,0,.06);background:", ";ul{li{&.nav-search{.search-sticky{display:block!important;visibility:visible!important;}}&.boxicon_brand{width:50px;overflow:hidden;.brand{svg{width:100%;}}}}}}ul li a.active{}ul li a:hover{color:", ";}.navbar-max{margin:0px auto;max-width:", ";ul{transition:0.15s;margin:0;list-style:none;padding:5px 10px;@media screen and (max-width:", "){padding:13px 20px!important;}display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;align-items:center;justify-content:flex-start;flex-direction:row;flex-wrap:wrap;li{input{height:36px!important;line-height:36px!important;font-size:18px!important;}&.mobile-menu{order:3;display:none;@media screen and (max-width:", "){display:block;}@media screen and (max-width:", "){a{font-size:13PX!important;padding:0 10px!important;height:36px!important;line-height:36px!important;span{display:none;}}}}&.nav-search{padding-left:15px;flex:1;.search-sticky{display:none;visibility:hidden;}@media screen and (max-width:", "){display:none !important;}}&.nav-links{display:flex;text-align:right;padding:0;order:2;align-items:center;padding:0 15px;padding-right:0px;.git-frame{display:flex;align-items:center;padding:0px;}a{&.active{color:", ";}}@media screen and (max-width:", "){display:none !important;}}margin:0px;line-height:20px;font-size:13px;padding:0px;order:0;&.boxicon_brand{a{padding:0px;@media screen and (max-width:", "){width:50px!important;overflow:hidden;}}@media screen and (max-width:", "){flex:1;height:38px;padding:0 5px!important;}a{&:hover{background:transparent!important;}@media screen and (max-width:", "){padding:0px;}}}.search-sticky{background:transparent;padding-bottom:0px;padding:0px;transition:0.15s;transform:translateY(0px);}.search-cont{margin:0px 0!important;max-width:none;margin-left:0px!important;padding:2px;display:flex;background:#ececec;border:1px solid #ececec;box-shadow:0 0 0 0px rgba(0,0,0,0.1)!important;height:40px;margin:0px;align-items:center;&.active{background:#fff;border:1px solid ", ";}&.active input{color:#111!important;}i{font-size:21px!important;line-height:25px;padding:0px 12px!important;}i.bx-x{font-size:21px !important;padding:3px !important;height:21px !important;line-height:21px !important;color:#73859d;border-radius:50%;cursor:pointer;margin-right:7px;}form{width:100%;}&.active{}}a{&.show-dropdown{cursor:pointer;}font-weight:400;border-radius:2px;&.mobile-menu-button{line-height:24px !important;height:24px !important;border-radius:50%;padding:0px 12px;}&:hover{color:", ";}i{font-size:24px;line-height:24px;height:24px;vertical-align:middle;}.brand{height:60px;@media screen and (max-width:", "){height:34px;width:170px;}@media screen and (max-width:", "){height:34px;width:170px;}svg{width:100%;height:50px;}display:flex;align-items:center;width:190px;margin:1px 0;margin-right:10px;transition:0.15s;&:hover{opacity:0.9;}}padding:0px 15px;text-decoration:none;color:", ";height:60px;line-height:64px;border-radius:0;position:relative;display:inline-block;transition:0.15s;font-size:.875rem;font-weight:400;}}}}"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_SCROLL_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["ACTIVE_NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["NAV_LIST_COLOR"]);
 
 var NavigationBar =
 /*#__PURE__*/
@@ -1127,14 +1127,14 @@ function (_Component) {
         className: "navbar-cont",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 396
+          lineNumber: 397
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "navbar-max",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 397
+          lineNumber: 398
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("ul", {
@@ -1142,14 +1142,14 @@ function (_Component) {
         role: "navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 398
+          lineNumber: 399
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "boxicon_brand",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 399
+          lineNumber: 400
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -1157,20 +1157,20 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 400
+          lineNumber: 401
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 401
+          lineNumber: 402
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "brand sprite",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 402
+          lineNumber: 403
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("svg", {
@@ -1184,137 +1184,123 @@ function (_Component) {
         viewBox: "0 0 556.5 130",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 404
+          lineNumber: 405
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
         id: "XMLID_1_",
-        fill: "#3A3A3A",
+        fill: "#0e9fee",
         d: "M11.646,47.253v39.229c0,6.275,3.138,11.509,8.892,14.646L60.292,123.1\r c3.662,2.092,8.369-0.521,8.369-4.707v-52.31l46.555-23.538c4.186-2.093,4.186-7.847,0-9.938L74.414,12.73\r c-4.707-2.093-9.938-2.093-14.646,0L21.061,32.606C15.307,35.746,11.646,40.976,11.646,47.253z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 406
+          lineNumber: 407
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#3A3A3A",
+        fill: "#0e9fee",
         d: "M14.261,38.884c-1.569,2.615-2.615,5.754-2.615,8.369v39.229c0,6.275,3.138,11.509,8.892,14.646\r L60.292,123.1c3.662,2.092,8.369-0.521,8.369-4.707v-52.31l1.047-0.522L14.261,38.884z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 409
+          lineNumber: 410
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("g", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 411
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#3A3A3A",
-        d: "M228.26,72.923c2,2.508,3,5.414,3,8.72c0,4.854-1.613,8.641-4.84,11.36c-3.228,2.72-7.854,4.08-13.88,4.08\r h-26.32v-56.56H211.9c5.76,0,10.212,1.254,13.359,3.76c3.146,2.507,4.721,6.08,4.721,10.72c0,3.414-0.908,6.254-2.721,8.52\r c-1.813,2.268-4.188,3.748-7.12,4.44C223.553,68.764,226.26,70.417,228.26,72.923z M199.9,63.643h8.96\r c4.746,0,7.12-2.026,7.12-6.08c0-4.052-2.428-6.08-7.28-6.08h-8.8V63.643z M217.26,79.723c0-2.025-0.667-3.612-2-4.76\r c-1.334-1.146-3.228-1.72-5.68-1.72h-9.68v12.72h9.76C214.727,85.963,217.26,83.883,217.26,79.723z",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 412
         },
         __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#31383c",
+        d: "M228.26,72.923c2,2.508,3,5.414,3,8.72c0,4.854-1.613,8.641-4.84,11.36c-3.228,2.72-7.854,4.08-13.88,4.08\r h-26.32v-56.56H211.9c5.76,0,10.212,1.254,13.359,3.76c3.146,2.507,4.721,6.08,4.721,10.72c0,3.414-0.908,6.254-2.721,8.52\r c-1.813,2.268-4.188,3.748-7.12,4.44C223.553,68.764,226.26,70.417,228.26,72.923z M199.9,63.643h8.96\r c4.746,0,7.12-2.026,7.12-6.08c0-4.052-2.428-6.08-7.28-6.08h-8.8V63.643z M217.26,79.723c0-2.025-0.667-3.612-2-4.76\r c-1.334-1.146-3.228-1.72-5.68-1.72h-9.68v12.72h9.76C214.727,85.963,217.26,83.883,217.26,79.723z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 413
+        },
+        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#3A3A3A",
+        fill: "#31383c",
         d: "M270.421,54.643c3.492,1.84,6.239,4.494,8.239,7.96c2,3.467,3,7.52,3,12.161c0,4.639-1,8.693-3,12.159\r c-2,3.468-4.747,6.12-8.239,7.96c-3.494,1.84-7.454,2.76-11.881,2.76s-8.399-0.92-11.92-2.76c-3.52-1.84-6.279-4.492-8.279-7.96\r c-2-3.466-3-7.521-3-12.159c0-4.641,1-8.693,3-12.161c2-3.466,4.76-6.12,8.279-7.96c3.521-1.84,7.493-2.76,11.92-2.76\r S266.927,52.803,270.421,54.643z M251.94,66.563c-1.787,1.895-2.68,4.628-2.68,8.201s0.893,6.293,2.68,8.159\r c1.786,1.867,3.986,2.8,6.6,2.8s4.801-0.933,6.561-2.8c1.76-1.866,2.64-4.586,2.64-8.159s-0.88-6.307-2.64-8.201\r c-1.76-1.892-3.947-2.839-6.561-2.839S253.727,64.67,251.94,66.563z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 417
+          lineNumber: 418
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#3A3A3A",
+        fill: "#31383c",
         d: "M315.899,97.083l-9.12-12.72l-7.439,12.72H284.3l14.8-23.28l-15.359-21.36H299.1l9.04,12.56l7.44-12.56\r h15.04l-15.12,22.72l15.76,21.92H315.899z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 423
+          lineNumber: 424
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#3A3A3A",
+        fill: "#31383c",
         d: "M336.538,34.723c1.493-1.36,3.467-2.04,5.92-2.04s4.427,0.68,5.92,2.04c1.493,1.36,2.24,3.08,2.24,5.16\r c0,2.028-0.747,3.72-2.24,5.08c-1.493,1.36-3.467,2.04-5.92,2.04s-4.427-0.68-5.92-2.04c-1.493-1.36-2.239-3.052-2.239-5.08\r C334.299,37.803,335.045,36.083,336.538,34.723z M349.259,52.443v44.64h-13.681v-44.64H349.259z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 425
+          lineNumber: 426
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#3A3A3A",
+        fill: "#31383c",
         d: "M392.538,56.643c3.893,3.174,6.346,7.534,7.359,13.08h-14.479c-0.428-1.92-1.308-3.412-2.641-4.479\r c-1.333-1.066-3.014-1.6-5.04-1.6c-2.399,0-4.373,0.947-5.92,2.839c-1.547,1.895-2.319,4.654-2.319,8.281s0.772,6.387,2.319,8.279\r c1.547,1.894,3.521,2.84,5.92,2.84c2.026,0,3.707-0.532,5.04-1.6c1.333-1.066,2.213-2.561,2.641-4.48h14.479\r c-1.014,5.548-3.467,9.908-7.359,13.08c-3.895,3.174-8.721,4.76-14.48,4.76c-4.374,0-8.254-0.92-11.64-2.76\r c-3.388-1.84-6.04-4.492-7.96-7.96c-1.92-3.466-2.88-7.521-2.88-12.159c0-4.693,0.946-8.761,2.84-12.201\r c1.893-3.44,4.546-6.08,7.96-7.92c3.412-1.84,7.306-2.76,11.68-2.76C383.817,51.883,388.644,53.471,392.538,56.643z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 428
+          lineNumber: 429
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#3A3A3A",
+        fill: "#31383c",
         d: "M438.979,54.643c3.492,1.84,6.239,4.494,8.239,7.96c2,3.467,3,7.52,3,12.161c0,4.639-1,8.693-3,12.159\r c-2,3.468-4.747,6.12-8.239,7.96c-3.494,1.84-7.454,2.76-11.881,2.76s-8.399-0.92-11.92-2.76c-3.52-1.84-6.279-4.492-8.279-7.96\r c-2-3.466-3-7.521-3-12.159c0-4.641,1-8.693,3-12.161c2-3.466,4.76-6.12,8.279-7.96c3.521-1.84,7.493-2.76,11.92-2.76\r S435.484,52.803,438.979,54.643z M420.498,66.563c-1.787,1.895-2.68,4.628-2.68,8.201s0.893,6.293,2.68,8.159\r c1.786,1.867,3.986,2.8,6.6,2.8s4.801-0.933,6.561-2.8c1.76-1.866,2.64-4.586,2.64-8.159s-0.88-6.307-2.64-8.201\r c-1.76-1.892-3.947-2.839-6.561-2.839S422.284,64.67,420.498,66.563z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 434
+          lineNumber: 435
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#3A3A3A",
+        fill: "#31383c",
         d: "M497.058,57.083c3.013,3.414,4.52,8.107,4.52,14.08v25.92h-13.68V72.764c0-2.986-0.787-5.32-2.36-7\r c-1.573-1.681-3.667-2.521-6.279-2.521c-2.774,0-4.975,0.88-6.601,2.64c-1.627,1.76-2.439,4.268-2.439,7.52v23.681h-13.681v-44.64\r h13.681v8.16c1.279-2.667,3.186-4.772,5.72-6.32c2.532-1.546,5.506-2.32,8.92-2.32C489.978,51.963,494.044,53.67,497.058,57.083z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 440
+          lineNumber: 441
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#3A3A3A",
+        fill: "#31383c",
         d: "M539.617,56.123c3.387,2.828,5.507,6.56,6.36,11.2h-12.8c-0.374-1.813-1.214-3.24-2.521-4.28\r s-2.947-1.56-4.92-1.56c-1.547,0-2.72,0.334-3.52,1c-0.8,0.667-1.2,1.614-1.2,2.84c0,1.388,0.732,2.427,2.2,3.12\r c1.466,0.693,3.772,1.387,6.92,2.08c3.412,0.8,6.213,1.613,8.4,2.439c2.186,0.828,4.079,2.174,5.68,4.04\r c1.6,1.868,2.399,4.374,2.399,7.521c0,2.56-0.693,4.827-2.079,6.8c-1.388,1.974-3.388,3.52-6,4.64\r c-2.614,1.12-5.708,1.68-9.28,1.68c-6.027,0-10.854-1.332-14.48-4c-3.627-2.666-5.84-6.479-6.64-11.439h13.2\r c0.212,1.92,1.026,3.388,2.439,4.399c1.413,1.015,3.24,1.521,5.48,1.521c1.546,0,2.72-0.36,3.52-1.08\r c0.801-0.72,1.2-1.666,1.2-2.84c0-1.546-0.733-2.652-2.2-3.32c-1.467-0.666-3.854-1.372-7.16-2.119\r c-3.307-0.693-6.027-1.44-8.159-2.24c-2.134-0.801-3.974-2.093-5.521-3.881c-1.547-1.785-2.32-4.226-2.32-7.319\r c0-4,1.521-7.24,4.561-9.72s7.332-3.72,12.88-3.72C531.71,51.883,536.23,53.297,539.617,56.123z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 444
+          lineNumber: 445
         },
         __self: this
       }))))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "nav-search",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 470
+          lineNumber: 471
         },
         __self: this
       }, this.props.page == 'index' ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_search_searchForm__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 471
+          lineNumber: 472
         },
         __self: this
       }) : null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "nav-links",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 473
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        activeClassName: "active",
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 475
+          lineNumber: 474
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 476
-        },
-        __self: this
-      }, "Icons")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         target: "_blank",
         rel: "noopener noreferrer",
         href: "https://github.com/atisawd/boxicons",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 479
+          lineNumber: 477
         },
         __self: this
       }, "Github"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -1322,44 +1308,35 @@ function (_Component) {
         href: "/usage",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 483
+          lineNumber: 481
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 483
+          lineNumber: 481
         },
         __self: this
-      }, "Usage")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        target: "_blank",
-        rel: "noopener noreferrer",
-        href: "https://paypal.me/atisawd",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 486
-        },
-        __self: this
-      }, "Donate"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
+      }, "Usage")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
         rel: "noopener noreferrer",
         href: "http://gum.co/boxicons",
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 489
+          lineNumber: 486
         },
         __self: this
       }, "Download ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 489
+          lineNumber: 486
         },
         __self: this
       }, "v", _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"]))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "mobile-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 494
+          lineNumber: 491
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
@@ -1367,13 +1344,13 @@ function (_Component) {
         href: "/static/boxicons-" + _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"] + ".zip",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 495
+          lineNumber: 492
         },
         __self: this
       }, "Download ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 495
+          lineNumber: 492
         },
         __self: this
       }, "v", _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"]))))));
@@ -1510,9 +1487,9 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var IconBox = styled_components__WEBPACK_IMPORTED_MODULE_10__["default"].div.withConfig({
   componentId: "qp0pm4-0"
-})(["animation-fill-mode:forwards;margin:7px 10px;box-shadow:0 0px 0px 1px rgba(0,0,0,0.05);&.active{background:#eee;}.new-dot{background:", ";width:5px;height:5px;border-radius:50%;position:absolute;right:5px;top:5px;}i{color:", ";font-size:", ";@media screen and (max-width:", "){font-size:", ";}@media screen and (max-width:", "){font-size:", ";}}&.fade{&.active{.icon-base{opacity:1;}}.icon-base{opacity:0.5;}}cursor:pointer;outline:none !important;display:inline-block;&:hover{z-index:9999999;box-shadow:0 0 10px 0px rgba(0,0,0,0.1);}&.active{&:hover{box-shadow:none;}}&:active{.icon-box-inner{background:rgba(0,0,0,.01);}}transition:", ";&:focus{outline:0;}border-radius:", ";overflow:hidden;overflow:hidden;.icon-box-inner{margin:0px;font-weight:700;position:relative;font-size:16px;border-radius:5px;line-height:35px;text-align:center;pointer-events:none;.icon-base{height:", ";i{line-height:", ";}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}}.icon-box-name{font-size:13px;-webkit-touch-callout:none;-webkit-user-select:none;text-transform:capitalize;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:80px;font-family:", ";font-weight:400;color:", ";@media screen and (max-width:", "){display:none;}margin:0px 5px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:20px;margin-top:10px;margin-bottom:2px;}padding:25px 11px;padding-bottom:15px;@media screen and (max-width:", "){width:auto;padding:20px;}}&:active{border-radius:5px;}&.active{border-radius:5px;background:#eee;}@media screen and (max-width:", "){cursor:initial;margin:3px 7px;&.active,&:hover,&:active{box-shadow:none;background:transparent;}}"], _types__WEBPACK_IMPORTED_MODULE_11__["BLUE_COLOR"], function (props) {
+})(["animation-fill-mode:forwards;flex:0 0 10%;@media screen and (max-width:", "){flex:none;}.new-dot{background:", ";width:5px;height:5px;border-radius:50%;position:absolute;right:5px;top:5px;}i{color:", ";font-size:", ";@media screen and (max-width:", "){font-size:", ";}@media screen and (max-width:", "){font-size:", ";}}&.fade{&.active{.icon-base{opacity:1;}}.icon-base{opacity:0.5;}}cursor:pointer;outline:none !important;display:inline-block;&:hover{z-index:9999999;}&:active,&.active{.icon-box-inner{box-shadow:0 0 0 2px #0e9fee;.icon-base{i{color:", ";}}}}transition:", ";&:focus{outline:0;}border-radius:", ";overflow:hidden;overflow:hidden;.icon-box-inner{margin:2px;border-radius:", ";font-weight:700;position:relative;font-size:16px;line-height:35px;text-align:center;background:#fff;pointer-events:none;.icon-base{height:", ";i{line-height:", ";}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}}.icon-box-name{font-size:13px;-webkit-touch-callout:none;-webkit-user-select:none;text-transform:capitalize;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:80px;font-family:", ";font-weight:400;color:", ";@media screen and (max-width:", "){display:none;}text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:20px;margin-top:10px;margin-bottom:2px;}padding:20px 10px;padding-bottom:20px;@media screen and (max-width:", "){width:auto;padding:20px;}}&:active{}&.active{}@media screen and (max-width:", "){cursor:initial;&.active,&:hover,&:active{background:transparent;}}"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BLUE_COLOR"], function (props) {
   return props.dark ? _types__WEBPACK_IMPORTED_MODULE_11__["DARK_FONT_COLOR"] : _types__WEBPACK_IMPORTED_MODULE_11__["FONT_COLOR"];
-}, _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_NAME_COLOR"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MDL"]);
+}, _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_11__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_NAME_COLOR"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MDL"]);
 
 var IconsListItem =
 /*#__PURE__*/
@@ -1572,56 +1549,56 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 200
+          lineNumber: 206
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-box-inner",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 202
+          lineNumber: 208
         },
         __self: this
       }, this.props.icon.new && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "new-dot",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 203
+          lineNumber: 209
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-base",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 204
+          lineNumber: 210
         },
         __self: this
       }, this.props.icon.type_of_icon === 'REGULAR' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bx-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 205
+          lineNumber: 211
         },
         __self: this
       }), this.props.icon.type_of_icon === 'SOLID' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bxs-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 206
+          lineNumber: 212
         },
         __self: this
       }), this.props.icon.type_of_icon === 'LOGO' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bxl-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 207
+          lineNumber: 213
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-box-name",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 209
+          lineNumber: 215
         },
         __self: this
       }, this.props.icon.name)));
@@ -1747,18 +1724,18 @@ var LoadMore = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.wi
 })(["max-width:", ";margin:0px auto;margin-top:15px;display:flex;justify-content:center;text-align:center;"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"]);
 var StyledIconCont = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-1"
-})(["padding:20px;border-radius:7px;background:#fff;display:flex;pointer-events:auto;@media screen and (max-width:", "){display:block;height:48px;padding:15px;}@keyframes placeHolderShimmer{0%{background-position:-468px 0}100%{background-position:468px 0}}"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
+})(["padding:15px;border-radius:15px;background:#fff;display:flex;pointer-events:auto;@media screen and (max-width:", "){display:block;height:48px;padding:15px;}@keyframes placeHolderShimmer{0%{background-position:-468px 0}100%{background-position:468px 0}}"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
 var IconsSection = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-2"
 })(["padding:0px;min-height:300px;background:", ";@media screen and (max-width:", "){padding:0px;}&.active .icons-left-section{order:0;}"], _types__WEBPACK_IMPORTED_MODULE_13__["ICONS_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"]);
 var IconsSectionCont = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-3"
-})(["@media screen and (max-width:", "){padding:0px;}@media screen and (min-width:", "){&.side-active .icon-box{flex:0 0 ", "!important;max-width:", "!important;}}@media screen and (min-width:", "){display:flex;}.icons-left-section{@media screen and (max-width:", "){display:none;visibility:hidden;}-webkit-animation-duration:0.5s !important;animation-duration:0.5s !important;position:fixed;z-index:99997;-webkit-transform:translateZ(0);animation-fill-mode:forwards;bottom:30px;right:30px;width:", ";transition:", ";.left-section-inner{background:", ";margin:0 auto;display:block;border-radius:15px;box-shadow:", ";@media screen and (max-width:", "){border-radius:0px;border-left:0px;border-right:0px;max-width:none;left:0;right:0;}}@media screen and (max-width:", "){pointer-events:all;}}.icons-side-section{position:absolute;background:#fff;z-index:99999;margin-top:0px;margin-left:20px;overflow-y:scroll;max-height:200px;border-radius:", ";box-shadow:", ";min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;padding-top:0;padding-bottom:0;max-height:256px;overflow-x:hidden;.side-section-inner{border-bottom:1px solid transparent;padding-left:0px;@media screen and (max-width:", "){border-bottom:1px solid ", ";margin:0;}}@media screen and (max-width:", "){display:none;visibility:hidden;}}.icons-right-section{width:100%;@media screen and (max-width:", "){width:auto;}@media screen and (max-width:", "){padding:0px;}h2{margin:15px;margin-bottom:30px;font-size:36px;font-weight:400;line-height:48px;color:", ";a{display:none!important;visibility:hidden;@media screen and (max-width:", "){display:flex!important;visibility:visible;}}@media screen and (max-width:", "){font-size:30px;line-height:44px;margin:10px;margin-bottom:25px;}@media screen and (max-width:", "){font-size:24px;line-height:36px;}}}.icon-list{padding:0px;min-height:calc(100vh - 260px);padding-bottom:10px;max-width:", ";margin:0 auto;.container{@media screen and (max-width:", "){padding:0 20px;}.no-result{text-align:center;font-weight:400;padding:30px;min-height:50px;color:", ";font-size:18px;margin-bottom:0px;p{margin-top:2px;font-size:16px;color:#73859d;font-style:italic;}}}@media screen and (max-width:", "){padding:0px;}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["FLEX_ACTIVE"], _types__WEBPACK_IMPORTED_MODULE_13__["FLEX_ACTIVE"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["FILTER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_13__["BOX_SHADOW_POPUP"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["HEADER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDS"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["SECONDARY_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
+})(["@media screen and (max-width:", "){padding:0px;}@media screen and (min-width:", "){}@media screen and (min-width:", "){display:flex;}.icons-left-section{@media screen and (max-width:", "){display:none;visibility:hidden;}-webkit-animation-duration:0.5s !important;animation-duration:0.5s !important;position:fixed;z-index:99997;-webkit-transform:translateZ(0);animation-fill-mode:forwards;bottom:30px;right:30px;width:", ";transition:", ";.left-section-inner{background:", ";margin:0 auto;display:block;border-radius:15px;box-shadow:", ";@media screen and (max-width:", "){border-radius:0px;border-left:0px;border-right:0px;max-width:none;left:0;right:0;}}@media screen and (max-width:", "){pointer-events:all;}}.icons-side-section{position:absolute;background:#fff;z-index:99999;margin-top:25px;margin-left:0px;overflow-y:scroll;max-height:200px;border-radius:", ";box-shadow:", ";min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;padding-top:0;padding-bottom:0;max-height:256px;overflow-x:hidden;.side-section-inner{border-bottom:1px solid transparent;padding-left:0px;@media screen and (max-width:", "){border-bottom:1px solid ", ";margin:0;}}@media screen and (max-width:", "){display:none;visibility:hidden;}}.icons-right-section{width:100%;@media screen and (max-width:", "){width:auto;}@media screen and (max-width:", "){padding:0px;}h2{margin:15px;margin-bottom:30px;font-size:36px;font-weight:400;line-height:48px;color:", ";a{display:none!important;visibility:hidden;@media screen and (max-width:", "){display:flex!important;visibility:visible;}}@media screen and (max-width:", "){font-size:30px;line-height:44px;margin:10px;margin-bottom:25px;}@media screen and (max-width:", "){font-size:24px;line-height:36px;}}}.icon-list{padding:0px;min-height:calc(100vh - 260px);padding-bottom:10px;max-width:", ";margin:0 auto;.container{padding:0 10px;display:flex;flex-wrap:wrap;@media screen and (max-width:", "){padding:0 20px;}@media screen and (max-width:", "){justify-content:center;}.no-result{text-align:center;font-weight:400;padding:30px;min-height:50px;flex:1;color:", ";font-size:18px;margin-bottom:0px;p{margin-top:2px;font-size:16px;color:#73859d;font-style:italic;}}}@media screen and (max-width:", "){padding:0px;}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["FILTER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_13__["BOX_SHADOW_POPUP"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["HEADER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDS"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["SECONDARY_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
 var IconsFilter = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-4"
-})(["   box-sizing:border-box;margin-bottom:15px;background:", ";.icon-filter-max{max-width:", ";margin:0 auto;padding:0px 15px;@media screen and (max-width:", "){padding-top:0px;padding:0!important;margin-bottom:0px;}.icons-filter-in{font-weight:400;margin:0 10px;padding-bottom:15px!important;padding-top:25px!important;@media screen and (max-width:", "){padding:15px 30px!important;}.icons-count{align-self:flex-end;flex:1;font-style:italic;transition:", ";text-align:left;padding:0;padding-left:15px;padding-right:15px;margin-left:15px;border-radius:0px;height:45px;line-height:45px;@media screen and (max-width:", "){display:none;}}.selected-category{display:flex;background:#313133;@media screen and (max-width:", "){display:none;visibility:hidden;}color:#fff;margin-left:10px;align-items:center;height:28px;transition:", ";justify-content:center;border-radius:30px!important;&:active{box-shadow:0 0px 0 5px ", ";}div{padding:0px!important;line-height:18px!important;height:20px!important;font-weight:400;}.selected-category-name{color:#fff!important;}.selected-category-x i{color:#fff!important;font-size:12px!important;margin-left:10px;}}.icons-theme{@media screen and (max-width:", "){display:none;visibility:hidden;}flex:0 0 36px;width:36px;height:36px;margin-bottom:4px;align-items:center;box-shadow:0 0px 0 2px #f9f9f9;justify-content:center;transition:", ";margin-left:0px;display:flex;padding:0px;border-radius:30px;div{width:12px!important;height:12px!important;background:#313133;padding:0!important;border-radius:50%!important;}@media screen and (max-width:", "){margin-bottom:7px;}@media screen and (max-width:", "){display:none;visibility:hidden;}&:active{box-shadow:0 0px 0 5px ", ";}}.icons-filter{align-self:flex-end;color:", ";font-weight:600;cursor:pointer;&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}span.category{color:", ";font-weight:400;}i{line-height:45px!important;}@media screen and (max-width:", "){display:none;visibility:hidden;}line-height:52px;height:52px;text-align:left;padding:0px;padding:0px 15px;padding-top:0px;@media screen and (max-width:", "){line-height:45px;height:45px;padding:0px 15px;}border:1px solid ", ";font-size:15px;margin-bottom:4px;@media screen and (max-width:", "){margin-bottom:7px;}transition:", ";margin:0px;border-radius:", ";background:", ";i{margin-left:15px;color:", ";font-size:16px;}&:active{box-shadow:", ";}}display:flex;@media screen and (max-width:", "){margin:0;padding:15px;flex-wrap:wrap;padding-bottom:10px;}.filter-top,.filter-bottom{display:flex;padding:0;order:2;line-height:54px!important;height:54px!important;align-items:center;@media screen and (max-width:", "){line-height:47px!important;height:47px!important;}}.filter-middle{display:flex;padding:0;cursor:pointer;flex:1;@media screen and (max-width:", "){flex:0 0 100%;margin-bottom:25px;}.search-sticky{width:100%;}}.filter-bottom{cursor:pointer;overflow:hidden;padding-left:20px;@media screen and (max-width:", "){padding:0px;}div{flex:1;text-align:center;padding:0px 20px;margin:0px;margin:0 5px;border:1px solid rgba(0,0,0,0.1);&:hover{background:rgba(0,0,0,0.075);}font-size:15px;line-height:52px;height:52px;@media screen and (max-width:", "){line-height:45px;height:45px;padding:0px 12px;}transition:", ";border-radius:", ";color:", ";-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;&.active{color:#fff;background:", ";font-weight:600;}}}.filter-top{order:2;padding-left:20px;border-radius:0px!important;@media screen and (max-width:", "){padding-left:0px;}@media screen and (max-width:", "){display:none;visibility:none;}}div{@media screen and (max-width:", "){margin:0;}.filter-bottom{}&:last-child{}&:first:child{margin-right:0px;}}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["FILTER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["SEARCH_RADIUS"], function (props) {
+})(["   box-sizing:border-box;background:", ";.icon-filter-max{max-width:", ";margin:0 auto;padding:0px 15px;@media screen and (max-width:", "){padding-top:0px;padding:0!important;margin-bottom:0px;}.icons-filter-in{font-weight:400;margin:0 10px;padding-bottom:10px!important;padding-top:20px!important;border-bottom:1px solid #f5f5f5;margin-bottom:20px;@media screen and (max-width:", "){padding:20px 25px!important;margin-bottom:15px!important;}.icons-count{text-align:left;cursor:auto;flex:1;font-style:italic;transition:", ";text-align:left!important;padding:0;padding-left:0px!important;padding-right:15px;margin-left:15px;font-size:14px!important;border-radius:0px;height:45px;line-height:45px;@media screen and (max-width:", "){display:none;}}.selected-category{display:flex;background:#313133;@media screen and (max-width:", "){display:none;visibility:hidden;}color:#fff;margin-left:10px;align-items:center;height:28px;transition:", ";justify-content:center;border-radius:30px!important;&:active{box-shadow:0 0px 0 5px ", ";}div{padding:0px!important;line-height:18px!important;height:20px!important;font-weight:400;}.selected-category-name{color:#fff!important;}.selected-category-x i{color:#fff!important;font-size:12px!important;margin-left:10px;}}.icons-theme{@media screen and (max-width:", "){display:none;visibility:hidden;}flex:0 0 36px;width:36px;height:36px;margin-bottom:4px;align-items:center;box-shadow:0 0px 0 2px #f9f9f9;justify-content:center;transition:", ";margin-left:0px;display:flex;padding:0px;border-radius:30px;div{width:12px!important;height:12px!important;background:#313133;padding:0!important;border-radius:50%!important;}@media screen and (max-width:", "){margin-bottom:7px;}@media screen and (max-width:", "){display:none;visibility:hidden;}&:active{box-shadow:0 0px 0 5px ", ";}}.icons-filter{align-self:flex-end;color:", ";font-weight:600;cursor:pointer;&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}span.category{color:", ";font-weight:400;}i{line-height:54px!important;float:right;@media screen and (max-width:", "){line-height:45px!important;}}@media screen and (max-width:", "){display:none;visibility:hidden;}line-height:52px;height:52px;text-align:left;padding:0px;padding:0px 15px;text-align:center;min-width:200px;padding-top:0px;@media screen and (max-width:", "){line-height:45px;height:45px;padding:0px 15px;}border:1px solid #ccc;font-size:18px;margin-bottom:4px;@media screen and (max-width:", "){margin-bottom:7px;}transition:", ";margin:0px;border-radius:", ";background:", ";i{margin-left:15px;color:", ";font-size:18px;}&:active{background:#f6f6f6;}}display:flex;flex-wrap:wrap;@media screen and (max-width:", "){margin:0;padding:15px;flex-wrap:wrap;padding-bottom:10px;}.filter-top,.filter-bottom{display:flex;padding:0;order:2;line-height:54px!important;height:54px!important;align-items:center;@media screen and (max-width:", "){line-height:47px!important;height:47px!important;}}.filter-middle{display:flex;padding:0;cursor:pointer;flex:1;@media screen and (max-width:", "){flex:0 0 100%;margin-bottom:20px;}.search-sticky{width:100%;}}.filter-bottom{cursor:pointer;overflow:hidden;padding-top:10px;flex:0 0 100%;justify-content:flex-end;@media screen and (max-width:", "){padding:0px;flex:1;}@media screen and (max-width:", "){flex:0 0 100%;}div{text-align:center;padding:0px 15px;margin:0px;margin-right:1px;&:hover{}font-size:15px;line-height:32px;height:32px;@media screen and (max-width:", "){line-height:32px;height:32px;padding:0px 12px;}transition:", ";border-radius:", ";color:", ";-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;&.active{color:#fff;background:linear-gradient(rgb(22,165,243) 0%,rgb(13,158,237) 100%);font-weight:600;}}}.filter-top{order:0;padding-right:20px;border-radius:0px!important;@media screen and (max-width:", "){padding-left:0px;order:1;}@media screen and (max-width:", "){display:none;visibility:none;}}div{@media screen and (max-width:", "){margin:0;}.filter-bottom{}&:last-child{}&:first:child{margin-right:0px;}}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["FILTER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["SEARCH_RADIUS"], function (props) {
   return props.side ? _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"] : 'transparent';
-}, _types__WEBPACK_IMPORTED_MODULE_13__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["SEARCH_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_13__["NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
+}, _types__WEBPACK_IMPORTED_MODULE_13__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["SEARCH_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_13__["NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
 
 
 
@@ -1799,7 +1776,8 @@ function (_Component) {
       style: 'ALL',
       displaySideIcon: false,
       search: "",
-      dark: false
+      dark: false,
+      total_count: 0
     };
     _this.handleBlur = _this.handleBlur.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
     _this.handleSide = _this.handleSide.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
@@ -1816,14 +1794,14 @@ function (_Component) {
         return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 560
+            lineNumber: 579
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Icon, {
           icon: this.state.selectedIcon,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 561
+            lineNumber: 580
           },
           __self: this
         }));
@@ -1968,7 +1946,13 @@ function (_Component) {
   }, {
     key: "componentDidMount",
     value: function componentDidMount() {
-      this.props.fetchIcons("", this.state.category.id);
+      this.setState({
+        icons: this.props.icons,
+        iteration: 1,
+        total_count: this.props.icons.data.length,
+        showIcons: this.props.icons.data.slice(0, 200),
+        showLI: true
+      });
     }
   }, {
     key: "render",
@@ -1986,14 +1970,14 @@ function (_Component) {
         onKeyDown: this.handleKeyPress,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 722
+          lineNumber: 748
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_common_ToTop__WEBPACK_IMPORTED_MODULE_17__["default"], {
         side: this.state.displaySideIcon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 723
+          lineNumber: 749
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(IconsSectionCont, {
@@ -2002,14 +1986,14 @@ function (_Component) {
         className: sectionContClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 725
+          lineNumber: 751
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-left-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 726
+          lineNumber: 752
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2017,48 +2001,48 @@ function (_Component) {
         onBlur: this.handleBlur,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 727
+          lineNumber: 753
         },
         __self: this
       }, this.state.selectedIcon.name != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(StyledIconCont, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 731
+          lineNumber: 757
         },
         __self: this
       }, this.renderIcon()))), this.state.icons.data != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-right-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 739
+          lineNumber: 765
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(IconsFilter, {
         side: this.state.showSide,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 741
+          lineNumber: 767
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-filter-max",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 742
+          lineNumber: 768
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-filter-in",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 744
+          lineNumber: 770
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filter-top",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 745
+          lineNumber: 771
         },
         __self: this
       }, this.state.showSide && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_outside_click_handler__WEBPACK_IMPORTED_MODULE_15___default.a, {
@@ -2069,21 +2053,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 747
+          lineNumber: 773
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-side-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 750
+          lineNumber: 776
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "side-section-inner",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 752
+          lineNumber: 778
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Categories, {
@@ -2092,7 +2076,7 @@ function (_Component) {
         style: this.state.style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 753
+          lineNumber: 779
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2100,51 +2084,58 @@ function (_Component) {
         onClick: this.handleSide,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 758
+          lineNumber: 784
         },
         __self: this
       }, this.state.category != null ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 759
+          lineNumber: 785
         },
         __self: this
       }, this.state.category.id != null ? this.state.category.name : 'All Categories') : 'All Categories', " ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bx-caret-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 759
+          lineNumber: 785
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filter-middle",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 768
+          lineNumber: 792
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_search_searchForm__WEBPACK_IMPORTED_MODULE_16__["default"], {
         icons: this.state.icons.data !== null ? this.state.icons.data.length : '0',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 769
+          lineNumber: 793
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filter-bottom",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 771
+          lineNumber: 796
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "icons-count",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 797
+        },
+        __self: this
+      }, "Viewing \xA0", this.state.icons.data !== null ? this.state.icons.data.length : '0', " of ", this.state.total_count, " icons"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: this.state.style === 'ALL' ? "filter-all active" : "filter-all",
         onClick: function onClick() {
           return _this3.handleFilter('ALL');
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 772
+          lineNumber: 801
         },
         __self: this
       }, "All"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2154,7 +2145,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 775
+          lineNumber: 804
         },
         __self: this
       }, "Regular"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2164,7 +2155,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 778
+          lineNumber: 807
         },
         __self: this
       }, "Solid"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2174,71 +2165,71 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 781
+          lineNumber: 810
         },
         __self: this
       }, "Logos"))))), this.state.noResult ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-list ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 790
+          lineNumber: 819
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 791
+          lineNumber: 820
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
         className: "no-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 792
+          lineNumber: 821
         },
         __self: this
       }, "No result found", this.state.search !== '' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 795
+          lineNumber: 824
         },
         __self: this
       }, " for", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 796
+          lineNumber: 825
         },
         __self: this
       }, " '", this.state.search, "'")), this.state.category != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 798
+          lineNumber: 827
         },
         __self: this
       }, " in ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 798
+          lineNumber: 827
         },
         __self: this
       }, "'", this.state.category.name, "'")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 799
+          lineNumber: 828
         },
         __self: this
       }, "Having trouble finding an icon, try the ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_19___default.a, {
         href: "cheatsheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 799
+          lineNumber: 828
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 799
+          lineNumber: 828
         },
         __self: this
       }, "Cheatsheet")))))) : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_iconsList__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -2246,27 +2237,27 @@ function (_Component) {
         style: this.state.style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 804
+          lineNumber: 833
         },
         __self: this
       }), this.state.showLI && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(LoadMore, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 807
+          lineNumber: 836
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_common_buttons__WEBPACK_IMPORTED_MODULE_14__["LoadButton"], {
         onClick: this.handleShowMore,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 807
+          lineNumber: 836
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bxs-down-arrow-circle",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 807
+          lineNumber: 836
         },
         __self: this
       }), " Show more icons")))));
@@ -2340,7 +2331,7 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var StyledSearch = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "e9dimx-0"
-})([".search-cont{box-shadow:0 3px 6px 0 rgba(0,0,0,.1),0 1px 3px 0 rgba(0,0,0,.08);transition:", ";margin:0 auto;&.active{box-shadow:0 15px 25px 0 rgba(42,51,83,.12),0 4px 10px rgba(0,0,0,.06)!important;.search-box{}}&.fixed{position:fixed;top:70px;left:0px;padding:5px;z-index:11;border-radius:0;right:0;max-width:none;background:#fff;border:0px;border-top:1px solid #dee3eb;border-bottom:1px solid #dee3eb;.search-box{max-width:", ";border-bottom:0px solid #ddd;}}&.active{}.search-box input::-ms-clear{display:none;}@media screen and (max-width:", "){margin:0px 0px;margin-bottom:0px;max-width:none;&.fixed{margin:0px;}}.search-box{position:relative;border-radius:", ";display:flex;width:100%;.close{order:1;align-self:center;padding:0px 15px;height:32px;cursor:pointer;}input{height:40px;margin-left:60px;box-shadow:none;outline:none;font-weight:400;order:1;color:#000;font-size:19px;width:100%;margin:0;padding:0;border-radius:2px;border:0;display:block;background:transparent;margin-left:10px;@media screen and (max-width:", "){height:40px;font-size:18px;}}i{@media screen and (max-width:", "){font-size:27px;height:27px;}order:1;align-self:center;padding:0px 5px;height:27px;font-size:27px;color:#000000;cursor:pointer;&.bx-x{font-size:24px;padding:5px;height:24px;line-height:24px;color:#73859d;background:", ";border-radius:50%;cursor:pointer;&:hover{background:rgba(0,0,0,0.075);}}}}z-index:23;margin-bottom:25px;position:relative;display:block;padding:7px 15px;margin:0 auto;background:", ";border-radius:", ";}"], _types__WEBPACK_IMPORTED_MODULE_10__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_10__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_10__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_10__["SEARCH_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_10__["SEARCH_RADIUS"]);
+})([".search-cont{transition:", ";border:1px solid transparent;margin:0 auto;&.active{background:#fff;border:1px solid ", ";.search-box{i{color:", "}}}&.fixed{position:fixed;top:70px;left:0px;padding:5px;z-index:11;border-radius:0;right:0;max-width:none;background:#fff;border:0px;border-top:1px solid #dee3eb;border-bottom:1px solid #dee3eb;.search-box{max-width:", ";border-bottom:0px solid #ddd;}}&.active{}.search-box input::-ms-clear{display:none;}@media screen and (max-width:", "){margin:0px 0px;margin-bottom:0px;max-width:none;&.fixed{margin:0px;}}.search-box{position:relative;border-radius:", ";display:flex;width:100%;.close{order:1;align-self:center;padding:0px 15px;height:32px;cursor:pointer;}input{height:40px;margin-left:60px;box-shadow:none;outline:none;font-weight:400;order:1;color:#000;font-size:19px;width:100%;margin:0;padding:0;border-radius:2px;border:0;display:block;background:transparent;margin-left:10px;@media screen and (max-width:", "){height:40px;font-size:18px;}}i{@media screen and (max-width:", "){font-size:27px;height:27px;}order:1;align-self:center;padding:0px 5px;height:27px;font-size:27px;color:#9ca5ad;cursor:pointer;&.bx-x{font-size:24px;padding:5px;height:24px;line-height:24px;color:#9ca5ad;background:", ";border-radius:50%;cursor:pointer;&:hover{background:rgba(0,0,0,0.075);}}}}z-index:23;margin-bottom:25px;position:relative;display:block;padding:6px 15px;margin:0 auto;background:", ";border-radius:", ";}"], _types__WEBPACK_IMPORTED_MODULE_10__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_10__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_10__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_10__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_10__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_10__["SEARCH_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_10__["SEARCH_RADIUS"]);
 
 var SearchForm =
 /*#__PURE__*/
@@ -2481,7 +2472,7 @@ function (_Component) {
         className: "search-sticky animated fadeIn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 229
+          lineNumber: 230
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2490,7 +2481,7 @@ function (_Component) {
         onBlur: this.onSearchBlur,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 230
+          lineNumber: 231
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2498,24 +2489,24 @@ function (_Component) {
         ref: "searchBox",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 232
+          lineNumber: 233
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bx-search",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 233
+          lineNumber: 234
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
         onChange: this.onChange,
         value: this.state.search,
         autoComplete: "off",
-        placeholder: this.props.icons ? "Search " + this.props.icons + " icons..." : "Search icons...",
+        placeholder: "Search icons...",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 234
+          lineNumber: 235
         },
         __self: this
       }), this.state.search.length > 0 && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
@@ -2523,7 +2514,7 @@ function (_Component) {
         onClick: this.emptySearch,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 241
+          lineNumber: 242
         },
         __self: this
       }))));
@@ -2632,11 +2623,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BREAKPOINT_MD", function() { return BREAKPOINT_MD; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BREAKPOINT_MDS", function() { return BREAKPOINT_MDS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BREAKPOINT_SM", function() { return BREAKPOINT_SM; });
-var FONT_COLOR = '#3a3a3a';
+var FONT_COLOR = '#31383c';
 var DARK_FONT_COLOR = '#d1d1d1';
 var TRANSITION = "all .15s ease";
 var PRIMARY_COLOR = '#b06c4a';
-var BLUE_COLOR = '#2d3cfe';
+var BLUE_COLOR = '#0e9fee';
 var LIGHT_BLUE_COLOR = '#e1e0fd';
 var BUTTON_COLOR = '#3a3a3a';
 var BUTTON_ICON_COLOR = '#656565';
@@ -2649,23 +2640,23 @@ var ACTIVE_NAV_LIST_COLOR = '#3a3a3a';
 var NAV_LIST_COLOR = '#3a3a3a';
 var SECONDARY_FONT_COLOR = '#3a3a3a';
 var FADE_FONT_COLOR = '#656565';
-var LIGHT_BACKGROUND = '#f5f5f5';
+var LIGHT_BACKGROUND = '#f6f7fa';
 var DARK_BACKGROUND = '#404142';
 var ICON_COLOR = '#656565';
-var HEADER_COLOR = '#3a3a3a';
-var SELECTED_COLOR = '#3a3a3a';
-var MAIN_HEADER_COLOR = "#3a3a3a";
-var MAIN_HEADER_SUB_COLOR = "#3a3a3a";
+var HEADER_COLOR = '#31383c';
+var SELECTED_COLOR = '#31383c';
+var MAIN_HEADER_COLOR = "#31383c";
+var MAIN_HEADER_SUB_COLOR = "#31383c";
 var ICON_NAME_COLOR = "#989898";
 var TOP_BAR_GRADIENT = "linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%)";
 var BOX_SHADOW_POPUP = "0 4px 10px -1px rgba(0,0,0,.2),0 2px 4px -1px rgba(0,0,0,.06)!important";
 var BOX_SHADOW = "0px 5px 10px 0px rgba(0,64,128,0.05)";
 var SIDE_BOX_SHADOW = "0 4px 30px -1px rgba(0,0,0,.2),0 2px 4px -1px rgba(0,0,0,.06)!important";
 var BUTTON_BOX_SHADOW = " 0 0px 0px 3px rgba(81, 158, 250, 0.85)";
-var FLEX = "8.25%";
+var FLEX = "10%";
 var FLEX_LG = "90px";
-var FLEX_MDL = "8.25%";
-var FLEX_MD = "14.2857%";
+var FLEX_MDL = "10%";
+var FLEX_MD = "10%";
 var FLEX_MDS = "16.6667%";
 var FLEX_SM = "20%";
 var FLEX_ACTIVE = "11.111%";
@@ -2676,23 +2667,23 @@ var ICON_SIZE_MD = "36px";
 var ICON_BASE = "48px";
 var ICON_BASE_LG = "48px";
 var ICON_BASE_MD = "48px";
-var BUTTON_RADIUS = "5px";
-var SEARCH_RADIUS = "5px";
-var ICON_RADIUS = "5px";
+var BUTTON_RADIUS = "8px";
+var SEARCH_RADIUS = "8px";
+var ICON_RADIUS = "8px";
 var SIDE_WIDTH = "710px";
 var COMMON_PADDING = "20px";
 var PADDING = "0px " + COMMON_PADDING;
 var NAVBAR_PADDING = "2px " + COMMON_PADDING;
-var BODY_BACKGROUND = '#fafafa';
-var HEADER_BACKGROUND = '#fafafa';
-var SEARCH_BACKGROUND = '#fff';
-var ICONS_BACKGROUND = '#fafafa';
+var BODY_BACKGROUND = '#fff';
+var HEADER_BACKGROUND = '#fff';
+var SEARCH_BACKGROUND = '#ececec';
+var ICONS_BACKGROUND = '#fff';
 var ICONS_DARK_BACKGROUND = '#4f5d6a';
-var NAVBAR_BACKGROUND = "#fafafa";
-var NAVBAR_SCROLL_BACKGROUND = "#fff;";
-var FILTER_BACKGROUND = "#fafafa";
+var NAVBAR_BACKGROUND = "#fff";
+var NAVBAR_SCROLL_BACKGROUND = "#fff";
+var FILTER_BACKGROUND = "#fff";
 var DARK_FILTER_BACKGROUND = "#4f5d6a";
-var MAX_WIDTH = '1190px';
+var MAX_WIDTH = '1060px';
 var BORDER_COLOR = '#dee2ef';
 var BORDER_HOVER_COLOR = 'rgba(0, 31, 51, 0.25)';
 var BORDER_COLOR_ACTIVE = 'rgba(0,0,0,0.25)';
@@ -26845,20 +26836,26 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _components_types__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/types */ "./components/types.js");
-/* harmony import */ var _components_common_navbar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/common/navbar */ "./components/common/navbar.js");
-/* harmony import */ var _components_common_heroSection__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/common/heroSection */ "./components/common/heroSection.js");
-/* harmony import */ var _components_icons_iconsSet__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/icons/iconsSet */ "./components/icons/iconsSet.js");
-/* harmony import */ var _components_common_footer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/common/footer */ "./components/common/footer.js");
-/* harmony import */ var _components_common_meta__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/common/meta */ "./components/common/meta.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _components_types__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/types */ "./components/types.js");
+/* harmony import */ var _components_common_navbar__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/common/navbar */ "./components/common/navbar.js");
+/* harmony import */ var _components_common_heroSection__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/common/heroSection */ "./components/common/heroSection.js");
+/* harmony import */ var _components_icons_iconsSet__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/icons/iconsSet */ "./components/icons/iconsSet.js");
+/* harmony import */ var _components_common_footer__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/common/footer */ "./components/common/footer.js");
+/* harmony import */ var _components_common_meta__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/common/meta */ "./components/common/meta.js");
+/* harmony import */ var _actions_iconActions__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../actions/iconActions */ "./actions/iconActions.js");
+
+
 
 
 
@@ -26873,22 +26870,23 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 
 
-var StyledHome = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
+
+var StyledHome = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
   componentId: "sc-9smnso-0"
-})([".home-top{background:", ";.home-top-bg{padding-top:80px;@media screen and (max-width:", "){background-size:75%;}@media screen and (max-width:", "){background-size:150%;}}}"], _components_types__WEBPACK_IMPORTED_MODULE_7__["HEADER_BACKGROUND"], _components_types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _components_types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"]);
+})([".home-top{background:", ";.home-top-bg{padding-top:80px;@media screen and (max-width:", "){background-size:75%;}@media screen and (max-width:", "){background-size:150%;}}}"], _components_types__WEBPACK_IMPORTED_MODULE_9__["HEADER_BACKGROUND"], _components_types__WEBPACK_IMPORTED_MODULE_9__["BREAKPOINT_LG"], _components_types__WEBPACK_IMPORTED_MODULE_9__["BREAKPOINT_MD"]);
 
 var Index =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Index, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Index, _React$Component);
 
   function Index() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Index);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Index);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Index).apply(this, arguments));
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Index).apply(this, arguments));
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Index, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Index, [{
     key: "componentDidMount",
     value: function componentDidMount() {}
   }, {
@@ -26897,41 +26895,41 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_common_meta__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 44
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_common_navbar__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        page: "index",
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_common_meta__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 45
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_common_heroSection__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_common_navbar__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        page: "index",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_icons_iconsSet__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_common_heroSection__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 49
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_common_footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_icons_iconsSet__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 50
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_common_footer__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
         },
         __self: this
       }));
@@ -26939,13 +26937,50 @@ function (_React$Component) {
   }]);
 
   return Index;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
+
+Index.getInitialProps =
+/*#__PURE__*/
+function () {
+  var _ref = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  /*#__PURE__*/
+  _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(ctx) {
+    var slug, _ref2, dispatch;
+
+    return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            slug = ctx.query.slug;
+            _context.next = 3;
+            return ctx.reduxStore;
+
+          case 3:
+            _ref2 = _context.sent;
+            dispatch = _ref2.dispatch;
+            dispatch(Object(_actions_iconActions__WEBPACK_IMPORTED_MODULE_15__["fetchIcons"])("", null));
+            return _context.abrupt("return", {
+              slug: slug
+            });
+
+          case 7:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+
+  return function (_x) {
+    return _ref.apply(this, arguments);
+  };
+}();
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!*********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CAniket%5CPersonal%20Projects%5Cboxicons%5Cbasic%5Cboxicons.com%5Cpages%5Cindex.js ***!
   \*********************************************************************************************************************************************************/
@@ -26968,5 +27003,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
