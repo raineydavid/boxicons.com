@@ -40,7 +40,7 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var CategoryList = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].ul.withConfig({
   componentId: "ikalhn-0"
-})(["padding:0px;list-style:none;margin:0px;@media screen and (min-width:", "){padding:0px;padding-left:0px;padding-top:0px;}li{font-size:14px;padding:0px;cursor:pointer;display:inline-block;width:100%;@media screen and (min-width:", "){width:100%;display:block;}div{height:20px;line-height:20px;border-radius:2px;padding:5px 20px;border:2px solid  transparent;transition:", ";&:active{background:#f9f9f9;}-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;@media screen and (min-width:", "){min-width:160px;}display:block;color:", ";&:hover{}}&.active{div{color:#b06c4a;}}}"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["FONT_COLOR"]);
+})(["padding:0px;list-style:none;margin:0px;@media screen and (min-width:", "){padding:0px;padding-left:0px;padding-top:0px;}li{font-size:14px;padding:0px;cursor:pointer;display:inline-block;width:100%;@media screen and (min-width:", "){width:100%;display:block;}div{height:20px;line-height:20px;border-radius:2px;padding:5px 20px;border:2px solid  transparent;transition:", ";&:active{background:#f9f9f9;}-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;@media screen and (min-width:", "){min-width:160px;}display:block;color:", ";&:hover{}}&.active{div{color:#b06c4a;}}}"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["FILTER_COLOR"]);
 
 var Categories =
 /*#__PURE__*/
@@ -66,7 +66,7 @@ function (_Component) {
       var el = document.querySelector(".icons-right-section");
       var boundingRect = el.getBoundingClientRect();
       window.scroll({
-        top: boundingRect.top + window.pageYOffset - 64,
+        top: boundingRect.top + window.pageYOffset - 90,
         behavior: 'smooth'
       });
       var name = "";

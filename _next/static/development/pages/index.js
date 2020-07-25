@@ -253,7 +253,7 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var StyledToTop = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
   componentId: "sc-1x8ru9n-0"
-})(["position:fixed;left:30px;cursor:pointer;bottom:30px;width:50px;border:1px solid rgb(220,223,225);box-shadow:rgba(0,0,0,0.03) 0px 1px 2px,rgba(0,0,0,0.05) 0px 1px 2px,rgba(0,0,0,0.03) 0px -1px 1px inset;transition:", ";visibility:hidden;z-index:999;height:50px;&.active{visibility:visible;}background:#fff;border-radius:50%;align-items:center;display:flex;justify-content:center;&:active{background:#e8ecf7;box-shadow:", ";}i{color:", ";font-size:32px;}"], _types__WEBPACK_IMPORTED_MODULE_9__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_9__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_9__["FONT_COLOR"]);
+})(["position:fixed;left:30px;cursor:pointer;bottom:30px;width:50px;border:1px solid rgb(220,223,225);box-shadow:0 2px 5px 0 rgba(0,0,0,.26);transition:", ";visibility:hidden;z-index:999;height:50px;&.active{visibility:visible;}background:#fff;border-radius:50%;align-items:center;display:flex;justify-content:center;&:active{background:#e8ecf7;box-shadow:", ";}i{color:", ";font-size:32px;}"], _types__WEBPACK_IMPORTED_MODULE_9__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_9__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_9__["FONT_COLOR"]);
 
 var ToTop =
 /*#__PURE__*/
@@ -358,16 +358,16 @@ __webpack_require__.r(__webpack_exports__);
 
 var NavButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-0"
-})(["margin-left:10px;transition:", ";color:", "!important;border:1px solid;text-align:center;border-radius:", "!important;font-weight:500!important;font-size:16px!important;padding:0 20px!important;letter-spacing:0.25px!important;height:40px!important;line-height:40px!important;align-items:center;display:flex;font-family:", ";.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{padding-left:5px;}i{color:", ";padding-left:0;font-size:21px!important;@media screen and (max-width:", "){padding-right:0px;}}&:hover{background:", ";color:#fff!important;}&:active{color:#fff!important;background:#1080be;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"]);
+})(["margin-left:10px;transition:", ";background:#3056de!important;color:#fff!important;text-align:center;border-radius:", "!important;font-weight:700!important;font-size:15px!important;padding:2px 24px!important;letter-spacing:0.25px!important;height:40px!important;line-height:40px!important;align-items:center;display:flex;font-family:", ";&:hover{transform:translateY(-0.75px);background:#1e41bd!important;}&:active{transform:translateY(0px);}.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;padding-left:5px;}i{color:#a9cdff;padding-right:7px;font-size:21px!important;@media screen and (max-width:", "){padding-right:7px;}}&:hover{background:", ";color:#fff!important;}&:active{color:#fff!important;background:#1080be;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"]);
 var LoadButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-1"
-})(["transition:", ";max-width:300px;font-family:", ";box-shadow:0 3px 6px 0 rgba(0,0,0,.1),0 1px 3px 0 rgba(0,0,0,.08);justify-content:center;background:#fff;color:", ";cursor:pointer;padding:0px 16px;height:50px!important;text-align:center;border-radius:", ";font-weight:500;letter-spacing:0.25px!important;font-size:18px;display:flex;align-items:center;line-height:50px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:active{background:#e8ecf7;box-shadow:", ";}@media screen and (max-width:", "){margin:0 20px!important;}.button-name{line-height:24px;flex:1;}i{font-size:22px;fill:#fff;padding-right:15px;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"]);
+})(["transition:", ";max-width:300px;font-family:", ";justify-content:center;background:#fff;color:", ";cursor:pointer;padding:0px 16px;height:50px!important;text-align:center;border-radius:", ";font-weight:700;letter-spacing:0.25px!important;font-size:18px;display:flex;align-items:center;line-height:50px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:active{background:#e8ecf7;box-shadow:", ";}@media screen and (max-width:", "){margin:0 20px!important;}.button-name{line-height:24px;flex:1;}i{font-size:22px;fill:#fff;padding-right:15px;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"]);
 var BlueButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-2"
-})(["transition:", ";background:", ";color:#fff;padding:0px 16px;height:42px!important;text-align:center;border-radius:", ";font-weight:500;letter-spacing:0.25px!important;font-size:15px;display:flex;align-items:center;line-height:42px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover,&:active{color:#fff!important;background:linear-gradient(rgb(22,165,243) 0%,rgb(13,158,237) 100%);background:#1080be;}@media screen and (max-width:", "){padding:5px;width:160px;}.button-name{line-height:24px;flex:1;font-family:", ";}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
+})(["transition:", ";background:", ";color:#fff;padding:0px 16px;height:42px!important;text-align:center;border-radius:", ";font-weight:700;font-size:15px;display:flex;align-items:center;line-height:42px!important;transition:0.15s;flex:1;margin-left:10px!important;margin-right:0px!important;span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{transform:translateY(-0.75px);background:#1e41bd!important;}&:active{transform:translateY(0px);}@media screen and (max-width:", "){padding:5px;width:160px;}.button-name{line-height:24px;flex:1;font-family:", ";}i{font-size:22px;fill:#fff;opacity:0.75;padding-left:15px;@media screen and (max-width:", "){padding-right:0px;}}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
 var WhiteButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-3"
-})(["margin-left:10px;transition:", ";color:", "!important;border:1px solid #ccc;text-align:center;border-radius:", "!important;font-weight:500!important;font-size:15px!important;font-family:", ";padding:0 12px!important;letter-spacing:0.25px!important;height:42px!important;line-height:42px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{font-size:22px;color:#999;padding-right:10px;@media screen and (max-width:", "){padding-right:0px;}}&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}&:active{background:#f6f6f6;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
+})(["margin-left:10px;transition:", ";color:#323232!important;border:1px solid #e5e5e5;text-align:center;border-radius:", "!important;font-weight:700!important;font-size:15px!important;font-family:", ";padding:0 12px!important;letter-spacing:0.25px!important;height:42px!important;line-height:42px!important;align-items:center;display:flex;.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}i{font-size:22px;color:#999;padding-right:10px;@media screen and (max-width:", "){padding-right:0px;}}&:hover{color:#000!important;box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}&:active{background:#f6f6f6;}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_1__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
 var DarkBGButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   componentId: "u47bss-4"
 })(["transition:", ";color:#fff!important;background:", ";text-align:center;font-size:20px!important;padding:0 16px!important;height:60px!important;line-height:60px!important;display:block;border-radius:2px!important;@media screen and (max-width:", "){max-width:225px;font-size:18px!important;height:50px!important;line-height:50px!important;}.button-name{line-height:24px;flex:1;@media screen and (max-width:", "){display:none;}}span{font-weight:400;opacity:0.75;padding-left:5px;}&:hover{background:#b06c4a;color:#fff!important;}&:active{color:#fff!important;box-shadow:0 0px 0 5px rgba(176,108,74,0.2);}"], _types__WEBPACK_IMPORTED_MODULE_1__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_1__["BUTTON_COLOR"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_1__["BREAKPOINT_MD"]);
@@ -410,7 +410,7 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var FootNav = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
   componentId: "ywb9o1-0"
-})(["background:", ";padding-top:50px;color:", ";.footer-max{border-top:1px solid ", ";;max-width:", ";margin:0 auto;.footer-in{padding:10px;display:flex;padding-bottom:25px;@media screen and (max-width:", "){flex-wrap:wrap;.footer-links{flex:0 0 100%;justify-content:center!important;margin-bottom:20px;}.footer-logo{flex:0 0 100%;justify-content:center!important;}}.footer-links{justify-content:flex-start;display:flex;align-items:center;a{&.no-mobile{@media screen and (max-width:", "){display:none;visibility:hidden;}}color:#73859d;img{height:auto !important;width:auto !important;box-shadow:0 0 15px rgba(0,0,0,0.1);border-radius:5px;}margin-right:15px;}}.footer-logo{display:flex;justify-content:flex-end;flex:1;}}}display:block;text-align:right;color:#1a1b1c;font-size:.875rem;span{font-size:.875rem;color:#73859d;line-height:30px;margin-right:10px;@media screen and (max-width:", "){font-size:12px;}}svg{width:120px;height:32px;@media screen and (max-width:", "){width:90px;}}"], _types__WEBPACK_IMPORTED_MODULE_7__["ICONS_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_7__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"]);
+})(["background:", ";padding-top:50px;color:", ";.footer-max{border-top:1px dashed #e5e5e5;max-width:", ";margin:0 auto;.footer-in{padding:10px;display:flex;padding-bottom:25px;@media screen and (max-width:", "){flex-wrap:wrap;.footer-links{flex:0 0 100%;justify-content:center!important;margin-bottom:20px;}.footer-logo{flex:0 0 100%;justify-content:center!important;}}.footer-links{justify-content:flex-start;display:flex;align-items:center;a{&.no-mobile{@media screen and (max-width:", "){display:none;visibility:hidden;}}color:#73859d;img{height:auto !important;width:auto !important;box-shadow:0 0 15px rgba(0,0,0,0.1);border-radius:5px;}margin-right:15px;}}.footer-logo{display:flex;justify-content:flex-end;flex:1;}}}display:block;text-align:right;color:#1a1b1c;font-size:.875rem;span{font-size:.875rem;color:#73859d;line-height:30px;margin-right:10px;@media screen and (max-width:", "){font-size:12px;}}svg{width:120px;height:32px;@media screen and (max-width:", "){width:90px;}}"], _types__WEBPACK_IMPORTED_MODULE_7__["ICONS_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_7__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"]);
 
 var Footer =
 /*#__PURE__*/
@@ -653,11 +653,11 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var StyledHero = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
   componentId: "j0itq8-0"
-})([".hero-sticky{background:", ";.hero{max-width:", ";text-align:left;position:relative;margin:0 auto;display:flex;margin-top:60px;padding-top:0px;padding-bottom:0px;transform:", ";opacity:", ";transition:0.5s ease;@media screen and (max-width:", "){display:block;padding-top:80px;}@media screen and (max-width:", "){max-width:600px;padding-top:60px;margin-left:0px;}.hero-side{padding-right:25px;@media screen and (max-width:", "){padding:0px 30px;p{display:none;}}flex:1;p{color:", ";font-size:30px;margin:0 auto;font-weight:300;text-align:left;height:170px;max-width:550px;line-height:1.4;@media screen and (max-width:", "){font-size:18px;text-align:left;margin-left:0px;}@media screen and (max-width:", "){font-size:16px;}@media screen and (max-width:", "){font-size:15px;}}}.hero-text{flex:2;@media screen and (max-width:", "){padding-right:20px;padding-left:20px;}.hero-header{max-width:600px;text-align:center;@media screen and (max-width:", "){height:auto!important;margin-bottom:25px;}p{font-size:19px;margin-top:15px;margin-bottom:5px;color:", ";@media screen and (max-width:", "){font-size:16px;}}h2{font-size:45px;margin-top:0px;font-family:", ";color:", ";line-height:50px;font-weight:700 !important;text-rendering:optimizeLegibility;position:relative;word-break:break-word;display:inline;background-size:100% 100%;@media screen and (max-width:768px){font-size:32px;line-height:1.25;text-align:left;}}}text-align:left;.hero-head{max-width:660px;text-align:left;margin:0 auto;padding:80px 10px;padding-bottom:10px;@media screen and (max-width:", "){text-align:left;padding:0 10px!important;}}}}}"], _types__WEBPACK_IMPORTED_MODULE_7__["HEADER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_7__["MAX_WIDTH"], function (props) {
+})([".hero-sticky{background:", ";.hero{max-width:", ";text-align:left;position:relative;margin:0 auto;display:flex;margin-top:80px;padding-top:0px;padding-bottom:0px;@media screen and (max-width:468px){padding-top:40px;}transform:", ";opacity:", ";transition:0.5s ease;@media screen and (max-width:", "){display:block;padding-top:80px;}@media screen and (max-width:", "){max-width:600px;padding-top:60px;margin-left:0px;}.hero-side{padding-right:25px;@media screen and (max-width:", "){padding:0px 30px;p{display:none;}}flex:1;p{color:", ";font-size:30px;margin:0 auto;font-weight:300;text-align:left;height:170px;max-width:550px;line-height:1.4;@media screen and (max-width:", "){font-size:18px;text-align:left;margin-left:0px;}@media screen and (max-width:", "){font-size:16px;}@media screen and (max-width:", "){font-size:15px;}}}.hero-text{flex:2;@media screen and (max-width:", "){padding-right:20px;padding-left:20px;}.hero-header{text-align:center;@media screen and (max-width:", "){text-align:left;}@media screen and (max-width:", "){height:auto!important;margin-bottom:25px;}p{font-size:19px;margin:0 auto;margin-top:15px;margin-bottom:5px;max-width:600px;color:", ";@media screen and (max-width:", "){font-size:16px;}}h2{font-size:48px;margin-top:0px;font-family:", ";color:", ";line-height:1.13;letter-spacing:-.5px;font-weight:700 !important;text-rendering:optimizeLegibility;position:relative;word-break:break-word;display:inline;background-size:100% 100%;@media screen and (max-width:768px){font-size:40px;line-height:1.3;text-align:left;}@media screen and (max-width:468px){font-size:32px;line-height:1.3;text-align:left;}}}text-align:left;.hero-head{max-width:690px;text-align:left;margin:0 auto;padding:70px 10px;padding-bottom:40px;@media screen and (max-width:", "){text-align:left;padding:0 10px!important;}}}}}"], _types__WEBPACK_IMPORTED_MODULE_7__["HEADER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_7__["MAX_WIDTH"], function (props) {
   return props.is_Mounted ? 'translateY(0px)' : 'translateY(50px)';
 }, function (props) {
   return props.is_Mounted ? '1' : '0';
-}, _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["MAIN_HEADER_SUB_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["MAIN_HEADER_SUB_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_7__["MAIN_HEADER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"]);
+}, _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["MAIN_HEADER_SUB_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_7__["MAIN_HEADER_SUB_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_7__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_7__["MAIN_HEADER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_7__["BREAKPOINT_LG"]);
 
 var HeroSection =
 /*#__PURE__*/
@@ -692,54 +692,54 @@ function (_Component) {
         is_Mounted: this.state.is_Mounted,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 174
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-sticky",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160
+          lineNumber: 175
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161
+          lineNumber: 176
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 162
+          lineNumber: 177
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-head",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163
+          lineNumber: 178
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "hero-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 165
+          lineNumber: 180
         },
         __self: this
       }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 165
+          lineNumber: 180
         },
         __self: this
       }, "High Quality Web Icons Set "), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166
+          lineNumber: 181
         },
         __self: this
       }, "Boxicons is a simple vector icons set carefully crafted for designers and developers to use in your next project")))))));
@@ -955,6 +955,14 @@ var isProd = ("development" || false) === 'production';
       lineNumber: 35
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     name: "keywords",
     content: "boxicons,free icons,open source icons, royalty free icons,google icons, icon, line icon, sharp icon, material icons, premium icons, pixel perfect icons, open source icons, free icon set",
@@ -1039,10 +1047,10 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var Dropdown = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   componentId: "r3kz9n-0"
-})(["position:absolute;background:", ";border-radius:5px;color:#fff;&:before{content:\"\";right:100%;bottom:100%;position:absolute;margin-right:-33px;position:absolute;width:0;height:0;border:7px solid transparent;border-top-width:0;border-bottom-color:", ";}transition:all .25s cubic-bezier(.24,.22,.015,1.56),opacity .1s ease-in-out;top:60px;max-width:160px;opacity:0;visibility:hidden;transform:scale(0.8) translateY(-10px);&.active{box-shadow:0 1px 3px 0 rgba(0,0,0,0.08),0 0 5PX 1px rgba(0,0,0,0.04);opacity:1;visibility:visible;transform:scale(1) translateY(0);}ul{list-style:none;display:block;text-align:left;padding:12px 15px!important;li{display:block;font-size:13px!important;line-height:1.6!important;min-width:130px;a{line-height:30px!important;height:auto!important;}}}"], _types__WEBPACK_IMPORTED_MODULE_12__["SEARCH_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["SEARCH_BACKGROUND"]);
+})(["position:absolute;background:", ";border-radius:5px;color:#fff;&:before{content:\"\";right:100%;bottom:100%;position:absolute;margin-right:-33px;position:absolute;width:0;height:0;border:7px solid transparent;border-top-width:0;border-bottom-color:", ";}transition:all .25s cubic-bezier(.24,.22,.015,1.56),opacity .1s ease-in-out;top:60px;max-width:170px;opacity:0;visibility:hidden;transform:scale(0.8) translateY(-10px);&.active{box-shadow:60px 40px 60px 0 rgba(19,23,32,0.1);opacity:1;visibility:visible;transform:scale(1) translateY(0);}ul{list-style:none;display:block;text-align:left;padding:12px 20px!important;li{display:block;font-size:13px!important;line-height:1.6!important;min-width:130px;a{line-height:30px!important;height:auto!important;}}}"], _types__WEBPACK_IMPORTED_MODULE_12__["SEARCH_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["SEARCH_BACKGROUND"]);
 var Navbar = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   componentId: "r3kz9n-1"
-})(["left:0;right:0;position:fixed;background:", ";z-index:99996;transition:all  200ms cubic-bezier(0.4,0,0.2,1);top:0;&.scroll{box-shadow:0 4px 4px rgba(0,0,0,.06);background:", ";ul{li{&.nav-search{.search-sticky{display:block!important;visibility:visible!important;}}&.boxicon_brand{width:50px;overflow:hidden;.brand{svg{width:100%;}}}}}}ul li a.active{}ul li a:hover{color:", ";}.navbar-max{margin:0px auto;max-width:", ";ul{transition:0.15s;margin:0;list-style:none;padding:5px 10px;@media screen and (max-width:", "){padding:13px 20px!important;}display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;align-items:center;justify-content:flex-start;flex-direction:row;flex-wrap:wrap;li{input{height:36px!important;line-height:36px!important;font-size:18px!important;}&.mobile-menu{order:3;display:none;@media screen and (max-width:", "){display:block;}@media screen and (max-width:", "){a{font-size:13PX!important;padding:0 10px!important;height:36px!important;line-height:36px!important;span{display:none;}}}}&.nav-search{padding-left:15px;flex:1;.search-sticky{display:none;visibility:hidden;}@media screen and (max-width:", "){display:none !important;}}&.nav-links{display:flex;text-align:right;padding:0;order:2;align-items:center;padding:0 15px;padding-right:0px;.git-frame{display:flex;align-items:center;padding:0px;}a{&.active{color:", ";}}@media screen and (max-width:", "){display:none !important;}}margin:0px;line-height:20px;font-size:13px;padding:0px;order:0;&.boxicon_brand{a{padding:0px;@media screen and (max-width:", "){width:50px!important;overflow:hidden;}}@media screen and (max-width:", "){flex:1;height:38px;padding:0 5px!important;}a{&:hover{background:transparent!important;}@media screen and (max-width:", "){padding:0px;}}}.search-sticky{background:transparent;padding-bottom:0px;padding:0px;transition:0.15s;transform:translateY(0px);}.search-cont{margin:0px 0!important;max-width:none;margin-left:0px!important;padding:2px;display:flex;background:#ececec;border:1px solid #ececec;box-shadow:0 0 0 0px rgba(0,0,0,0.1)!important;height:40px;margin:0px;align-items:center;&.active{background:#fff;border:1px solid ", ";}&.active input{color:#111!important;}i{font-size:21px!important;line-height:25px;padding:0px 12px!important;}i.bx-x{font-size:21px !important;padding:3px !important;height:21px !important;line-height:21px !important;color:#73859d;border-radius:50%;cursor:pointer;margin-right:7px;}form{width:100%;}&.active{}}a{&.show-dropdown{cursor:pointer;}font-weight:400;border-radius:2px;&.mobile-menu-button{line-height:24px !important;height:24px !important;border-radius:50%;padding:0px 12px;}&:hover{color:", ";}i{font-size:24px;line-height:24px;height:24px;vertical-align:middle;}.brand{height:60px;@media screen and (max-width:", "){height:34px;width:170px;}@media screen and (max-width:", "){height:34px;width:170px;}svg{width:100%;height:50px;}display:flex;align-items:center;width:190px;margin:1px 0;margin-right:10px;transition:0.15s;&:hover{opacity:0.9;}}padding:0px 15px;text-decoration:none;color:", ";height:60px;line-height:64px;border-radius:0;position:relative;display:inline-block;transition:0.15s;font-size:.875rem;font-weight:400;}}}}"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_SCROLL_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["ACTIVE_NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["NAV_LIST_COLOR"]);
+})(["left:0;right:0;position:fixed;background:", ";z-index:99996;transition:all  200ms cubic-bezier(0.4,0,0.2,1);top:0;&.scroll{box-shadow:0 4px 4px rgba(0,0,0,.06);background:", ";ul{padding:4px 20px!important;li{&.nav-search{.search-sticky{display:block!important;visibility:visible!important;}}&.boxicon_brand{width:36px;overflow:hidden;.brand{svg{width:100%;}}}}}}ul li a.active{}ul li a:hover{color:", ";}border-bottom:1px solid #eee;.navbar-max{margin:0px auto;max-width:", ";ul{transition:0.15s;margin:0;list-style:none;padding:4px 20px;@media screen and (max-width:", "){padding:13px 20px!important;}display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;align-items:center;justify-content:flex-start;flex-direction:row;flex-wrap:wrap;li{input{height:36px!important;line-height:36px!important;font-size:18px!important;}&.mobile-menu{order:3;display:none;@media screen and (max-width:", "){display:block;}@media screen and (max-width:", "){a{font-size:15px!important;padding:1px 15px!important;height:36px!important;line-height:36px!important;span{display:none;}}}}&.nav-search{padding-left:15px;flex:1;.search-sticky{display:none;visibility:hidden;}@media screen and (max-width:", "){display:none !important;}}&.nav-links{display:flex;text-align:right;padding:0;order:2;align-items:center;padding:0 15px;padding-right:0px;.git-frame{display:flex;align-items:center;padding:0px;}a{&.active{color:", ";}}@media screen and (max-width:", "){display:none !important;}}margin:0px;line-height:20px;font-size:13px;padding:0px;order:0;&.boxicon_brand{a{padding:0px;@media screen and (max-width:", "){svg{height:30px!important;}}@media screen and (max-width:468px){width:36px!important;overflow:hidden;}}@media screen and (max-width:", "){flex:1;height:38px;padding:0 5px!important;}a{&:hover{background:transparent!important;}@media screen and (max-width:", "){padding:0px;}}}.search-sticky{background:transparent;padding-bottom:0px;padding:0px;transition:0.15s;transform:translateY(0px);}.search-cont{margin:0px 0!important;max-width:none;margin-left:0px!important;padding:2px;display:flex;background:#f7f7f7;box-shadow:0 0 0 0px rgba(0,0,0,0.1)!important;height:40px;margin:0px;align-items:center;&.active{background:#fff;border:1px solid #ddd;}&.active input{color:#111!important;}i{font-size:21px!important;line-height:25px;padding:0px 12px!important;}i.bx-x{font-size:21px !important;padding:3px !important;height:21px !important;line-height:21px !important;color:#73859d;border-radius:50%;cursor:pointer;margin-right:7px;}form{width:100%;}&.active{}}a{&.show-dropdown{cursor:pointer;}font-weight:400;border-radius:2px;&.mobile-menu-button{line-height:24px !important;height:24px !important;border-radius:50%;padding:0px 12px;}&:hover{color:#0a083b;}i{font-size:24px;line-height:24px;height:24px;vertical-align:middle;}.brand{height:60px;@media screen and (max-width:", "){height:34px;width:170px;}@media screen and (max-width:", "){height:34px;width:170px;}svg{width:100%;height:32px;}display:flex;align-items:center;width:170px;margin:1px 0;margin-right:10px;transition:0.15s;&:hover{opacity:0.9;}}padding:0px 12px;text-decoration:none;color:", ";height:60px;line-height:64px;border-radius:0;position:relative;display:inline-block;transition:0.15s;font-size:.875rem;font-weight:400;}}}}"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["NAVBAR_SCROLL_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_12__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["ACTIVE_NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_12__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_12__["NAV_LIST_COLOR"]);
 
 var NavigationBar =
 /*#__PURE__*/
@@ -1127,14 +1135,14 @@ function (_Component) {
         className: "navbar-cont",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 397
+          lineNumber: 404
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "navbar-max",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 398
+          lineNumber: 405
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("ul", {
@@ -1142,14 +1150,14 @@ function (_Component) {
         role: "navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 399
+          lineNumber: 406
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "boxicon_brand",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 400
+          lineNumber: 407
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -1157,141 +1165,137 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 401
+          lineNumber: 408
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 402
+          lineNumber: 409
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "brand sprite",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 403
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("svg", {
-        version: "1.1",
-        id: "Layer_1",
-        xmlns: "http://www.w3.org/2000/svg",
-        x: "0px",
-        y: "0px",
-        width: "556.5px",
-        height: "130px",
-        viewBox: "0 0 556.5 130",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 405
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        id: "XMLID_1_",
-        fill: "#0e9fee",
-        d: "M11.646,47.253v39.229c0,6.275,3.138,11.509,8.892,14.646L60.292,123.1\r c3.662,2.092,8.369-0.521,8.369-4.707v-52.31l46.555-23.538c4.186-2.093,4.186-7.847,0-9.938L74.414,12.73\r c-4.707-2.093-9.938-2.093-14.646,0L21.061,32.606C15.307,35.746,11.646,40.976,11.646,47.253z",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 407
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#0e9fee",
-        d: "M14.261,38.884c-1.569,2.615-2.615,5.754-2.615,8.369v39.229c0,6.275,3.138,11.509,8.892,14.646\r L60.292,123.1c3.662,2.092,8.369-0.521,8.369-4.707v-52.31l1.047-0.522L14.261,38.884z",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 410
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("g", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        x: "0px",
+        y: "0px",
+        viewBox: "20.979 21.016 498.438 92.965",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 412
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#31383c",
-        d: "M228.26,72.923c2,2.508,3,5.414,3,8.72c0,4.854-1.613,8.641-4.84,11.36c-3.228,2.72-7.854,4.08-13.88,4.08\r h-26.32v-56.56H211.9c5.76,0,10.212,1.254,13.359,3.76c3.146,2.507,4.721,6.08,4.721,10.72c0,3.414-0.908,6.254-2.721,8.52\r c-1.813,2.268-4.188,3.748-7.12,4.44C223.553,68.764,226.26,70.417,228.26,72.923z M199.9,63.643h8.96\r c4.746,0,7.12-2.026,7.12-6.08c0-4.052-2.428-6.08-7.28-6.08h-8.8V63.643z M217.26,79.723c0-2.025-0.667-3.612-2-4.76\r c-1.334-1.146-3.228-1.72-5.68-1.72h-9.68v12.72h9.76C214.727,85.963,217.26,83.883,217.26,79.723z",
+        id: "XMLID_1_",
+        fill: "#0a083b",
+        d: "M21.979,50.794v32.367c0,5.177,2.589,9.496,7.336,12.084l32.8,18.128\r c3.021,1.726,6.905-0.43,6.905-3.884V66.331l38.411-19.421c3.454-1.727,3.454-6.474,0-8.2l-33.664-16.4\r c-3.884-1.727-8.2-1.727-12.084,0L29.748,38.71C25,41.301,21.979,45.616,21.979,50.794z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 413
+          lineNumber: 415
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#31383c",
-        d: "M270.421,54.643c3.492,1.84,6.239,4.494,8.239,7.96c2,3.467,3,7.52,3,12.161c0,4.639-1,8.693-3,12.159\r c-2,3.468-4.747,6.12-8.239,7.96c-3.494,1.84-7.454,2.76-11.881,2.76s-8.399-0.92-11.92-2.76c-3.52-1.84-6.279-4.492-8.279-7.96\r c-2-3.466-3-7.521-3-12.159c0-4.641,1-8.693,3-12.161c2-3.466,4.76-6.12,8.279-7.96c3.521-1.84,7.493-2.76,11.92-2.76\r S266.927,52.803,270.421,54.643z M251.94,66.563c-1.787,1.895-2.68,4.628-2.68,8.201s0.893,6.293,2.68,8.159\r c1.786,1.867,3.986,2.8,6.6,2.8s4.801-0.933,6.561-2.8c1.76-1.866,2.64-4.586,2.64-8.159s-0.88-6.307-2.64-8.201\r c-1.76-1.892-3.947-2.839-6.561-2.839S253.727,64.67,251.94,66.563z",
+        fill: "#0a083b",
+        d: "M24.137,43.89c-1.295,2.158-2.158,4.748-2.158,6.905v32.367c0,5.177,2.589,9.496,7.336,12.084l32.8,18.128\r c3.021,1.726,6.905-0.43,6.905-3.884V66.331l0.864-0.432L24.137,43.89z",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 418
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#31383c",
-        d: "M315.899,97.083l-9.12-12.72l-7.439,12.72H284.3l14.8-23.28l-15.359-21.36H299.1l9.04,12.56l7.44-12.56\r h15.04l-15.12,22.72l15.76,21.92H315.899z",
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("g", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 424
+          lineNumber: 420
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#0a083b",
+        d: "M199.26,72.923c2,2.509,3,5.414,3,8.72c0,4.854-1.613,8.642-4.84,11.36c-3.228,2.72-7.854,4.08-13.88,4.08\r h-26.32v-56.56h25.68c5.76,0,10.212,1.254,13.359,3.76c3.146,2.507,4.721,6.08,4.721,10.72c0,3.414-0.908,6.254-2.721,8.52\r c-1.813,2.268-4.188,3.749-7.12,4.44C194.553,68.764,197.26,70.417,199.26,72.923z M170.9,63.643h8.96\r c4.746,0,7.12-2.026,7.12-6.08c0-4.052-2.428-6.08-7.28-6.08h-8.8V63.643z M188.26,79.723c0-2.024-0.667-3.611-2-4.76\r c-1.334-1.146-3.228-1.72-5.68-1.72h-9.68v12.72h9.76C185.727,85.963,188.26,83.883,188.26,79.723z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 421
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#31383c",
-        d: "M336.538,34.723c1.493-1.36,3.467-2.04,5.92-2.04s4.427,0.68,5.92,2.04c1.493,1.36,2.24,3.08,2.24,5.16\r c0,2.028-0.747,3.72-2.24,5.08c-1.493,1.36-3.467,2.04-5.92,2.04s-4.427-0.68-5.92-2.04c-1.493-1.36-2.239-3.052-2.239-5.08\r C334.299,37.803,335.045,36.083,336.538,34.723z M349.259,52.443v44.64h-13.681v-44.64H349.259z",
+        fill: "#0a083b",
+        d: "M241.421,54.643c3.492,1.84,6.239,4.494,8.239,7.96c2,3.467,3,7.52,3,12.161c0,4.639-1,8.693-3,12.159\r c-2,3.468-4.747,6.12-8.239,7.96c-3.494,1.84-7.454,2.76-11.881,2.76c-4.427,0-8.399-0.92-11.92-2.76\r c-3.52-1.84-6.279-4.492-8.279-7.96c-2-3.466-3-7.521-3-12.159c0-4.641,1-8.693,3-12.161c2-3.466,4.76-6.12,8.279-7.96\r c3.521-1.84,7.493-2.76,11.92-2.76C233.967,51.883,237.927,52.803,241.421,54.643z M222.94,66.563\r c-1.787,1.896-2.68,4.629-2.68,8.201c0,3.573,0.893,6.293,2.68,8.159c1.786,1.867,3.986,2.8,6.6,2.8c2.614,0,4.801-0.933,6.561-2.8\r c1.76-1.866,2.64-4.586,2.64-8.159c0-3.572-0.88-6.307-2.64-8.201c-1.76-1.892-3.947-2.838-6.561-2.838\r C226.926,63.724,224.727,64.67,222.94,66.563z",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 426
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#31383c",
-        d: "M392.538,56.643c3.893,3.174,6.346,7.534,7.359,13.08h-14.479c-0.428-1.92-1.308-3.412-2.641-4.479\r c-1.333-1.066-3.014-1.6-5.04-1.6c-2.399,0-4.373,0.947-5.92,2.839c-1.547,1.895-2.319,4.654-2.319,8.281s0.772,6.387,2.319,8.279\r c1.547,1.894,3.521,2.84,5.92,2.84c2.026,0,3.707-0.532,5.04-1.6c1.333-1.066,2.213-2.561,2.641-4.48h14.479\r c-1.014,5.548-3.467,9.908-7.359,13.08c-3.895,3.174-8.721,4.76-14.48,4.76c-4.374,0-8.254-0.92-11.64-2.76\r c-3.388-1.84-6.04-4.492-7.96-7.96c-1.92-3.466-2.88-7.521-2.88-12.159c0-4.693,0.946-8.761,2.84-12.201\r c1.893-3.44,4.546-6.08,7.96-7.92c3.412-1.84,7.306-2.76,11.68-2.76C383.817,51.883,388.644,53.471,392.538,56.643z",
+        fill: "#0a083b",
+        d: "M286.899,97.083l-9.12-12.72l-7.439,12.72H255.3l14.8-23.28l-15.358-21.36H270.1l9.04,12.56l7.44-12.56\r h15.04l-15.12,22.72l15.76,21.92H286.899z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 429
+          lineNumber: 433
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#31383c",
-        d: "M438.979,54.643c3.492,1.84,6.239,4.494,8.239,7.96c2,3.467,3,7.52,3,12.161c0,4.639-1,8.693-3,12.159\r c-2,3.468-4.747,6.12-8.239,7.96c-3.494,1.84-7.454,2.76-11.881,2.76s-8.399-0.92-11.92-2.76c-3.52-1.84-6.279-4.492-8.279-7.96\r c-2-3.466-3-7.521-3-12.159c0-4.641,1-8.693,3-12.161c2-3.466,4.76-6.12,8.279-7.96c3.521-1.84,7.493-2.76,11.92-2.76\r S435.484,52.803,438.979,54.643z M420.498,66.563c-1.787,1.895-2.68,4.628-2.68,8.201s0.893,6.293,2.68,8.159\r c1.786,1.867,3.986,2.8,6.6,2.8s4.801-0.933,6.561-2.8c1.76-1.866,2.64-4.586,2.64-8.159s-0.88-6.307-2.64-8.201\r c-1.76-1.892-3.947-2.839-6.561-2.839S422.284,64.67,420.498,66.563z",
+        fill: "#0a083b",
+        d: "M307.538,34.723c1.493-1.36,3.467-2.04,5.92-2.04s4.427,0.68,5.92,2.04c1.493,1.36,2.24,3.08,2.24,5.16\r c0,2.028-0.747,3.72-2.24,5.08c-1.493,1.36-3.467,2.04-5.92,2.04s-4.427-0.68-5.92-2.04c-1.493-1.36-2.239-3.052-2.239-5.08\r C305.299,37.803,306.045,36.083,307.538,34.723z M320.259,52.443v44.64h-13.681v-44.64H320.259z",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 435
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#31383c",
-        d: "M497.058,57.083c3.013,3.414,4.52,8.107,4.52,14.08v25.92h-13.68V72.764c0-2.986-0.787-5.32-2.36-7\r c-1.573-1.681-3.667-2.521-6.279-2.521c-2.774,0-4.975,0.88-6.601,2.64c-1.627,1.76-2.439,4.268-2.439,7.52v23.681h-13.681v-44.64\r h13.681v8.16c1.279-2.667,3.186-4.772,5.72-6.32c2.532-1.546,5.506-2.32,8.92-2.32C489.978,51.963,494.044,53.67,497.058,57.083z",
+        fill: "#0a083b",
+        d: "M363.538,56.643c3.893,3.174,6.346,7.534,7.359,13.08h-14.479c-0.428-1.92-1.308-3.412-2.641-4.479\r s-3.015-1.6-5.04-1.6c-2.399,0-4.373,0.947-5.92,2.838c-1.548,1.896-2.319,4.654-2.319,8.281s0.771,6.387,2.319,8.279\r c1.547,1.895,3.521,2.84,5.92,2.84c2.025,0,3.707-0.531,5.04-1.6c1.333-1.066,2.213-2.561,2.641-4.48h14.479\r c-1.015,5.549-3.468,9.908-7.359,13.08c-3.896,3.174-8.721,4.76-14.48,4.76c-4.374,0-8.254-0.92-11.64-2.76\r c-3.388-1.84-6.04-4.492-7.96-7.96c-1.92-3.466-2.88-7.521-2.88-12.159c0-4.693,0.946-8.761,2.84-12.201\r c1.893-3.44,4.546-6.08,7.96-7.92c3.412-1.84,7.306-2.76,11.68-2.76C354.817,51.883,359.644,53.471,363.538,56.643z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 441
+          lineNumber: 438
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
-        fill: "#31383c",
-        d: "M539.617,56.123c3.387,2.828,5.507,6.56,6.36,11.2h-12.8c-0.374-1.813-1.214-3.24-2.521-4.28\r s-2.947-1.56-4.92-1.56c-1.547,0-2.72,0.334-3.52,1c-0.8,0.667-1.2,1.614-1.2,2.84c0,1.388,0.732,2.427,2.2,3.12\r c1.466,0.693,3.772,1.387,6.92,2.08c3.412,0.8,6.213,1.613,8.4,2.439c2.186,0.828,4.079,2.174,5.68,4.04\r c1.6,1.868,2.399,4.374,2.399,7.521c0,2.56-0.693,4.827-2.079,6.8c-1.388,1.974-3.388,3.52-6,4.64\r c-2.614,1.12-5.708,1.68-9.28,1.68c-6.027,0-10.854-1.332-14.48-4c-3.627-2.666-5.84-6.479-6.64-11.439h13.2\r c0.212,1.92,1.026,3.388,2.439,4.399c1.413,1.015,3.24,1.521,5.48,1.521c1.546,0,2.72-0.36,3.52-1.08\r c0.801-0.72,1.2-1.666,1.2-2.84c0-1.546-0.733-2.652-2.2-3.32c-1.467-0.666-3.854-1.372-7.16-2.119\r c-3.307-0.693-6.027-1.44-8.159-2.24c-2.134-0.801-3.974-2.093-5.521-3.881c-1.547-1.785-2.32-4.226-2.32-7.319\r c0-4,1.521-7.24,4.561-9.72s7.332-3.72,12.88-3.72C531.71,51.883,536.23,53.297,539.617,56.123z",
+        fill: "#0a083b",
+        d: "M409.979,54.643c3.492,1.84,6.239,4.494,8.239,7.96c2,3.467,3,7.52,3,12.161c0,4.639-1,8.693-3,12.159\r c-2,3.468-4.747,6.12-8.239,7.96c-3.493,1.84-7.453,2.76-11.881,2.76c-4.427,0-8.398-0.92-11.92-2.76\r c-3.52-1.84-6.278-4.492-8.278-7.96c-2-3.466-3-7.521-3-12.159c0-4.641,1-8.693,3-12.161c2-3.466,4.76-6.12,8.278-7.96\r c3.521-1.84,7.493-2.76,11.92-2.76C402.525,51.883,406.484,52.803,409.979,54.643z M391.498,66.563\r c-1.787,1.896-2.68,4.629-2.68,8.201c0,3.573,0.893,6.293,2.68,8.159c1.786,1.867,3.986,2.8,6.6,2.8c2.614,0,4.802-0.933,6.562-2.8\r c1.76-1.866,2.64-4.586,2.64-8.159c0-3.572-0.88-6.307-2.64-8.201c-1.76-1.892-3.947-2.838-6.562-2.838\r C395.484,63.724,393.284,64.67,391.498,66.563z",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 445
+          lineNumber: 444
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#0a083b",
+        d: "M468.058,57.083c3.014,3.414,4.521,8.107,4.521,14.08v25.92h-13.68V72.764c0-2.986-0.787-5.32-2.36-7\r c-1.573-1.681-3.667-2.521-6.279-2.521c-2.773,0-4.975,0.88-6.601,2.64c-1.627,1.76-2.439,4.268-2.439,7.52v23.682h-13.681v-44.64\r h13.681v8.16c1.279-2.667,3.187-4.772,5.721-6.32c2.531-1.546,5.506-2.32,8.92-2.32C460.978,51.963,465.044,53.67,468.058,57.083z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 451
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("path", {
+        fill: "#0a083b",
+        d: "M510.617,56.123c3.387,2.828,5.507,6.56,6.359,11.2h-12.8c-0.374-1.813-1.214-3.24-2.521-4.28\r c-1.308-1.04-2.947-1.56-4.92-1.56c-1.547,0-2.721,0.334-3.521,1c-0.8,0.667-1.2,1.614-1.2,2.84c0,1.388,0.732,2.427,2.2,3.12\r c1.466,0.692,3.772,1.387,6.92,2.08c3.412,0.8,6.213,1.612,8.4,2.438c2.186,0.828,4.079,2.174,5.68,4.04\r c1.601,1.868,2.399,4.374,2.399,7.521c0,2.56-0.693,4.826-2.079,6.8c-1.388,1.974-3.388,3.52-6,4.64\r c-2.614,1.12-5.708,1.68-9.28,1.68c-6.027,0-10.854-1.332-14.479-4c-3.627-2.666-5.841-6.479-6.641-11.438h13.2\r c0.212,1.92,1.026,3.388,2.439,4.399c1.413,1.015,3.239,1.521,5.479,1.521c1.546,0,2.72-0.36,3.521-1.08s1.199-1.666,1.199-2.84\r c0-1.546-0.732-2.652-2.199-3.32c-1.468-0.666-3.854-1.372-7.16-2.118c-3.308-0.693-6.027-1.44-8.159-2.24\r c-2.134-0.801-3.974-2.094-5.521-3.881c-1.548-1.785-2.32-4.227-2.32-7.319c0-4,1.521-7.24,4.561-9.72s7.332-3.72,12.88-3.72\r C502.71,51.883,507.23,53.297,510.617,56.123z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 455
         },
         __self: this
       }))))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "nav-search",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 471
+          lineNumber: 481
         },
         __self: this
       }, this.props.page == 'index' ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_search_searchForm__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 472
+          lineNumber: 482
         },
         __self: this
       }) : null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "nav-links",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 474
+          lineNumber: 484
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -1300,7 +1304,7 @@ function (_Component) {
         href: "https://github.com/atisawd/boxicons",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 477
+          lineNumber: 487
         },
         __self: this
       }, "Github"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -1308,13 +1312,13 @@ function (_Component) {
         href: "/usage",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 481
+          lineNumber: 491
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 481
+          lineNumber: 491
         },
         __self: this
       }, "Usage")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
@@ -1323,20 +1327,20 @@ function (_Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 486
+          lineNumber: 496
         },
         __self: this
       }, "Download ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 486
+          lineNumber: 496
         },
         __self: this
       }, "v", _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"]))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
         className: "mobile-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 491
+          lineNumber: 501
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_buttons__WEBPACK_IMPORTED_MODULE_9__["NavButton"], {
@@ -1344,13 +1348,13 @@ function (_Component) {
         href: "/static/boxicons-" + _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"] + ".zip",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 492
+          lineNumber: 502
         },
         __self: this
       }, "Download ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 492
+          lineNumber: 502
         },
         __self: this
       }, "v", _actions_types__WEBPACK_IMPORTED_MODULE_11__["VERSION"]))))));
@@ -1487,9 +1491,9 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var IconBox = styled_components__WEBPACK_IMPORTED_MODULE_10__["default"].div.withConfig({
   componentId: "qp0pm4-0"
-})(["animation-fill-mode:forwards;flex:0 0 10%;@media screen and (max-width:", "){flex:none;}.new-dot{background:", ";width:5px;height:5px;border-radius:50%;position:absolute;right:5px;top:5px;}i{color:", ";font-size:", ";@media screen and (max-width:", "){font-size:", ";}@media screen and (max-width:", "){font-size:", ";}}&.fade{&.active{.icon-base{opacity:1;}}.icon-base{opacity:0.5;}}cursor:pointer;outline:none !important;display:inline-block;&:hover{z-index:9999999;}&:active,&.active{.icon-box-inner{box-shadow:0 0 0 2px #0e9fee;.icon-base{i{color:", ";}}}}transition:", ";&:focus{outline:0;}border-radius:", ";overflow:hidden;overflow:hidden;.icon-box-inner{margin:2px;border-radius:", ";font-weight:700;position:relative;font-size:16px;line-height:35px;text-align:center;background:#fff;pointer-events:none;.icon-base{height:", ";i{line-height:", ";}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}}.icon-box-name{font-size:13px;-webkit-touch-callout:none;-webkit-user-select:none;text-transform:capitalize;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:80px;font-family:", ";font-weight:400;color:", ";@media screen and (max-width:", "){display:none;}text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:20px;margin-top:10px;margin-bottom:2px;}padding:20px 10px;padding-bottom:20px;@media screen and (max-width:", "){width:auto;padding:20px;}}&:active{}&.active{}@media screen and (max-width:", "){cursor:initial;&.active,&:hover,&:active{background:transparent;}}"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BLUE_COLOR"], function (props) {
+})(["animation-fill-mode:forwards;flex:0 0 10%;@media screen and (max-width:", "){flex:none;}.new-dot{background:", ";width:5px;height:5px;border-radius:50%;position:absolute;right:5px;top:5px;}i{color:", ";font-size:", ";@media screen and (max-width:", "){font-size:", ";}@media screen and (max-width:", "){font-size:", ";}}&.fade{&.active{.icon-base{opacity:1;}}.icon-base{opacity:0.5;}}cursor:pointer;outline:none !important;display:inline-block;&:hover{z-index:9999999;}&:hover{.icon-box-inner{}}&:active{.icon-box-inner{background:#eee!important;}}&.active{.icon-box-inner{background:#eee;.icon-base{i{color:#000;}}}}transition:", ";&:focus{outline:0;}border-radius:", ";overflow:hidden;overflow:hidden;.icon-box-inner{margin:1px;border-radius:", ";font-weight:700;position:relative;font-size:16px;line-height:35px;text-align:center;background:transparent;pointer-events:none;.icon-base{height:", ";i{line-height:", ";}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}@media screen and (max-width:", "){height:", ";i{line-height:", ";}}}.icon-box-name{font-size:12px;-webkit-touch-callout:none;-webkit-user-select:none;text-transform:capitalize;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-family:", ";font-weight:400;color:", ";@media screen and (max-width:", "){display:none;}text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:15px;margin:2px auto;margin-top:5px;}padding:18px 10px;@media screen and (max-width:", "){width:auto;padding:15px;}}&:active{}&.active{}@media screen and (max-width:", "){cursor:initial;&.active,&:hover,&:active{background:transparent;}}"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BLUE_COLOR"], function (props) {
   return props.dark ? _types__WEBPACK_IMPORTED_MODULE_11__["DARK_FONT_COLOR"] : _types__WEBPACK_IMPORTED_MODULE_11__["FONT_COLOR"];
-}, _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_11__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_NAME_COLOR"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MDL"]);
+}, _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_SIZE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_BASE_MD"], _types__WEBPACK_IMPORTED_MODULE_11__["FONT_FAMILY_HEADER"], _types__WEBPACK_IMPORTED_MODULE_11__["ICON_NAME_COLOR"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_11__["BREAKPOINT_MDL"]);
 
 var IconsListItem =
 /*#__PURE__*/
@@ -1549,56 +1553,56 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 206
+          lineNumber: 214
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-box-inner",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 208
+          lineNumber: 216
         },
         __self: this
       }, this.props.icon.new && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "new-dot",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 209
+          lineNumber: 217
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-base",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 210
+          lineNumber: 218
         },
         __self: this
       }, this.props.icon.type_of_icon === 'REGULAR' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bx-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 211
+          lineNumber: 219
         },
         __self: this
       }), this.props.icon.type_of_icon === 'SOLID' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bxs-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 212
+          lineNumber: 220
         },
         __self: this
       }), this.props.icon.type_of_icon === 'LOGO' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fadeIn animated bx bxl-" + this.props.icon.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 213
+          lineNumber: 221
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-box-name",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 215
+          lineNumber: 223
         },
         __self: this
       }, this.props.icon.name)));
@@ -1724,18 +1728,18 @@ var LoadMore = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.wi
 })(["max-width:", ";margin:0px auto;margin-top:15px;display:flex;justify-content:center;text-align:center;"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"]);
 var StyledIconCont = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-1"
-})(["padding:15px;border-radius:15px;background:#fff;display:flex;pointer-events:auto;@media screen and (max-width:", "){display:block;height:48px;padding:15px;}@keyframes placeHolderShimmer{0%{background-position:-468px 0}100%{background-position:468px 0}}"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
+})(["padding:15px;border-radius:12px;background:#fff;display:flex;pointer-events:auto;@media screen and (max-width:", "){display:block;height:48px;padding:15px;}@keyframes placeHolderShimmer{0%{background-position:-468px 0}100%{background-position:468px 0}}"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
 var IconsSection = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-2"
 })(["padding:0px;min-height:300px;background:", ";@media screen and (max-width:", "){padding:0px;}&.active .icons-left-section{order:0;}"], _types__WEBPACK_IMPORTED_MODULE_13__["ICONS_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"]);
 var IconsSectionCont = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-3"
-})(["@media screen and (max-width:", "){padding:0px;}@media screen and (min-width:", "){}@media screen and (min-width:", "){display:flex;}.icons-left-section{@media screen and (max-width:", "){display:none;visibility:hidden;}-webkit-animation-duration:0.5s !important;animation-duration:0.5s !important;position:fixed;z-index:99997;-webkit-transform:translateZ(0);animation-fill-mode:forwards;bottom:30px;right:30px;width:", ";transition:", ";.left-section-inner{background:", ";margin:0 auto;display:block;border-radius:15px;box-shadow:", ";@media screen and (max-width:", "){border-radius:0px;border-left:0px;border-right:0px;max-width:none;left:0;right:0;}}@media screen and (max-width:", "){pointer-events:all;}}.icons-side-section{position:absolute;background:#fff;z-index:99999;margin-top:25px;margin-left:0px;overflow-y:scroll;max-height:200px;border-radius:", ";box-shadow:", ";min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;padding-top:0;padding-bottom:0;max-height:256px;overflow-x:hidden;.side-section-inner{border-bottom:1px solid transparent;padding-left:0px;@media screen and (max-width:", "){border-bottom:1px solid ", ";margin:0;}}@media screen and (max-width:", "){display:none;visibility:hidden;}}.icons-right-section{width:100%;@media screen and (max-width:", "){width:auto;}@media screen and (max-width:", "){padding:0px;}h2{margin:15px;margin-bottom:30px;font-size:36px;font-weight:400;line-height:48px;color:", ";a{display:none!important;visibility:hidden;@media screen and (max-width:", "){display:flex!important;visibility:visible;}}@media screen and (max-width:", "){font-size:30px;line-height:44px;margin:10px;margin-bottom:25px;}@media screen and (max-width:", "){font-size:24px;line-height:36px;}}}.icon-list{padding:0px;min-height:calc(100vh - 260px);padding-bottom:10px;max-width:", ";margin:0 auto;.container{padding:0 10px;display:flex;flex-wrap:wrap;@media screen and (max-width:", "){padding:0 20px;}@media screen and (max-width:", "){justify-content:center;}.no-result{text-align:center;font-weight:400;padding:30px;min-height:50px;flex:1;color:", ";font-size:18px;margin-bottom:0px;p{margin-top:2px;font-size:16px;color:#73859d;font-style:italic;}}}@media screen and (max-width:", "){padding:0px;}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["FILTER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_13__["BOX_SHADOW_POPUP"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["HEADER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDS"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["SECONDARY_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
+})(["@media screen and (max-width:", "){padding:0px;}@media screen and (min-width:", "){}@media screen and (min-width:", "){display:flex;}.icons-left-section{@media screen and (max-width:", "){display:none;visibility:hidden;}-webkit-animation-duration:0.5s !important;animation-duration:0.5s !important;position:fixed;z-index:99997;-webkit-transform:translateZ(0);animation-fill-mode:forwards;bottom:30px;right:30px;width:", ";transition:", ";.left-section-inner{background:", ";margin:0 auto;display:block;border-radius:15px;box-shadow:", ";@media screen and (max-width:", "){border-radius:0px;border-left:0px;border-right:0px;max-width:none;left:0;right:0;}}@media screen and (max-width:", "){pointer-events:all;}}.icons-side-section{position:absolute;background:#fff;z-index:99999;margin-top:25px;margin-left:0px;overflow-y:scroll;max-height:200px;border-radius:", ";box-shadow:", ";min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;padding-top:0;padding-bottom:0;max-height:256px;overflow-x:hidden;.side-section-inner{border-bottom:1px solid transparent;padding-left:0px;@media screen and (max-width:", "){border-bottom:1px solid ", ";margin:0;}}@media screen and (max-width:", "){display:none;visibility:hidden;}}.icons-right-section{width:100%;@media screen and (max-width:", "){width:auto;}@media screen and (max-width:", "){padding:0px;}h2{margin:15px;margin-bottom:30px;font-size:36px;font-weight:400;line-height:48px;color:", ";a{display:none!important;visibility:hidden;@media screen and (max-width:", "){display:flex!important;visibility:visible;}}@media screen and (max-width:", "){font-size:30px;line-height:44px;margin:10px;margin-bottom:25px;}@media screen and (max-width:", "){font-size:24px;line-height:36px;}}}.icon-list{padding:0px;min-height:calc(100vh - 260px);padding-bottom:10px;max-width:", ";margin:0 auto;.container{padding:0 10px;display:flex;flex-wrap:wrap;@media screen and (max-width:", "){padding:0 20px;}@media screen and (max-width:", "){}.no-result{text-align:center;font-weight:400;padding:30px;min-height:50px;flex:1;color:", ";font-size:18px;margin-bottom:0px;p{margin-top:2px;font-size:16px;color:#73859d;font-style:italic;}}}@media screen and (max-width:", "){padding:0px;}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["FILTER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["SIDE_BOX_SHADOW"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_13__["BOX_SHADOW_POPUP"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BORDER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDL"], _types__WEBPACK_IMPORTED_MODULE_13__["HEADER_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MDS"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["SECONDARY_FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
 var IconsFilter = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "sc-8yb2nv-4"
-})(["   box-sizing:border-box;background:", ";.icon-filter-max{max-width:", ";margin:0 auto;padding:0px 15px;@media screen and (max-width:", "){padding-top:0px;padding:0!important;margin-bottom:0px;}.icons-filter-in{font-weight:400;margin:0 10px;padding-bottom:10px!important;padding-top:20px!important;border-bottom:1px solid #f5f5f5;margin-bottom:20px;@media screen and (max-width:", "){padding:20px 25px!important;margin-bottom:15px!important;}.icons-count{text-align:left;cursor:auto;flex:1;font-style:italic;transition:", ";text-align:left!important;padding:0;padding-left:0px!important;padding-right:15px;margin-left:15px;font-size:14px!important;border-radius:0px;height:45px;line-height:45px;@media screen and (max-width:", "){display:none;}}.selected-category{display:flex;background:#313133;@media screen and (max-width:", "){display:none;visibility:hidden;}color:#fff;margin-left:10px;align-items:center;height:28px;transition:", ";justify-content:center;border-radius:30px!important;&:active{box-shadow:0 0px 0 5px ", ";}div{padding:0px!important;line-height:18px!important;height:20px!important;font-weight:400;}.selected-category-name{color:#fff!important;}.selected-category-x i{color:#fff!important;font-size:12px!important;margin-left:10px;}}.icons-theme{@media screen and (max-width:", "){display:none;visibility:hidden;}flex:0 0 36px;width:36px;height:36px;margin-bottom:4px;align-items:center;box-shadow:0 0px 0 2px #f9f9f9;justify-content:center;transition:", ";margin-left:0px;display:flex;padding:0px;border-radius:30px;div{width:12px!important;height:12px!important;background:#313133;padding:0!important;border-radius:50%!important;}@media screen and (max-width:", "){margin-bottom:7px;}@media screen and (max-width:", "){display:none;visibility:hidden;}&:active{box-shadow:0 0px 0 5px ", ";}}.icons-filter{align-self:flex-end;color:", ";font-weight:600;cursor:pointer;&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}span.category{color:", ";font-weight:400;}i{line-height:54px!important;float:right;@media screen and (max-width:", "){line-height:45px!important;}}@media screen and (max-width:", "){display:none;visibility:hidden;}line-height:52px;height:52px;text-align:left;padding:0px;padding:0px 15px;text-align:center;min-width:200px;padding-top:0px;@media screen and (max-width:", "){line-height:45px;height:45px;padding:0px 15px;}border:1px solid #ccc;font-size:18px;margin-bottom:4px;@media screen and (max-width:", "){margin-bottom:7px;}transition:", ";margin:0px;border-radius:", ";background:", ";i{margin-left:15px;color:", ";font-size:18px;}&:active{background:#f6f6f6;}}display:flex;flex-wrap:wrap;@media screen and (max-width:", "){margin:0;padding:15px;flex-wrap:wrap;padding-bottom:10px;}.filter-top,.filter-bottom{display:flex;padding:0;order:2;line-height:54px!important;height:54px!important;align-items:center;@media screen and (max-width:", "){line-height:47px!important;height:47px!important;}}.filter-middle{display:flex;padding:0;cursor:pointer;flex:1;@media screen and (max-width:", "){flex:0 0 100%;margin-bottom:20px;}.search-sticky{width:100%;}}.filter-bottom{cursor:pointer;overflow:hidden;padding-top:10px;flex:0 0 100%;justify-content:flex-end;@media screen and (max-width:", "){padding:0px;flex:1;}@media screen and (max-width:", "){flex:0 0 100%;}div{text-align:center;padding:0px 15px;margin:0px;margin-right:1px;&:hover{}font-size:15px;line-height:32px;height:32px;@media screen and (max-width:", "){line-height:32px;height:32px;padding:0px 12px;}transition:", ";border-radius:", ";color:", ";-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;&.active{color:#fff;background:linear-gradient(rgb(22,165,243) 0%,rgb(13,158,237) 100%);font-weight:600;}}}.filter-top{order:0;padding-right:20px;border-radius:0px!important;@media screen and (max-width:", "){padding-left:0px;order:1;}@media screen and (max-width:", "){display:none;visibility:none;}}div{@media screen and (max-width:", "){margin:0;}.filter-bottom{}&:last-child{}&:first:child{margin-right:0px;}}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["FILTER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["SEARCH_RADIUS"], function (props) {
+})(["   box-sizing:border-box;background:", ";.icon-filter-max{max-width:", ";margin:0 auto;padding:0px 15px;@media screen and (max-width:", "){padding-top:0px;padding:0!important;margin-bottom:0px;}.icons-filter-in{font-weight:400;margin:0 20px;padding-bottom:25px!important;padding-top:0px!important;border-bottom:1px dashed #e5e5e5;margin-bottom:20px;@media screen and (max-width:", "){padding:20px 25px!important;margin-bottom:15px!important;}@media screen and (max-width:", "){padding:10px 25px!important;margin-bottom:15px!important;}.icons-count{text-align:left;cursor:auto;flex:1;b{color:#656565;}transition:", ";text-align:left!important;padding:0;padding-left:0px!important;padding-right:15px;margin-left:15px;font-size:14px!important;border-radius:0px;height:45px;line-height:45px;@media screen and (max-width:", "){display:none;}}.selected-category{display:flex;background:#313133;@media screen and (max-width:", "){display:none;visibility:hidden;}color:#fff;margin-left:10px;align-items:center;height:28px;transition:", ";justify-content:center;border-radius:30px!important;&:active{box-shadow:0 0px 0 5px ", ";}div{padding:0px!important;line-height:18px!important;height:20px!important;font-weight:400;}.selected-category-name{color:#fff!important;}.selected-category-x i{color:#fff!important;font-size:12px!important;margin-left:10px;}}.icons-theme{@media screen and (max-width:", "){display:none;visibility:hidden;}flex:0 0 36px;width:36px;height:36px;margin-bottom:4px;align-items:center;box-shadow:0 0px 0 2px #f9f9f9;justify-content:center;transition:", ";margin-left:0px;display:flex;padding:0px;border-radius:30px;div{width:12px!important;height:12px!important;background:#313133;padding:0!important;border-radius:50%!important;}@media screen and (max-width:", "){margin-bottom:7px;}@media screen and (max-width:", "){display:none;visibility:hidden;}&:active{box-shadow:0 0px 0 5px ", ";}}.icons-filter{align-self:flex-end;color:#000;font-weight:700;cursor:pointer;&:hover{box-shadow:0px 2px 3px 0px rgba(0,0,0,0.055);}span.category{color:#000;font-weight:400;}i{line-height:40px!important;float:right;@media screen and (max-width:", "){line-height:40px!important;}}@media screen and (max-width:", "){display:none;visibility:hidden;}line-height:40px;height:40px;text-align:left;padding:0px;padding:2px 10px 2px 20px;text-align:center;@media screen and (max-width:", "){line-height:40px;height:40px;padding:0px 10px 0 20px;}border:1px solid #e5e5e5;font-size:15px;margin-bottom:4px;@media screen and (max-width:", "){margin-bottom:7px;}transition:", ";margin:0px;border-radius:", ";background:", ";i{margin-left:15px;color:rgba(0,0,0,0.25);font-size:18px;}&:active{background:#f6f6f6;}}display:flex;flex-wrap:wrap;@media screen and (max-width:", "){margin:0;padding:15px;flex-wrap:wrap;padding-bottom:10px;}.filter-top,.filter-bottom{display:flex;padding:0;order:2;line-height:45px!important;height:45px!important;align-items:center;@media screen and (max-width:", "){line-height:47px!important;height:47px!important;}}.filter-middle{display:flex;padding:0;cursor:pointer;flex:0 0 100%;margin-bottom:30px;@media screen and (max-width:", "){flex:0 0 100%;margin-bottom:20px;}@media screen and (max-width:", "){margin-bottom:10px;}.search-sticky{width:100%;}}.filter-bottom{cursor:pointer;overflow:hidden;padding-left:20px;flex:1;justify-content:flex-end;@media screen and (max-width:", "){padding:0px;flex:1;}@media screen and (max-width:", "){flex:0 0 100%;justify-content:flex-start;}div{text-align:center;padding:0px 7px;margin:0px;margin-right:1px;&:hover{}font-size:15px;line-height:32px;height:32px;@media screen and (max-width:", "){line-height:32px;height:32px;padding:0px 7px;}transition:", ";border-radius:", ";color:", ";-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;&.active{font-weight:700;color:#000;}}}.filter-top{order:1;border-radius:0px!important;@media screen and (max-width:", "){padding-left:0px;order:1;}@media screen and (max-width:", "){display:none;visibility:none;}}div{@media screen and (max-width:", "){margin:0;}.filter-bottom{}&:last-child{}&:first:child{margin-right:0px;}}}}"], _types__WEBPACK_IMPORTED_MODULE_13__["FILTER_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_SM"], _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["SEARCH_RADIUS"], function (props) {
   return props.side ? _types__WEBPACK_IMPORTED_MODULE_13__["LIGHT_BACKGROUND"] : 'transparent';
-}, _types__WEBPACK_IMPORTED_MODULE_13__["FONT_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["SEARCH_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_13__["NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
+}, _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_13__["SEARCH_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_13__["NAV_LIST_COLOR"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_13__["BREAKPOINT_MD"]);
 
 
 
@@ -1794,14 +1798,14 @@ function (_Component) {
         return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 579
+            lineNumber: 591
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Icon, {
           icon: this.state.selectedIcon,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 580
+            lineNumber: 592
           },
           __self: this
         }));
@@ -1970,14 +1974,14 @@ function (_Component) {
         onKeyDown: this.handleKeyPress,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 748
+          lineNumber: 760
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_common_ToTop__WEBPACK_IMPORTED_MODULE_17__["default"], {
         side: this.state.displaySideIcon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 749
+          lineNumber: 761
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(IconsSectionCont, {
@@ -1986,14 +1990,14 @@ function (_Component) {
         className: sectionContClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 751
+          lineNumber: 763
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-left-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 752
+          lineNumber: 764
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2001,48 +2005,48 @@ function (_Component) {
         onBlur: this.handleBlur,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 753
+          lineNumber: 765
         },
         __self: this
       }, this.state.selectedIcon.name != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(StyledIconCont, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 757
+          lineNumber: 769
         },
         __self: this
       }, this.renderIcon()))), this.state.icons.data != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-right-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 765
+          lineNumber: 777
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(IconsFilter, {
         side: this.state.showSide,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 767
+          lineNumber: 779
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-filter-max",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 768
+          lineNumber: 780
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-filter-in",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 770
+          lineNumber: 782
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filter-top",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 771
+          lineNumber: 783
         },
         __self: this
       }, this.state.showSide && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_outside_click_handler__WEBPACK_IMPORTED_MODULE_15___default.a, {
@@ -2053,21 +2057,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 773
+          lineNumber: 785
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-side-section ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 776
+          lineNumber: 788
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "side-section-inner",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 778
+          lineNumber: 790
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Categories, {
@@ -2076,7 +2080,7 @@ function (_Component) {
         style: this.state.style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 779
+          lineNumber: 791
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2084,58 +2088,64 @@ function (_Component) {
         onClick: this.handleSide,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 784
+          lineNumber: 796
         },
         __self: this
       }, this.state.category != null ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 785
+          lineNumber: 797
         },
         __self: this
       }, this.state.category.id != null ? this.state.category.name : 'All Categories') : 'All Categories', " ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bx-caret-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 785
+          lineNumber: 797
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filter-middle",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 792
+          lineNumber: 804
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_search_searchForm__WEBPACK_IMPORTED_MODULE_16__["default"], {
         icons: this.state.icons.data !== null ? this.state.icons.data.length : '0',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 793
+          lineNumber: 805
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "filter-bottom",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 796
+          lineNumber: 808
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icons-count",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 797
+          lineNumber: 809
         },
         __self: this
-      }, "Viewing \xA0", this.state.icons.data !== null ? this.state.icons.data.length : '0', " of ", this.state.total_count, " icons"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("b", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 812
+        },
+        __self: this
+      }, " ", this.state.icons.data !== null ? this.state.icons.data.length : '0'), " of ", this.state.total_count, " icons"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: this.state.style === 'ALL' ? "filter-all active" : "filter-all",
         onClick: function onClick() {
           return _this3.handleFilter('ALL');
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 801
+          lineNumber: 813
         },
         __self: this
       }, "All"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2145,7 +2155,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 804
+          lineNumber: 816
         },
         __self: this
       }, "Regular"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2155,7 +2165,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 807
+          lineNumber: 819
         },
         __self: this
       }, "Solid"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2165,71 +2175,71 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 810
+          lineNumber: 822
         },
         __self: this
       }, "Logos"))))), this.state.noResult ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "icon-list ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 819
+          lineNumber: 831
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 820
+          lineNumber: 832
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
         className: "no-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 821
+          lineNumber: 833
         },
         __self: this
       }, "No result found", this.state.search !== '' && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 824
+          lineNumber: 836
         },
         __self: this
       }, " for", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 825
+          lineNumber: 837
         },
         __self: this
       }, " '", this.state.search, "'")), this.state.category != null && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 827
+          lineNumber: 839
         },
         __self: this
       }, " in ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 827
+          lineNumber: 839
         },
         __self: this
       }, "'", this.state.category.name, "'")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 828
+          lineNumber: 840
         },
         __self: this
       }, "Having trouble finding an icon, try the ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_19___default.a, {
         href: "cheatsheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 828
+          lineNumber: 840
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 828
+          lineNumber: 840
         },
         __self: this
       }, "Cheatsheet")))))) : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_iconsList__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -2237,27 +2247,27 @@ function (_Component) {
         style: this.state.style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 833
+          lineNumber: 845
         },
         __self: this
       }), this.state.showLI && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(LoadMore, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 836
+          lineNumber: 848
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_common_buttons__WEBPACK_IMPORTED_MODULE_14__["LoadButton"], {
         onClick: this.handleShowMore,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 836
+          lineNumber: 848
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bxs-down-arrow-circle",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 836
+          lineNumber: 848
         },
         __self: this
       }), " Show more icons")))));
@@ -2331,7 +2341,7 @@ var _jsxFileName = "D:\\Aniket\\Personal Projects\\boxicons\\basic\\boxicons.com
 
 var StyledSearch = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].div.withConfig({
   componentId: "e9dimx-0"
-})([".search-cont{transition:", ";border:1px solid transparent;margin:0 auto;&.active{background:#fff;border:1px solid ", ";.search-box{i{color:", "}}}&.fixed{position:fixed;top:70px;left:0px;padding:5px;z-index:11;border-radius:0;right:0;max-width:none;background:#fff;border:0px;border-top:1px solid #dee3eb;border-bottom:1px solid #dee3eb;.search-box{max-width:", ";border-bottom:0px solid #ddd;}}&.active{}.search-box input::-ms-clear{display:none;}@media screen and (max-width:", "){margin:0px 0px;margin-bottom:0px;max-width:none;&.fixed{margin:0px;}}.search-box{position:relative;border-radius:", ";display:flex;width:100%;.close{order:1;align-self:center;padding:0px 15px;height:32px;cursor:pointer;}input{height:40px;margin-left:60px;box-shadow:none;outline:none;font-weight:400;order:1;color:#000;font-size:19px;width:100%;margin:0;padding:0;border-radius:2px;border:0;display:block;background:transparent;margin-left:10px;@media screen and (max-width:", "){height:40px;font-size:18px;}}i{@media screen and (max-width:", "){font-size:27px;height:27px;}order:1;align-self:center;padding:0px 5px;height:27px;font-size:27px;color:#9ca5ad;cursor:pointer;&.bx-x{font-size:24px;padding:5px;height:24px;line-height:24px;color:#9ca5ad;background:", ";border-radius:50%;cursor:pointer;&:hover{background:rgba(0,0,0,0.075);}}}}z-index:23;margin-bottom:25px;position:relative;display:block;padding:6px 15px;margin:0 auto;background:", ";border-radius:", ";}"], _types__WEBPACK_IMPORTED_MODULE_10__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_10__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_10__["BLUE_COLOR"], _types__WEBPACK_IMPORTED_MODULE_10__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_10__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["LIGHT_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_10__["SEARCH_BACKGROUND"], _types__WEBPACK_IMPORTED_MODULE_10__["SEARCH_RADIUS"]);
+})([".search-cont{transition:", ";border:1px solid transparent;margin:0 auto;box-shadow:0px 3px 6px 0px rgba(0,0,0,0.1),0px 1px 7px 0px rgba(0,0,0,0.08);&.active{background:#fff;.search-box{}}&.fixed{position:fixed;top:70px;left:0px;padding:5px;z-index:11;border-radius:0;right:0;max-width:none;background:#fff;border:0px;border-top:1px solid #dee3eb;border-bottom:1px solid #dee3eb;.search-box{max-width:", ";border-bottom:0px solid #ddd;}}&.active{}.search-box input::-ms-clear{display:none;}@media screen and (max-width:", "){margin:0px 0px;margin-bottom:0px;max-width:none;&.fixed{margin:0px;}}.search-box{position:relative;border-radius:", ";display:flex;width:100%;.close{order:1;align-self:center;padding:0px 15px;height:32px;cursor:pointer;}input{height:40px;margin-left:60px;box-shadow:none;outline:none;font-weight:400;order:1;color:#000;font-size:19px;width:100%;margin:0;padding:0;border-radius:2px;border:0;display:block;background:transparent;margin-left:10px;@media screen and (max-width:", "){height:40px;font-size:18px;}}i{@media screen and (max-width:", "){font-size:27px;height:27px;}order:1;align-self:center;padding:0px 5px;height:27px;font-size:27px;color:#999;cursor:pointer;&.bx-x{font-size:24px;padding:5px;height:24px;line-height:24px;color:#9ca5ad;border-radius:50%;cursor:pointer;&:hover{background:rgba(0,0,0,0.075);}}}}z-index:23;margin-bottom:25px;position:relative;display:block;padding:6px 15px;margin:0 auto;border-radius:", ";}"], _types__WEBPACK_IMPORTED_MODULE_10__["TRANSITION"], _types__WEBPACK_IMPORTED_MODULE_10__["MAX_WIDTH"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_LG"], _types__WEBPACK_IMPORTED_MODULE_10__["BUTTON_RADIUS"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["BREAKPOINT_MD"], _types__WEBPACK_IMPORTED_MODULE_10__["SEARCH_RADIUS"]);
 
 var SearchForm =
 /*#__PURE__*/
@@ -2472,7 +2482,7 @@ function (_Component) {
         className: "search-sticky animated fadeIn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 230
+          lineNumber: 231
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2481,7 +2491,7 @@ function (_Component) {
         onBlur: this.onSearchBlur,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 231
+          lineNumber: 232
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2489,14 +2499,14 @@ function (_Component) {
         ref: "searchBox",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 233
+          lineNumber: 234
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "bx bx-search",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 234
+          lineNumber: 235
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
@@ -2506,7 +2516,7 @@ function (_Component) {
         placeholder: "Search icons...",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 235
+          lineNumber: 236
         },
         __self: this
       }), this.state.search.length > 0 && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
@@ -2514,7 +2524,7 @@ function (_Component) {
         onClick: this.emptySearch,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 242
+          lineNumber: 243
         },
         __self: this
       }))));
@@ -2549,7 +2559,7 @@ function mapDispatchToProps(dispatch) {
 /*!*****************************!*\
   !*** ./components/types.js ***!
   \*****************************/
-/*! exports provided: FONT_COLOR, DARK_FONT_COLOR, TRANSITION, PRIMARY_COLOR, BLUE_COLOR, LIGHT_BLUE_COLOR, BUTTON_COLOR, BUTTON_ICON_COLOR, SELECTED_ACTIVE_COLOR, GREEN_COLOR, RED_COLOR, FONT_FAMILY, FONT_FAMILY_HEADER, ACTIVE_NAV_LIST_COLOR, NAV_LIST_COLOR, SECONDARY_FONT_COLOR, FADE_FONT_COLOR, LIGHT_BACKGROUND, DARK_BACKGROUND, ICON_COLOR, HEADER_COLOR, SELECTED_COLOR, MAIN_HEADER_COLOR, MAIN_HEADER_SUB_COLOR, ICON_NAME_COLOR, TOP_BAR_GRADIENT, BOX_SHADOW_POPUP, BOX_SHADOW, SIDE_BOX_SHADOW, BUTTON_BOX_SHADOW, FLEX, FLEX_LG, FLEX_MDL, FLEX_MD, FLEX_MDS, FLEX_SM, FLEX_ACTIVE, DARK_BORDER_COLOR, BORDER_COLOR_DARK, ICON_SIZE, ICON_SIZE_MD, ICON_BASE, ICON_BASE_LG, ICON_BASE_MD, BUTTON_RADIUS, SEARCH_RADIUS, ICON_RADIUS, SIDE_WIDTH, COMMON_PADDING, PADDING, NAVBAR_PADDING, BODY_BACKGROUND, HEADER_BACKGROUND, SEARCH_BACKGROUND, ICONS_BACKGROUND, ICONS_DARK_BACKGROUND, NAVBAR_BACKGROUND, NAVBAR_SCROLL_BACKGROUND, FILTER_BACKGROUND, DARK_FILTER_BACKGROUND, MAX_WIDTH, BORDER_COLOR, BORDER_HOVER_COLOR, BORDER_COLOR_ACTIVE, BREAKPOINT_LG, BREAKPOINT_MDL, BREAKPOINT_MD, BREAKPOINT_MDS, BREAKPOINT_SM */
+/*! exports provided: FONT_COLOR, DARK_FONT_COLOR, TRANSITION, PRIMARY_COLOR, BLUE_COLOR, LIGHT_BLUE_COLOR, BUTTON_COLOR, BUTTON_ICON_COLOR, SELECTED_ACTIVE_COLOR, GREEN_COLOR, RED_COLOR, FONT_FAMILY, FONT_FAMILY_HEADER, ACTIVE_NAV_LIST_COLOR, NAV_LIST_COLOR, SECONDARY_FONT_COLOR, FILTER_COLOR, FADE_FONT_COLOR, LIGHT_BACKGROUND, DARK_BACKGROUND, ICON_COLOR, HEADER_COLOR, SELECTED_COLOR, MAIN_HEADER_COLOR, MAIN_HEADER_SUB_COLOR, ICON_NAME_COLOR, TOP_BAR_GRADIENT, BOX_SHADOW_POPUP, BOX_SHADOW, SIDE_BOX_SHADOW, BUTTON_BOX_SHADOW, FLEX, FLEX_LG, FLEX_MDL, FLEX_MD, FLEX_MDS, FLEX_SM, FLEX_ACTIVE, DARK_BORDER_COLOR, BORDER_COLOR_DARK, ICON_SIZE, ICON_SIZE_MD, ICON_BASE, ICON_BASE_LG, ICON_BASE_MD, BUTTON_RADIUS, SEARCH_RADIUS, ICON_RADIUS, SIDE_WIDTH, COMMON_PADDING, PADDING, NAVBAR_PADDING, BODY_BACKGROUND, HEADER_BACKGROUND, SEARCH_BACKGROUND, ICONS_BACKGROUND, ICONS_DARK_BACKGROUND, NAVBAR_BACKGROUND, NAVBAR_SCROLL_BACKGROUND, FILTER_BACKGROUND, DARK_FILTER_BACKGROUND, MAX_WIDTH, BORDER_COLOR, BORDER_HOVER_COLOR, BORDER_COLOR_ACTIVE, BREAKPOINT_LG, BREAKPOINT_MDL, BREAKPOINT_MD, BREAKPOINT_MDS, BREAKPOINT_SM */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2570,6 +2580,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ACTIVE_NAV_LIST_COLOR", function() { return ACTIVE_NAV_LIST_COLOR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NAV_LIST_COLOR", function() { return NAV_LIST_COLOR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SECONDARY_FONT_COLOR", function() { return SECONDARY_FONT_COLOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FILTER_COLOR", function() { return FILTER_COLOR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FADE_FONT_COLOR", function() { return FADE_FONT_COLOR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LIGHT_BACKGROUND", function() { return LIGHT_BACKGROUND; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DARK_BACKGROUND", function() { return DARK_BACKGROUND; });
@@ -2623,36 +2634,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BREAKPOINT_MD", function() { return BREAKPOINT_MD; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BREAKPOINT_MDS", function() { return BREAKPOINT_MDS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BREAKPOINT_SM", function() { return BREAKPOINT_SM; });
-var FONT_COLOR = '#31383c';
+var FONT_COLOR = '#020202';
 var DARK_FONT_COLOR = '#d1d1d1';
 var TRANSITION = "all .15s ease";
 var PRIMARY_COLOR = '#b06c4a';
-var BLUE_COLOR = '#0e9fee';
+var BLUE_COLOR = '#3056de';
 var LIGHT_BLUE_COLOR = '#e1e0fd';
-var BUTTON_COLOR = '#3a3a3a';
-var BUTTON_ICON_COLOR = '#656565';
-var SELECTED_ACTIVE_COLOR = '#3a3a3a';
+var BUTTON_COLOR = '#5f6368';
+var BUTTON_ICON_COLOR = '#777777';
+var SELECTED_ACTIVE_COLOR = '#5f6368';
 var GREEN_COLOR = '#36b167';
 var RED_COLOR = "#fff";
-var FONT_FAMILY = '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif';
-var FONT_FAMILY_HEADER = '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif';
-var ACTIVE_NAV_LIST_COLOR = '#3a3a3a';
-var NAV_LIST_COLOR = '#3a3a3a';
-var SECONDARY_FONT_COLOR = '#3a3a3a';
-var FADE_FONT_COLOR = '#656565';
+var FONT_FAMILY = '"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif';
+var FONT_FAMILY_HEADER = '"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif';
+var ACTIVE_NAV_LIST_COLOR = '#777777';
+var NAV_LIST_COLOR = '#777777';
+var SECONDARY_FONT_COLOR = '#777777';
+var FILTER_COLOR = '#777777';
+var FADE_FONT_COLOR = '#777777';
 var LIGHT_BACKGROUND = '#f6f7fa';
 var DARK_BACKGROUND = '#404142';
-var ICON_COLOR = '#656565';
-var HEADER_COLOR = '#31383c';
-var SELECTED_COLOR = '#31383c';
-var MAIN_HEADER_COLOR = "#31383c";
-var MAIN_HEADER_SUB_COLOR = "#31383c";
-var ICON_NAME_COLOR = "#989898";
+var ICON_COLOR = '#777777';
+var HEADER_COLOR = '#020202';
+var SELECTED_COLOR = '#020202';
+var MAIN_HEADER_COLOR = "#020202";
+var MAIN_HEADER_SUB_COLOR = "#777777 ";
+var ICON_NAME_COLOR = "#aaa";
 var TOP_BAR_GRADIENT = "linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%)";
 var BOX_SHADOW_POPUP = "0 4px 10px -1px rgba(0,0,0,.2),0 2px 4px -1px rgba(0,0,0,.06)!important";
 var BOX_SHADOW = "0px 5px 10px 0px rgba(0,64,128,0.05)";
 var SIDE_BOX_SHADOW = "0 4px 30px -1px rgba(0,0,0,.2),0 2px 4px -1px rgba(0,0,0,.06)!important";
-var BUTTON_BOX_SHADOW = " 0 0px 0px 3px rgba(81, 158, 250, 0.85)";
+var BUTTON_BOX_SHADOW = " 0 0px 0px 3px rgba(37, 127, 249, 0.5)";
 var FLEX = "10%";
 var FLEX_LG = "90px";
 var FLEX_MDL = "10%";
@@ -2683,7 +2695,7 @@ var NAVBAR_BACKGROUND = "#fff";
 var NAVBAR_SCROLL_BACKGROUND = "#fff";
 var FILTER_BACKGROUND = "#fff";
 var DARK_FILTER_BACKGROUND = "#4f5d6a";
-var MAX_WIDTH = '1060px';
+var MAX_WIDTH = '960px';
 var BORDER_COLOR = '#dee2ef';
 var BORDER_HOVER_COLOR = 'rgba(0, 31, 51, 0.25)';
 var BORDER_COLOR_ACTIVE = 'rgba(0,0,0,0.25)';
